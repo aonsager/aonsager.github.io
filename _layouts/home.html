@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          {% if post.link %}
+            <a class="post-link" href="{{ post.link }}">{{ post.title | escape }}</a>
+          {% else %}
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {% endif %}
+        </h2>
+        {% if post.link %}
+          <p class="post-meta link">
+              <span itemprop="link">{{ post.link }}</span>
+          </p>
+        {% endif %}
+        <div class="post-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta"><a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }}</a></span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="paginator">
+    {% if paginator.previous_page %}
+    <div class="next-link">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lsaquo; Newer</a>
+    </div>
+    {% endif %}
+    {% if paginator.next_page %}
+    <div class="prev-link">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rsaquo;</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endif  %}
+
+</div>
