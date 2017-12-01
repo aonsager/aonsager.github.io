@@ -25,28 +25,13 @@ github_username:  aonsager
 
 # Build settings
 markdown: kramdown
+paginate: 10
+paginate_path: '/page/:num/' # Pages are index.html inside this folder (default)
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-compose
   - github-pages
-pagination:
-  enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 10
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
-  tag: ''
-  locale: '' 
-  trail: 
-    before: 2
-    after: 2
-  indexpage: 'index'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
