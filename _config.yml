@@ -28,7 +28,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-twitter-plugin
   - jekyll-compose
   - github-pages
 pagination:

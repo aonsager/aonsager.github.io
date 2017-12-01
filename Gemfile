@@ -21,7 +21,6 @@ gem "jekyll", "~> 3.6.2"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate-v2"
-  gem 'jekyll-twitter-plugin'
   gem 'jekyll-compose'
   gem 'github-pages'
 end
