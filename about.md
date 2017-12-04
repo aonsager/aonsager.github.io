@@ -10,7 +10,7 @@ I have a background in web development, and have been making mobile games in Jap
 
 [Pokemon fusion](http://pokemon.alexonsager.net)
 
-A simple website to show the results of a script that replaces heads and swaps colors in Pokemon sprites.
+A simple website to show the results of a script that replaces heads and swaps colors in Pokemon sprites. You can [read more about it here]({% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}).
 
 [Check My Wow](http://www.checkmywow.com)
 
