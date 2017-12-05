@@ -22,6 +22,7 @@ header_pages:
   - 'about.md'
 twitter_username: aonsager
 github_username:  aonsager
+disqus_short_name: alexonsager
 
 # Build settings
 markdown: kramdown
