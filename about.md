@@ -12,7 +12,7 @@ In 2010 I started working for a mobile game company in Japan, making browser-bas
 
 My favorite thing about the work I've done is seeing lots of people using and enjoying the products I made. Since my day-job doesn't involve much programming, I also work on fun projects on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
 
-## Projects
+# Projects
 
 ### [Pokemon fusion](http://pokemon.alexonsager.net)
 
