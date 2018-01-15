@@ -11,4 +11,4 @@ tags: design
 
 By artist [Yukino Ohmura](http://yukinoart.wix.com/home#!__news).
 
-![Rainbow Bridge](http://images.alexonsager.net.s3.amazonaws.com/blog/2014/02/tokyo-sticker.jpg)
+![Rainbow Bridge](/assets/tokyo-sticker.jpg)

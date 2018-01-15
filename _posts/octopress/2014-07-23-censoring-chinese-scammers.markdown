@@ -20,6 +20,6 @@ The magic word is "Tiananmen Square Incident" (天安門事件). By sending this
 
 Creative ways of dealing with scammers are always fun to see, but this is a wonderfully elegant solution that gets immediate results.
 
-![Scaring away the scam artist](http://images.alexonsager.net/blog/tiananmen1.png)
+![Scaring away the scam artist](/assets/tiananmen1.png)
 
 [via @16go_rider](https://twitter.com/16go_rider/status/483553229884502016)

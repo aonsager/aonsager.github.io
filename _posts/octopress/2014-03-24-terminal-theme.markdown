@@ -9,7 +9,7 @@ link:
 tags: tech design
 ---
 
-![New Terminal setup](http://images.alexonsager.net/blog/terminal.png)
+![New Terminal setup](/assets/terminal.png)
 
 You can download the theme [here](http://images.alexonsager.net/downloads/Base16.terminal.zip)
 

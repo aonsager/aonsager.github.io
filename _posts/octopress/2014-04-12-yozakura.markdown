@@ -9,4 +9,4 @@ link:
 tags: photo
 ---
 
-[![夜桜](http://images.alexonsager.net/blog/yozakura_s.jpg)](http://images.alexonsager.net/blog/yozakura.jpg)
+[![夜桜](/assets/yozakura_s.jpg)](/assets/yozakura.jpg)

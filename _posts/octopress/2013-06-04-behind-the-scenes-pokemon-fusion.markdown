@@ -19,11 +19,11 @@ There is a small amount of manual work that goes into adding a new pokemon to th
 
 First, I download the new pokemon's sprite from [Bulbapedia](http://bulbapedia.bulbagarden.net), and manually cut out the head and save it as a new image. The body is also saved separately, and these become the basic parts that are combined with those from other pokemon to create the fusions.
 
-![Separating the head from the body](http://images.alexonsager.net/blog/2013/06/pokemon1.png)
+![Separating the head from the body](/assets/pokemon1.png)
 
 To collect and save each pokemon's data, I made a simple admin page.
 
-![Admin page](http://images.alexonsager.net/blog/2013/06/pokemon2.png)
+![Admin page](/assets/pokemon2.png)
 
 - Inputting the name as a prefix + suffix allows me to combine them to name the results.
 - `Face size` is taken automatically from the size of the image, and `Head size` is used to adjust for unusually-shaped faces. In this example, I wanted the lower jaw and whiskers to hang below the main head location so I set the head size to be smaller, matching the colored-out area of the body.
@@ -31,7 +31,7 @@ To collect and save each pokemon's data, I made a simple admin page.
 - The basic idea behind the colors is that each sprite will have at most 3 different colors, with at most 5 shades of each color. The 3rd shade of each color is set to be the primary color, with the 2 shades on either side defining highlights and shadows.
 	- I made a little script here too, that lets me click on a point in the image to automatically output the hex value of that pixel.
 
-![Color picker widget](http://images.alexonsager.net/blog/2013/06/pokemon3.png)
+![Color picker widget](/assets/pokemon3.png)
 
 After all of the data is saved, I run my fusion script to combine the new pokemon with all of the existing pokemon. At this point, by just adding a few data points for a new pokemon I can generate over 100 new fusions nearly instantly.
 
@@ -75,7 +75,7 @@ Since we made defined the head to be smaller than the face (to support irregular
 
 After looping over each existing pokemon the script generates all new combinations using the new pokemon, and I just upload the new images and update the site to show the new combinations.
 
-![The results](http://images.alexonsager.net/blog/2013/06/pokemon4.png)
+![The results](/assets/pokemon4.png)
 
 If you have any other questions, feel free to reach out over email or twitter.
 

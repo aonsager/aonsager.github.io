@@ -15,4 +15,4 @@ After downloading, unzip and place the file in ~/Library/Services (or create the
 
 After doing so, you should be able to simply highlight a link and right-click it to see the "Save to Pocket" option. (You might find it under a "Services" category)  
 
-![Save to Pocket](http://images.alexonsager.net/blog/2013/05/SavetoPocket.png)
+![Save to Pocket](/assets/SavetoPocket.png)

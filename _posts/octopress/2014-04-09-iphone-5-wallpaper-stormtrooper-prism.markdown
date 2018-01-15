@@ -9,7 +9,7 @@ link:
 tags: design
 ---
 
-[![Stormtrooper Prism](http://images.alexonsager.net/blog/2014/04/stormtrooper_s.jpg)](http://images.alexonsager.net/blog/2014/04/stormtrooper.jpg)
+[![Stormtrooper Prism](/assets/stormtrooper_s.jpg)](/assets/stormtrooper.jpg)
 
 Please let me know if you know the source of this image.
 
