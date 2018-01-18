@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include relative-font-size(1.5);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
@@ -184,7 +184,7 @@
 }
 
 .page-heading {
-  @include relative-font-size(1.25);
+  @include relative-font-size(1.5);
 }
 
 .post-list {
@@ -198,11 +198,11 @@
   }
 
   h2 {
-    @include relative-font-size(1.625); 
+    @include relative-font-size(1.5); 
   }
 
   .post-content h2 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.5);
   }
 }
 
@@ -222,7 +222,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.8);
+  @include relative-font-size(1.5);
   line-height: 1;
 }
 
@@ -245,18 +245,18 @@
  * Posts
  */
 .post-title {
-  @include relative-font-size(1.8);
+  @include relative-font-size(1.5);
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.5);
   }
 }
 
 .post-content {
 
   h2 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.5);
@@ -264,10 +264,10 @@
   }
 
   h3 {
-    @include relative-font-size(1.15);
+    @include relative-font-size(1.25);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
+      @include relative-font-size(1.25);
     }
   }
 
