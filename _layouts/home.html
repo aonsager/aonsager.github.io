@@ -9,13 +9,13 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <h2>
+        <h1>
           {% if post.link %}
             <a class="post-link" href="{{ post.link }}">{{ post.title | escape }}</a>
           {% else %}
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {% endif %}
-        </h2>
+        </h1>
         {% if post.link %}
           <p class="post-meta link">
               <span itemprop="link">{{ post.link }}</span>
