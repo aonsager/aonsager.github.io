@@ -6,7 +6,11 @@ keywords: LINE, scam, Tiananmen, phishing, China, 天安門
 date: 2014-07-23 14:14
 comments: true
 link:
-tags: funny news
+tags: 
+- funny 
+- news
+- china
+- apps
 ---
 
 Q: What do you do when you're being scammed by a Chinese scam artist?  

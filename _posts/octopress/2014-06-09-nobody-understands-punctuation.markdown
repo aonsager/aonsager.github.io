@@ -6,7 +6,10 @@ keywords: writing, punctuation, style
 date: 2014-06-09 12:49
 comments: true
 link: http://stilldrinking.org/nobody-understands-punctuation
-tags: writing
+tags: 
+- writing
+- article
+- opinion
 ---
 
 [Peter Welch](http://stilldrinking.org) has published an excellent piece on punctuation and writing style in the English language.

@@ -10,15 +10,11 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         <h1>
-          {% if post.link %}
-            <a class="post-link" href="{{ post.link }}">{{ post.title | escape }}</a>
-          {% else %}
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          {% endif %}
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h1>
         {% if post.link %}
           <p class="post-meta link">
-              <span itemprop="link">{{ post.link }}</span>
+            <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
           </p>
         {% endif %}
         <div class="post-content" itemprop="articleBody">
@@ -26,7 +22,7 @@ layout: default
         </div>
 
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta"><a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }}</a></span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
       </li>
     {% endfor %}
   </ul>

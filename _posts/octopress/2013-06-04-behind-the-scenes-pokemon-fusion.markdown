@@ -4,7 +4,12 @@ title: "Pokemon Fusion: Behind the Scenes"
 date: 2013-06-04 00:41
 comments: true
 link:
-tags: tech programming ruby
+tags: 
+- tech 
+- programming 
+- dev
+- ruby
+- pokemon
 ---
 
 I've been getting a few questions about the script used to generate the [Pokemon Fusion](http://pokemon.alexonsager.net) sprites, so I thought I would write a quick blog post to describe the process.

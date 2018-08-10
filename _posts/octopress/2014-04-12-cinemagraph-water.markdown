@@ -6,7 +6,9 @@ keywords: cinemagraph, photography, pouring water
 date: 2014-04-12 16:43
 comments: true
 link: 
-tags: photo
+tags: 
+- photo
+- cinemagraph
 ---
 
 <iframe src="https://gfycat.com/iframe/AcidicAlertGharial" frameborder="0" scrolling="no" width="480" height="270" ></iframe>

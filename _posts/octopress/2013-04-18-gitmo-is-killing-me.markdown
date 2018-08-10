@@ -4,7 +4,11 @@ title: "'Gitmo is Killing Me'"
 date: 2013-04-18 13:14
 comments: true
 link: http://www.nytimes.com/2013/04/15/opinion/hunger-striking-at-guantanamo-bay.html
-tags: news opinion
+tags: 
+- news 
+- opinion
+- article
+- politics
 ---
 
 A chilling story told by a prisoner at Guantanamo Bay. I hope that someday we'll look back and wonder how anything like this could have been possible.

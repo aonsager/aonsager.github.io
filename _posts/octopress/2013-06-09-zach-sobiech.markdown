@@ -4,7 +4,10 @@ title: "My Last Days: Meet Zach Sobiech"
 date: 2013-06-09 13:17
 comments: true
 link: http://www.upworthy.com/this-kid-just-died-what-he-left-behind-is-wondtacular-rip
-tags: video
+tags: 
+- video
+- music
+- life
 ---
 
 Zach Sobiech was diagnosed with terminal cancer at age 14. He used the small amount of time he had left to produce music, which has reached and touched millions.

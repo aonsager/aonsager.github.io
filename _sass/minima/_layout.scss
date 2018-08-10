@@ -262,6 +262,27 @@
   }
 }
 
+.post-tag {
+  display: none;
+  /* display: inline-block; */
+  padding: 2px 5px;
+  margin-left: 5px;
+  background-color: $grey-color-light;
+  border-radius: 5px;
+  text-transform: uppercase;
+  @include relative-font-size(0.7);
+
+  &:first-of-type {
+    margin-left: 10px;
+  }
+}
+
+.post-related {
+  margin-top: $spacing-unit * 2;
+  padding-top: $spacing-unit;
+  border-top: 1px dashed $grey-color-light;
+}
+
 .archive-list {
   list-style: none;
   margin-left: 0px;

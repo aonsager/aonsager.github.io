@@ -4,7 +4,10 @@ title: Facebook Is No Longer a Communication Platform
 date: 2017-12-21 19:53 +0900
 tags:
 - opinion
-- tech
+- social networks
+- facebook
+- product
+- politics
 ---
 
 When I started using Facebook in 2005, it was exclusive to college students and was by far the best way to communicate with my classmates. It was the first time I could learn what my friends were up to without asking each one individually. Everything I wanted to know about my friends was in one easily accessible place.

@@ -6,7 +6,11 @@ keywords: 花見, 桜, 飲み会, 写真, sakura, hanami, flowers, photography
 date: 2014-04-12 10:15
 comments: true
 link: 
-tags: photo
+tags: 
+- photo
+- japan
+- kyoto
+- flower
 ---
 
 [![夜桜](/assets/yozakura_s.jpg)](/assets/yozakura.jpg)

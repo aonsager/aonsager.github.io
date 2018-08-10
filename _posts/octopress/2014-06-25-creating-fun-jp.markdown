@@ -6,7 +6,10 @@ keywords: flappy bird, 2048, threes, ゲーム, 面白さ, 発想, 物創り
 date: 2014-06-25 23:11
 comments: true
 link:
-tags: opinion, game
+tags: 
+- opinion
+- games
+- product
 ---
 
 仕事でも、プライベートでも、自分の昔からの目標は「面白い」を創ること。

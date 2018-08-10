@@ -6,7 +6,10 @@ keywords: blanchett, feminism, sexism, red carpet
 date: 2014-04-03 21:58
 comments: true
 link: 
-tags: opinion
+tags: 
+- opinion
+- news
+- gender
 ---
 [During an E! interview at a red carpet ceremony](http://mattsgifs.com/post/73774946424), the camera operator takes a sweeping toe-to-head shot of Cate Blanchett, when she crouches down to ask, _"Do you do that to the guys?"_ The internet explodes with opinion, and more fuel is added to the increasing fight against the objectification of women in media.
 

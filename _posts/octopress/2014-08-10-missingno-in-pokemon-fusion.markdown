@@ -6,7 +6,11 @@ keywords: missingno, pokemon fusion, pokemon, fusion, ruby, imagemagick, glitch
 date: 2014-08-10 18:49
 comments: true
 link:
-tags: ruby programming
+tags: 
+- ruby 
+- programming
+- dev
+- pokemon
 ---
 
 I've made a small update to the [Pokemon Fusion](http://pokemon.alexonsager.net) site, and added Missingno. as a hidden pokemon.

@@ -6,7 +6,11 @@ keywords: solar system, pixel art, space, web design
 date: 2014-03-25 15:57
 comments: true
 link: http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
-tags: science
+tags: 
+- science
+- data
+- graph
+- space
 ---
 
 > A tediously accurate scale model of the solar system

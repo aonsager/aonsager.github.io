@@ -6,7 +6,11 @@ keywords: mac, osx, terminal, customize, color theme, base16
 date: 2014-03-24 15:12
 comments: true
 link: 
-tags: tech design
+tags: 
+- mac
+- design
+- personal
+- color
 ---
 
 ![New Terminal setup](/assets/terminal.png)

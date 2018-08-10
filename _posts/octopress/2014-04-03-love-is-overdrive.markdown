@@ -6,7 +6,10 @@ keywords: rock, yabaoka, love is overdrive
 date: 2014-04-03 22:17
 comments: true
 link: 
-tags: life
+tags: 
+- life
+- quote
+- music
 ---
 
 > ラブ･イズ・オーバーっていう、超有名な曲があって、

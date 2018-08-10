@@ -6,7 +6,11 @@ keywords: politeness, life tips, kindness, social interactions
 date: 2014-09-17 19:57
 comments: true
 link: https://medium.com/message/how-to-be-polite-9bf1e69e888c
-tags: life opinion
+tags: 
+- life 
+- opinion
+- article
+- personal
 ---
 
 > Most people don’t notice I’m polite, which is sort of the point. I don’t look polite. I am big and droopy and need a haircut. No soul would associate me with watercress sandwiches. Still, every year or so someone takes me aside and says, you actually are weirdly polite, aren’t you? And I always thrill. They noticed.

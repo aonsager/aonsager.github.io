@@ -6,7 +6,10 @@ keywords: chargekey, product, review, mac, iphone, charge, cable, nomad, gadget
 date: 2014-03-20 20:28
 comments: true
 link:
-tags: tech
+tags: 
+- tech
+- product
+- review
 ---
 I recently received a review unit of the [Chargekey](http://www.hellonomad.com/products/chargekey-iphone5).
 

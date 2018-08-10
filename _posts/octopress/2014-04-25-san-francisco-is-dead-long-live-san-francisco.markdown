@@ -6,7 +6,11 @@ keywords: san francisco, economy, techies, eviction, mission
 date: 2014-04-25 13:39
 comments: true
 link: http://www.modernluxury.com/san-francisco/story/san-francisco-dead-long-live-san-francisco
-tags: opinion
+tags: 
+- opinion
+- article
+- america
+- politics
 ---
 
 Gary Kamiya has an excellent article in San Francisco Magazine, talking about the many factors and consequences of San Francisco's economic growth.

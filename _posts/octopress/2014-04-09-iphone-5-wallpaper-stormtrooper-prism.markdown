@@ -6,7 +6,11 @@ keywords: iphone, wallpaper, stormtrooper, prism
 date: 2014-04-09 13:46
 comments: true
 link: 
-tags: design
+tags: 
+- design
+- personal
+- star wars
+- art
 ---
 
 [![Stormtrooper Prism](/assets/stormtrooper_s.jpg)](/assets/stormtrooper.jpg)

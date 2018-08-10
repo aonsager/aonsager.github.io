@@ -6,7 +6,11 @@ keywords: art, design, tokyo, cityscape, sticker
 date: 2014-02-03 23:36
 comments: true
 link: http://www.theverge.com/2014/2/3/5363676/yukino-ohmura-tokyo-sticker-artwork
-tags: design
+tags: 
+- design
+- photo
+- japan
+- art
 ---
 
 By artist [Yukino Ohmura](http://yukinoart.wix.com/home#!__news).

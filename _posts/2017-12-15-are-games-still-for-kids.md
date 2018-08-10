@@ -5,6 +5,9 @@ date: 2017-12-15 17:47 +0900
 tags: 
 - games
 - opinion
+- nintendo
+- children
+- product
 ---
 
 I grew up in the 90s, and back then video games were made for kids. Toys were for kids, and video games were just the newest, most exciting toys around. 
