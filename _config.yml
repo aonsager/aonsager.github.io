@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-compose
+  - jekyll-redirect-from
   - github-pages
 
 # Exclude from processing.
