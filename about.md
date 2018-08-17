@@ -23,3 +23,20 @@ A simple website that replaces heads and swaps colors in Pokemon sprites. You ca
 A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing.
 
 The [source code is here](https://github.com/aonsager/checkmywow), but I haven't put any time into cleaning it up.
+
+# Contact
+
+Please use the form below to contact me.
+
+<form name="contact" method="POST" netlify>
+  <p>
+    <input type="text" name="name" placeholder="Your Name" />
+    <input type="email" name="email" placeholder="Your Email" />
+  </p>
+  <p>
+    <textarea name="message" placeholder="Message" ></textarea>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
