@@ -40,7 +40,6 @@ plugins:
 jekyll_compose:
   auto_open: true
 
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
