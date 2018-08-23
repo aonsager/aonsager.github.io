@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-compose'
   gem 'github-pages'
 end
 

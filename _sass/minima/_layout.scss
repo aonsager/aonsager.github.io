@@ -260,6 +260,18 @@
   h4 {
     @include relative-font-size(1.1);
   }
+
+  .center-image {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .image-caption {
+    margin-top: $spacing-unit / -2 + 2;
+    text-align: center;
+    @include relative-font-size(0.8);
+    font-style: italic;
+  }
 }
 
 .post-tag {
