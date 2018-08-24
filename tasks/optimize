@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+find assets -name "*.png" -exec optipng -strip "all" {} \;
+find assets -name "*.jpg" -exec jpegoptim --strip-all {} \;
