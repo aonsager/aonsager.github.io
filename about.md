@@ -12,23 +12,11 @@ In 2010 I started working for a mobile game company as the first employee in its
 
 I consider myself very fortunate that the products I've worked on have been used and enjoyed by so many people. In the future I want to continue creating things that have a large impact on people, and I hope to focus more on doing work that makes the world a better place.
 
-Since my day-job doesn't currently involve much programming, I like to work on fun projects on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
+Since my day-job doesn't currently involve much programming, I like to work on [fun projects](/projects) on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
 
-<h1 style="margin-top: 30px">Projects</h1>
+# Contact
 
-### [Pokemon fusion](http://pokemon.alexonsager.net)
-
-A simple website that replaces heads and swaps colors in Pokemon sprites. You can [read more about it here]({% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}).
-
-### [Check My Wow](http://www.checkmywow.com)
-
-A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing.
-
-The [source code is here](https://github.com/aonsager/checkmywow), but I haven't put any time into cleaning it up.
-
-<h1 style="margin-top: 30px">Contact</h1>
-
-Please use the form below to send me a message.
+Please use the form below if you want to send me a message.
 
 <form name="contact" method="POST" netlify>
   <p>
