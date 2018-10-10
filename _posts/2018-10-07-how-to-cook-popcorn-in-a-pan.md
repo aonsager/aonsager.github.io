@@ -19,3 +19,5 @@ The best way to cook popcorn in a pan. The secret is to heat up the kernels even
   - It helps to keep the lid ajar and shake the pan occasionally to keep the popcorn dry.
 5. Once the popping slows to a few seconds between pops, pour the popcorn into a bowl.
 6. Add salt to taste.
+
+{% include image.html image="popcorn.jpg" description="Photo by Keegan Evans from Pexels" %}
