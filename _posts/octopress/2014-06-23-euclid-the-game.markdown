@@ -7,7 +7,7 @@ date: 2014-06-23 12:47
 comments: true
 link: http://euclidthegame.org/
 tags: 
-- game
+- games
 - math
 - puzzle
 ---

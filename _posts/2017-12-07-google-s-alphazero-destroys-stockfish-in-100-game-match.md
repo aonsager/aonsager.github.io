@@ -21,6 +21,8 @@ Successful chess AI programs, of which Stockfish is the most popular, have a gia
 >
 >That's right -- the programmers of AlphaZero, housed within the DeepMind division of Google, had it use "machine learning," which is sometimes called "reinforced learning." Put more plainly, AlphaZero was not "taught" the game in the traditional sense. No opening book, no endgame tables, and apparently no complicated algorithms dissecting minute differences between center pawns and side pawns.
 
+<!-- more -->
+
 I think this means that the program just played a lot of chess games on its own, and learned for itself what positions and moves lead to more wins. It's possible that it built an intuition of how much it is winning, or how likely it is to get more ahead, at any point in a match. It can learn which moves don't pay off immediately but might give an advantage later. Programs like Stockfish can't really plan ahead, which is why they need to search their tables for the best move on every turn. AlphaZero isn't limited by whether or not it was explicitly taught a certain situation. This ability also makes the searches much more efficient:
 
 > Indeed, much like humans, AlphaZero searches fewer positions that its predecessors. The paper claims that it looks at "only" 80,000 positions per second, compared to Stockfish's 70 million per second.

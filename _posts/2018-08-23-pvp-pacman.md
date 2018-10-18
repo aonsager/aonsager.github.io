@@ -21,6 +21,8 @@ The fact that the ghosts can share information makes the game much harder for Pa
 
 The game then becomes a hide-and-seek game, where the ghosts spread out strategically to try to find Pac-Man. Pac-Man hides from them for as long as possible while collecting dots along the way. If the ghosts find an area with no dots, they will know that Pac-Man has already been there. Once Pac-Man is spotted, the ghosts converge on his position and Pac-Man must try to escape before becoming trapped.
 
+<!-- more -->
+
 With the gameplay changes, the characters should be changed as well. Some other ideas are:
 
 - A squirrel collecting nuts vs. 4 wolves

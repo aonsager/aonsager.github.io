@@ -18,7 +18,12 @@ layout: default
           </p>
         {% endif %}
         <div class="post-content" itemprop="articleBody">
-          {{ post.content }}
+          {{ post.excerpt }}
+          {% if post.excerpt != post.content %}
+            <p>
+              <a href="{{ site.baseurl }}{{ post.url }}">Continue reading >></a>
+            </p>
+          {% endif %}
         </div>
 
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
