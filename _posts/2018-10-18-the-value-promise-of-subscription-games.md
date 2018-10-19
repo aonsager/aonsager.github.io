@@ -11,7 +11,7 @@ tags:
 
 I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.
 
-Some recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.
+A series of recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.
 
 ## What makes a subscription-based game worth its price?
 
