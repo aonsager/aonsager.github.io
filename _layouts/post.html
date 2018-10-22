@@ -3,6 +3,12 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    <span class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+    </span>
     <h1 class="post-title" itemprop="name headline">
       {{ page.title | escape }}
     </h1> 
@@ -17,16 +23,9 @@ layout: default
     {{ content }}
   </div>
 
-  <span class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      {{ page.date | date: date_format }}
-    </time>
-    {% for tag in page.tags %}
-      <div class="post-tag">{{ tag }}</div>
-    {% endfor %}
-    </span>
-  </span>
+  {% for tag in page.tags %}
+    <div class="post-tag">{{ tag }}</div>
+  {% endfor %}
 
   <div class="post-related">
     {% include related_posts.html %}
