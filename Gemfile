@@ -26,3 +26,5 @@ group :jekyll_plugins do
   gem 'github-pages'
 end
 
+# Upgrade to patch security vulnerability
+gem "nokogiri", ">= 1.8.2"
