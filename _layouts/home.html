@@ -23,7 +23,7 @@ layout: default
           {{ post.excerpt }}
           {% if post.excerpt != post.content %}
             <p>
-              <a href="{{ site.baseurl }}{{ post.url }}">Continue reading >></a>
+              <a href="{{ site.baseurl }}{{ post.url }}">Continue reading &rarr;</a>
             </p>
           {% endif %}
         </div>
@@ -33,14 +33,14 @@ layout: default
 
   {% if paginator.total_pages > 1 %}
   <div class="paginator">
-    {% if paginator.previous_page %}
+    {% if paginator.next_page %}
     <div class="next-link">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lsaquo; Newer</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
     </div>
     {% endif %}
-    {% if paginator.next_page %}
+    {% if paginator.previous_page %}
     <div class="prev-link">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rsaquo;</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
     </div>
     {% endif %}
   </div>

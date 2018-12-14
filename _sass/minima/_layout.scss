@@ -214,11 +214,11 @@
 .paginator {
   float: left;
   width: 100%;
-  .prev-link {
+  .next-link {
     float: right;
     margin-right: $spacing-unit;
   }
-  .next-link {
+  .prev-link {
     float: left;
     margin-left: $spacing-unit;
   }
