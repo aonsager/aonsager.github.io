@@ -14,6 +14,8 @@ I grew up in the 90s, and back then video games were made for kids. Toys were fo
 
 But as my generation grew up, we never really stopped playing games. As we became adults, the game companies kept making games for us, and games shifted to targeting an older audience. It makes sense that these would be successful since adults have more money to spend on games than kids do. Video games became a form of entertainment just like movies, and they started using serious storylines and graphic violence in the same ways.
 
+<!-- more -->
+
 While this is great for the adults, I can't help but feel that the kids are being left behind. The young adults making exciting new things are mostly making them for people like themselves, and very few companies are still focusing on entertainment for children. So now kids play Call of Duty, sign up for Facebook, watch YouTube, and are bombarded with content that really isn't appropriate for their age.
 
 Nintendo is a shining exception. The Switch is designed to be family-friendly and has many games suitable for young children. I was recently in a shopping mall that was holding an event for kids to try out the new Mario game, and they had a Mario there to greet them and take pictures. 

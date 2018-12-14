@@ -13,6 +13,8 @@ I had been playing World of Warcraft on and off for about 10 years, but I decide
 
 A series of recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.
 
+<!-- more -->
+
 ## What makes a subscription-based game worth its price?
 
 All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously]({% post_url 2017-11-30-pay-to-win %}) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy. 
@@ -20,8 +22,6 @@ All games need to convince people that what they are buying (whether it's a comp
 Unlike games that sell items, games with a subscription model don't need to maximize revenue per user because everybody pays the same price. Instead, the most important metric is how many people will keep playing the following month. The total revenue per user is determined by how many months they spend playing the game. 
 
 Traditional console games need to convince people to pay money just once. "$60 will get you more than 100 hours of fun gameplay!" On the other hand, subscription-based games need to convince people to pay money **every month**. One thing that helps people make a decision is whether they felt like the previous month was worth the price. So online games do their best to make sure that people are always satisfied with the time they have spent playing the game so far. 
-
-<!-- more -->
 
 ## How to design a subscription-based game
 

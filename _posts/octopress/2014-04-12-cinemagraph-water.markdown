@@ -11,4 +11,4 @@ tags:
 - cinemagraph
 ---
 
-<iframe src="https://gfycat.com/iframe/AcidicAlertGharial" frameborder="0" scrolling="no" width="480" height="270" ></iframe>
+<iframe src="https://gfycat.com/ifr/AcidicAlertGharial" frameborder="0" scrolling="no" width="480" height="270" ></iframe>

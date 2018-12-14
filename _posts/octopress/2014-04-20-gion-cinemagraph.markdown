@@ -13,4 +13,4 @@ tags:
 - kyoto
 ---
 
-<iframe src="https://gfycat.com/iframe/NiceBoilingAfricanpiedkingfisher" frameborder="0" scrolling="no" width="480" height="270" ></iframe>
+<iframe src="https://gfycat.com/ifr/NiceBoilingAfricanpiedkingfisher" frameborder="0" scrolling="no" width="480" height="270" ></iframe>
