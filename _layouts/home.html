@@ -22,9 +22,7 @@ layout: default
         <div class="post-content" itemprop="articleBody">
           {{ post.excerpt }}
           {% if post.excerpt != post.content %}
-            <p>
-              <a href="{{ site.baseurl }}{{ post.url }}">Continue reading &rarr;</a>
-            </p>
+            {% include continue_reading.html %}
           {% endif %}
         </div>
       </li>
