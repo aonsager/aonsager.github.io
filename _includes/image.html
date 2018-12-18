@@ -1,2 +1,4 @@
 <img src="/assets/{{ include.image }}" alt="{{ include.description }}" class="center-image" />
-<p class="image-caption">{{ include.description }}</p>
+{% if include.description %}
+  <p class="image-caption">{{ include.description }}</p>
+{% endif %}
