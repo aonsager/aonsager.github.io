@@ -260,6 +260,10 @@
     margin: 0 auto;
     display: block;
     max-width: 600px;
+
+    @include media-query($on-palm) {
+      max-width: 100%;
+    }
   }
 
   .image-caption {
