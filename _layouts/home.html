@@ -9,21 +9,23 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h1>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h1>
-        {% if post.link %}
-          <p class="post-meta link">
-            <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
-          </p>
-        {% endif %}
-        <div class="post-content" itemprop="articleBody">
-          {{ post.excerpt }}
-          {% if post.excerpt != post.content %}
-            {% include continue_reading.html %}
+        <div class="wrapper">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h1>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h1>
+          {% if post.link %}
+            <p class="post-meta link">
+              <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
+            </p>
           {% endif %}
+          <div class="post-content" itemprop="articleBody">
+            {{ post.excerpt }}
+            {% if post.excerpt != post.content %}
+              {% include continue_reading.html %}
+            {% endif %}
+          </div>
         </div>
       </li>
     {% endfor %}
@@ -31,16 +33,18 @@ layout: default
 
   {% if paginator.total_pages > 1 %}
   <div class="paginator">
-    {% if paginator.next_page %}
-    <div class="next-link">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
+    <div class="wrapper">
+      {% if paginator.next_page %}
+      <div class="next-link">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
+      </div>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <div class="prev-link">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
-    {% if paginator.previous_page %}
-    <div class="prev-link">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
-    </div>
-    {% endif %}
   </div>
   {% endif  %}
 

@@ -2,25 +2,27 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <span class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-    </span>
-    <h1 class="post-title" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1> 
-    {% if page.link %}
-      <p class="post-meta link">
-          <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
-      </p>
-    {% endif %}
-  </header>
+  <div class="wrapper">
+    <header class="post-header">
+      <span class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+      </span>
+      <h1 class="post-title" itemprop="name headline">
+        {{ page.title | escape }}
+      </h1> 
+      {% if page.link %}
+        <p class="post-meta link">
+            <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
+        </p>
+      {% endif %}
+    </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
   </div>
 
   {% for tag in page.tags %}
@@ -28,7 +30,9 @@ layout: default
   {% endfor %}
 
   <div class="post-related">
-    {% include related_posts.html %}
+    <div class="wrapper">
+      {% include related_posts.html %}
+    </div>
   </div>
 
   {% if site.disqus_short_name %}

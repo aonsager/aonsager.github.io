@@ -2,12 +2,20 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $text-color;
+  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  @include media-query($on-palm) {
+    text-align: center;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
 }
 
 .site-title {
@@ -19,7 +27,11 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $text-color;
+  }
+
+  @include media-query($on-palm) {
+    float: none;
   }
 }
 
@@ -73,7 +85,7 @@
       text-align: center;
 
       > svg path {
-        fill: $grey-color-dark;
+        fill: $text-color-light;
       }
     }
 
@@ -179,7 +191,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: ($spacing-unit * 1.5) 0;
 }
 
 .page-heading {
@@ -191,7 +203,7 @@
   list-style: none;
 
   > li {
-    padding-bottom: $spacing-unit;
+    padding-bottom: $spacing-unit * 1.5;
     margin-bottom: $spacing-unit * 2;
     border-bottom: 1px solid $grey-color-light;
   }
