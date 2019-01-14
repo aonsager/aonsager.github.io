@@ -191,7 +191,7 @@
  * Page content
  */
 .page-content {
-  padding: ($spacing-unit * 1.5) 0;
+  padding: ($spacing-unit * 2) 0;
 }
 
 .page-heading {
@@ -203,8 +203,8 @@
   list-style: none;
 
   > li {
-    padding-bottom: $spacing-unit * 1.5;
-    margin-bottom: $spacing-unit * 2;
+    padding-bottom: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 3;
     border-bottom: 1px solid $grey-color-light;
   }
 }
