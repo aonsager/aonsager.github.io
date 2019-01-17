@@ -1,4 +1,4 @@
-<img src="{{ "/assets/" | append: include.image | absolute_url }}" alt="{{ include.description }}" class="center-image" />
+<img src="{{ site.url }}/assets/{{ include.image }}" alt="{{ include.description }}" class="center-image" />
 {% if include.description %}
   <p class="image-caption">{{ include.description }}</p>
 {% endif %}
