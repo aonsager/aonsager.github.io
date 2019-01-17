@@ -271,15 +271,11 @@
   .center-image {
     margin: 0 auto;
     display: block;
-    max-width: 600px;
-
-    @include media-query($on-palm) {
-      max-width: 100%;
-    }
+    max-width: 100%;
   }
 
   .image-caption {
-    margin-top: $spacing-unit / -2 + 2;
+    margin-top: $spacing-unit * -1 + 2;
     text-align: center;
     @include relative-font-size(0.8);
     font-style: italic;
