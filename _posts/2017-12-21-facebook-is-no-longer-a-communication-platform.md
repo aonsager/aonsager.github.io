@@ -4,7 +4,7 @@ title: Facebook Is No Longer a Communication Platform
 date: 2017-12-21 19:53 +0900
 tags:
 - opinion
-- social networks
+- social network
 - facebook
 - product
 - politics

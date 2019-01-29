@@ -7,7 +7,7 @@ link: http://www.youtube.com/watch?v=xOCurBYI_gY
 tags: 
 - tech 
 - programming
-- games
+- game
 - nintendo
 - AI
 ---

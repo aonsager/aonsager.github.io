@@ -2,7 +2,7 @@
 layout: post
 title: "Game Idea: PvP Pac-Man"
 tags: 
-  - games
+  - game
   - idea
   - pacman
   - pvp

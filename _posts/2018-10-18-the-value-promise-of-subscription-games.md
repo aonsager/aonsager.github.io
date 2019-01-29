@@ -2,7 +2,7 @@
 layout: post
 title: The Value Promise of Subscription Games
 tags: 
-  - games
+  - game
   - business
   - analysis
   - mmo

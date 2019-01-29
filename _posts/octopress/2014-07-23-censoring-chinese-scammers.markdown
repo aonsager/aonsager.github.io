@@ -10,7 +10,7 @@ tags:
 - funny 
 - news
 - china
-- apps
+- app
 ---
 
 Q: What do you do when you're being scammed by a Chinese scam artist?  

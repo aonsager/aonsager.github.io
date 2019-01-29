@@ -5,7 +5,7 @@ date: 2013-05-22 11:36
 comments: true
 link: http://geoguessr.com/
 tags: 
-- games
+- game
 - google
 - map
 ---

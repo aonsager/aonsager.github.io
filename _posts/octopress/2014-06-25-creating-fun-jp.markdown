@@ -8,7 +8,7 @@ comments: true
 link:
 tags: 
 - opinion
-- games
+- game
 - product
 ---
 

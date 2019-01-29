@@ -3,7 +3,7 @@ layout: post
 title: Are Video Games Still For Kids?
 date: 2017-12-15 17:47 +0900
 tags: 
-- games
+- game
 - opinion
 - nintendo
 - children
