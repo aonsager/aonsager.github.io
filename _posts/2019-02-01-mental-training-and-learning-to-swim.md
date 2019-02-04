@@ -11,7 +11,7 @@ tags:
 
 During my last year at university, I decided to learn to swim. I was reasonably confident in my ability to stay afloat in deep water and not die, but it wasn't what you could call swimming. Luckily, two of my close friends were excellent swimmers and they agreed to work with me in the mornings before class. 
 
-As an aside, I did take swimming lessons on and off for a few years when I was a kid, but apparently I retained nothing from those classes. Maybe I was just a terrible swimmer the entire time? Possibly related, I have very few memories from my elementary and middle school years, so I have a suspicion that I didn't do a whole lot of thinking when I was a kid. In any case, I was essentially a total beginner to swimming when we started. I knew that you kicked your legs and paddled with your arms to go forward, but that was about it.
+As an aside, I did take swimming lessons on and off for a few years when I was a kid, but apparently I retained nothing from those classes. Maybe I was just a terrible swimmer the entire time? Possibly related, I have very few memories from my elementary and middle school years, so [I have a suspicion that I didn't do a whole lot of thinking when I was a kid]({% post_url 2010-06-06-i-grew-up-in-high-school %}). In any case, I was essentially a total beginner to swimming when we started. I knew that you kicked your legs and paddled with your arms to go forward, but that was about it.
 
 <!-- more -->
 
