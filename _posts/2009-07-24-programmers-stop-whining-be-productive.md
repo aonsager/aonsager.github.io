@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "Programmers: Stop Whining, Be Productive"
+title: 'Programmers: Stop Whining, Be Productive'
 link: 
-tags: 
-  - programming
-  - business
-  - manager
-  - maker
-  - work
+tags:
+- programming
+- business
+- manager
+- maker
+- work
+colors:
+- "#FFD606"
+- "#555555"
+- "#959595"
+- "#67636B"
+- "#6E3F2D"
 ---
 
 I was pointed to [Paul Graham’s post](http://paulgraham.com/makersschedule.html) about programmers running on a separate schedule than other people. Programmers run on the "maker’s schedule" and prefer to work in large chunks of time, with units of at least half a day. Others, particularly their bosses, operate on the "manager’s schedule" and have things defined into hour-long chunks. Interactions between the two typically cause friction:

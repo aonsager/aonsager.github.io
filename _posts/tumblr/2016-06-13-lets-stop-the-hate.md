@@ -9,7 +9,14 @@ tags:
 - people
 - politics
 tumblr_url: http://www.alexonsager.net/post/145851246773/lets-stop-the-hate
+colors:
+- "#D64C42"
+- "#E3D4A1"
+- "#D51E20"
+- "#545454"
+- "#F2CE99"
 ---
+
 <p>I&rsquo;m a supporter of LGBT rights. I&rsquo;m generally not too vocal about it, but with recent events culminating in the Orlando mass shootings, I had to say something.</p>
 
 <p>I&rsquo;ve been thinking a lot about the LGBT rights movement recently. Hopefully this effort can be another step forward following the Civil Rights Movement, as we work towards equal rights and treatment for all.</p>

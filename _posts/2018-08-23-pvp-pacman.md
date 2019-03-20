@@ -1,12 +1,18 @@
 ---
 layout: post
-title: "Game Idea: PvP Pac-Man"
-tags: 
-  - game
-  - idea
-  - pacman
-  - pvp
-  - maze
+title: 'Game Idea: PvP Pac-Man'
+tags:
+- game
+- idea
+- pacman
+- pvp
+- maze
+colors:
+- "#4B4A6E"
+- "#522F71"
+- "#48446C"
+- "#4A4673"
+- "#DE303F"
 ---
 
 ## Concept

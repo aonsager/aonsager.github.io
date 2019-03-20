@@ -1,12 +1,18 @@
 ---
 layout: post
-title: "Facebook and Non-Profits: Revolutionizing with Samasource"
+title: 'Facebook and Non-Profits: Revolutionizing with Samasource'
 link: 
-tags: 
-  - facebook
-  - samasource
-  - nonprofit
-  - business
+tags:
+- facebook
+- samasource
+- nonprofit
+- business
+colors:
+- "#B02727"
+- "#A43233"
+- "#757576"
+- "#CACBCB"
+- "#CE7E59"
 ---
 
 *Originally posted on the [fbFund blog](http://fbfund.com/facebook-and-non-profits-revolutionizing-with-samasource/)*

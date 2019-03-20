@@ -9,6 +9,12 @@ tags:
 - google
 - article
 - chess
+colors:
+- "#4F7838"
+- "#CECCCA"
+- "#4F7838"
+- "#4F7838"
+- "#6E5842"
 ---
 
 Google's AlphaZero program is a machine that plays chess, and it has managed to quickly become the strongest chess AI in the world by implementing machine learning techniques. While existing chess AIs have mostly been massive dictionaries of moves that are put together by humans, AlphaZero learned chess entirely on its own with minimal human input. 

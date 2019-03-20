@@ -49,6 +49,7 @@ def colors_from_title(title)
 
   # make the search query
   uri = URI(uri + path + "?key=" + CONFIG['google_api_key'] + "&q=" + URI.escape(title) + "&cx=" + CONFIG['search_cx'] + "&searchType=image&num=5")
+  puts uri
   request = Net::HTTP::Get.new(uri)
   response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
       http.request(request)
@@ -138,7 +139,7 @@ task :publish, :filename do |t, args|
   # parse the YAML
   headers = YAML::load("---\n"+contents[1])
   content = contents[2].strip
-  # find colors from the title, and add them to the headers
+  # find colors using the title, and add them to the headers
   headers['colors'] = colors_from_title(headers['title'])
   headers['slug'] ||= transform_to_slug(headers['title'])
 
@@ -156,8 +157,32 @@ task :colorize do
   # Get the list of posts
   dir = File.join(__dir__,'_posts')
   @files = Dir["#{dir}/**/*"]
-  @files[0,5].each do |file|
+  @files.each do |file|
     next unless accepted_formats.include? File.extname(file)
-    puts file
+
+    # separate the YAML headers
+    contents = File.read(file).split(/^---\s*$/)
+    if contents.count < 3 # Expects the draft to be properly formatted
+      puts "Invalid header format on post #{File.basename(file)}"
+      Process.exit
+    end
+    # parse the YAML
+    headers = YAML::load("---\n"+contents[1])
+    content = contents[2].strip
+
+    # find colors using the title, and add them to the headers
+    headers['colors'] = colors_from_title(headers['title'])
+    # write out the modified YAML and post contents back to the original file
+    File.open(file,'w+') {|file| file.puts YAML::dump(headers) + "---\n\n" + content + "\n"}
+    puts "Added colors to #{headers['title']}"
   end
+end
+
+task :test do
+  file = '/Users/hekk165/blog/_posts/tumblr/2014-11-17-真如堂.md'
+  contents = File.read(file).split(/^---\s*$/)
+  headers = YAML::load("---\n"+contents[1])
+  content = contents[2].strip
+  puts headers['title']
+  puts colors_from_title(headers['title'])
 end

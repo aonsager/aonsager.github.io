@@ -1,16 +1,22 @@
 ---
 layout: post
-title: "San Francisco Is Dead. Long Live San Francisco"
+title: San Francisco Is Dead. Long Live San Francisco
 description: Gary Kamiya's essay on San Francisco's growing pains
 keywords: san francisco, economy, techies, eviction, mission
 date: 2014-04-25 13:39
 comments: true
 link: http://www.modernluxury.com/san-francisco/story/san-francisco-dead-long-live-san-francisco
-tags: 
+tags:
 - opinion
 - article
 - america
 - politics
+colors:
+- "#757778"
+- "#7292B0"
+- "#757778"
+- "#2E707D"
+- "#5E7AA2"
 ---
 
 Gary Kamiya has an excellent article in San Francisco Magazine, talking about the many factors and consequences of San Francisco's economic growth.

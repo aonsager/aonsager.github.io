@@ -1,16 +1,23 @@
 ---
 layout: post
-title: "Chargekey Review"
+title: Chargekey Review
 description: Reviewing the Chargekey, a key-sized USB to Lightning cable
 keywords: chargekey, product, review, mac, iphone, charge, cable, nomad, gadget
 date: 2014-03-20 20:28
 comments: true
-link:
-tags: 
+link: 
+tags:
 - tech
 - product
 - review
+colors:
+- "#7B7670"
+- "#C4C4C4"
+- "#7B7670"
+- "#C9C6C7"
+- "#ACA094"
 ---
+
 I recently received a review unit of the [Chargekey](http://www.hellonomad.com/products/chargekey-iphone5).
 
 It's essentially a key-sized USB to Lightning cable that you will can have available on your keychain (They also make a Micro-USB version to fit your Android phone). I don't do too much wandering around during the day, but I hadn't bought a second cable for charging my phone while at work so I was more than happy to start making daily use of this.

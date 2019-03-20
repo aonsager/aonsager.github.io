@@ -2,12 +2,18 @@
 layout: post
 title: I Grew Up in High School
 link: 
-tags: 
-  - personal
-  - life
-  - teenager
-  - adult
-  - memory
+tags:
+- personal
+- life
+- teenager
+- adult
+- memory
+colors:
+- "#C6C6C6"
+- "#C5C5C5"
+- "#755446"
+- "#DC985A"
+- "#7A7774"
 ---
 
 I might even say that I didn’t grow up in any meaningful way before I started high school.

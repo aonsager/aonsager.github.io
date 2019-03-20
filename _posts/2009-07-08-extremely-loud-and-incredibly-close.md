@@ -2,10 +2,16 @@
 layout: post
 title: Extremely Loud and Incredibly Close
 link: 
-tags: 
-  - book
-  - review
-  - Jonathan Safran Foer
+tags:
+- book
+- review
+- Jonathan Safran Foer
+colors:
+- "#C6262B"
+- "#A17361"
+- "#C6373D"
+- "#FA0F20"
+- "#C64943"
 ---
 
 **Amazingly imaginative**

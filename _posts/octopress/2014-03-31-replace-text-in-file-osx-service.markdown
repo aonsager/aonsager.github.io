@@ -1,15 +1,22 @@
 ---
 layout: post
-title: "Replace Text in File - OSX Service"
-description: A quick Mac OSX service that will search and replace all given strings in a text file
+title: Replace Text in File - OSX Service
+description: A quick Mac OSX service that will search and replace all given strings
+  in a text file
 keywords: mac, programming, applescript, service, sed, replace text
 date: 2014-03-31 20:23
 comments: true
 link: 
-tags: 
-- mac 
-- programming 
+tags:
+- mac
+- programming
 - script
+colors:
+- "#B0B1B1"
+- "#736565"
+- "#9F9A9B"
+- "#C6C6C7"
+- "#2F74CB"
 ---
 
 A quick Mac OSX service that will search and replace all given strings in a text file, and save the modified content as a new file. It's not *that* much faster than just opening it in a text editor, but it was a fun way to learn how sed works.

@@ -7,7 +7,14 @@ tags:
 - opinion
 - movie
 tumblr_url: http://www.alexonsager.net/post/27864370/upcoming-movie-watch
+colors:
+- "#676970"
+- "#685A5C"
+- "#6B5D56"
+- "#774B31"
+- "#314774"
 ---
+
 <p><u><b>The Documentary Type</b></u></p>
 <p><a href="http://www.apple.com/trailers/weinstein/whereintheworldisosamabinladen/trailer/" target="_blank"> Where in the World is Osama Bin Laden?</a> - Before you write this movie off as one that sounds like it was done by those guys that make stupid teen movies (I almost did), go watch the trailer. It&rsquo;s done by the guy who made Supersize Me, and chronicles his quest to find Osama Bin Laden. And the trailer plays Gogol Bordello music.</p><p> <a href="http://www.apple.com/trailers/independent/planetbboy/trailer/" target="_blank">Planet B-Boy</a> - A documentary on the breakdancing culture. This movie looks awesome.</p><p> <a href="http://www.apple.com/trailers/fox_searchlight/youngatheart/trailera/" target="_blank">Young at Heart</a> - A group of elderly people in New England sing covers of great rock songs. This is a must-see.</p>
 <!-- more -->

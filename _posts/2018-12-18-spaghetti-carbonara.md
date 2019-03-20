@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Spaghetti Carbonara
-tags: 
-  - cooking
-  - pasta
-  - cheese
-  - recipe
-  - life
+tags:
+- cooking
+- pasta
+- cheese
+- recipe
+- life
+colors:
+- "#C7AC76"
+- "#ADAFB4"
+- "#CAAB72"
+- "#C7AC75"
+- "#ADA29F"
 ---
 
 For a long time I thought I didn't like carbonara because the few I tried were too creamy and eggy. Recently I gave it another try because the picture in the menu looked delicious. It was excellent, and I decided I wanted to learn how to make it myself. I needed some practice before I felt comfortable with the timings, but overall it's a pretty simple recipe that wasn't hard to learn.

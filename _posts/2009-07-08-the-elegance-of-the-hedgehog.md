@@ -2,11 +2,17 @@
 layout: post
 title: The Elegance of the Hedgehog
 link: 
-tags: 
-  - book
-  - review
-  - philosophy
-  - Muriel Barbery
+tags:
+- book
+- review
+- philosophy
+- Muriel Barbery
+colors:
+- "#326C94"
+- "#457596"
+- "#336C94"
+- "#586C6D"
+- "#477594"
 ---
 
 **Profoundly moving**

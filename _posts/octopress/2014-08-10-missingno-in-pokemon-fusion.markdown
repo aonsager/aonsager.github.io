@@ -1,16 +1,22 @@
 ---
 layout: post
-title: "Missingno. in Pokemon Fusion"
+title: Missingno. in Pokemon Fusion
 description: Adding Missingno. as a hidden character to Pokemon Fusion
 keywords: missingno, pokemon fusion, pokemon, fusion, ruby, imagemagick, glitch
 date: 2014-08-10 18:49
 comments: true
-link:
-tags: 
-- ruby 
+link: 
+tags:
+- ruby
 - programming
 - dev
 - pokemon
+colors:
+- "#9E9B9F"
+- "#A8A3A8"
+- "#F5CA44"
+- "#363C74"
+- "#A19BAC"
 ---
 
 I've made a small update to the [Pokemon Fusion](http://pokemon.alexonsager.net) site, and added Missingno. as a hidden pokemon.

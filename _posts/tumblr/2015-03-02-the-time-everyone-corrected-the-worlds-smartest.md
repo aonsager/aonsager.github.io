@@ -8,7 +8,14 @@ tags:
 - math
 - gender
 link: http://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/
+colors:
+- "#6C594B"
+- "#6C594B"
+- "#797979"
+- "#979797"
+- "#6B5A4B"
 ---
+
 <blockquote>
   <p>In 1990, Marilyn vos Savant correctly answered a probability puzzle in her column for Parade Magazine. And then, the world called her an idiot.</p>
 </blockquote>

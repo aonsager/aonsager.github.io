@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "Save to Pocket - OSX Service"
+title: Save to Pocket - OSX Service
 date: 2013-05-22 00:26
 comments: true
 link: 
-tags: 
-- programming 
-- mac 
+tags:
+- programming
+- mac
 - script
+colors:
+- "#CE5153"
+- "#757574"
+- "#51B9B4"
+- "#715944"
+- "#767676"
 ---
 
 Here's a quick Mac OSX service that will allow you to save any link to Pocket by right-clicking it. It will work from within basically any app that lets you right-click text. Prerequisite is that you have the Pocket OSX app installed.

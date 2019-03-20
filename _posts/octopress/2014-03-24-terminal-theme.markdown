@@ -1,16 +1,22 @@
 ---
 layout: post
-title: "Terminal Theme"
+title: Terminal Theme
 description: A color theme for Mac OSX Terminal
 keywords: mac, osx, terminal, customize, color theme, base16
 date: 2014-03-24 15:12
 comments: true
 link: 
-tags: 
+tags:
 - mac
 - design
 - personal
 - color
+colors:
+- "#5B5C68"
+- "#595D66"
+- "#E94B35"
+- "#3D576C"
+- "#43516D"
 ---
 
 ![New Terminal setup](/assets/terminal.png)

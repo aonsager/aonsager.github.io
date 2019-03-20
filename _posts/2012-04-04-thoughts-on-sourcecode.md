@@ -2,11 +2,17 @@
 layout: post
 title: Thoughts on "Sourcecode"
 link: 
-tags: 
-  - movie
-  - review
-  - dimension
-  - scifi
+tags:
+- movie
+- review
+- dimension
+- scifi
+colors:
+- "#7A7A7B"
+- "#706450"
+- "#7C7C7C"
+- "#6A7452"
+- "#626267"
 ---
 
 I've finally come to terms with the movie *Sourcecode*. But at first, I hated it.

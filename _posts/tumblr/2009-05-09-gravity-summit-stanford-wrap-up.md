@@ -8,7 +8,14 @@ tags:
 - communication
 - report
 tumblr_url: http://www.alexonsager.net/post/105313655/gravity-summit-stanford-wrap-up
+colors:
+- "#546E47"
+- "#E8967B"
+- "#744B3C"
+- "#C4C4C4"
+- "#E9967B"
 ---
+
 <p>Tuesday, May 5th was Gravity Summit&rsquo;s &ldquo;Social Media Marketing for Business&rdquo; at Stanford. I&rsquo;ve known Rodney Rumford since Joachim and I made Graffiti for Facebook, and he was kind enough to save me a spot.</p>
 <p>The focus of the talks was very much aimed towards large businesses; presentations were given by such notable people as Bob Pearson of Dell, Inc. and Charles Miller from DIRECTV. That said, it seemed there were plenty of small business owners attending, and many of the points were generalizable. The main idea is:</p>
 <p><b>Social Media is conversation.</b> When a business or individual understands this, they can do great things.</p>

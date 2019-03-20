@@ -9,7 +9,14 @@ tags:
 - social network
 - graph
 link: http://dataclysm.org/relationshiptest
+colors:
+- "#3174A0"
+- "#777879"
+- "#C6C8CA"
+- "#4875A6"
+- "#C6C6C7"
 ---
+
 <blockquote>
 <p>My team and I wrote an app that will apply findings from a recent research paper to your Facebook graph. The app won’t post to your wall but it will show you both the shape of your friend network and which of your friends are most mathematically important to your life.</p>
 </blockquote>

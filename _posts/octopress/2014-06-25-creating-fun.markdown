@@ -1,15 +1,21 @@
 ---
 layout: post
-title: "Creating Fun"
+title: Creating Fun
 description: Thoughts as a creator on balancing originality and funness
 keywords: flappy bird, 2048, threes, game, originality, creativity, inspiration
 date: 2014-06-25 23:28
 comments: true
-link:
+link: 
 tags:
 - opinion
 - game
 - product
+colors:
+- "#DC8C7F"
+- "#C6B3CA"
+- "#5D584E"
+- "#CCCCAE"
+- "#FFF20A"
 ---
 
 My long-standing goal, in both work and personal life, is to create "fun". I currently make games for a living, so I'll be focusing on games for this post.

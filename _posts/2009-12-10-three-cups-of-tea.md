@@ -2,12 +2,18 @@
 layout: post
 title: Three Cups of Tea
 link: 
-tags: 
-  - nonprofit
-  - poverty
-  - education
-  - samasource
-  - review
+tags:
+- nonprofit
+- poverty
+- education
+- samasource
+- review
+colors:
+- "#6C6B71"
+- "#767477"
+- "#5D5364"
+- "#757376"
+- "#A0A261"
 ---
 
 *Three Cups of Tea* is the most inspiring book I have ever read.

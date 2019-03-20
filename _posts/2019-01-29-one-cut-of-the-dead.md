@@ -1,11 +1,17 @@
 ---
 layout: post
 title: One Cut of the Dead (カメラを止めるな！）
-tags: 
-  - zombie
-  - movie
-  - review
-  - japan
+tags:
+- zombie
+- movie
+- review
+- japan
+colors:
+- "#E9A432"
+- "#754C29"
+- "#686D5B"
+- "#EAB62B"
+- "#6C6B42"
 ---
 
 *[One Cut of the Dead (カメラを止めるな！)](http://kametome.net/index.html)* is a low budget Japanese zombie movie that became hugely popular here. I just watched it over the weekend and it was wonderful. The writing is very funny and very clever, and when it was over I found myself immediately wanting to watch it a second time.

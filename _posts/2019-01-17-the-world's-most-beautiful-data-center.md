@@ -2,12 +2,18 @@
 layout: post
 title: The World's Most Beautiful Data Center
 link: https://motherboard.vice.com/en_us/article/xwjegq/the-worlds-most-beautiful-data-center-is-a-supercomputer-housed-in-a-19th-century-church
-tags: 
-  - article
-  - photo
-  - computer
-  - art
-  - travel
+tags:
+- article
+- photo
+- computer
+- art
+- travel
+colors:
+- "#727578"
+- "#704939"
+- "#4F504E"
+- "#383C72"
+- "#82A3CB"
 ---
 
 {% include image.html image="torre-girona.jpg" description="Image: Barcelona Supercomputing Center" %}

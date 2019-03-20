@@ -1,16 +1,23 @@
 ---
 layout: post
-title: "How to Be Polite"
-description: An excellent piece by Paul Ford on the often underestimated value of politeness
+title: How to Be Polite
+description: An excellent piece by Paul Ford on the often underestimated value of
+  politeness
 keywords: politeness, life tips, kindness, social interactions
 date: 2014-09-17 19:57
 comments: true
 link: https://medium.com/message/how-to-be-polite-9bf1e69e888c
-tags: 
-- life 
+tags:
+- life
 - opinion
 - article
 - personal
+colors:
+- "#C6C6C6"
+- "#B7C2C3"
+- "#A4A4A3"
+- "#92D29A"
+- "#B1B2B2"
 ---
 
 > Most people don’t notice I’m polite, which is sort of the point. I don’t look polite. I am big and droopy and need a haircut. No soul would associate me with watercress sandwiches. Still, every year or so someone takes me aside and says, you actually are weirdly polite, aren’t you? And I always thrill. They noticed.

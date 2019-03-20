@@ -2,12 +2,18 @@
 layout: post
 title: Automating Materials Science with Machine Learning
 link: https://www.technologyreview.com/s/612388/a-robot-scientist-will-dream-up-new-materials-to-advance-computing-and-fight-pollution/
-tags: 
-  - tech
-  - science
-  - AI
-  - robot
-  - article
+tags:
+- tech
+- science
+- AI
+- robot
+- article
+colors:
+- "#B3B3B3"
+- "#8CDDEB"
+- "#CCCBCA"
+- "#C7C7C7"
+- "#969997"
 ---
 
 > A robot arm dips a pipette into a dish and transfers a tiny amount of bright liquid into one of many receptacles sitting in front of another machine. When all the samples are ready, the second machine tests their optical properties, and the results are fed to a computer that controls the arm. Software analyzes the results of these experiments, formulates a few hypotheses, and then starts the process over again. Humans are barely required.

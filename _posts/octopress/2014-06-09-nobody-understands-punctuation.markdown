@@ -1,15 +1,21 @@
 ---
 layout: post
-title: "Nobody. Understands. Punctuation."
+title: Nobody. Understands. Punctuation.
 description: 
 keywords: writing, punctuation, style
 date: 2014-06-09 12:49
 comments: true
 link: http://stilldrinking.org/nobody-understands-punctuation
-tags: 
+tags:
 - writing
 - article
 - opinion
+colors:
+- "#C5C5C5"
+- "#C9C9C9"
+- "#6E6658"
+- "#C8C8C8"
+- "#A8A79E"
 ---
 
 [Peter Welch](http://stilldrinking.org) has published an excellent piece on punctuation and writing style in the English language.
@@ -18,4 +24,4 @@ tags:
 
 I own a copy of [The Elements of Style](http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X) which is one of the most prescriptive books around regarding what "good writing" is. Though Welch's essay has a nearly opposite message, urging writers to do what they must at the expense of constrictive rules, I love both for describing excellent writing and leading by example.
 
-I do believe that there can be a single guiding principle for good writing. At their core, the two contrasting works in fact have the same core message: be deliberate. 
+I do believe that there can be a single guiding principle for good writing. At their core, the two contrasting works in fact have the same core message: be deliberate.

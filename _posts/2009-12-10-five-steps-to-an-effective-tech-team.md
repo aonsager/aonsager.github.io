@@ -2,12 +2,18 @@
 layout: post
 title: Five Steps to an Effective Tech Team
 link: 
-tags: 
-  - business
-  - team
-  - startup
-  - work
-  - programming
+tags:
+- business
+- team
+- startup
+- work
+- programming
+colors:
+- "#A1D2F4"
+- "#CDAD9A"
+- "#5A6C68"
+- "#AEA391"
+- "#494C67"
 ---
 
 I recently experienced two of the most informative and useful meetings of my life. Lloyd Taylor, the former VP of Technical Operations at LinkedIn, and Olana Khan, the former COO of Kiva, graciously donated their time to speak to us about how to organize our technology goals. We had been in the process of formalizing our thoughts for an upcoming board meeting, but their expert feedback allowed us to cement in some much-needed structure. In addition, we also were given invaluable advice about how to lead an effective technology team in general.

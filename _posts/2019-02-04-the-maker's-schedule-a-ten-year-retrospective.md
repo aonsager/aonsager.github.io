@@ -1,19 +1,19 @@
 ---
 layout: post
 title: The Maker's Schedule - A Ten Year Retrospective
-link:
+link: 
 colors:
-  - "#CFAB66"
-  - "#AE8257"
-  - "#704839"
-  - "#C7312E"
-  - "#787878"
+- "#CFAB66"
+- "#AE8257"
+- "#704839"
+- "#C7312E"
+- "#787878"
 tags:
-  - programming
-  - business
-  - manager
-  - maker
-  - work
+- programming
+- business
+- manager
+- maker
+- work
 ---
 
 10 years ago, I was fresh out of college and encountered [Paul Graham's essay](http://paulgraham.com/makersschedule.html) about the maker's schedule, and wrote [a response]({% post_url 2009-07-24-programmers-stop-whining-be-productive %}) disagreeing with the spirit of the article. While I knew and understood that programmers could be much more productive in one 10 hour chunk than in five 2 hour chunks, I felt like rearranging a business's operations based on these preferences was going overboard. The typical programmer as described seemed undisciplined, and I wrote that programmers needed to find ways to work around distractions, which are simply a fact of life.

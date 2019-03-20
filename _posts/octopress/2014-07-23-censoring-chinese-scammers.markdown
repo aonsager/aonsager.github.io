@@ -1,16 +1,22 @@
 ---
 layout: post
-title: "Censoring Chinese Scammers"
+title: Censoring Chinese Scammers
 description: LINE users fight Chinese scammers in a hilarious way
 keywords: LINE, scam, Tiananmen, phishing, China, 天安門
 date: 2014-07-23 14:14
 comments: true
-link:
-tags: 
-- funny 
+link: 
+tags:
+- funny
 - news
 - china
 - app
+colors:
+- "#B3C3DC"
+- "#9FE757"
+- "#9FE757"
+- "#B8C9D7"
+- "#AAA5A3"
 ---
 
 Q: What do you do when you're being scammed by a Chinese scam artist?  

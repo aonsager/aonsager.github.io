@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Lucid Dreaming
-tags: 
-  - personal
-  - sleep
-  - dream
-  - mind
-  - skill
+tags:
+- personal
+- sleep
+- dream
+- mind
+- skill
+colors:
+- "#485770"
+- "#455767"
+- "#48546F"
+- "#44586E"
+- "#435969"
 ---
 
 I was consistently able to have lucid dreams when I was in high school. Partway through a dream, I would realize that I was dreaming and could then control the rest of the dream to a small extent. As I've grown older though, this has become less and less common. Maybe age has changed something about my brain.
@@ -37,4 +43,4 @@ Even after becoming lucid within a dream, I had a hard time controlling them. I 
 
 It felt like my dreams had rules, and if I pushed too hard the dream would collapse and I would wake up. I had to be very careful to only make changes that fell within the dream's rules to make sure that I could stay inside the dream.
 
-Once I realize that the dream is fading, I try to stop pushing against it and surrender myself to the dream's natural flow. This usually lets the dream get back on track, but sometimes I get caught up in it and forget to become lucid again. Supposedly, spinning around or rubbing your hands together is a good way to make a dream more "solid" again if you've weakened it too much (who discovers these things?), but I've never been able to remember to test this technique. I'm sure there are other tricks that people have developed, but they probably all require a lot of practice. 
+Once I realize that the dream is fading, I try to stop pushing against it and surrender myself to the dream's natural flow. This usually lets the dream get back on track, but sometimes I get caught up in it and forget to become lucid again. Supposedly, spinning around or rubbing your hands together is a good way to make a dream more "solid" again if you've weakened it too much (who discovers these things?), but I've never been able to remember to test this technique. I'm sure there are other tricks that people have developed, but they probably all require a lot of practice.

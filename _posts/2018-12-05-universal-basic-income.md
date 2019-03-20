@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Universal Basic Income
-tags: 
-  - economy
-  - income
-  - opinion
-  - america
-  - politics
+tags:
+- economy
+- income
+- opinion
+- america
+- politics
+colors:
+- "#DA3C3D"
+- "#50504F"
+- "#A8C8B9"
+- "#777777"
+- "#58666D"
 ---
 
 I wonder sometimes about what a better society than ours would be. What should our goals be as we try to improve? 
@@ -21,4 +27,4 @@ If we let robots and machines do a lot of work for us, the downside is that many
 
 Making sure everyone has a basic ability to live a decent life sounds like a great goal for a government that exists to serve its citizens. On the other hand, capitalism promises rewards for great work, and that's what motivated a lot of people to do great things. People spend millions of dollars researching medicine because a breakthrough drug could be worth billions. Redistribution of wealth will take away from those rewards, and a loss in motivation might lead to a decline in innovation. 
 
-One interesting example of UBI is [The Alaska Permanent Fund](https://www.businessinsider.com/alaska-universal-basic-income-employment-2018-10). This program was set up as the Trans-Alaska Pipeline was being finished in 1977 and has been giving $1000-2000 to every citizen since 1982. This isn't *exactly* UBI because it is tied to a new form of income that Alaska had access to, so it isn't just redistribution of wealth. But in general, it has been working very well, and hasn't increased unemployment or made people lazier. 
+One interesting example of UBI is [The Alaska Permanent Fund](https://www.businessinsider.com/alaska-universal-basic-income-employment-2018-10). This program was set up as the Trans-Alaska Pipeline was being finished in 1977 and has been giving $1000-2000 to every citizen since 1982. This isn't *exactly* UBI because it is tied to a new form of income that Alaska had access to, so it isn't just redistribution of wealth. But in general, it has been working very well, and hasn't increased unemployment or made people lazier.

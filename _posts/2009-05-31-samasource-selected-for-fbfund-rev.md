@@ -2,12 +2,18 @@
 layout: post
 title: Samasource Selected for fbFund REV
 link: 
-tags: 
-  - samasource
-  - facebook
-  - business
-  - nonprofit
-  - startup
+tags:
+- samasource
+- facebook
+- business
+- nonprofit
+- startup
+colors:
+- "#43586C"
+- "#A5A8A7"
+- "#6F6A6B"
+- "#725A4D"
+- "#FCAA38"
 ---
 
 Hooray! Along with 18 companies and one other non-profit, **Samasource was chosen to participate in fbFund’s incubator program this summer**. Check out the full list of winners on [VentureBeat](http://venturebeat.com/2009/05/28/fbfund-17-companies-and-2-nonprofits-win-head-to-palo-alto/) or [InsideFacebook](http://www.insidefacebook.com/2009/05/28/facebook-announces-19-2009-fbfund-winners/).

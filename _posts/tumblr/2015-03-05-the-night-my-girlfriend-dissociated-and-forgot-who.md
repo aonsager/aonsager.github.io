@@ -9,7 +9,14 @@ tags:
 - people
 - story
 link: http://www.vice.com/en_uk/read/the-night-my-girlfriend-forgot-who-i-was-944
+colors:
+- "#6F7074"
+- "#707174"
+- "#9A7870"
+- "#AB7083"
+- "#6F7074"
 ---
+
 <blockquote>
   <p>Because of her dissociative identity disorder, I was a stranger in the eyes of the woman I loved.</p>
 </blockquote>

@@ -2,12 +2,18 @@
 layout: post
 title: Are Video Games Still For Kids?
 date: 2017-12-15 17:47 +0900
-tags: 
+tags:
 - game
 - opinion
 - nintendo
 - children
 - product
+colors:
+- "#A06F4E"
+- "#7B6B5C"
+- "#65656C"
+- "#73524C"
+- "#6A625E"
 ---
 
 I grew up in the 90s, and back then video games were made for kids. Toys were for kids, and video games were just the newest, most exciting toys around. 
@@ -24,4 +30,4 @@ Nintendo's first steps in the mobile app industry - which is notorious for promo
 
 Even Nintendo's eSports efforts include a focus on kids. Splatoon has held national tournaments exclusive to Elementary School students, to find the best Splatoon-playing kids in the country. 
 
-Cynics will say that Nintendo's strategy is to start making life-long customers from a young age, but I just think it's nice to see a giant game company that hasn't forgotten about the children. 
+Cynics will say that Nintendo's strategy is to start making life-long customers from a young age, but I just think it's nice to see a giant game company that hasn't forgotten about the children.

@@ -2,12 +2,18 @@
 layout: post
 title: The Value of Blockchain Platforms
 date: 2018-08-02 21:00 +0900
-tags: 
+tags:
 - tech
 - blockchain
 - analysis
 - product
 - business
+colors:
+- "#AEAEAF"
+- "#1461A1"
+- "#1461A1"
+- "#716265"
+- "#C7C7C7"
 ---
 
 I've been thinking a lot recently about what benefits there are to building a new product on a blockchain. Blockchains allow an app to be decentralized, and the biggest value they bring is a solid way to handle trust and consensus in an environment with no central authority. I was having a hard time thinking of products that would really benefit from being decentralized, but I came across an idea about decentralized platforms that makes a very strong case for using blockchains.

@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Mental Training, and Learning to Swim
-tags: 
-  - swimming
-  - learning
-  - personal
-  - mind
-  - dream
+tags:
+- swimming
+- learning
+- personal
+- mind
+- dream
+colors:
+- "#7EC0D9"
+- "#E2D0AA"
+- "#F46466"
+- "#4D949B"
+- "#0DA2D2"
 ---
 
 During my last year at university, I decided to learn to swim. I was reasonably confident in my ability to stay afloat in deep water and not die, but it wasn't what you could call swimming. Luckily, two of my close friends were excellent swimmers and they agreed to work with me in the mornings before class. 

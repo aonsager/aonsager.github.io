@@ -1,12 +1,18 @@
 ---
 layout: post
 title: The Value Promise of Subscription Games
-tags: 
-  - game
-  - business
-  - analysis
-  - mmo
-  - product
+tags:
+- game
+- business
+- analysis
+- mmo
+- product
+colors:
+- "#B1B1B1"
+- "#787270"
+- "#635A6E"
+- "#58596C"
+- "#444F75"
 ---
 
 I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.
@@ -57,4 +63,4 @@ In that sense, the time I spend fighting bosses is only meaningful if I also spe
 
 I'm not sure what circumstances motivated the changes to WoW, but I think there had to be better solutions. If hard-core players were running out of things to do, maybe add more cosmetic rewards, or create one insanely difficult version of the current dungeon that most people can not complete. Or if casual players were having a hard time progressing within a limited time, then you can add safety mechanics that guarantee a good item after a certain number of unlucky attempts with no rewards.
 
-The latest version of WoW added changes that affected the core gameplay for all users and unfortunately did it in a way that gave a disadvantage to many casual players. I would guess that these people made up a large portion of the game's players, and worsening their game experience may prove to do more harm than good. 
+The latest version of WoW added changes that affected the core gameplay for all users and unfortunately did it in a way that gave a disadvantage to many casual players. I would guess that these people made up a large portion of the game's players, and worsening their game experience may prove to do more harm than good.
