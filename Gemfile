@@ -29,3 +29,6 @@ end
 # Upgrade to patch security vulnerability
 gem "nokogiri", ">= 1.8.2"
 gem "rubyzip", ">= 1.2.2"
+
+gem "rmagick"
+gem "rake"

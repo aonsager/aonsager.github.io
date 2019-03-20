@@ -248,6 +248,13 @@
   display: block;
 }
 
+.post-banner {
+  margin-top: $spacing-unit / -2;
+  margin-bottom: $spacing-unit;
+  height: 6px;
+  width: 100%;
+}
+
 .post-content {
 
   p {

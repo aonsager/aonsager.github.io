@@ -19,12 +19,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.alexonsager.net" # the base hostname & protocol for your site, e.g. http://example.com
 excerpt_separator: <!-- more -->
-header_pages: 
+header_pages:
   - 'about.md'
 twitter_username: aonsager
 github_username:  aonsager
 linkedin_username:  alexonsager
 google_analytics: UA-8798911-2
+google_api_key: "AIzaSyCdYw5EQ6NsXAzff1HxOD08rfBKckKUElU"
+search_cx: "013154599818599383961:hamsrluhjr0"
 
 # Build settings
 markdown: kramdown

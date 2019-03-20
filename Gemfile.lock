@@ -216,9 +216,11 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    rmagick (3.0.0)
     rouge (2.2.1)
     ruby-enum (0.7.2)
       i18n
@@ -253,7 +255,9 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-redirect-from
   nokogiri (>= 1.8.2)
+  rake
+  rmagick
   rubyzip (>= 1.2.2)
 
 BUNDLED WITH
-   1.16.0
+   2.0.1

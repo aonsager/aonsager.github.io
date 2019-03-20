@@ -12,7 +12,7 @@ layout: default
       </span>
       <h1 class="post-title" itemprop="name headline">
         {{ page.title | escape }}
-      </h1> 
+      </h1>
       {% if page.link %}
         <p class="post-meta link">
             <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
@@ -21,6 +21,7 @@ layout: default
     </header>
 
     <div class="post-content" itemprop="articleBody">
+      {% include post_banner.html %}
       {{ content }}
     </div>
   </div>
