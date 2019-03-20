@@ -8,12 +8,15 @@ permalink: /archive/
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}
-      {% unless forloop.first %}</ul>{% endunless %}
+      {% unless forloop.first %}</table>{% endunless %}
       <h1>{{ currentDate }}</h1>
-      <ul class="archive-list">
+      <table class="archive-list">
       {% assign myDate = currentDate %}
     {% endif %}
-    <li><span class="date-text">{{ post.date | date: "%b %-d" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% if forloop.last %}</ul>{% endif %}
+    <tr>
+      <td class="date-text">{{ post.date | date: "%b %-d" }}</td>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% if forloop.last %}</table>{% endif %}
   {% endfor %}
 </section>
