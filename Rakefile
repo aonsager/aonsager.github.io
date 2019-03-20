@@ -49,7 +49,6 @@ def colors_from_title(title)
 
   # make the search query
   uri = URI(uri + path + "?key=" + CONFIG['google_api_key'] + "&q=" + URI.escape(title) + "&cx=" + CONFIG['search_cx'] + "&searchType=image&num=5")
-  puts uri
   request = Net::HTTP::Get.new(uri)
   response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
       http.request(request)
@@ -176,13 +175,4 @@ task :colorize do
     File.open(file,'w+') {|file| file.puts YAML::dump(headers) + "---\n\n" + content + "\n"}
     puts "Added colors to #{headers['title']}"
   end
-end
-
-task :test do
-  file = '/Users/hekk165/blog/_posts/tumblr/2014-11-17-真如堂.md'
-  contents = File.read(file).split(/^---\s*$/)
-  headers = YAML::load("---\n"+contents[1])
-  content = contents[2].strip
-  puts headers['title']
-  puts colors_from_title(headers['title'])
 end
