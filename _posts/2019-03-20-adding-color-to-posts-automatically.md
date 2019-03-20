@@ -55,7 +55,7 @@ Here are the results for the title "My Vacation in Tahiti":
 
 After playing around with it, I found that just looking at the most frequently used color usually isn't good enough. Most of the time you just end up with a lot of black and white. Instead of looking for the most common color, I should instead look for the most interesting color. There is a lot of room for optimization here, and Picular probably does a lot behind the scenes to make its results visually appealing. For now, I'm just ignoring any colors that are close to black or close to white. So far it's working well enough for my uses.
 
-Even with these adjustments, this method tends to find a lot of colors that are either very dark or very bright. A lot of the colors felt too strong compared to the rest of the site's design. I thought about doing some adjustments to the colors to tone them down, but realized that it's much easier to cheat by reducing the opacity of the colorful bars via CSS.
+Even with these adjustments, this method tends to find a lot of colors that are either very dark or very bright. The colors often felt too strong compared to the rest of the site's design. I thought about doing some adjustments to the colors to tone them down, but realized that it's much easier to cheat by reducing the opacity of the colorful bars via CSS.
 
 I now also include this script in the rake task that generates my post files for Jekyll, so after I write a post it will automatically fetch colors before publishing. I might write another post about how that works, but for now you can see the file [here](https://github.com/aonsager/aonsager.github.io/blob/master/Rakefile) (sorry if I've changed things since I wrote this and it's no longer there).
 
