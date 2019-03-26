@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Adding Color to Posts Automatically
+title: Generating Colors from Post Titles
 slug: adding-color-to-posts-automatically
 link:
 colors:
-- "#C8C9C8"
-- "#A33EEB"
-- "#69644A"
-- "#A23DEA"
-- "#3E5176"
+- "#A27D7A"
+- "#927D67"
+- "#EFAB4D"
+- "#24919A"
+- "#535E5E"
 tags:
 - design
 - blog

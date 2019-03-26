@@ -34,6 +34,7 @@ image_urls.each do |image_url|
   palette.each do |p|
     pixel = p[0]
     hsl = pixel.to_HSL
+    puts hsl
     if hsl[2] < 0.3
       # skip because too dark
       next
@@ -46,5 +47,6 @@ image_urls.each do |image_url|
     end
   end
   colors << color
+  puts "picked #{color}"
 end
 puts colors
