@@ -151,7 +151,7 @@ task :publish, :filename do |t, args|
 end
 
 desc "Retroactively add colors to posts"
-task :colorize do
+task :colorize_all do
   accepted_formats = ['.txt', '.md', '.markdown']
   # Get the list of posts
   dir = File.join(__dir__,'_posts')
@@ -175,4 +175,17 @@ task :colorize do
     File.open(file,'w+') {|file| file.puts YAML::dump(headers) + "---\n\n" + content + "\n"}
     puts "Added colors to #{headers['title']}"
   end
+end
+
+desc "See colors for a given string"
+task :colorize, :title do |t, args|
+  # Expect a title passed (rake draft[title])
+  if !args.title
+    puts "Please provide a title"
+    Process.exit
+  else
+    title = args.title
+  end
+
+  puts colors_from_title(title)
 end
