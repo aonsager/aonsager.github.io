@@ -111,6 +111,7 @@ task :draft, :title do |t, args|
   }
 
   # Write the file out to the _drafts directory
+  Dir.mkdir "#{__dir__}/_drafts"
   file = "#{__dir__}/_drafts/#{headers['slug']}.md"
   File.open(file,'w+') {|file| file.puts YAML::dump(headers) + "---\n"}
   puts %Q{Created draft in #{file}}
@@ -179,7 +180,7 @@ end
 
 desc "See colors for a given string"
 task :colorize, :title do |t, args|
-  # Expect a title passed (rake draft[title])
+  # Expect a title passed (rake colorize[title])
   if !args.title
     puts "Please provide a title"
     Process.exit
