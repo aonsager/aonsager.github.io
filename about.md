@@ -4,6 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
+<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+
 I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. I learned programming by making bad games for my TI-83 calculator. The first things I published online were bad flash websites.
 
 In college I studied programming and human-computer interaction. A team of classmates and I made [a few apps](http://www.sfgate.com/news/article/These-Stanford-Students-Made-Millions-Taking-A-2361888.php) on Facebook, which eventually turned into a startup. This was the first time I made something that was used by a large number of people. It became my introduction to making real products that have users and make money.

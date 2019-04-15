@@ -4,14 +4,21 @@ title: Projects
 permalink: /projects/
 ---
 
+<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+
 Since my day-job doesn't currently involve much programming, I like to work on fun projects on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
 
-## [Check My Wow](http://www.checkmywow.com)
+## Pokemon Fusion
 
-A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing.
+A simple website that replaces heads and swaps colors in Pokemon sprites.
 
-The [source code is here](https://github.com/aonsager/checkmywow), but I haven't put any time into cleaning it up.
+- [Website](http://pokemon.alexonsager.net)
+- Blog posts: [Behind the Scenes]({% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}) and [Missingno.]({% post_url octopress/2014-08-10-missingno-in-pokemon-fusion %})
 
-## [Pokemon Fusion](http://pokemon.alexonsager.net)
 
-A simple website that replaces heads and swaps colors in Pokemon sprites. You can [read more about it here]({% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}).
+## Check My Wow
+
+A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing. I've published the source code but haven't put any time into cleaning it up.
+
+- [Website](http://www.checkmywow.com)
+- [Source code](https://github.com/aonsager/checkmywow)
