@@ -14,11 +14,14 @@ $spacing-unit:     30px !default;
 
 $text-color:       #333 !default;
 $text-color-light: lighten($text-color, 25%) !default;
+$text-color-dark:  #c8c4bc !default;
 $background-color: #fdfdfd !default;
+$background-color-dark: #2d2d2d !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #A9A9A9 !default;
 $grey-color-light: lighten($grey-color, 25%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
 
 
 // Width of the content area

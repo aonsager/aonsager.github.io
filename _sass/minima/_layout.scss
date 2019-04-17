@@ -14,8 +14,11 @@
   @include media-query($on-palm) {
     text-align: center;
     border-bottom: 1px solid $grey-color-light;
-  }
 
+    @media (prefers-color-scheme: dark) {
+      border-bottom: 1px solid $grey-color-dark;
+    }
+  }
 }
 
 .site-title {
@@ -107,6 +110,11 @@
         margin-right: 0;
       }
       margin-left: 20px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      background-color: $background-color-dark;
+      border: 1px solid $grey-color-dark;
     }
   }
 }
@@ -359,4 +367,24 @@ form {
     background-color: $brand-color;
     color: white;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-header {
+    border-top: 5px solid $background-color-dark;
+  }
+
+  .site-title {
+    &,
+    &:visited { color: $text-color-dark }
+  }
+
+  .site-nav .page-link { color: $text-color-dark }
+
+  .post-related { border-top: 1px solid $grey-color-dark }
+
+  .post-list {
+    > li { border-bottom: 1px solid $grey-color-dark }
+  }
+
 }

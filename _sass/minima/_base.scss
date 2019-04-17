@@ -135,9 +135,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
 }
 
 code {
@@ -210,4 +208,28 @@ pre {
   li + li {
     padding-top: 5px;
   }
+}
+
+/**
+ * Dark Mode
+ */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $text-color-dark;
+    background-color: $background-color-dark;
+  }
+
+  a {
+    color: lighten($brand-color, 10%);
+    text-decoration: none;
+
+    &:visited { color: lighten($brand-color, 10%); }
+    &:hover { color: lighten($brand-color, 25%); }
+    &.post-link { color: $text-color-dark; }
+  }
+
+  blockquote { border-left: 8px solid $grey-color; }
+
+  img { opacity: 0.9; }
+
 }
