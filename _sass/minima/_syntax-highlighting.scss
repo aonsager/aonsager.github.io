@@ -34,7 +34,7 @@ code {
   }
 
   .c     { color: $grey; font-style: italic } // Comment
-  .err   { color: $blue; background-color: $grey } // Error
+  .err   { color: $red; background-color: lighten($light-grey, 5%) } // Error
   .k     { color: $magenta } // Keyword
   .o     { font-weight: bold } // Operator
   .cm    { color: $grey; font-style: italic } // Comment.Multiline
@@ -44,7 +44,7 @@ code {
   .gd    { color: $black; background-color: #fdd } // Generic.Deleted
   .gd .x { color: $black; background-color: #faa } // Generic.Deleted.Specific
   .ge    { font-style: italic } // Generic.Emph
-  .gr    { color: $blue } // Generic.Error
+  .gr    { color: $red } // Generic.Error
   .gh    { color: $dark-grey } // Generic.Heading
   .gi    { color: $black; background-color: #dfd } // Generic.Inserted
   .gi .x { color: $black; background-color: #afa } // Generic.Inserted.Specific
@@ -68,7 +68,7 @@ code {
   .ne    { color: $blue } // Name.Exception
   .nf    { color: $blue } // Name.Function
   .nn    { color:  $charcoal } // Name.Namespace
-  .nt    { color: $black } // Name.Tag
+  .nt    { font-weight: bold } // Name.Tag
   .nv    { color: $red } // Name.Variable
   .ow    { font-weight: bold } // Operator.Word
   .w     { color: $grey } // Text.Whitespace

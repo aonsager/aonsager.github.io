@@ -221,7 +221,6 @@ pre {
 
   a {
     color: lighten($brand-color, 10%);
-    text-decoration: none;
 
     &:visited { color: lighten($brand-color, 10%); }
     &:hover { color: lighten($brand-color, 25%); }
