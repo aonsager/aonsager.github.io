@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Maker's Schedule - A Ten Year Retrospective
-link: 
+link:
 colors:
 - "#CFAB66"
 - "#AE8257"
