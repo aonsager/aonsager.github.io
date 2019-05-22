@@ -14,6 +14,8 @@ colors:
 - "#744B3C"
 - "#C4C4C4"
 - "#E9967B"
+archive:
+- work
 ---
 
 <p>Tuesday, May 5th was Gravity Summit&rsquo;s &ldquo;Social Media Marketing for Business&rdquo; at Stanford. I&rsquo;ve known Rodney Rumford since Joachim and I made Graffiti for Facebook, and he was kind enough to save me a spot.</p>

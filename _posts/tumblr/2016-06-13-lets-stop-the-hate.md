@@ -15,6 +15,8 @@ colors:
 - "#D51E20"
 - "#545454"
 - "#F2CE99"
+archive:
+- personal
 ---
 
 <p>I&rsquo;m a supporter of LGBT rights. I&rsquo;m generally not too vocal about it, but with recent events culminating in the Orlando mass shootings, I had to say something.</p>

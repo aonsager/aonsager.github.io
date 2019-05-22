@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is that a Cigarette or a Lollipop?
-link: 
+link:
 tags:
 - life
 - candy
@@ -12,6 +12,8 @@ colors:
 - "#585452"
 - "#D2C9AD"
 - "#FAFA22"
+archive:
+- personal
 ---
 
 I saw a girl at a bus stop who appeared to have a cigarette in her mouth. "Yuck," I thought. Then, I realized it was a lollipop. I immediately wanted to become her friend.

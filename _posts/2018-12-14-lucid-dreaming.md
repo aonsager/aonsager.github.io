@@ -13,6 +13,8 @@ colors:
 - "#48546F"
 - "#44586E"
 - "#435969"
+archive:
+- personal
 ---
 
 I was consistently able to have lucid dreams when I was in high school. Partway through a dream, I would realize that I was dreaming and could then control the rest of the dream to a small extent. As I've grown older though, this has become less and less common. Maybe age has changed something about my brain.
@@ -31,15 +33,15 @@ The next time I had a nightmare, instead of trying to wake up I tried to change 
 
 In *Inception*, the characters have totems that they use to determine if they are in a dream. If the totem is slightly different from the way they remember, they know that it is an imperfect version of the totem that exists within a dream.
 
-It sounds like science fiction, but some people have similar methods of invoking lucid dreams before they even fall asleep. One of my friends in high school would hold an image of a French horn in his mind as he was falling asleep. He would then see the French horn in the dream, and it would be a sign for him to realize he is dreaming. 
+It sounds like science fiction, but some people have similar methods of invoking lucid dreams before they even fall asleep. One of my friends in high school would hold an image of a French horn in his mind as he was falling asleep. He would then see the French horn in the dream, and it would be a sign for him to realize he is dreaming.
 
-One thing that I have read (and noticed personally) is that it's common to not be able to read clocks in dreams. It's hard to describe, but the clock face is hazy and it's as if your mind can't register what time is showing. Or if I ever am using a smartphone in a dream, I always struggle to get it to do what I want. I consistently mistype the same words over and over. These are all signals that can help me to realize that I am dreaming. 
+One thing that I have read (and noticed personally) is that it's common to not be able to read clocks in dreams. It's hard to describe, but the clock face is hazy and it's as if your mind can't register what time is showing. Or if I ever am using a smartphone in a dream, I always struggle to get it to do what I want. I consistently mistype the same words over and over. These are all signals that can help me to realize that I am dreaming.
 
 ## Controlling a lucid dream
 
-I read about people with tremendous control over their lucid dreams. People who fly through the air freely and visit beautiful places around the world. Athletes who perform their sport in their dreams to develop muscle memory without fear of injury. Mathematicians who use the dream-space to visualize multiple dimensions and work out complicated formulas. 
+I read about people with tremendous control over their lucid dreams. People who fly through the air freely and visit beautiful places around the world. Athletes who perform their sport in their dreams to develop muscle memory without fear of injury. Mathematicians who use the dream-space to visualize multiple dimensions and work out complicated formulas.
 
-Even after becoming lucid within a dream, I had a hard time controlling them. I was never able to fly, for example. The closest I got was jumping far by falling slowly. Changing my location was generally impossible, too. Like my attempted visit to the beach, changing too much about the dream around me would just wake me up. Instead, I could look for a door that leads into a room with a pool, for example, but it would often take me some time and effort to find that door. 
+Even after becoming lucid within a dream, I had a hard time controlling them. I was never able to fly, for example. The closest I got was jumping far by falling slowly. Changing my location was generally impossible, too. Like my attempted visit to the beach, changing too much about the dream around me would just wake me up. Instead, I could look for a door that leads into a room with a pool, for example, but it would often take me some time and effort to find that door.
 
 It felt like my dreams had rules, and if I pushed too hard the dream would collapse and I would wake up. I had to be very careful to only make changes that fell within the dream's rules to make sure that I could stay inside the dream.
 

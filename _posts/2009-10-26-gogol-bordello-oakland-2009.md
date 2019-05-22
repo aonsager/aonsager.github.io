@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gogol Bordello – Oakland 2009
-link: 
+link:
 tags:
 - gogol bordello
 - music

@@ -13,6 +13,8 @@ colors:
 - "#48446C"
 - "#4A4673"
 - "#DE303F"
+archive:
+- game
 ---
 
 ## Concept
@@ -25,7 +27,7 @@ In terms of strategy, the ghosts will need to work together in order to win. Pac
 
 <!-- more -->
 
-The fact that the ghosts can share information makes the game much harder for Pac-Man than the original, so he needs a new advantage too. We allow Pac-Man to see the entire map, but the ghosts can only see a small radius around them. The ghosts' vision is shared with each other, so together they can see a large portion of the map. 
+The fact that the ghosts can share information makes the game much harder for Pac-Man than the original, so he needs a new advantage too. We allow Pac-Man to see the entire map, but the ghosts can only see a small radius around them. The ghosts' vision is shared with each other, so together they can see a large portion of the map.
 
 The game then becomes a hide-and-seek game, where the ghosts spread out strategically to try to find Pac-Man. Pac-Man hides from them for as long as possible while collecting dots along the way. If the ghosts find an area with no dots, they will know that Pac-Man has already been there. Once Pac-Man is spotted, the ghosts converge on his position and Pac-Man must try to escape before becoming trapped.
 

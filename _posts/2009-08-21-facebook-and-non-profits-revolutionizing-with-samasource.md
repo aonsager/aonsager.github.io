@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Facebook and Non-Profits: Revolutionizing with Samasource'
-link: 
+link:
 tags:
 - facebook
 - samasource
@@ -13,6 +13,8 @@ colors:
 - "#757576"
 - "#CACBCB"
 - "#CE7E59"
+archive:
+- work
 ---
 
 *Originally posted on the [fbFund blog](http://fbfund.com/facebook-and-non-profits-revolutionizing-with-samasource/)*

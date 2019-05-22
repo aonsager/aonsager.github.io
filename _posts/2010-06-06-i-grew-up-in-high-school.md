@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Grew Up in High School
-link: 
+link:
 tags:
 - personal
 - life
@@ -14,6 +14,8 @@ colors:
 - "#755446"
 - "#DC985A"
 - "#7A7774"
+archive:
+- personal
 ---
 
 I might even say that I didn’t grow up in any meaningful way before I started high school.

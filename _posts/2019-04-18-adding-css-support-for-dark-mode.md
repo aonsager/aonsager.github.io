@@ -15,6 +15,8 @@ tags:
 - mac
 - dark mode
 - color
+archive:
+- coding
 ---
 
 {% include image.html image="darkmode.png" width="600px" %}

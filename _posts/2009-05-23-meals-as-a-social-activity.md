@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meals as a Social Activity
-link: 
+link:
 tags:
 - life
 - thought
@@ -14,6 +14,8 @@ colors:
 - "#9A9A94"
 - "#75452E"
 - "#71524E"
+archive:
+- personal
 ---
 
 Today I ate dinner alone. I think there is nothing wrong with that, but you just don’t see people alone in restaurants all that often (Aren’t you going to be bored? Do you want a magazine or something?). Eating meals, in most cultures everywhere, is regarded as a social activity. I would like to explore why, and have a few hypotheses.

@@ -6,7 +6,7 @@ description: A simple rake task to dump the contents of a MySQL database and sav
 keywords: ruby, rake, mysql, backup, s3, automation
 date: 2013-11-29 01:54
 comments: true
-link: 
+link:
 tags:
 - programming
 - ruby
@@ -19,6 +19,8 @@ colors:
 - "#E78E6F"
 - "#166CB3"
 - "#645C58"
+archive:
+- coding
 ---
 
 A simple rake task to dump the contents of a MySQL database and save it to an Amazon S3 bucket. Use together with [whenever](https://github.com/javan/whenever) to automate it.
@@ -41,12 +43,12 @@ namespace :backup do
     AWS::S3::DEFAULT_HOST.replace "s3-us-west-2.amazonaws.com"
 
     AWS::S3::Base.establish_connection!(
-      :access_key_id => '{KEY}', 
+      :access_key_id => '{KEY}',
       :secret_access_key => '{SECRET}')
-      
+
     AWS::S3::S3Object.store(
-      "backups/#{file_name}", 
-      File.open("#{file_path}"), 
+      "backups/#{file_name}",
+      File.open("#{file_path}"),
       bucket)
   end
 

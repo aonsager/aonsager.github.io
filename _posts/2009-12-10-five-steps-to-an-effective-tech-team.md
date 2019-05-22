@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Five Steps to an Effective Tech Team
-link: 
+link:
 tags:
 - business
 - team
@@ -14,6 +14,8 @@ colors:
 - "#5A6C68"
 - "#AEA391"
 - "#494C67"
+archive:
+- work
 ---
 
 I recently experienced two of the most informative and useful meetings of my life. Lloyd Taylor, the former VP of Technical Operations at LinkedIn, and Olana Khan, the former COO of Kiva, graciously donated their time to speak to us about how to organize our technology goals. We had been in the process of formalizing our thoughts for an upcoming board meeting, but their expert feedback allowed us to cement in some much-needed structure. In addition, we also were given invaluable advice about how to lead an effective technology team in general.
@@ -38,10 +40,10 @@ At Samasource, and nearly all other startups, the list of things we want to do i
 
 Each organization is going to have different objectives and different ways of prioritizing, but the point is to be clear about what those methods are, be deliberate in assigning priorities to different objectives, and to be ruthless about cutting out low priority items. Some important questions to ask are, can the company survive without this feature? How does this affect our bottom-line? Does this item relate to any organizational bottlenecks? I’ve tried to organize our projects into 4 categories:
 
-> 1) High priority items that either fix bottlenecks or have high return on investments  
-> 2) Medium priority items that would be great but aren’t necessarily killing us  
-> 3) Low priority items that would be great but that we could do without  
-> 4) Items that don’t immediately affect business processes but are essential steps towards achieving high-priority goals. 
+> 1) High priority items that either fix bottlenecks or have high return on investments
+> 2) Medium priority items that would be great but aren’t necessarily killing us
+> 3) Low priority items that would be great but that we could do without
+> 4) Items that don’t immediately affect business processes but are essential steps towards achieving high-priority goals.
 
 Once you have the system in place, run every idea through it and be certain of what your main priorities are. You need to be sure that your time is being used in the best way possible.
 

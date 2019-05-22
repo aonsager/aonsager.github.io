@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pray for Japan
-link: 
+link:
 tags:
 - japan
 - tsunami

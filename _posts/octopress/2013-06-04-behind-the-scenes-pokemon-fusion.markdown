@@ -3,7 +3,7 @@ layout: post
 title: 'Pokemon Fusion: Behind the Scenes'
 date: 2013-06-04 00:41
 comments: true
-link: 
+link:
 tags:
 - tech
 - programming
@@ -16,6 +16,8 @@ colors:
 - "#496464"
 - "#42495F"
 - "#00ACD5"
+archive:
+- coding
 ---
 
 I've been getting a few questions about the script used to generate the [Pokemon Fusion](http://pokemon.alexonsager.net) sprites, so I thought I would write a quick blog post to describe the process.

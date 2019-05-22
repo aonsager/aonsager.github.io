@@ -15,6 +15,8 @@ tags:
 - color
 - tool
 - automation
+archive:
+- coding
 ---
 
 This blog has an intentionally simple design, but lately I've been thinking that it needs more color. A lot of the posts don't have images and are just text, so large areas of the page are black and white with nothing visually interesting. That said, trying to include an image with every post is a pain. I would probably spend more time browsing stock images than actually writing the posts.

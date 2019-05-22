@@ -14,6 +14,8 @@ tags:
 - work
 - health
 - office
+archive:
+- personal
 ---
 
 I've come to learn that I really enjoy working in environments with only natural lighting. At my job, I work in a large open room with about 50 people. Many of them are artists who need to minimize the glare on their screens, so the great big windows covering the walls of our room are always covered with blinds, and we instead have fluorescent lights turned on (these do cause glare too, but at least they are more predictable so people can tilt their screens to minimize it).

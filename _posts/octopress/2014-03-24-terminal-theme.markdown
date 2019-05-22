@@ -5,7 +5,7 @@ description: A color theme for Mac OSX Terminal
 keywords: mac, osx, terminal, customize, color theme, base16
 date: 2014-03-24 15:12
 comments: true
-link: 
+link:
 tags:
 - mac
 - design
@@ -17,6 +17,8 @@ colors:
 - "#E94B35"
 - "#3D576C"
 - "#43516D"
+archive:
+- coding
 ---
 
 ![New Terminal setup](/assets/terminal.png)

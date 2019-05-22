@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Samasource Selected for fbFund REV
-link: 
+link:
 tags:
 - samasource
 - facebook
@@ -14,15 +14,17 @@ colors:
 - "#6F6A6B"
 - "#725A4D"
 - "#FCAA38"
+archive:
+- work
 ---
 
 Hooray! Along with 18 companies and one other non-profit, **Samasource was chosen to participate in fbFund’s incubator program this summer**. Check out the full list of winners on [VentureBeat](http://venturebeat.com/2009/05/28/fbfund-17-companies-and-2-nonprofits-win-head-to-palo-alto/) or [InsideFacebook](http://www.insidefacebook.com/2009/05/28/facebook-announces-19-2009-fbfund-winners/).
 
-What this means is that we’ll have Palo Alto office space, lots of media attention, an official Facebook seal of approval, and possibly free lunches */crossfingers*. The catch? 
+What this means is that we’ll have Palo Alto office space, lots of media attention, an official Facebook seal of approval, and possibly free lunches */crossfingers*. The catch?
 
 <!-- more -->
 
-> Due to the way fbFund is structured, the non-profit startups cannot receive funding ([Facebook dev blog](http://developers.facebook.com/news.php?blog=1&story=249)). 
+> Due to the way fbFund is structured, the non-profit startups cannot receive funding ([Facebook dev blog](http://developers.facebook.com/news.php?blog=1&story=249)).
 
 Bummer...
 

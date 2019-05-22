@@ -13,6 +13,8 @@ colors:
 - "#635A6E"
 - "#58596C"
 - "#444F75"
+archive:
+- game
 ---
 
 I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.
@@ -23,15 +25,15 @@ A series of recent changes made to WoW were designed to motivate players to play
 
 ## What makes a subscription-based game worth its price?
 
-All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously]({% post_url 2017-11-30-pay-to-win %}) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy. 
+All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously]({% post_url 2017-11-30-pay-to-win %}) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy.
 
-Unlike games that sell items, games with a subscription model don't need to maximize revenue per user because everybody pays the same price. Instead, the most important metric is how many people will keep playing the following month. The total revenue per user is determined by how many months they spend playing the game. 
+Unlike games that sell items, games with a subscription model don't need to maximize revenue per user because everybody pays the same price. Instead, the most important metric is how many people will keep playing the following month. The total revenue per user is determined by how many months they spend playing the game.
 
-Traditional console games need to convince people to pay money just once. "$60 will get you more than 100 hours of fun gameplay!" On the other hand, subscription-based games need to convince people to pay money **every month**. One thing that helps people make a decision is whether they felt like the previous month was worth the price. So online games do their best to make sure that people are always satisfied with the time they have spent playing the game so far. 
+Traditional console games need to convince people to pay money just once. "$60 will get you more than 100 hours of fun gameplay!" On the other hand, subscription-based games need to convince people to pay money **every month**. One thing that helps people make a decision is whether they felt like the previous month was worth the price. So online games do their best to make sure that people are always satisfied with the time they have spent playing the game so far.
 
 ## How to design a subscription-based game
 
-Most online RPGs follow a basic progression system that can give players a fun game experience over a long period of time. You enter a dungeon, beat a few bosses, and get a few strong items. The dungeons reset each week, and since those new items make you a little bit stronger you can get a little further in the dungeon. After a few months you are strong enough to defeat the final boss, and by that time the game will (hopefully) soon release a new dungeon. 
+Most online RPGs follow a basic progression system that can give players a fun game experience over a long period of time. You enter a dungeon, beat a few bosses, and get a few strong items. The dungeons reset each week, and since those new items make you a little bit stronger you can get a little further in the dungeon. After a few months you are strong enough to defeat the final boss, and by that time the game will (hopefully) soon release a new dungeon.
 
 You always have a challenge, and you are always making progress towards completing the challenge. It's almost like you're buying and playing a new small game every few months, but it's much more meaningful because you keep the same character who is constantly growing stronger.
 
@@ -41,7 +43,7 @@ So then, what can go wrong and make people want to stop playing?
 
 The most competitive players will defeat all of the game's bosses very quickly, and have little to do inside the game until the next dungeon is released. If there is nothing meaningful to do inside the game, then there's no reason to spend money to keep playing. Making social elements important or having players battle each other are possible solutions, but online games constantly struggle to make sure that high-ranked players will always have a reason to keep playing.
 
-In other cases, a player might have plenty left to do but still feel like their time in the game was not spent well. You could play for many hours fighting bosses, but never manage to get any new strong items just because you were unlucky. All of the time spent fighting bosses would feel lost because you gained nothing for your effort. 
+In other cases, a player might have plenty left to do but still feel like their time in the game was not spent well. You could play for many hours fighting bosses, but never manage to get any new strong items just because you were unlucky. All of the time spent fighting bosses would feel lost because you gained nothing for your effort.
 
 At the end of the month, players will ask themselves, "Did I get my money's worth last month?" If you spent $15 to play a game but didn't make any progress, you might feel like that was a waste of money.
 
@@ -51,9 +53,9 @@ Not quite.
 
 ## People pay for their time. Don't devalue it.
 
-The issue is that if every hour you spend in the game makes you stronger, you are now required to spend many hours playing the game if you want to be strong. Before, I could play for a few hours on the weekend fighting bosses and if I was lucky I would get some great items and be a strong player. I was happy with that. But now having the good items isn't enough. I'm required to make my items stronger by spending many more hours gaining extra experience points to improve them. 
+The issue is that if every hour you spend in the game makes you stronger, you are now required to spend many hours playing the game if you want to be strong. Before, I could play for a few hours on the weekend fighting bosses and if I was lucky I would get some great items and be a strong player. I was happy with that. But now having the good items isn't enough. I'm required to make my items stronger by spending many more hours gaining extra experience points to improve them.
 
-In that sense, the time I spend fighting bosses is only meaningful if I also spend more time making the items stronger. Without the extra time put in, I can only get weak items from bosses. And what if I can't because I'm too busy during the rest of the week? My time spent in the game, which hasn't changed, is now worth less because I get less benefit from it. I now feel like I'm no longer getting my money's worth from the game. And ironically, the cause was a new system designed to make every hour spent in the game feel more valuable. 
+In that sense, the time I spend fighting bosses is only meaningful if I also spend more time making the items stronger. Without the extra time put in, I can only get weak items from bosses. And what if I can't because I'm too busy during the rest of the week? My time spent in the game, which hasn't changed, is now worth less because I get less benefit from it. I now feel like I'm no longer getting my money's worth from the game. And ironically, the cause was a new system designed to make every hour spent in the game feel more valuable.
 
 ## What was wrong with these changes?
 
