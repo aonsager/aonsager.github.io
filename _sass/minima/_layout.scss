@@ -320,6 +320,9 @@
 }
 
 p.archive-categories {
+  margin-top: $spacing-unit / -2;
+  text-align: center;
+
   a {
     text-decoration: none;
     color: black;
