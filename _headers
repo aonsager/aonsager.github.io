@@ -1,4 +1,0 @@
-/assets/*.jpg
-  Cache-Control: public, s-max-age=360000
-/assets/*.png
-  Cache-Control: public, s-max-age=360000

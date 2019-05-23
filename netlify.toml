@@ -1,0 +1,8 @@
+[[headers]]
+  for = "/assets/*.jpg"
+  [headers.values]
+    Cache-Control = "public, s-max-age=360000"
+[[headers]]
+  for = "/assets/*.png"
+  [headers.values]
+    Cache-Control = "public, s-max-age=360000"
