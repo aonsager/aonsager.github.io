@@ -9,7 +9,7 @@ require 'rmagick'
 # == Configuration =============================================================
 
 # Load the configuration file
-CONFIG = YAML.load_file("_config.yml")
+CONFIG = YAML.load_file("_local_config.yml")
 
 # Get and parse the date
 DATE = Time.now.strftime("%Y-%m-%d")

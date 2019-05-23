@@ -1,0 +1,4 @@
+# Save this file as _local_config.yml and enter key values
+
+google_api_key: "APIKEY"
+search_cx: "SEARCHCX"

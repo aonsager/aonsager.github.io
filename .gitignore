@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 .tweet-cache
 /.netlify/
+
+/_local_config.yml

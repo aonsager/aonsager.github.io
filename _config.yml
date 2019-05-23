@@ -24,9 +24,6 @@ header_pages:
 twitter_username: aonsager
 github_username:  aonsager
 linkedin_username:  alexonsager
-google_analytics: UA-8798911-2
-google_api_key: "AIzaSyCdYw5EQ6NsXAzff1HxOD08rfBKckKUElU"
-search_cx: "013154599818599383961:hamsrluhjr0"
 
 # Build settings
 markdown: kramdown

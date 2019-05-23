@@ -266,10 +266,6 @@
 
 .post-content {
 
-  p {
-    font-family: $body-font-family;
-  }
-
   h2 {
     @include relative-font-size(1.5);
     letter-spacing: -1px;
@@ -365,7 +361,6 @@ form {
     padding: 5px 12px;
     border: 1px solid #cccccc;
     border-radius: 2px;
-    font-family: $body-font-family;
     font-size: $base-font-size;
   }
 
