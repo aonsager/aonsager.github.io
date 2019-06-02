@@ -26,6 +26,8 @@ group :jekyll_plugins do
   gem 'github-pages'
 end
 
+gem 'rmagick'
+
 # Upgrade to patch security vulnerability
 gem "nokogiri", ">= 1.8.2"
 gem "rubyzip", ">= 1.2.2"

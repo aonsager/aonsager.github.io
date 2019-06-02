@@ -217,6 +217,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rmagick (3.1.0)
     rouge (2.2.1)
     ruby-enum (0.7.2)
       i18n
@@ -251,6 +252,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-redirect-from
   nokogiri (>= 1.8.2)
+  rmagick
   rubyzip (>= 1.2.2)
 
 BUNDLED WITH

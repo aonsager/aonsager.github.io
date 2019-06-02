@@ -190,3 +190,64 @@ task :colorize, :title do |t, args|
 
   puts colors_from_title(title)
 end
+
+desc "Resize images to a max width of 800px"
+task :resize, :dir do |t, args|
+  MAX_WIDTH = 800
+  # Expect a directory passed (rake thumbnails[dir])
+  if !args.dir
+    puts "Please provide a directory (rake thumbnails[dir]"
+    Process.exit
+  else
+    dir = args.dir
+  end
+  @files = Dir["#{dir}/*"]
+  @files.each do |filepath|
+    puts filepath
+    begin
+      img = Magick::Image.read(filepath).first
+    rescue
+      puts "Skipping #{filepath}"
+      next
+    end
+
+    scaling_factor = 1.0 * MAX_WIDTH / img.columns
+    if scaling_factor < 1
+      new_image = img.resize(scaling_factor)
+      new_image.write filepath
+    end
+  end
+end
+
+desc "Create thumbnails for a folder of images"
+task :thumbnails, :dir do |t, args|
+  MAX_WIDTH = 200
+  # Expect a directory passed (rake thumbnails[dir])
+  if !args.dir
+    puts "Please provide a directory (rake thumbnails[dir]"
+    Process.exit
+  else
+    dir = args.dir
+  end
+  Dir.mkdir "#{dir}/thumbs" unless File.directory?("#{dir}/thumbs")
+  @files = Dir["#{dir}/*"]
+  @files.each do |filepath|
+    puts filepath
+    # create thumbnails
+    begin
+      img = Magick::Image.read(filepath).first
+    rescue
+      puts "Skipping #{filepath}"
+      next
+    end
+
+    thumb_path = "#{dir}/thumbs/#{filepath.split('/').last}"
+
+    scaling_factor = 1.0 * MAX_WIDTH / img.columns
+    size = [img.columns * scaling_factor, img.rows * scaling_factor]
+
+    thumbnail = img.thumbnail(*size)
+    thumbnail.write thumb_path
+  end
+
+end
