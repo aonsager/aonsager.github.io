@@ -2,7 +2,7 @@
 layout: post
 title: Ōkunoshima - The Island of Bunnies
 slug: okunoshima---the-island-of-bunnies
-link: 
+link:
 colors:
 - "#6F645A"
 - "#534F4A"
@@ -17,7 +17,7 @@ tags:
 - personal
 ---
 
-{% include image.html image="okunoshima/banner.jpg" %}
+{% include image.html image="okunoshima/okunoshima24.jpg" %}
 
 Located east of Hiroshima in the Seto Inland Sea, Ōkunoshima (大久野島) is a small island home to over 700 rabbits. The rabbits are wild but friendly, and tourists arrive every day with bags full of food and treats. The island was relatively unknown in Japan until recently when its populality among foreign visitors brought it into the spotlight.
 
