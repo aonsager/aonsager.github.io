@@ -1,0 +1,38 @@
+{% capture thumb_dir %}assets/{{ include.image_dir }}/thumbs{% endcapture %}
+<div class="grid">
+{% for image in site.static_files %}
+  {% if image.path contains thumb_dir %}
+    <div class="grid-item">
+      <a href="{{ site.baseurl }}/assets/{{ include.image_dir }}/{{ image.name }}" data-lightbox="{{ include.image_dir }}">
+        <img width="160" src="{{ image.path }}" alt="image" />
+      </a>
+    </div>
+  {% endif %}
+{% endfor %}
+
+<script src="/assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/js/masonry.pkgd.min.js"></script>
+<script>
+  // Lightbox
+  lightbox.option({
+    'alwaysShowNavOnTouchDevices': true,
+    'fadeDuration': 200,
+    'imageFadeDuration': 0,
+    'resizeDuration': 0,
+    'wrapAround': true
+  })
+
+  // Masonry
+  var grid = document.querySelector('.grid');
+  var msnry;
+  imagesLoaded( grid, function() {
+    // init Isotope after all images have loaded
+    msnry = new Masonry( grid, {
+      itemSelector: '.grid-item',
+      columnWidth: 160,
+      fitWidth: true,
+      gutter: 5,
+    });
+  });
+</script>

@@ -382,6 +382,14 @@ form {
   }
 }
 
+.grid {
+  margin: 0px auto;
+
+  .grid-item {
+    margin-bottom: 5px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .site-header {
     border-top: 5px solid $background-color-dark;
