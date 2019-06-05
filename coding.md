@@ -9,10 +9,10 @@ permalink: /archive/coding/
 <section class="archive-post-list">
 
   <p class="archive-categories">
-    <a href="/archive/">All</a>
-    <a href="/archive/games/">Games</a>
-    <a class="selected" href="/archive/coding/">Coding</a>
-    <a href="/archive/personal/">Personal</a>
+    <a href="/archive">All</a>
+    <a href="/archive/games">Games</a>
+    <a class="selected" href="/archive/coding">Coding</a>
+    <a href="/archive/personal">Personal</a>
   </p>
 
   <table>
