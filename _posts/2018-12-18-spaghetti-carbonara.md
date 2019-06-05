@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spaghetti Carbonara
+image: "carbonara.jpg"
 tags:
 - cooking
 - pasta

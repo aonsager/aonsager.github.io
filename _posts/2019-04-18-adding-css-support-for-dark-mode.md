@@ -3,6 +3,7 @@ layout: post
 title: Adding CSS Support for Dark Mode
 slug: adding-css-support-for-dark-mode
 link:
+image: "darkmode.png"
 colors:
 - "#5B6571"
 - "#465A6D"
