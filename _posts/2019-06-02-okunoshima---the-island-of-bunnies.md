@@ -3,6 +3,7 @@ layout: post
 title: Ōkunoshima - The Island of Bunnies
 slug: okunoshima---the-island-of-bunnies
 link:
+image: 'okunoshima/okunoshima24.jpg'
 colors:
 - "#6F645A"
 - "#534F4A"

@@ -106,6 +106,7 @@ task :draft, :title do |t, args|
     'title' => title,
     'slug' => transform_to_slug(title),
     'link' => nil,
+    'image' => nil,
     'colors' => nil,
     'tags' => nil,
   }
