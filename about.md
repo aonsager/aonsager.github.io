@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about
+permalink: /about/
 ---
 
 <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
@@ -14,7 +14,7 @@ In 2010 I started working for [a mobile game company](http://en.happyelements.co
 
 I consider myself very fortunate that the products I've worked on have been used and enjoyed by so many people. In the future I want to continue creating things that have a large impact on people, and I hope to focus more on doing work that makes the world a better place.
 
-Since my day-job doesn't currently involve much programming, I like to work on [fun projects](/projects) on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
+Since my day-job doesn't currently involve much programming, I like to work on [fun projects](/projects/) on the side that let me build things directly. While I mostly make them for myself, a few have also become pretty popular.
 
 # Contact
 
