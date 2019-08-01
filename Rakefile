@@ -94,7 +94,7 @@ desc "Create a draft"
 task :draft, :title do |t, args|
   # Expect a title passed (rake draft[title])
   if !args.title
-    puts "Please provide a title"
+    puts "Please provide a title (rake draft[title])"
     Process.exit
   else
     title = args.title
