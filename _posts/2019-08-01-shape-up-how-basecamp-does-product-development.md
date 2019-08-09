@@ -3,7 +3,7 @@ layout: post
 title: Shape Up - How Basecamp does Product Development
 slug: shape-up-how-basecamp-does-product-development
 link: https://basecamp.com/shapeup
-image: 
+image:
 colors:
 - "#999999"
 - "#A3A3A3"
@@ -14,7 +14,7 @@ tags:
 - product
 - management
 - work
-- teamwork
+- team
 - basecamp
 ---
 
