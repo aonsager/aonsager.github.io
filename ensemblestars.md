@@ -8,11 +8,16 @@ permalink: /ensemblestars/
 
 [Ensemble Stars](https://stars.happyelements.co.jp) is a project I worked on at Happy Elements. I was the lead game designer for the mobile app released in 2015, which featured virtual teen idols and released episodic stories about their lives on and off the stage. Over the years it grew into a multimedia project that produced novels, comics, music CDs, live concerts, holographic concerts, and an anime show. We started as a game studio and ended up doing work not far from being a talent agency for virtual idols.
 
-### Major Achievements
+### Major Achievements (As of 2019)
 
-- Received "Rookie Award" in 2015 Famitsu Awards ([Famitsu](https://www.famitsu.com/news/201605/10105433.html))
-- #1 Top Grossing iOS App in Japan on 9/15/2016 ([Social Game Info](https://gamebiz.jp/?p=169202))
-- 7th most Tweeted-about game in 2018 ([Twitter](https://blog.twitter.com/en_us/topics/events/2019/Gaming-grabs-the-high-score-on-Twitter.html))
+- Received "Rookie Award" in 2015 Famitsu Awards. ([Famitsu](https://www.famitsu.com/news/201605/10105433.html))
+- #1 Top Grossing iOS App in Japan on 9/15/2016. ([Social Game Info](https://gamebiz.jp/?p=169202))
+- 7th most Tweeted-about game in 2018. ([Twitter](https://blog.twitter.com/en_us/topics/events/2019/Gaming-grabs-the-high-score-on-Twitter.html))
+- 48 music CDs released. [→](#)
+- 7 musical stage productions. [→](#)
+- 4 concert tours featuring 3D projections of the characters. [→](#)
+- 3 concert tours featuring the characters' voice actors. [→](#)
+- 2 seasons of an anime show. [→](#)
 
 ## The World of Ensemble Stars
 
