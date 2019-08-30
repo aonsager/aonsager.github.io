@@ -118,7 +118,7 @@ p a {
 blockquote {
   background-color: #f7f7f7;
   border: 1px solid $grey-color-light;
-  border-left: 8px solid $text-color;
+  border-left: 8px solid #c3c3c3;
   padding: ($spacing-unit / 2) $spacing-unit;
   @include relative-font-size(1);
 
@@ -227,7 +227,11 @@ pre {
     &.post-link { color: $text-color-dark; }
   }
 
-  blockquote { border-left: 8px solid $grey-color; }
+  blockquote {
+    background-color: #353535;
+    border: 1px solid #454545;
+    border-left: 8px solid #505050;
+  }
 
   img { opacity: 0.9; }
 
