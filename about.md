@@ -18,17 +18,4 @@ Since my day-job doesn't currently involve much programming, I like to work on [
 
 # Contact
 
-Please use the form below if you want to send me a message.
-
-<form name="contact" method="POST" netlify>
-  <p>
-    <input type="text" name="name" placeholder="Your Name" />
-    <input type="email" name="email" placeholder="Your Email" />
-  </p>
-  <p>
-    <textarea name="message" placeholder="Message" ></textarea>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+If you'd like to get in touch, you can email me at alex.onsager@gmail.com
