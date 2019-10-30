@@ -13,11 +13,11 @@ permalink: /ensemblestars/
 - Received "Rookie Award" in 2015 Famitsu Awards. ([Famitsu](https://www.famitsu.com/news/201605/10105433.html))
 - #1 Top Grossing iOS App in Japan on 9/15/2016. ([Social Game Info](https://gamebiz.jp/?p=169202))
 - 7th most Tweeted-about game in 2018. ([Twitter](https://blog.twitter.com/en_us/topics/events/2019/Gaming-grabs-the-high-score-on-Twitter.html))
-- 48 music CDs released. [→](#)
-- 7 musical stage productions. [→](#)
+- 2 seasons of an anime show. [→](#)
 - 4 concert tours featuring 3D projections of the characters. [→](#)
 - 3 concert tours featuring the characters' voice actors. [→](#)
-- 2 seasons of an anime show. [→](#)
+- 7 musical stage productions. [→](#)
+- 43 music CDs released. [→](#)
 
 ## The World of Ensemble Stars
 
@@ -28,7 +28,7 @@ The project takes place in a fictional world, focusing on a cast of more than 40
 
 It isn't unusual for cartoon or virtual characters to have large fan followings in Japan, and fictional idols are no exception. Fans will buy CDs and attend concerts, performed either by prerecorded renderings of the characters or by the voice actors in person.
 
-Starting as a mobile game was pretty unusual though, since in 2015 most game developers believed that the overwhelming majority of gamers were male. Games targeting a female audience at the time were almost entirely romance simulations, and Ensemble Stars broke the mold by using gameplay elements that were common in games dominated by male players. The risk paid off though, and the project quickly gained enough of a following that it could expand into other mediums.
+Starting as a mobile game was pretty unusual though, since in 2015 most game developers believed that the overwhelming majority of gamers were male. Games targeting a female audience at the time were almost entirely romance simulations, and Ensemble Stars broke the mold by using gameplay elements that were common in games dominated by male players. The risk paid off, and the project quickly gained enough of a following that it could expand into other mediums.
 
 ## The Game
 
@@ -45,3 +45,7 @@ The gameplay itself is extremely simple. Players can spend energy to accompany a
 While most of the gameplay is centered on collecting and training cards, the main motivation comes from unlockable stories that are released periodically. The stories are written by a team of writers lead by [日日日](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%97%A5%E6%97%A5), a prominent Japanese novelist, and show the characters' daily lives as students as well as their efforts as professional idols. The stories focus strongly on the relationships between characters, and there is a huge volume of information about the students and their backstories. Most players of the app have one or several favorite characters, and each limited-time event features a new story arc with different characters given the spotlight each time.
 
 The event-exclusive cards feature key scenes from these stories, and fans of the characters will be able to save these scenes to their card collections and recreate them in future concerts. While it's not difficult to unlock and read all of the new stories, the strongest cards have the most attractive artwork and require significant effort to collect.
+
+## Music CDs
+
+Each idol group has released multiple music CDs, featuring the voice actors performing original songs as the game characters. There have been 3 series of CD singles and one series of compilations albums, for a total of 43 releases. Of these, 35 reached the top 10 in the Oricon daily sales rankings.
