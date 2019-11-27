@@ -4,7 +4,7 @@ title: Ensemble Stars
 permalink: /ensemblestars/
 ---
 
-{% include image.html image="images/ensemblestars/top.jpg" %}
+{% include image.html image="ensemblestars/top.jpg" %}
 
 [Ensemble Stars](https://stars.happyelements.co.jp) is a project I worked on at Happy Elements. I was the lead game designer for the mobile app released in 2015, which featured virtual teen idols and released episodic stories about their lives on and off the stage. Over the years it grew into a multimedia project that produced novels, comics, music CDs, live concerts, holographic concerts, and an anime show. We started as a game studio and ended up doing work not far from being a talent agency for virtual idols.
 
