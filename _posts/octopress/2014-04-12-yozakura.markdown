@@ -5,7 +5,7 @@ description: 花見にて、夜桜の写真
 keywords: 花見, 桜, 飲み会, 写真, sakura, hanami, flowers, photography
 date: 2014-04-12 10:15
 comments: true
-link: 
+link:
 tags:
 - photo
 - japan
@@ -19,4 +19,4 @@ colors:
 - "#553970"
 ---
 
-[![夜桜](/assets/yozakura_s.jpg)](/assets/yozakura.jpg)
+[![夜桜](/assets/images/yozakura_s.jpg)](/assets/images/yozakura.jpg)

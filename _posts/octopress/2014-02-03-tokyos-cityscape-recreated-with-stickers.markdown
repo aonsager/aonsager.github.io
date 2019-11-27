@@ -21,4 +21,4 @@ colors:
 
 By artist [Yukino Ohmura](http://yukinoart.wix.com/home#!__news).
 
-![Rainbow Bridge](/assets/tokyo-sticker.jpg)
+![Rainbow Bridge](/assets/images/tokyo-sticker.jpg)

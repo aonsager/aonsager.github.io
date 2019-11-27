@@ -195,9 +195,9 @@ end
 desc "Resize images to a max width of 800px"
 task :resize, :dir do |t, args|
   MAX_WIDTH = 800
-  # Expect a directory passed (rake thumbnails[dir])
+  # Expect a directory passed (rake resize[dir])
   if !args.dir
-    puts "Please provide a directory (rake thumbnails[dir]"
+    puts "Please provide a directory (rake resize[dir]"
     Process.exit
   else
     dir = args.dir

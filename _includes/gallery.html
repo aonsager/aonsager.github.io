@@ -1,9 +1,9 @@
-{% capture thumb_dir %}assets/{{ include.image_dir }}/thumbs{% endcapture %}
+{% capture thumb_dir %}assets/images/{{ include.image_dir }}/thumbs{% endcapture %}
 <div class="grid">
 {% for image in site.static_files %}
   {% if image.path contains thumb_dir %}
     <div class="grid-item">
-      <a href="{{ site.baseurl }}/assets/{{ include.image_dir }}/{{ image.name }}" data-lightbox="{{ include.image_dir }}">
+      <a href="{{ site.baseurl }}/assets/images/{{ include.image_dir }}/{{ image.name }}" data-lightbox="{{ include.image_dir }}">
         <img width="160" src="{{ image.path }}" alt="image" />
       </a>
     </div>

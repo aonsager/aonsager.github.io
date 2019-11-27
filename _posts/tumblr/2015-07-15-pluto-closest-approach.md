@@ -22,4 +22,4 @@ colors:
 
 <p>And here is the best picture we had previously, taken by Hubble. Pretty amazing stuff</p>
 
-<p><img src="/assets/pluto-hubble-01.jpg" alt="Pluto" width="400px"/></p>
+<p><img src="/assets/images/pluto-hubble-01.jpg" alt="Pluto" width="400px"/></p>

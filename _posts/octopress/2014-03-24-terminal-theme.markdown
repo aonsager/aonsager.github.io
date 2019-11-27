@@ -21,7 +21,7 @@ archive:
 - coding
 ---
 
-![New Terminal setup](/assets/terminal.png)
+![New Terminal setup](/assets/images/terminal.png)
 
 You can download the theme [here](http://images.alexonsager.net/downloads/Base16.terminal.zip)
 

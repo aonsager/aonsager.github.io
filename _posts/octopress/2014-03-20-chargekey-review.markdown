@@ -5,7 +5,7 @@ description: Reviewing the Chargekey, a key-sized USB to Lightning cable
 keywords: chargekey, product, review, mac, iphone, charge, cable, nomad, gadget
 date: 2014-03-20 20:28
 comments: true
-link: 
+link:
 tags:
 - tech
 - product
@@ -24,11 +24,11 @@ It's essentially a key-sized USB to Lightning cable that you will can have avail
 
 <!-- more -->
 
-![Chargekey](/assets/chargekey1.jpg)
+![Chargekey](/assets/images/chargekey1.jpg)
 
 Plugging it in got a connection right away and charging seemed just as fast as with an Apple cable. The rubber casing feels sturdy enough, and the bending turned out to be very useful when the USB drive wasn't flat on the desk.
 
-![Chargekey](/assets/chargekey2.jpg)
+![Chargekey](/assets/images/chargekey2.jpg)
 
 The only worry I have is how much wear and tear the exposed connections will see, especially if I'm taking my keys in and out of my pocket frequently.
 

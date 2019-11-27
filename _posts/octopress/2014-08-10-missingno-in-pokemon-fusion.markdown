@@ -29,7 +29,7 @@ Missingno. appears whenever there is an invalid ID in the URL, so acts as a fun 
 
 <!-- more -->
 
-![Pikassingno.](/assets/pikassingno.png)
+![Pikassingno.](/assets/images/pikassingno.png)
 
 The glich images were generated with ImageMagick (the Rmagick ruby gem in particular), using the spread function to displace pixels by a certain amount. In this case, I also shrunk the image first to exaggerate the pixelation, and it brought it back to normal size afterwards.
 

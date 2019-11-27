@@ -5,7 +5,7 @@ description: iPhone 5 Wallpaper - Stormtrooper Prism
 keywords: iphone, wallpaper, stormtrooper, prism
 date: 2014-04-09 13:46
 comments: true
-link: 
+link:
 tags:
 - design
 - personal
@@ -19,7 +19,7 @@ colors:
 - "#B0B0B0"
 ---
 
-[![Stormtrooper Prism](/assets/stormtrooper_s.jpg)](/assets/stormtrooper.jpg)
+[![Stormtrooper Prism](/assets/images/stormtrooper_s.jpg)](/assets/images/stormtrooper.jpg)
 
 Please let me know if you know the source of this image.
 

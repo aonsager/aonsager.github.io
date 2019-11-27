@@ -5,7 +5,7 @@ description: LINE users fight Chinese scammers in a hilarious way
 keywords: LINE, scam, Tiananmen, phishing, China, 天安門
 date: 2014-07-23 14:14
 comments: true
-link: 
+link:
 tags:
 - funny
 - news
@@ -19,7 +19,7 @@ colors:
 - "#AAA5A3"
 ---
 
-Q: What do you do when you're being scammed by a Chinese scam artist?  
+Q: What do you do when you're being scammed by a Chinese scam artist?
 A: Use their country's internet censorship against them.
 
 LINE, the hugely popular Japanese messaging app, has been seeing a recent surge in scamming activity. In the most common scenario, the scam artist will gain access to a user's account and message their friends, asking them to purchase online gift cards and send the serial number. Many people were targeted by this scam, and it received some mainstream media attention.
@@ -32,6 +32,6 @@ The magic word is "Tiananmen Square Incident" (天安門事件). By sending this
 
 Creative ways of dealing with scammers are always fun to see, but this is a wonderfully elegant solution that gets immediate results.
 
-![Scaring away the scam artist](/assets/tiananmen1.png)
+![Scaring away the scam artist](/assets/images/tiananmen1.png)
 
 [via @16go_rider](https://twitter.com/16go_rider/status/483553229884502016)
