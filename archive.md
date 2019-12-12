@@ -24,6 +24,15 @@ permalink: /archive/
       {% assign myDate = currentDate %}
     {% endif %}
     <tr>
+      <td style="width:150px">
+        {% if post.colors %}
+          <div class="color-cell" style="background-color: {{post.colors[0]}}">&nbsp;</div>
+          <div class="color-cell" style="background-color: {{post.colors[1]}}">&nbsp;</div>
+          <div class="color-cell" style="background-color: {{post.colors[2]}}">&nbsp;</div>
+          <div class="color-cell" style="background-color: {{post.colors[3]}}">&nbsp;</div>
+          <div class="color-cell" style="background-color: {{post.colors[4]}}">&nbsp;</div>
+        {% endif %}
+      </td>
       <td class="date-text">{{ post.date | date: "%b %-d" }}</td>
       <td><a href="{{ post.url }}">{{ post.title }}</a></td>
     </tr>

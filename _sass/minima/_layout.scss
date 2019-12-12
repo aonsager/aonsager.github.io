@@ -334,10 +334,29 @@ p.archive-categories {
 }
 
 table.archive-list {
+  border-collapse: collapse;
+  border-spacing: 0;
   margin-bottom: $spacing-unit;
+  width: 100%;
 
   td {
     padding: 0px;
+
+    .color-cell {
+      margin: 0px;
+      padding: 0px;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      float: left;
+      opacity: 0.4;
+    }
+  }
+
+  tr:hover {
+    .color-cell {
+      opacity: 1;
+    }
   }
 }
 
@@ -346,6 +365,7 @@ table.archive-list {
   min-width: $spacing-unit * 2;
   text-align: right;
   margin-right: $spacing-unit / 2;
+  margin-left: $spacing-unit / 2;
   color: $grey-color;
 }
 
