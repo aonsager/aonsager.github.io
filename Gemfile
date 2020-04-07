@@ -27,6 +27,7 @@ group :jekyll_plugins do
 end
 
 gem 'rmagick'
+gem 'rake'
 
 # Upgrade to patch security vulnerability
 gem "nokogiri", ">= 1.10.4"

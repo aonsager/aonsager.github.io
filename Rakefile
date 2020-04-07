@@ -46,7 +46,7 @@ end
 def colors_from_title(title)
   uri  = "https://www.googleapis.com"
   path = "/customsearch/v1"
-
+  title = title[0...30]
   # make the search query
   uri = URI(uri + path + "?key=" + CONFIG['google_api_key'] + "&q=" + URI.escape(title) + "&cx=" + CONFIG['search_cx'] + "&searchType=image&num=5")
   request = Net::HTTP::Get.new(uri)
