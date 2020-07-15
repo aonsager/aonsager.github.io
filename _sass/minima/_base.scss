@@ -25,6 +25,15 @@ body {
   font-kerning: normal;
 }
 
+.aside {
+  padding: $spacing-unit / 2;
+  margin-bottom: $spacing-unit;
+  background-color: $grey-color-light;
+  color: $grey-color-dark;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
 
 
 /**
