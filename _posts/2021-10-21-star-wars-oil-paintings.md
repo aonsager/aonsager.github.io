@@ -3,7 +3,7 @@ layout: post
 title: Star Wars Oil Paintings
 slug: star-wars-oil-paintings
 link: https://www.nacicaba.com/star-wars-paintings/
-image: 
+image: 2021/star-wars-oil.jpg
 colors:
 - "#5A6264"
 - "#C0C3C6"
