@@ -109,6 +109,7 @@ task :draft, :title do |t, args|
     'image' => nil,
     'colors' => nil,
     'tags' => nil,
+    'archive' => nil,
   }
 
   # Write the file out to the _drafts directory
