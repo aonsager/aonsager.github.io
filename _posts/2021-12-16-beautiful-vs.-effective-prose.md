@@ -30,6 +30,6 @@ It was around this time that I first saw the [Simple English Wikipedia](https://
 
 "But," nagged a deep and quiet part of my mind, "that can't be the full story. Poetry and literature, sure, it's easy to set those aside and say maybe that it's an art form, it's writing for the sake of writing, and that's why the pursuit of beauty can occur. Normal, day-to-day writing is not the same.
 
-"What about Journalism, then? That's writing to share information, but when you recall the most esteemed journalists they aren't the ones who write like a press release. They are those who have perfected their craft, who can shape their words into a compelling picture to evoke emotional reactions in the reader. Isn't that what you should strive for?"
+"What about, say, Journalism? That's writing to share information, but when you recall the most esteemed journalists they aren't the ones who write like a press release. They are those who have perfected their craft, who can shape their words into a compelling picture to evoke emotional reactions in the reader. Isn't that what you should strive for?"
 
 Yes, of course. Beautiful or effective? You want a lot of both. And unless you're writing an instruction manual, sometimes prose needs to be beautiful to be effective. I haven't taken writing seriously in a very long time, so unfortunately my writing now is not much of either, but I suppose now is a fine time to start looking for my best voice again.
