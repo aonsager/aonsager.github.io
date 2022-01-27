@@ -5,11 +5,11 @@ slug: beautiful-vs.-effective-prose
 link: 
 image: 
 colors:
-- "#929089"
-- "#5B5C65"
-- "#BBB6AE"
-- "#B2B2B2"
-- "#A88E64"
+- "#746955"
+- "#0E0A08"
+- "#619C5E"
+- "#090503"
+- "#FEFDFC"
 tags:
 - personal
 - writing

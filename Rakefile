@@ -70,7 +70,7 @@ def colors_from_title(title)
     color = q.to_color(palette[0][0]) # default to most common value, will try to replace
     palette.each do |p|
       pixel = p[0]
-      hsl = pixel.to_HSL
+      hsl = pixel.to_hsla
       if hsl[2] < 0.3
         # skip because too dark
         next

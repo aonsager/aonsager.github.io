@@ -27,7 +27,7 @@ group :jekyll_plugins do
   gem 'github-pages', "~> 221"
 end
 
-gem 'rmagick', "~> 3.1.0"
+gem 'rmagick', "~> 4.1.2"
 gem 'rake'
 
 # Upgrade to patch security vulnerability
