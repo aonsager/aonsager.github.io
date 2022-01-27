@@ -71,10 +71,10 @@ def colors_from_title(title)
     palette.each do |p|
       pixel = p[0]
       hsl = pixel.to_hsla
-      if hsl[2] < 0.3
+      if hsl[2] < 50
         # skip because too dark
         next
-      elsif hsl[2] > 0.8
+      elsif hsl[2] > 200
         # skip because too light
         next
       else
