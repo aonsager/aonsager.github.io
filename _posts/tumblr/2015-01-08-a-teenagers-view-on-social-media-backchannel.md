@@ -10,11 +10,11 @@ tags:
 - teens
 link: https://medium.com/backchannel/a-teenagers-view-on-social-media-1df945c09ac6
 colors:
-- "#8FB3BF"
-- "#798182"
-- "#FFFC02"
-- "#90B3C1"
-- "#55595F"
+- "#0767C4"
+- "#FFF800"
+- "#B0AFAF"
+- "#FFF800"
+- "#544537"
 ---
 
 <p>Very informative description of how teens and college students use the major social networks</p>

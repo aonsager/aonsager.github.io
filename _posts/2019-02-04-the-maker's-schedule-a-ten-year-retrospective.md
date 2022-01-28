@@ -3,11 +3,11 @@ layout: post
 title: The Maker's Schedule - A Ten Year Retrospective
 link:
 colors:
-- "#CFAB66"
-- "#AE8257"
-- "#704839"
-- "#C7312E"
-- "#787878"
+- "#0229E3"
+- "#55160F"
+- "#526269"
+- "#5E5D68"
+- "#5E575B"
 tags:
 - programming
 - business

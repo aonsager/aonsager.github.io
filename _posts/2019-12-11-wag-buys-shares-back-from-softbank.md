@@ -5,11 +5,11 @@ slug: wag-buys-shares-back-from-softbank
 link: https://www.bloomberg.com/opinion/articles/2019-12-10/the-dogs-ate-softbank-s-money
 image:
 colors:
-- "#6C4E37"
-- "#59675B"
-- "#72482D"
-- "#75674D"
-- "#685D54"
+- "#B8B9C5"
+- "#9F9EA9"
+- "#D11304"
+- "#D41304"
+- "#D11304"
 tags:
 - business
 - money

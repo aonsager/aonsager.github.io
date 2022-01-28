@@ -9,11 +9,11 @@ tags:
 - adult
 - memory
 colors:
-- "#C6C6C6"
-- "#C5C5C5"
-- "#755446"
-- "#DC985A"
-- "#7A7774"
+- "#26334A"
+- "#C8CCA9"
+- "#55482B"
+- "#748B8B"
+- "#573114"
 archive:
 - personal
 ---

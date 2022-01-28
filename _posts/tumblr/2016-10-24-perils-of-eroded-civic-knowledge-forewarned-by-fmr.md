@@ -10,11 +10,11 @@ tags:
 - america
 link: http://www.msnbc.com/rachel-maddow/watch/perils-of-eroded-civic-knowledge-forewarned-790540867791
 colors:
-- "#696760"
-- "#8FA7BF"
-- "#6A666F"
-- "#6C655F"
-- "#755E5E"
+- "#E69FA1"
+- "#A4A4A5"
+- "#E2A1A2"
+- "#E69FA0"
+- "#B0B0B0"
 ---
 
 <p>This is extremely important.</p>

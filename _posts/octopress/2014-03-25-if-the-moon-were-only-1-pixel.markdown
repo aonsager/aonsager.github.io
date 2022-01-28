@@ -12,11 +12,11 @@ tags:
 - graph
 - space
 colors:
-- "#717171"
-- "#6D6D6D"
-- "#EDC80B"
-- "#63605D"
-- "#FCE407"
+- "#DE5A0D"
+- "#FFC500"
+- "#343434"
+- "#FBC100"
+- "#8D8D8D"
 ---
 
 > A tediously accurate scale model of the solar system

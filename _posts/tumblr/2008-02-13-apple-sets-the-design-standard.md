@@ -9,11 +9,11 @@ tags:
 - article
 link: http://www.businessweek.com/innovate/content/jan2007/id20070108_046657.htm
 colors:
-- "#746969"
-- "#444174"
-- "#746768"
-- "#C6C6C9"
-- "#9A8E8A"
+- "#919534"
+- "#B0B0B1"
+- "#515964"
+- "#1E2356"
+- "#E1AEA7"
 ---
 
 <p>A pretty good article describing Apple&rsquo;s success with their high attention to design.</p>

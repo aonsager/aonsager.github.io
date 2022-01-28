@@ -14,11 +14,11 @@ tags:
 - script
 - aws
 colors:
-- "#6C6C6F"
-- "#544385"
-- "#E78E6F"
-- "#166CB3"
-- "#645C58"
+- "#B0B0B0"
+- "#A8ABB1"
+- "#35276B"
+- "#56CA09"
+- "#919191"
 archive:
 - coding
 ---

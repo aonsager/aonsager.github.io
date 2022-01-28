@@ -12,11 +12,11 @@ tags:
 - dev
 - pokemon
 colors:
-- "#9E9B9F"
-- "#A8A3A8"
-- "#F5CA44"
-- "#363C74"
-- "#A19BAC"
+- "#9C9BA1"
+- "#605B62"
+- "#675A5C"
+- "#A29EA5"
+- "#696969"
 archive:
 - coding
 ---

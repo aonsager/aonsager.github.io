@@ -10,11 +10,11 @@ tags:
 - story
 link: http://www.dadhacker.com/blog/?p=987
 colors:
-- "#6B564C"
-- "#6F4731"
-- "#937A56"
-- "#987B62"
-- "#C5C5C5"
+- "#77DAFB"
+- "#163855"
+- "#89286F"
+- "#5E1E13"
+- "#A0CEE3"
 ---
 
 <p>An excellent story about the making of Donkey Kong and what it was like to work in an early video game company. </p>

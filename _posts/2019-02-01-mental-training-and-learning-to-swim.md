@@ -8,11 +8,11 @@ tags:
 - mind
 - dream
 colors:
-- "#7EC0D9"
-- "#E2D0AA"
-- "#F46466"
-- "#4D949B"
-- "#0DA2D2"
+- "#F7F405"
+- "#4F9AFC"
+- "#F7D602"
+- "#022F6D"
+- "#B1B1B3"
 archive:
 - personal
 ---

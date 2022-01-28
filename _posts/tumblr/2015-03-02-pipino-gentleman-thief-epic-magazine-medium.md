@@ -9,11 +9,11 @@ tags:
 - thief
 link: https://medium.com/epic-magazine/pipino-gentleman-thief-ede9713dafb1
 colors:
-- "#AFD0CD"
-- "#AFD0CD"
-- "#AAAAA0"
-- "#FF8E11"
-- "#A35948"
+- "#686859"
+- "#EFD998"
+- "#656659"
+- "#646559"
+- "#656659"
 ---
 
 <p>Magicians, Mafiosos, a Missing Painting, and the Heist of a Lifetime</p>

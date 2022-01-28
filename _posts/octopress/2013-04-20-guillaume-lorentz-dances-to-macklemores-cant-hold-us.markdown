@@ -9,11 +9,11 @@ tags:
 - music
 - dance
 colors:
-- "#78767D"
-- "#78767D"
-- "#777679"
-- "#79767C"
-- "#6A5F60"
+- "#25491E"
+- "#A72E0D"
+- "#6C3012"
+- "#8A5958"
+- "#552B1A"
 ---
 
 I absolutely love the energy

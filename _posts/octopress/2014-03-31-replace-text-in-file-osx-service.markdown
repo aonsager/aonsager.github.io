@@ -12,11 +12,11 @@ tags:
 - programming
 - script
 colors:
-- "#B0B1B1"
-- "#736565"
-- "#9F9A9B"
-- "#C6C6C7"
-- "#2F74CB"
+- "#648ADC"
+- "#A1B4D2"
+- "#172D6F"
+- "#B2B2B2"
+- "#636666"
 archive:
 - coding
 ---

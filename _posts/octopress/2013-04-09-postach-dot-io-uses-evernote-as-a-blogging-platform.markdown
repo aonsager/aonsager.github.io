@@ -9,11 +9,11 @@ tags:
 - blogging
 - evernote
 colors:
-- "#7CDABE"
-- "#ACCAC5"
-- "#37CCA2"
-- "#706B65"
-- "#AED6CE"
+- "#0D6645"
+- "#07643A"
+- "#2D514B"
+- "#9D9FA1"
+- "#4F4F50"
 ---
 
 I personally am worried by the dependency on Evernote, but it seems like a great way to get a web presence if you're a heavy user already.

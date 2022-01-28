@@ -8,11 +8,11 @@ tags:
 - game
 - communication
 colors:
-- "#F2A95D"
-- "#EA0539"
-- "#A2A2A1"
-- "#FA0250"
-- "#B19B7B"
+- "#FF8219"
+- "#938977"
+- "#B0AFAF"
+- "#68574F"
+- "#47AFCA"
 archive:
 - game
 ---

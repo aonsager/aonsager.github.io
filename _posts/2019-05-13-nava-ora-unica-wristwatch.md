@@ -3,13 +3,13 @@ layout: post
 title: NAVA Ora Unica Wristwatch
 slug: nava-ora-unica-wristwatch
 link: https://www.navadesign.com/blog/ora-unica-design-watch/
-image: "ora-unica-watch.jpg"
+image: ora-unica-watch.jpg
 colors:
-- "#545454"
-- "#5F6266"
-- "#525252"
-- "#625D63"
-- "#727272"
+- "#363534"
+- "#5F1B21"
+- "#B3B3B3"
+- "#38332C"
+- "#C53A48"
 tags:
 - design
 - watch

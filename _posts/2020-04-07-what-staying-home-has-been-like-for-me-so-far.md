@@ -5,11 +5,11 @@ slug: what-staying-home-has-been-like-for-me-so-far
 link:
 image:
 colors:
-- "#C4BBC4"
-- "#4C4D51"
-- "#D0D00F"
-- "#685338"
-- "#5F6160"
+- "#B6A676"
+- "#A68E67"
+- "#463834"
+- "#A0A59A"
+- "#605E62"
 tags:
 - life
 - covid

@@ -9,11 +9,11 @@ tags:
 - report
 tumblr_url: http://www.alexonsager.net/post/105313655/gravity-summit-stanford-wrap-up
 colors:
-- "#546E47"
-- "#E8967B"
-- "#744B3C"
-- "#C4C4C4"
-- "#E9967B"
+- "#50251F"
+- "#0D3397"
+- "#F54606"
+- "#514C4D"
+- "#F54706"
 archive:
 - work
 ---

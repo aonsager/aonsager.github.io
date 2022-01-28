@@ -9,11 +9,11 @@ tags:
 - nonprofit
 - startup
 colors:
-- "#43586C"
-- "#A5A8A7"
-- "#6F6A6B"
-- "#725A4D"
-- "#FCAA38"
+- "#614E25"
+- "#5C5C5C"
+- "#B3B3B3"
+- "#4D4946"
+- "#5D5D5D"
 archive:
 - work
 ---

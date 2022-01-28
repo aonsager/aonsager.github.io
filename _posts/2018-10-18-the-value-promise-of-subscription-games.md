@@ -8,11 +8,11 @@ tags:
 - mmo
 - product
 colors:
-- "#B1B1B1"
-- "#787270"
-- "#635A6E"
-- "#58596C"
-- "#444F75"
+- "#F8EA93"
+- "#B5B5B5"
+- "#F7CD8E"
+- "#B0B0B0"
+- "#B0AFB0"
 archive:
 - game
 ---

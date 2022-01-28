@@ -11,11 +11,11 @@ tags:
 - game
 - product
 colors:
-- "#DC8C7F"
-- "#C6B3CA"
-- "#5D584E"
-- "#CCCCAE"
-- "#FFF20A"
+- "#624D33"
+- "#F7ED51"
+- "#A5A5A0"
+- "#A2A2A2"
+- "#B64336"
 archive:
 - game
 ---

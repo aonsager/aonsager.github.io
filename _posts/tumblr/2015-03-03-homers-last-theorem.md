@@ -9,11 +9,11 @@ tags:
 - tv
 link: http://boingboing.net/2014/10/17/homers-last-theorem.html
 colors:
-- "#FFD33C"
-- "#31743B"
-- "#565656"
-- "#EC3A3F"
-- "#AC704A"
+- "#692A11"
+- "#5B5B5B"
+- "#AEA0A9"
+- "#692A11"
+- "#585858"
 ---
 
 <p>A look into the deep, dark, strangely complicated world of Simpsons mathematics.</p>

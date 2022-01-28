@@ -11,11 +11,11 @@ tags:
 - ruby
 - pokemon
 colors:
-- "#119BCA"
-- "#06ADD5"
-- "#496464"
-- "#42495F"
-- "#00ACD5"
+- "#5D5E60"
+- "#E74F62"
+- "#F39C10"
+- "#B45932"
+- "#56472E"
 archive:
 - coding
 ---

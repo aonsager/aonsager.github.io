@@ -9,11 +9,11 @@ tags:
 - product
 - politics
 colors:
-- "#2024B1"
-- "#787174"
-- "#7FEEAC"
-- "#745A4A"
-- "#2181AD"
+- "#C6C6C6"
+- "#6E7171"
+- "#A1A0B3"
+- "#575B5C"
+- "#545353"
 ---
 
 When I started using Facebook in 2005, it was exclusive to college students and was by far the best way to communicate with my classmates. It was the first time I could learn what my friends were up to without asking each one individually. Everything I wanted to know about my friends was in one easily accessible place.

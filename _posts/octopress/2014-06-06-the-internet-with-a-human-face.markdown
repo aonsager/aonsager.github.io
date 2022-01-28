@@ -13,11 +13,11 @@ tags:
 - privacy
 - politics
 colors:
-- "#724C3B"
-- "#695658"
-- "#9F9D9A"
-- "#9E7763"
-- "#703730"
+- "#532A19"
+- "#011268"
+- "#716659"
+- "#562F1F"
+- "#5A311A"
 ---
 
 An excellent talk by Maciej Cegłowski on the bleak state of mass surveillance the internet.

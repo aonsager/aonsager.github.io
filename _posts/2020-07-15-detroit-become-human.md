@@ -2,14 +2,14 @@
 layout: post
 title: 'Detroit: Become Human'
 slug: detroit-become-human
-link: 
-image: 
+link:
+image:
 colors:
 - "#945065"
 - "#955066"
-- "#A5B0CF"
-- "#965066"
-- "#965168"
+- "#663449"
+- "#222953"
+- "#965166"
 tags:
 - game
 - opinion

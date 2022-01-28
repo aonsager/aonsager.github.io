@@ -9,11 +9,11 @@ tags:
 - article
 link: http://www.newyorker.com/magazine/2014/11/24/good-game
 colors:
-- "#744C4E"
-- "#734C31"
-- "#97959B"
-- "#675758"
-- "#734A2E"
+- "#B7C9CB"
+- "#BACDC6"
+- "#B7C9CB"
+- "#B7CBC7"
+- "#B7C9CA"
 ---
 
 <p>Very cool profile of Scarlett, a professional StarCraftII player</p>

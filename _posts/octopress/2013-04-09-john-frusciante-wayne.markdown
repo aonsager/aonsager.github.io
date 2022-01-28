@@ -7,11 +7,11 @@ link: http://johnfrusciante.com/2013/04/07/wayne/
 tags:
 - music
 colors:
-- "#665F4C"
-- "#706859"
-- "#2B7F92"
-- "#6E5743"
-- "#2B7F92"
+- "#E0DDAA"
+- "#195959"
+- "#615E5B"
+- "#737670"
+- "#9D1516"
 ---
 
 John Frusciante releases a song in memory of his friend.

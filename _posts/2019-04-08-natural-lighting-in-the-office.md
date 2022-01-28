@@ -4,11 +4,11 @@ title: Natural Lighting in the Office
 slug: natural-lighting-in-the-office
 link:
 colors:
-- '#BE6A4B'
-- '#BFB072'
-- '#647EBF'
-- '#C0B09F'
-- '#BF9A6D'
+- "#676365"
+- "#B1B0AD"
+- "#675D57"
+- "#564638"
+- "#67552A"
 tags:
 - personal
 - work

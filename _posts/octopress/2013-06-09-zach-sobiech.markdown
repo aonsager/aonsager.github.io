@@ -9,11 +9,11 @@ tags:
 - music
 - life
 colors:
-- "#3E4576"
-- "#74482C"
-- "#744D30"
-- "#714D33"
-- "#75493D"
+- "#1B2157"
+- "#5C2A26"
+- "#5A2115"
+- "#552914"
+- "#634E29"
 ---
 
 Zach Sobiech was diagnosed with terminal cancer at age 14. He used the small amount of time he had left to produce music, which has reached and touched millions.

@@ -9,11 +9,11 @@ tags:
 - work
 - programming
 colors:
-- "#A1D2F4"
-- "#CDAD9A"
-- "#5A6C68"
-- "#AEA391"
-- "#494C67"
+- "#02366B"
+- "#6C8D91"
+- "#9F9F9F"
+- "#E56003"
+- "#A8A8A7"
 archive:
 - work
 ---

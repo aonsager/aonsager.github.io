@@ -10,11 +10,11 @@ tags:
 - graph
 link: http://dataclysm.org/relationshiptest
 colors:
-- "#3174A0"
-- "#777879"
-- "#C6C8CA"
-- "#4875A6"
-- "#C6C6C7"
+- "#959596"
+- "#A2A2A2"
+- "#0C2E59"
+- "#B2B2B2"
+- "#A59D9B"
 ---
 
 <blockquote>

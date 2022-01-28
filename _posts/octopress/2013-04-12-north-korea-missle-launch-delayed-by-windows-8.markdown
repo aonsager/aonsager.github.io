@@ -11,11 +11,11 @@ tags:
 - north korea
 - missile
 colors:
-- "#5E696B"
-- "#5E6A6B"
-- "#6C7475"
-- "#7582AD"
-- "#5E696B"
+- "#52454C"
+- "#F2DD63"
+- "#6C6877"
+- "#8AB5C7"
+- "#D3B28F"
 ---
 
 \#OnionOrActualHeadline

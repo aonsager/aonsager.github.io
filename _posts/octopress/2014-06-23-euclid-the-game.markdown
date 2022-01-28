@@ -11,11 +11,11 @@ tags:
 - math
 - puzzle
 colors:
-- "#505571"
-- "#AAA9A9"
-- "#C6C7C7"
-- "#C5C6C6"
-- "#C8C8C8"
+- "#4C4D4E"
+- "#9B8D77"
+- "#B1B1B1"
+- "#B1B1B3"
+- "#A6A296"
 ---
 
 Euclid The Game is a puzzle game that challenges you to use simple methods like drawing circles, translating lines, and bisecting angles to solve geometric puzzles. Very addicting, and it made me remember just how powerful tools like a compass can be.

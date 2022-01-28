@@ -11,11 +11,11 @@ tags:
 - nintendo
 - AI
 colors:
-- "#6488F3"
-- "#A34753"
-- "#6488F3"
-- "#733A29"
-- "#459F52"
+- "#665C52"
+- "#707070"
+- "#665149"
+- "#562A0F"
+- "#114F62"
 ---
 
 The program is given a set of inputs from a human playing the game, and analyzes the RAM to define success in the game. It then plays the game with no knowledge of the rules, and works incredibly well.

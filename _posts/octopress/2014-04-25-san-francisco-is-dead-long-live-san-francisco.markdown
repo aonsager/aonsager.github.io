@@ -12,11 +12,11 @@ tags:
 - america
 - politics
 colors:
-- "#757778"
-- "#7292B0"
-- "#757778"
-- "#2E707D"
-- "#5E7AA2"
+- "#50504C"
+- "#F19823"
+- "#515252"
+- "#4F4F4E"
+- "#383732"
 ---
 
 Gary Kamiya has an excellent article in San Francisco Magazine, talking about the many factors and consequences of San Francisco's economic growth.

@@ -10,11 +10,11 @@ tags:
 - dev
 link: http://aws.amazon.com/lambda
 colors:
-- "#C6C6C6"
-- "#A55629"
-- "#FFAE00"
-- "#F5822E"
-- "#FB7E13"
+- "#AF2202"
+- "#D3210B"
+- "#AFB0B0"
+- "#3D454C"
+- "#FD3400"
 ---
 
 <blockquote>

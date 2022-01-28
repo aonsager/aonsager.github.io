@@ -2,14 +2,14 @@
 layout: post
 title: Beautiful vs. Effective Prose
 slug: beautiful-vs.-effective-prose
-link: 
-image: 
+link:
+image:
 colors:
-- "#746955"
-- "#0E0A08"
+- "#5B5C65"
 - "#619C5E"
-- "#090503"
-- "#FEFDFC"
+- "#4D2719"
+- "#B0B0B0"
+- "#B0B0B0"
 tags:
 - personal
 - writing

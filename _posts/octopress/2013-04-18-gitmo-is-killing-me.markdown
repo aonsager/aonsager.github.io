@@ -10,11 +10,11 @@ tags:
 - article
 - politics
 colors:
-- "#774128"
-- "#A4A4A4"
-- "#80776E"
-- "#787878"
-- "#7F776E"
+- "#5F5F5F"
+- "#A1A1A1"
+- "#4F4F4F"
+- "#946B58"
+- "#4F4F4F"
 ---
 
 A chilling story told by a prisoner at Guantanamo Bay. I hope that someday we'll look back and wonder how anything like this could have been possible.

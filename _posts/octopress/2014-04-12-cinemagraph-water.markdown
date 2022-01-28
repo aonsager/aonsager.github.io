@@ -5,16 +5,16 @@ description: A cinemagraph of pouring water
 keywords: cinemagraph, photography, pouring water
 date: 2014-04-12 16:43
 comments: true
-link: 
+link:
 tags:
 - photo
 - cinemagraph
 colors:
-- "#636065"
-- "#675F52"
-- "#596D96"
-- "#B4C2C7"
-- "#9BA0A4"
+- "#9D9F95"
+- "#4D4B52"
+- "#4A2F2D"
+- "#4C4C50"
+- "#112B59"
 ---
 
 <iframe src="https://gfycat.com/ifr/AcidicAlertGharial" frameborder="0" scrolling="no" width="480" height="270" ></iframe>

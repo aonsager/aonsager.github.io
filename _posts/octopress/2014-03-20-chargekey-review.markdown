@@ -11,11 +11,11 @@ tags:
 - product
 - review
 colors:
-- "#7B7670"
-- "#C4C4C4"
-- "#7B7670"
-- "#C9C6C7"
-- "#ACA094"
+- "#6995DF"
+- "#746556"
+- "#A49A87"
+- "#ACB5D0"
+- "#5D2A0E"
 ---
 
 I recently received a review unit of the [Chargekey](http://www.hellonomad.com/products/chargekey-iphone5).

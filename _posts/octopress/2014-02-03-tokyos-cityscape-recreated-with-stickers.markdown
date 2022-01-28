@@ -12,11 +12,11 @@ tags:
 - japan
 - art
 colors:
-- "#6C6157"
-- "#6C6056"
-- "#734F40"
-- "#6F6F61"
-- "#716E66"
+- "#CDA98E"
+- "#5E616E"
+- "#4E4734"
+- "#0654B0"
+- "#4C4E4F"
 ---
 
 By artist [Yukino Ohmura](http://yukinoart.wix.com/home#!__news).

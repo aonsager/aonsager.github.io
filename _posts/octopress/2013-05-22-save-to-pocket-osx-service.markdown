@@ -9,11 +9,11 @@ tags:
 - mac
 - script
 colors:
-- "#CE5153"
-- "#757574"
-- "#51B9B4"
-- "#715944"
-- "#767676"
+- "#636063"
+- "#B2AFB0"
+- "#BEC0CA"
+- "#B0B0B0"
+- "#AFAFAF"
 archive:
 - coding
 ---

@@ -5,17 +5,17 @@ description: Cate Blanchett accuses camera operator of sexism, highlights larger
 keywords: blanchett, feminism, sexism, red carpet
 date: 2014-04-03 21:58
 comments: true
-link: 
+link:
 tags:
 - opinion
 - news
 - gender
 colors:
-- "#74362B"
-- "#736763"
-- "#755E54"
-- "#ACADAE"
-- "#DA4B49"
+- "#6D0910"
+- "#4D322D"
+- "#A31118"
+- "#5D220E"
+- "#562F22"
 ---
 
 [During an E! interview at a red carpet ceremony](http://mattsgifs.com/post/73774946424), the camera operator takes a sweeping toe-to-head shot of Cate Blanchett, when she crouches down to ask, _"Do you do that to the guys?"_ The internet explodes with opinion, and more fuel is added to the increasing fight against the objectification of women in media.

@@ -10,11 +10,11 @@ tags:
 - america
 link: http://metrocosm.com/new-york-city-property-values-in-perspective
 colors:
-- "#F1F04C"
-- "#C6C6C7"
-- "#F86E0C"
-- "#A32A20"
-- "#F1EF45"
+- "#D0D1B8"
+- "#4C342F"
+- "#514934"
+- "#026B34"
+- "#4C372B"
 ---
 
 <p>Property values across the U.S., where the area of each state has been substituted for its total property value.</p>

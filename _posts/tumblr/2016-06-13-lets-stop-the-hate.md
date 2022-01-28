@@ -10,11 +10,11 @@ tags:
 - politics
 tumblr_url: http://www.alexonsager.net/post/145851246773/lets-stop-the-hate
 colors:
-- "#D64C42"
-- "#E3D4A1"
-- "#D51E20"
-- "#545454"
-- "#F2CE99"
+- "#363636"
+- "#C4A85A"
+- "#9E1A19"
+- "#CCA83A"
+- "#6F6F71"
 archive:
 - personal
 ---

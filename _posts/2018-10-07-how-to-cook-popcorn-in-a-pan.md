@@ -8,11 +8,11 @@ tags:
 - life
 - tips
 colors:
-- "#5A5F6D"
-- "#A0A4AD"
-- "#717369"
-- "#797779"
-- "#696870"
+- "#959AA9"
+- "#F09790"
+- "#A25B16"
+- "#685956"
+- "#E3650C"
 ---
 
 The best way to cook popcorn in a pan. The secret is to heat up the kernels evenly in hot oil first, before heating them over a flame to pop them quickly all at once.

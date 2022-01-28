@@ -9,11 +9,11 @@ tags:
 - google
 - map
 colors:
-- "#294696"
-- "#C73034"
-- "#68695E"
-- "#7B7A75"
-- "#524854"
+- "#55679D"
+- "#565152"
+- "#610B0D"
+- "#980505"
+- "#A5A6A8"
 ---
 
 See a Google Street View at a random point in the world, guess where it is on a map.

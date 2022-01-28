@@ -9,10 +9,10 @@ tags:
 - music
 tumblr_url: http://www.alexonsager.net/post/80894546/thelonius-monks-advice-to-saxophonist-steve-lacy
 colors:
-- "#C6C6C6"
-- "#C6C6C6"
-- "#C6C6C6"
-- "#C6C6C6"
+- "#939393"
+- "#C8C8C8"
+- "#C7C7C7"
+- "#B1B1B1"
 - "#B1B1B1"
 ---
 

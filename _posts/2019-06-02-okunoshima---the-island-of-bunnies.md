@@ -3,13 +3,13 @@ layout: post
 title: Ōkunoshima - The Island of Bunnies
 slug: okunoshima---the-island-of-bunnies
 link:
-image: 'okunoshima/okunoshima24.jpg'
+image: okunoshima/okunoshima24.jpg
 colors:
-- "#6F645A"
-- "#534F4A"
-- "#626059"
-- "#6F5E4C"
-- "#9CACDB"
+- "#654B33"
+- "#53504B"
+- "#666564"
+- "#6C6561"
+- "#534736"
 tags:
 - travel
 - photo

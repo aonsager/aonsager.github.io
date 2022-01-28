@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Cinemagraphs
-link: 
+link:
 tags:
 - cinemagraph
 - photography
 - animation
 - art
 colors:
-- "#715646"
-- "#605D64"
-- "#385871"
-- "#565E66"
-- "#4E4E4E"
+- "#4C5152"
+- "#706150"
+- "#5D5230"
+- "#5F5B60"
+- "#635E56"
 ---
 
 {% include image.html image="cinemagraph-cab.gif" width="615px" %}

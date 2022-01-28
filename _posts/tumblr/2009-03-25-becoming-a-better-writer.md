@@ -9,11 +9,11 @@ tags:
 - life
 tumblr_url: http://www.alexonsager.net/post/89619838/becoming-a-better-writer
 colors:
-- "#ECEAA4"
-- "#ACC781"
-- "#B2B06E"
-- "#9FA0A3"
-- "#AFAFAF"
+- "#AEA394"
+- "#6C6C6C"
+- "#F9F46D"
+- "#4A372A"
+- "#F8F46E"
 archive:
 - personal
 ---

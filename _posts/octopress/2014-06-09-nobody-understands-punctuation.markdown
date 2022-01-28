@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nobody. Understands. Punctuation.
-description: 
+description:
 keywords: writing, punctuation, style
 date: 2014-06-09 12:49
 comments: true
@@ -11,11 +11,11 @@ tags:
 - article
 - opinion
 colors:
-- "#C5C5C5"
-- "#C9C9C9"
-- "#6E6658"
-- "#C8C8C8"
-- "#A8A79E"
+- "#6F6F6F"
+- "#9D9C9B"
+- "#8C5A49"
+- "#707070"
+- "#717171"
 ---
 
 [Peter Welch](http://stilldrinking.org) has published an excellent piece on punctuation and writing style in the English language.

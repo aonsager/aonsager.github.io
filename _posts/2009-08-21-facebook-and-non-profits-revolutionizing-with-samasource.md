@@ -8,11 +8,11 @@ tags:
 - nonprofit
 - business
 colors:
-- "#B02727"
-- "#A43233"
-- "#757576"
-- "#CACBCB"
-- "#CE7E59"
+- "#5C5C5C"
+- "#1E314A"
+- "#A5A5A5"
+- "#132A60"
+- "#F75F25"
 archive:
 - work
 ---

@@ -5,17 +5,17 @@ description: オーバードライブしてたら愛は全開に変わった
 keywords: rock, yabaoka, love is overdrive
 date: 2014-04-03 22:17
 comments: true
-link: 
+link:
 tags:
 - life
 - quote
 - music
 colors:
-- "#4F665F"
-- "#94181E"
-- "#74332E"
-- "#6A605A"
-- "#776F6A"
+- "#681213"
+- "#566562"
+- "#C2B6C4"
+- "#681617"
+- "#B3B2AE"
 ---
 
 > ラブ･イズ・オーバーっていう、超有名な曲があって、

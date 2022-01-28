@@ -5,11 +5,11 @@ slug: star-wars-oil-paintings
 link: https://www.nacicaba.com/star-wars-paintings/
 image: 2021/star-wars-oil.jpg
 colors:
-- "#5A6264"
-- "#C0C3C6"
+- "#A0A39E"
+- "#4E4F4D"
+- "#555E69"
+- "#575C60"
 - "#8FA5AA"
-- "#60758A"
-- "#5B6859"
 tags:
 - art
 - painting

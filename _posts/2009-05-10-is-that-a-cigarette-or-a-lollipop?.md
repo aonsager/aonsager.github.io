@@ -7,11 +7,11 @@ tags:
 - candy
 - thought
 colors:
-- "#E71D2D"
-- "#B0B0B0"
-- "#585452"
-- "#D2C9AD"
-- "#FAFA22"
+- "#705F54"
+- "#A19C9B"
+- "#F38E98"
+- "#797979"
+- "#E59667"
 archive:
 - personal
 ---

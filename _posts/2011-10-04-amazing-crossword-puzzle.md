@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Amazing Crossword Puzzle
-link: 
+link:
 tags:
 - crossword
 - puzzle
 - new york times
 colors:
-- "#C7C7C7"
-- "#C6C6C7"
-- "#C6C6C6"
-- "#35A5CE"
-- "#C6C6C6"
+- "#AFAFAF"
+- "#707070"
+- "#B0B0B0"
+- "#B1B1B1"
+- "#B0B0AF"
 ---
 
 {% include image.html image="crossword.gif" width="500px" %}

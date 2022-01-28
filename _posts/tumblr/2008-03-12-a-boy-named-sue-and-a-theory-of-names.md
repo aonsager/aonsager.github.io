@@ -9,11 +9,11 @@ tags:
 - life
 link: http://www.nytimes.com/2008/03/11/science/11tier.html
 colors:
-- "#955A97"
-- "#397775"
-- "#9F9F9F"
-- "#955996"
-- "#737373"
+- "#5A1516"
+- "#966D6A"
+- "#979797"
+- "#4F4F4F"
+- "#8F8453"
 ---
 
 <p>What will you name your child? </p>

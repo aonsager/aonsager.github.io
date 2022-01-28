@@ -9,11 +9,11 @@ tags:
 - gender
 link: http://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/
 colors:
-- "#6C594B"
-- "#6C594B"
-- "#797979"
-- "#979797"
-- "#6B5A4B"
+- "#694E2D"
+- "#5D5D5D"
+- "#5D5D5D"
+- "#503322"
+- "#5C6786"
 ---
 
 <blockquote>

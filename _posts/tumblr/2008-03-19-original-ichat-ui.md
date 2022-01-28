@@ -10,11 +10,11 @@ tags:
 - apple
 link: http://mooseyard.com/Jens/2008/03/the-origin-of-the-ichat-ui
 colors:
-- "#B0AFAE"
-- "#DAD6B1"
-- "#A8ABAC"
-- "#C8C8C9"
-- "#6EAAF1"
+- "#AFB0AF"
+- "#B1B7C0"
+- "#A0A2A4"
+- "#EAD197"
+- "#291D5E"
 ---
 
 <p>It's always exciting to see original prototypes of good products. Not to mention the sample conversation going on in there is rather delightful.  </p>

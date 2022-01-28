@@ -10,11 +10,11 @@ tags:
 - story
 link: http://www.vice.com/en_uk/read/the-night-my-girlfriend-forgot-who-i-was-944
 colors:
-- "#6F7074"
-- "#707174"
-- "#9A7870"
-- "#AB7083"
-- "#6F7074"
+- "#AEC5CF"
+- "#60605A"
+- "#AEC5CF"
+- "#575757"
+- "#91908F"
 ---
 
 <blockquote>

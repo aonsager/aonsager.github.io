@@ -5,11 +5,11 @@ slug: an-ai-that-begins-novels
 link: https://aiweirdness.com/post/189170306297/how-to-begin-a-novel
 image:
 colors:
-- "#72574E"
-- "#D6C9B0"
-- "#695953"
-- "#525252"
-- "#767269"
+- "#8C6253"
+- "#BACAD0"
+- "#4E4D4C"
+- "#5C6661"
+- "#07358C"
 tags:
 - AI
 - creativity

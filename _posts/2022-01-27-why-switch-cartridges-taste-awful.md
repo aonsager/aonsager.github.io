@@ -5,11 +5,11 @@ slug: why-switch-cartridges-taste-awful
 link: https://www.polygon.com/2017/3/1/14784140/nintendo-switch-cartridges-taste-awful-psa
 image:
 colors:
-- "#EDF4EB"
-- "#FCFDFC"
-- "#F0F7ED"
-- "#EDF4EC"
-- "#FDFDFC"
+- "#63D424"
+- "#656762"
+- "#542B1C"
+- "#646761"
+- "#5F575F"
 tags:
 - switch
 - tech

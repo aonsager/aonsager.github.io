@@ -8,11 +8,11 @@ tags:
 - concert
 - review
 colors:
-- "#744A27"
-- "#545454"
-- "#6E6961"
-- "#454960"
-- "#4D4D4D"
+- "#323931"
+- "#E1D2AA"
+- "#591E24"
+- "#6F2C02"
+- "#E2CEAC"
 ---
 
 I recently saw Gogol Bordello perform live for the second time. The first was a year (two years?) ago in San Francisco, and it was the wildest, most exhilarating event I have ever attended. Many concerts have "that one song," that brings the entire audience together in a fever of enthusiasm to focus entirely on the music and the performance. Gogol Bordello managed to maintain this state for the entire 2 hour show. The rush of being in a huge crowd of people screaming in unison and immersed in the moment, led by the gods of gypsy punk, was indescribable. But enough about last year.

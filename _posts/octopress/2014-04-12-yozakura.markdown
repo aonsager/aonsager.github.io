@@ -12,11 +12,11 @@ tags:
 - kyoto
 - flower
 colors:
-- "#6C3359"
-- "#3D4397"
-- "#564371"
-- "#6A4B61"
-- "#553970"
+- "#995AD3"
+- "#662515"
+- "#9D6598"
+- "#5B2B1C"
+- "#24265C"
 ---
 
 [![夜桜](/assets/images/yozakura_s.jpg)](/assets/images/yozakura.jpg)

@@ -3,13 +3,13 @@ layout: post
 title: The First Image of a Black Hole
 slug: first-image-of-a-black-hole
 link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
-image: "blackhole.jpg"
+image: blackhole.jpg
 colors:
-- "#545454"
-- "#545454"
-- "#545454"
-- "#753329"
-- "#555555"
+- "#6E0900"
+- "#6E0800"
+- "#6D0800"
+- "#6D0800"
+- "#6E0803"
 tags:
 - space
 - news

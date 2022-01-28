@@ -9,11 +9,11 @@ tags:
 - robot
 - article
 colors:
-- "#B3B3B3"
-- "#8CDDEB"
-- "#CCCBCA"
-- "#C7C7C7"
-- "#969997"
+- "#AEAEAE"
+- "#4D311D"
+- "#A0A0A2"
+- "#8C9292"
+- "#B1AFAF"
 ---
 
 > A robot arm dips a pipette into a dish and transfers a tiny amount of bright liquid into one of many receptacles sitting in front of another machine. When all the samples are ready, the second machine tests their optical properties, and the results are fed to a computer that controls the arm. Software analyzes the results of these experiments, formulates a few hypotheses, and then starts the process over again. Humans are barely required.

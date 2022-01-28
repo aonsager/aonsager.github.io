@@ -13,11 +13,11 @@ tags:
 - article
 - personal
 colors:
-- "#C6C6C6"
-- "#B7C2C3"
-- "#A4A4A3"
-- "#92D29A"
-- "#B1B2B2"
+- "#5F5E5E"
+- "#73CDF4"
+- "#E6B439"
+- "#73CAFA"
+- "#73CEF4"
 ---
 
 > Most people don’t notice I’m polite, which is sort of the point. I don’t look polite. I am big and droopy and need a haircut. No soul would associate me with watercress sandwiches. Still, every year or so someone takes me aside and says, you actually are weirdly polite, aren’t you? And I always thrill. They noticed.

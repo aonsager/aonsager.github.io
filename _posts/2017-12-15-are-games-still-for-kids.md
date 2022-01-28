@@ -9,11 +9,11 @@ tags:
 - children
 - product
 colors:
-- "#A06F4E"
-- "#7B6B5C"
-- "#65656C"
-- "#73524C"
-- "#6A625E"
+- "#5B718B"
+- "#562824"
+- "#5C718B"
+- "#584933"
+- "#5F676C"
 archive:
 - game
 ---

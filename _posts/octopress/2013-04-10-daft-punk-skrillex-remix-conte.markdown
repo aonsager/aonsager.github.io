@@ -8,11 +8,11 @@ tags:
 - music
 - video
 colors:
-- "#6D5558"
-- "#776764"
-- "#6B4D54"
-- "#6D575A"
-- "#76645B"
+- "#685A57"
+- "#542D1F"
+- "#6E6960"
+- "#5D5D5B"
+- "#5E5E5E"
 ---
 
 I've always been a fan of Jack's solo work and his work as part of [Pomplamoose](http://www.youtube.com/user/PomplamooseMusic). His new electronic sound is excellent as well.

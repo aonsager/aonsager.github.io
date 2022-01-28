@@ -12,11 +12,11 @@ tags:
 - china
 - app
 colors:
-- "#B3C3DC"
-- "#9FE757"
-- "#9FE757"
-- "#B8C9D7"
-- "#AAA5A3"
+- "#937067"
+- "#B30502"
+- "#5A655E"
+- "#ABABAB"
+- "#D9DAAA"
 ---
 
 Q: What do you do when you're being scammed by a Chinese scam artist?

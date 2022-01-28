@@ -11,11 +11,11 @@ tags:
 - tech
 - apple
 colors:
-- "#B0B1B2"
-- "#6A6665"
-- "#656266"
-- "#6D4837"
-- "#62686D"
+- "#4E4E4F"
+- "#6F3019"
+- "#AFAFAF"
+- "#9F9F9F"
+- "#115B5C"
 ---
 
 > If you could see the future, what would you watch?

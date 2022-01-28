@@ -8,11 +8,11 @@ tags:
 - movie
 tumblr_url: http://www.alexonsager.net/post/27864370/upcoming-movie-watch
 colors:
-- "#676970"
-- "#685A5C"
-- "#6B5D56"
-- "#774B31"
-- "#314774"
+- "#65615D"
+- "#0E245B"
+- "#55251B"
+- "#072772"
+- "#1C565E"
 ---
 
 <p><u><b>The Documentary Type</b></u></p>

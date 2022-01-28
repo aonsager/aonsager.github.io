@@ -3,13 +3,13 @@ layout: post
 title: 'Box Line Text: A minimal whiteboard app'
 slug: box-line-text-a-minimal-whiteboard-app
 link: https://box-line-text.netlify.app/
-image: 
+image:
 colors:
-- "#C2BEC0"
+- "#C6BBBC"
+- "#A5A5A5"
+- "#8E8E8E"
+- "#505050"
 - "#9CCCE0"
-- "#C6BABC"
-- "#9DCBDE"
-- "#5D5255"
 tags:
 - app
 - tool

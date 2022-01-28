@@ -8,11 +8,11 @@ tags:
 - review
 - article
 colors:
-- "#706473"
-- "#7A6E67"
-- "#61606B"
-- "#553577"
-- "#424C73"
+- "#572117"
+- "#685F56"
+- "#57230E"
+- "#645112"
+- "#56281E"
 ---
 
 > Chrono Trigger basically began as a jam session — a couple of star designers and a manga artist getting together to brainstorm and seeing what they might produce. No pressure. No cynicism.
