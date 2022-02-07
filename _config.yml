@@ -22,8 +22,9 @@ excerpt_separator: <!-- more -->
 header_pages:
   - 'about.md'
 twitter_username: aonsager
-github_username:  aonsager
-linkedin_username:  alexonsager
+github_username: aonsager
+linkedin_username: alexonsager
+personal_email: alex.onsager@gmail.com
 
 # Build settings
 markdown: kramdown

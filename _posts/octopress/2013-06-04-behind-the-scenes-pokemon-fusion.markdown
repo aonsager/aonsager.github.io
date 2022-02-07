@@ -2,7 +2,7 @@
 layout: post
 title: 'Pokemon Fusion: Behind the Scenes'
 date: 2013-06-04 00:41
-comments: true
+nocomments: true
 link:
 tags:
 - tech
