@@ -8,8 +8,8 @@ colors:
 - "#092E6E"
 - "#CFB8B4"
 - "#4F4F4F"
-- "#65605F"
-- "#6D6565"
+- "#6F6D70"
+- "#8F9090"
 tags:
 - personal
 - books

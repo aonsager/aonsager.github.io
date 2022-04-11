@@ -6,10 +6,10 @@ link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
 image: blackhole.jpg
 colors:
 - "#6E0900"
-- "#6E0800"
 - "#6D0800"
-- "#6D0800"
-- "#6E0803"
+- "#9D211E"
+- "#4E5050"
+- "#47352E"
 tags:
 - space
 - news

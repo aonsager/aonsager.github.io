@@ -6,9 +6,9 @@ link: https://www.bloomberg.com/opinion/articles/2019-12-10/the-dogs-ate-softban
 image:
 colors:
 - "#B8B9C5"
-- "#9F9EA9"
+- "#9F330A"
 - "#D11304"
-- "#D41304"
+- "#363649"
 - "#D11304"
 tags:
 - business

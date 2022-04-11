@@ -67,7 +67,8 @@ def colors_from_title(title)
     original = Magick::Image.read(image_url).first
     q = original.quantize(16, Magick::RGBColorspace)
     palette = q.color_histogram.sort {|a, b| b[1] <=> a[1]}
-    color = q.to_color(palette[0][0]) # default to most common value, will try to replace
+    winning_score = 0
+    color = palette[0][0].to_color(Magick::AllCompliance,false,8) # default to most common value, will try to replace
     palette.each do |p|
       pixel = p[0]
       hsl = pixel.to_hsla
@@ -78,8 +79,13 @@ def colors_from_title(title)
         # skip because too light
         next
       else
-        color = q.to_color(pixel)
-        break
+        # prefer vivid colors that are used a lot
+        score = hsl[1] * p[1]
+        if score > winning_score
+          winning_score = score
+          color = pixel.to_color(Magick::AllCompliance,false,8)
+          break
+        end
       end
     end
     colors << color

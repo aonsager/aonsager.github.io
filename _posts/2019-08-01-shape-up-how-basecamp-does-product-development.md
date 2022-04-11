@@ -5,11 +5,11 @@ slug: shape-up-how-basecamp-does-product-development
 link: https://basecamp.com/shapeup
 image:
 colors:
-- "#999999"
-- "#A3A3A3"
-- "#999999"
-- "#C6C6C6"
-- "#A4A4A4"
+- "#4A4949"
+- "#EC6863"
+- "#C9B6B5"
+- "#F60515"
+- "#FFFFFF"
 tags:
 - product
 - management

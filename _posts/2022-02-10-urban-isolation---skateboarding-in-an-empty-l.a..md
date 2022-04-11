@@ -6,10 +6,10 @@ link: https://vimeo.com/91085172
 image:
 colors:
 - "#B0B0B0"
-- "#4A4951"
-- "#94CDE7"
-- "#AC8C66"
+- "#3DA935"
 - "#576D8D"
+- "#60645E"
+- "#4A4235"
 tags:
 - video
 - skateboarding
