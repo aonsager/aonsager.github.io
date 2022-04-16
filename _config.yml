@@ -35,7 +35,7 @@ plugins:
   - jekyll-paginate
   - jekyll-compose
   - jekyll-redirect-from
-  # - github-pages
+  - github-pages
 
 # Plugin settings
 jekyll_compose:
