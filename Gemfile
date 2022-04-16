@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
-  # gem 'github-pages', "~> 221"
+  # gem 'github-pages', "~> 225"
 end
 
 gem 'rmagick', "~> 4.1.2"
