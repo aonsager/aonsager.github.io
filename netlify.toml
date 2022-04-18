@@ -6,3 +6,8 @@
   for = "/assets/*.png"
   [headers.values]
     Cache-Control = "public, s-max-age=360000"
+[[redirects]]
+  from = "/js/pls.js"
+  to = "https://stats.alexonsager.com/js/plausible.js"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
