@@ -66,7 +66,7 @@ I now also include this script in the rake task that generates my post files for
 - [Create a custom search engine](https://cse.google.com/cse/create/new) powered by google
 - [Get an API key](https://developers.google.com/custom-search/v1/overview) for the Custom Search JSON API
 
-Apparently this is the only good way to get image search results. The custom search engine requires that you specify a site to search when you create it, but you can change the settings to search the entire web afterwards and it works fine.
+This is the only good way that I have found to get image search results without using a credit card. The custom search engine requires that you specify a site to search when you create it, but you can change the settings to search the entire web afterwards and it works fine.
 
 ## The Script
 
