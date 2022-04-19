@@ -71,6 +71,14 @@ This is the only good way that I have found to get image search results without 
 ## The Script
 
 ```ruby
+require 'net/https'
+require 'uri'
+require 'json'
+require 'yaml'
+require 'rmagick'
+
+CONFIG = YAML.load_file("_local_config.yml")
+
 # Does an image search for the post title
 # and returns 5 prominent colors
 def colors_from_title(title)
