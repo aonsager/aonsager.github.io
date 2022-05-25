@@ -9,7 +9,7 @@ ruby "~> 2.6.5"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", ">= 3.9.0"
+gem "jekyll", ">= 3.9.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
@@ -24,12 +24,12 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
-  gem 'github-pages', "~> 221"
+  gem 'github-pages', "~> 226"
 end
 
 gem 'rmagick', "~> 4.1.2"
 gem 'rake'
 
 # Upgrade to patch security vulnerability
-gem "nokogiri", ">= 1.12.5"
+gem "nokogiri", ">= 1.13.6"
 gem "rubyzip", ">= 1.3.0"
