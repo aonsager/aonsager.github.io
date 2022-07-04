@@ -85,6 +85,16 @@ li, ul, ol {
   }
 }
 
+dt {
+  padding-bottom: $spacing-unit / 2;
+}
+
+dd {
+  margin-top:  $spacing-unit / -2;
+  padding-left: $spacing-unit;
+  padding-bottom: $spacing-unit / 2;
+}
+
 
 
 /**

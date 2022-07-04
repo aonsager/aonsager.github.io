@@ -2,9 +2,11 @@
 
 require 'net/https'
 require 'uri'
+require 'nokogiri'
 require 'json'
 require 'yaml'
 require 'rmagick'
+require 'date'
 
 # == Configuration =============================================================
 
@@ -157,6 +159,29 @@ task :publish, :filename do |t, args|
   target = "#{__dir__}/_posts/#{short_date}-#{headers['slug']}.md"
   mv file, target
   puts %Q{Published "#{headers['title']}" to #{target}}
+end
+
+desc "Collect Pinboard links into a monthly post"
+task :pinboard, :yyyymm do |t, args|
+  # Get posts from Pinboard
+  uri  = "https://api.pinboard.in"
+  path = "/v1/posts/all"
+  # make the search query
+  year = args.yyyymm.to_s[0,4].to_i
+  month = args.yyyymm.to_s[4,2].to_i
+  start_date = Date.parse("#{year}-#{month}-01")
+  uri = URI(uri + path + "?fromdt=" + start_date.strftime("%Y-%m-%dT00:00:00Z") + "&todt=" + (start_date >> 1).strftime("%Y-%m-%dT00:00:00Z") + "&auth_token=" + CONFIG['pinboard_api_key'])
+  request = Net::HTTP::Get.new(uri)
+  response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
+      http.request(request)
+  end
+
+  reader = Nokogiri::XML::Reader(response.body)
+  reader.each do |node|
+    puts node.attribute('description')
+    puts node.attribute('href')
+    puts node.attribute('extended')
+  end
 end
 
 desc "Retroactively add colors to posts"
