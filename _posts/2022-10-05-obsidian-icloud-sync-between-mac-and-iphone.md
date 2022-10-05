@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Obsydian iCloud sync between Mac and iPhone
-slug: obsydian-icloud-sync-between-mac-and-iphone
+title: Obsidian iCloud sync between Mac and iPhone
+slug: obsidian-icloud-sync-between-mac-and-iphone
 link: 
 image: 
 colors:
