@@ -161,6 +161,7 @@ task :publish, :filename do |t, args|
   puts %Q{Published "#{headers['title']}" to #{target}}
 end
 
+# rake pinboard[202206]
 desc "Collect Pinboard links into a monthly post"
 task :pinboard, :yyyymm do |t, args|
   # Get posts from Pinboard
@@ -177,11 +178,16 @@ task :pinboard, :yyyymm do |t, args|
   end
 
   reader = Nokogiri::XML::Reader(response.body)
+  puts "<dl>"
   reader.each do |node|
-    puts node.attribute('description')
-    puts node.attribute('href')
-    puts node.attribute('extended')
+    next if node.attribute('href').nil?
+    puts "  <dt>"
+    puts "    <a href=\"#{node.attribute('href')}\">#{node.attribute('description')}</a>"
+    puts "    <span class=\"post-meta\">(  )</span>"
+    puts "  </dt>"
+    puts "  <dd>#{node.attribute('extended')}</dd>"
   end
+  puts "</dl>"
 end
 
 desc "Retroactively add colors to posts"
