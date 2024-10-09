@@ -1,4 +1,4 @@
-FROM ruby:3.1.1 AS builder
+FROM ruby:2.6.5 AS builder
 RUN apt-get update -qq && apt-get install -y build-essential nodejs
 WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
