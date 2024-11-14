@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048-Daily</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="https://beans.alexonsager.com/script.js"
+        data-website-id="87c0fa84-8d62-461c-a663-29faa9b2d902"></script>
+</head>
+<body class="body-bg body-f-family ">
+    <div class="container container-custom-width mt-5 w-sm-100">
+        <div class="grid g-w g-h c-border rounded-3 mt-3 g-bg-color d-flex flex-wrap centered">
+        </div>
+        <div class="info-container ">
+            <div class="d-flex justify-content-end row col gap-2">
+                <p class="col-block new-game"><button class="btn btn-dark" id="new-game">New Game</button></p>
+            </div>
+            <div id="audio-info">
+                <img id="volume-icon" src="images/volume-mute.png" />
+                <span id="song-title"></span>
+            </div>
+            <div id="app-info">
+                <span id="app-info-toggle">ⓘ</span>
+                <div id="app-info-window">
+                    <p>2048 game logic: Forked from <a href="https://github.com/arunr97code/2048_game_project">arunr97code</a></p>
+                    <p>Music by <a href="https://pixabay.com/collections/lofi-chill-beats-7425688/">FASSounds</a></p>
+                </div>
+            </div>
+        </div>
+        <div class=" d-flex flex-row">
+            <div class="col text-end d-flex justify-content-end">
+
+            </div>
+        </div>
+        <div id="audio-controls">
+            <span id="audio-volume"></span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <audio id="audio-player" autoplay loop muted>
+        <source id="audio-src" src="" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+</html>
