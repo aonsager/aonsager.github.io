@@ -21,7 +21,6 @@ url: "https://www.alexonsager.com" # the base hostname & protocol for your site,
 excerpt_separator: <!-- more -->
 header_pages:
   - 'about.md'
-twitter_username: aonsager
 github_username: aonsager
 linkedin_username: alexonsager
 personal_email: alex.onsager@gmail.com
