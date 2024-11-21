@@ -2,6 +2,7 @@
 
 require 'net/https'
 require 'uri'
+require 'cgi'
 require 'nokogiri'
 require 'json'
 require 'yaml'
@@ -50,7 +51,7 @@ def colors_from_title(title)
   path = "/customsearch/v1"
   title = title[0...30]
   # make the search query
-  uri = URI(uri + path + "?key=" + CONFIG['google_api_key'] + "&q=" + URI.escape(title) + "&cx=" + CONFIG['search_cx'] + "&searchType=image&num=5")
+  uri = URI(uri + path + "?key=" + CONFIG['google_api_key'] + "&q=" + CGI.escape(title) + "&cx=" + CONFIG['search_cx'] + "&searchType=image&num=5")
   request = Net::HTTP::Get.new(uri)
   response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
       http.request(request)

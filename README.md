@@ -2,12 +2,12 @@ Visit https://www.alexonsager.com for the live version
 
 # Authoring tasks
 
-Create a new draft
+## Create a new draft
 ```
-rake draft['This is my title']
+rake draft\["This is my title"\]
 ```
 
-Publish a draft
+## Publish a draft
 ```
 rake publish[filename.md]
 rake publish
@@ -15,16 +15,20 @@ rake publish
   - Or if there's only one, publish it
 ```
 
-Resize images
+## Resize images
 ```
 rake resize[dir]
   - Reduces to max width of 800px
 ```
 
-Values for archive categories
+## Values for archive categories
 ```
 games
 coding
 personal
 links
 ```
+
+# Other tips
+Use `<!-- more -->` tag to hide the rest until clickthrough.
+
