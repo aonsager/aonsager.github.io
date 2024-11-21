@@ -20,3 +20,11 @@ Resize images
 rake resize[dir]
   - Reduces to max width of 800px
 ```
+
+Values for archive categories
+```
+games
+coding
+personal
+links
+```
