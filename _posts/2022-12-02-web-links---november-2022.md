@@ -11,6 +11,12 @@ colors:
 - "#A29E9E"
 - "#1B1CF5"
 tags:
+- collection  
+- images  
+- ai  
+- story  
+- narrative
+
 archive:
 - links
 ---

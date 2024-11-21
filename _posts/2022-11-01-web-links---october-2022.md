@@ -11,6 +11,12 @@ colors:
 - "#909090"
 - "#8C020E"
 tags:
+- roguelike  
+- gaming  
+- ai  
+- space  
+- economics
+
 archive:
 - links
 ---

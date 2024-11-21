@@ -11,6 +11,12 @@ colors:
 - "#554D32"
 - "#626164"
 tags: 
+- technology
+- exploit
+- rooting
+- education
+- creativity
+
 archive:
 - links
 ---

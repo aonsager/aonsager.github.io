@@ -11,6 +11,11 @@ colors:
 - "#9FA0A0"
 - "#A2A5E2"
 tags: 
+- ai  
+- conversation  
+- diagrams  
+- flowcharts
+
 archive:
 - links
 ---
