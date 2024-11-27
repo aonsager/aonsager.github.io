@@ -8,6 +8,7 @@ require 'json'
 require 'yaml'
 require 'rmagick'
 require 'date'
+require 'openai'
 
 # == Configuration =============================================================
 
@@ -96,6 +97,33 @@ def colors_from_title(title)
   colors
 end
 
+# Generate 5 tags based on a post's contents using OpenAI
+def tags_from_content(input_string)
+  blog_text = Nokogiri::HTML(input_string).text
+
+  begin
+    client = OpenAI::Client.new(access_token: CONFIG['openai_api_key'])
+    response = client.chat(
+      parameters: {
+        model: "gpt-4o-mini",
+        messages: [
+          { role: "system", content: "You are an assistant that generates relevant tags for blog posts. Always return tags as a single comma-delineated string with no whitespace." },
+          { role: "user", content: "Extract 5 relevant single-word tags for the following blog post:\n\n#{blog_text}\n\nTags:" }
+        ],
+        max_tokens: 50
+      }
+    )
+    # Extract the response content
+    tags = response.dig("choices", 0, "message", "content").strip.downcase
+    print tags
+    tags_array = tags.split(',').map(&:strip)
+    print tags_array
+    return tags_array
+  rescue StandardError => e
+    puts "Error: #{e.message}"
+  end
+end
+
 
 # == Tasks =====================================================================
 
@@ -149,10 +177,14 @@ task :publish, :filename do |t, args|
   end
   # parse the YAML
   headers = YAML::load("---\n"+contents[1])
+  headers['slug'] ||= transform_to_slug(headers['title'])
   content = contents[2].strip
   # find colors using the title, and add them to the headers
   headers['colors'] = colors_from_title(headers['title'])
-  headers['slug'] ||= transform_to_slug(headers['title'])
+  # generate tags using the content, and att them to the headers
+  headers['tags'] = tags_from_content(content)
+  
+
 
   # write out the modified YAML and post contents back to the original file
   File.open(file,'w+') {|file| file.puts YAML::dump(headers) + "---\n\n" + content + "\n"}

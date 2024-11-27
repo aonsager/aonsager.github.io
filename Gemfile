@@ -25,11 +25,12 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
-  gem 'github-pages', "~> 226"
+  # gem 'github-pages', "~> 226"
 end
 
 gem 'rmagick', "~> 5.3.0"
 gem 'rake'
+gem 'ruby-openai', "~> 7.3.0"
 
 # Upgrade to patch security vulnerability
 gem "nokogiri", ">= 1.13.6"

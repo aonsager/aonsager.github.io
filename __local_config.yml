@@ -2,3 +2,4 @@
 
 google_api_key: "APIKEY"
 search_cx: "SEARCHCX"
+openai_api_key: "APIKEY"
