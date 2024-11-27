@@ -311,8 +311,20 @@
 
 .post-related {
   margin-top: $spacing-unit * 2;
-  padding-top: $spacing-unit * 2;
-  border-top: 1px solid $grey-color-light;
+
+  .wrapper {
+    padding-top: $spacing-unit * 2;
+    border-top: 1px solid $grey-color-light;
+  }
+}
+
+.post-comments {
+  margin-top: $spacing-unit * 2;
+
+  .wrapper {
+    padding-top: $spacing-unit * 2;
+    border-top: 1px solid $grey-color-light;
+  }
 }
 
 p.archive-categories {
@@ -403,6 +415,8 @@ form {
   .site-nav .page-link { color: $text-color-dark }
 
   .post-related { border-top: 1px solid $grey-color-dark }
+
+  .post-comments { border-top: 1px solid $grey-color-dark }
 
   .post-list {
     > li { border-bottom: 1px solid $grey-color-dark }
