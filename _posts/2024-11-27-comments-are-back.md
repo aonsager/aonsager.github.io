@@ -23,9 +23,9 @@ This site has gone through many forms, and comments have come and gone. Now they
 
 But the better question is not *how*, but *why have comments*? (Or why not to?)
 
-I didn't have comments for a long time, because I decided that this blog was a place where I didn't care what other people said. It was just a space for me to write and save things, just for myself. That's fine, too.
+I didn't have comments for a long time, because I decided that this blog was a place where I didn't care what other people said. It was a space for me to write and save things, just for myself. That's fine, too.
 
-But I've been thinking a lot about what it means for me to write on this blog, espeically in the context of generative AI getting so good at replacing mediocre writers. Paul Graham's post [Writes and Write-nots](https://paulgraham.com/writes.html) resonated with me. The ability to write well is equivalent to the ability to think well. By continuing to write, on my own, I hope I can keep up my ability to think well.
+But I've been thinking a lot about what it means for me to write on this blog, espeically in the context of generative AI getting so good at replacing mediocre writers. Paul Graham's post [Writes and Write-Nots](https://paulgraham.com/writes.html) resonated with me. The ability to write well is equivalent to the ability to think well. By continuing to write, on my own, I hope I can keep up my ability to think well.
 
 And in many contexts, writing is also the ability to turn your thoughts into words and share them with other people. It is the ability to communicate. Writing in a personal journal might be good for my thinking, but I want to focus on my communication too. So, comments. 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Urban Isolation - Skateboarding in an empty L.A.
-slug: urban-isolation---skateboarding-in-an-empty-l.a.
+slug: urban-isolation
 link: https://vimeo.com/91085172
 image:
 colors:
