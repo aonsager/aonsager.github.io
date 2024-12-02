@@ -26,6 +26,7 @@ layout: default
             {% if post.excerpt != post.content %}
               {% include continue_reading.html %}
             {% endif %}
+            <p><a href="{{ site.baseurl }}{{ post.url }}#commento"></a>
           </div>
         </div>
       </li>
@@ -50,3 +51,5 @@ layout: default
   {% endif  %}
 
 </div>
+
+<script src="https://cdn.commento.io/js/count.js"></script>
