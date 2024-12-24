@@ -115,9 +115,7 @@ def tags_from_content(input_string)
     )
     # Extract the response content
     tags = response.dig("choices", 0, "message", "content").strip.downcase
-    print tags
     tags_array = tags.split(',').map(&:strip)
-    print tags_array
     return tags_array
   rescue StandardError => e
     puts "Error: #{e.message}"
