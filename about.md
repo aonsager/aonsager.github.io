@@ -18,4 +18,7 @@ Since my day-job doesn't currently involve much programming, I like to work on [
 
 # Contact
 
-If you'd like to get in touch, you can email me at alex.onsager@gmail.com
+Please get in touch! It would make me very happy.
+
+Fediverse: [alex@social.alexonsager.com](https://social.alexonsager.com/@alex)  
+Email: [alex.onsager@gmail.com](mailto:alex.onsager@gmail.com)

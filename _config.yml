@@ -24,6 +24,7 @@ header_pages:
 github_username: aonsager
 linkedin_username: alexonsager
 personal_email: alex.onsager@gmail.com
+fedi_url: https://social.alexonsager.com/@alex
 
 # Build settings
 markdown: kramdown
