@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "~> 3.1.2"
+ruby "~> 3.3.5"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -9,7 +9,7 @@ ruby "~> 3.1.2"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", ">= 3.9.2"
+gem "jekyll", ">= 4.3.4"
 gem "webrick"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -25,7 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
-  gem 'github-pages', "~> 226"
+  # gem 'github-pages', "~> 232"
 end
 
 gem 'rmagick', "~> 5.3.0"

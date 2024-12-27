@@ -323,7 +323,7 @@ task :thumbnails, :dir do |t, args|
 end
 
 GH_PAGES_DIR = "compiled_blog"
-desc "Build site and copy files"
+desc "Build site, copy files, push to remote"
 task :push_build, :msg do |t, args|
   msg = args.msg
   system "jekyll build"
@@ -332,4 +332,7 @@ task :push_build, :msg do |t, args|
   system "git -C ../#{GH_PAGES_DIR}/ add -A"
   system "git -C ../#{GH_PAGES_DIR}/ commit -m \"#{msg}\""
   system "git -C ../#{GH_PAGES_DIR}/ push"
+  system "git add -A"
+  system "git commit -m \"#{msg}\""
+  system "git push"
 end
