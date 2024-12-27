@@ -37,29 +37,21 @@ I used a docker-compose file to deploy GoToSocial, and their [example file](http
 
 # Port settings
 
-I had to change the ports because I had other apps using 8080 already.  
-I set the application's port to an unused one:
-
-```yaml
-services:
-  gotosocial:
-    ...
-    environment:
-      ...
-      GTS_PORT: 8002
-```
-
-and set up port mappings to match:
+Coolify acts as a reverse proxy, so I used that part of the configuration:
 
 ```yaml
 services:
   gotosocial:
   ...
     ports:
-      - "8002:8002"
+      # - "443:8080"
+      ## For letsencrypt:
+      #- "80:80"
+      ## For reverse proxy setups:
+      - "127.0.0.1:8002:8080"
 ```
 
-By just doing this, Coolify is smart enough to route traffic from my GoToSocial domain to port 8002.
+8002 was just an open port that I chose, and Coolify is smart enough to use that port to route traffic from my GoToSocial domain.
 
 # File permissions
 
