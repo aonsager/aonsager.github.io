@@ -20,13 +20,13 @@ tags:
 archive:
 ---
 
+But it's just not doing it for me.
+
 <div class="callout">
 <div class="title">Update 2024/12/27</div>
 I have set up my own instance of GoToSocial, and have written about it <a href="/2024/12/27/installing-gotosocial-on-coolify.html">here</a>. 
 This seems like the best solution for me.
 </div>
-
-But it's just not doing it for me.
 
 The main selling point of Mastodon is its [federation](https://docs.joinmastodon.org/#federation) I think, and I tend to agree with [Tim Bray's points](https://www.tbray.org/ongoing/When/202x/2024/11/15/Not-Bluesky) that some kind of decentralized, protocol-based network for social exchange is what will endure. Having one service run by one group of people is brittle. Having many services run by many groups of people is resilient.
 
