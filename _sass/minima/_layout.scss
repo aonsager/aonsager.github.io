@@ -423,3 +423,14 @@ form {
   }
 
 }
+
+.callout {
+  padding: $spacing-unit / 2;
+  border: 2px dashed $grey-color;
+  margin-bottom: $spacing-unit;
+
+  .title {
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+}
