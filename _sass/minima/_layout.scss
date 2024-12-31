@@ -2,34 +2,20 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $text-color;
-  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
-
-  @include media-query($on-palm) {
-    text-align: center;
-    border-bottom: 1px solid $grey-color-light;
-
-    @media (prefers-color-scheme: dark) {
-      border-bottom: 1px solid $grey-color-dark;
-    }
-  }
 }
 
 .site-title {
-  @include relative-font-size(1.5);
-  line-height: $base-line-height * $base-font-size * 2;
-  letter-spacing: -1px;
+  font-family: 'Ostrich Sans Rounded', -apple-system,"Helvetica Neue",sans-serif;
+  font-size: 80px;
+  font-variant: small-caps;
   margin-bottom: 0;
+  margin: 0px;
   float: left;
 
   &,
-  &:visited {
+  &:visited,
+  &:hover {
     color: $text-color;
   }
 
@@ -39,93 +25,50 @@
 }
 
 .site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2;
-
-  .nav-trigger {
-      display: none;
-  }
-
-  .menu-icon {
-    display: none;
-  }
+  float: left;
+  width: 100%;
+  text-align: left;
 
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    padding: 10px 20px;
 
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+    &:first-child {
+      padding-left: 0px;
     }
   }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $text-color-light;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      background-color: $background-color-dark;
-      border: 1px solid $grey-color-dark;
-    }
-  }
+  
 }
 
+.header-banner {
+  margin-top: $spacing-unit * 3 / -2;
+  margin-bottom: $spacing-unit;
+  height: 2px;
+  width: 100%;
+  background-image:linear-gradient(45deg, $background-color, $background-color, $text-color,$text-color, $text-color, $text-color, $background-color, $background-color);
+}
 
+.logo-container {
+  float:left;
+  background-color: $background-color;
+  padding: 0px 20px;
+}
+
+#header-logo-white {
+  display: none;
+  margin-top: 45px;
+}
+
+#header-logo-black {
+  display: block;
+  margin-top: 45px;
+}
 
 /**
  * Site footer
  */
 .site-footer {
-  /* border-top: 1px solid $grey-color-light; */
   padding-bottom: $spacing-unit;
 }
 
@@ -259,7 +202,7 @@
 .post-banner {
   margin-top: $spacing-unit / -2;
   margin-bottom: $spacing-unit;
-  height: 5px;
+  height: 3px;
   width: 100%;
   opacity: 0.8;
 }
@@ -412,6 +355,22 @@ form {
     &:visited { color: $text-color-dark }
   }
 
+  .header-banner {
+    background-image:linear-gradient(45deg, $background-color-dark, $background-color-dark, $text-color-dark,$text-color-dark, $text-color-dark, $text-color-dark, $background-color-dark, $background-color-dark);
+  }
+  
+  .logo-container {
+    background-color: $background-color-dark;
+  }
+
+  #header-logo-white {
+    display: block;
+  }
+
+  #header-logo-black {
+    display: none;
+  }
+
   .site-nav .page-link { color: $text-color-dark }
 
   .post-related { border-top: 1px solid $grey-color-dark }
@@ -420,6 +379,10 @@ form {
 
   .post-list {
     > li { border-bottom: 1px solid $grey-color-dark }
+  }
+
+  p.archive-categories {
+    a { color: $text-color-dark }
   }
 
 }

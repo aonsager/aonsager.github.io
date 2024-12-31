@@ -20,7 +20,7 @@ Since my day-job doesn't currently involve much programming, I like to work on [
 
 Please get in touch! It would make me very happy.
 
-Fediverse: [alex@social.alexonsager.com](https://social.alexonsager.com/@alex)  
+Fediverse: [alex@invisibleparade.com](https://gts.invisibleparade.com/@alex)  
 Email: [alex.onsager@gmail.com](mailto:alex.onsager@gmail.com)
 
 <br />
