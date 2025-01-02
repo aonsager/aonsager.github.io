@@ -1,3 +1,13 @@
+// Default to small display
+
+.full {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
 /**
  * Site header
  */
@@ -7,7 +17,7 @@
 
 .site-title {
   font-family: 'Ostrich Sans Rounded', -apple-system,"Helvetica Neue",sans-serif;
-  font-size: 80px;
+  font-size: 50px;
   font-variant: small-caps;
   margin-bottom: 0;
   margin: 0px;
@@ -42,7 +52,7 @@
 }
 
 .header-banner {
-  margin-top: $spacing-unit * 3 / -2;
+  margin-top: -30px;
   margin-bottom: $spacing-unit;
   height: 2px;
   width: 100%;
@@ -52,17 +62,17 @@
 .logo-container {
   float:left;
   background-color: $background-color;
-  padding: 0px 20px;
+  padding: 0px 10px 0px 0px;
 }
 
 #header-logo-white {
   display: none;
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 #header-logo-black {
   display: block;
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 /**
@@ -342,6 +352,36 @@ form {
 
   .grid-item {
     margin-bottom: 5px;
+  }
+}
+
+@media (min-width:480px)  {
+  .full {
+    display: block;
+  }
+
+  .compact {
+    display: none;
+  }
+
+  .site-title {
+    font-size: 80px;
+  }
+
+  #header-logo-white {
+    margin-top: 45px;
+  }
+  
+  #header-logo-black {
+    margin-top: 45px;
+  }
+
+  .logo-container {
+    padding: 0px 10px;
+  }
+
+  .header-banner {
+    margin-top: -45px;
   }
 }
 
