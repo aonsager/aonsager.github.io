@@ -58,4 +58,4 @@ Passion projects fizzle out when the passion dies, but money keeps the wheels tu
 
 If I want freedom and permanence together, the best solution is probably to run my own Mastodon server. And that does seem like the answer I'm looking for. I'm in control of my data and can do with it as I please. I can connect to other Mastodon instances and participate in the larger community. And while the small details may change, I can bet on a federated future that continues to let me maintain a node that plugs into a larger network. 
 
-The only problem, and it's kind of a big one, is the price and the hassle. Setting up a Maston server is still kind of a lot of work, and the cost of upkeep is significant. I hope that entry costs will continue to go down because that is the future that I am most excited to see.
+The only problem, and it's kind of a big one, is the price and the hassle. Setting up a Mastodon server is still kind of a lot of work, and the cost of upkeep is significant. I hope that entry costs will continue to go down because that is the future that I am most excited to see.
