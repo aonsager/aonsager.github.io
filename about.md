@@ -38,6 +38,8 @@ The site is hosted on a [Basic Digital Ocean droplet](https://www.digitalocean.c
 - [Umami](https://umami.is) for privacy-friendly analytics
 - [GoToSocial](https://gotosocial.org) instance ([↗](https://social.alexonsager.com/@alex)) for participating in the Fediverse
 
+The font used in the logo is [Ostrich Sans Rounded](https://www.theleagueofmoveabletype.com/ostrich-sans?style=black). 
+
 <div class="post-comments">
     <div class="wrapper">
       {% include comments.html %}
