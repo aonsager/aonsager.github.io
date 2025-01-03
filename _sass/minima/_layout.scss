@@ -79,7 +79,11 @@
  * Site footer
  */
 .site-footer {
+  border-top: 1px solid $grey-color-light;
+  margin-top: $spacing-unit;
+  padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+
 }
 
 .footer-heading {
@@ -98,8 +102,8 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -163,10 +167,10 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
-    padding-bottom: $spacing-unit * 2;
-    margin-bottom: $spacing-unit * 3;
-    border-bottom: 1px solid $grey-color-light;
+  > li .wrapper {
+      border-bottom: 1px solid $grey-color-light;
+      padding-bottom: $spacing-unit * 2;
+        margin-bottom: $spacing-unit * 3;
   }
 }
 
@@ -281,8 +285,8 @@
 }
 
 p.archive-categories {
-  margin-top: $spacing-unit / -2;
-  text-align: center;
+  // margin-top: $spacing-unit / -2;
+  text-align: left;
 
   a {
     text-decoration: none;
