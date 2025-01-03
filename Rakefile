@@ -324,7 +324,7 @@ end
 
 GH_PAGES_DIR = "compiled_blog"
 desc "Build site, copy files, push to remote"
-task :push_build, :msg do |t, args|
+task :build_push, :msg do |t, args|
   msg = args.msg || "update"
   system "jekyll build"
   system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
