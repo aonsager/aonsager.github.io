@@ -88,4 +88,4 @@ So, I don't quite understand what the Coolify docs were trying to tell me.
 # End
 
 Things seem to be working fine now, and I'm using mostly [Semaphore](http://semaphore.social) to interact with the instance.  
-You can follow me [here!](https://social.alexonsager.com/@alex)
+You can follow me [here!](https://gts.invisibleparade.com/@alex)
