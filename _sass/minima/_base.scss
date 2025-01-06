@@ -1,3 +1,4 @@
+@use 'minima/variables' as *;
 /**
  * Reset some basic elements
  */
@@ -26,7 +27,7 @@ body {
 }
 
 .aside {
-  padding: $spacing-unit / 2;
+  padding: calc($spacing-unit / 2);
   margin-bottom: $spacing-unit;
   background-color: $grey-color-light;
   color: $grey-color-dark;
@@ -86,13 +87,13 @@ li, ul, ol {
 }
 
 dt {
-  padding-bottom: $spacing-unit / 2;
+  padding-bottom: calc($spacing-unit / 2);
 }
 
 dd {
-  margin-top:  $spacing-unit / -2;
+  margin-top:  calc($spacing-unit / -2);
   padding-left: $spacing-unit;
-  padding-bottom: $spacing-unit / 2;
+  padding-bottom: calc($spacing-unit / 2);
 }
 
 
@@ -116,7 +117,7 @@ a {
   }
 
   &:hover {
-    color: lighten($brand-color, 15%);
+    color: $brand-color-light;
   }
 
   &.post-link {
@@ -136,8 +137,8 @@ blockquote {
   background-color: #f7f7f7;
   border: 1px solid $grey-color-light;
   border-left: 8px solid #c3c3c3;
-  padding: ($spacing-unit / 2) $spacing-unit;
-  @include relative-font-size(1);
+  padding: calc($spacing-unit / 2) $spacing-unit;
+  // @include relative-font-size(1);
 
   > :last-child {
     margin-bottom: 0;
@@ -151,7 +152,7 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
+  // @include relative-font-size(0.9375);
   border-radius: 3px;
 }
 
@@ -187,8 +188,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
   }
 }
 
@@ -239,10 +240,10 @@ pre {
   }
 
   a {
-    color: lighten($brand-color, 10%);
+    color: $brand-color-light;
 
-    &:visited { color: lighten($brand-color, 10%); }
-    &:hover { color: lighten($brand-color, 25%); }
+    &:visited { color: $brand-color-light; }
+    &:hover { color: $brand-color-light; }
     &.post-link { color: $text-color-dark; }
   }
 

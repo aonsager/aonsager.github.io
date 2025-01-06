@@ -1,6 +1,7 @@
 /**
  * Colors
  */
+$lighter-grey: #FDFDFD;
 $light-grey: #F2F2F2;
 $grey: #B3B0A1;
 $dark-grey: #909090;
@@ -27,14 +28,14 @@ code {
 
 .highlight {
   background: $light-grey;
-  @extend %vertical-rhythm;
+  @extend %vertical-rhythm !optional;
 
   .highlighter-rouge & {
     background: $light-grey;
   }
 
   .c     { color: $grey; font-style: italic } // Comment
-  .err   { color: $red; background-color: lighten($light-grey, 5%) } // Error
+  .err   { color: $red; background-color: $lighter-grey } // Error
   .k     { color: $magenta } // Keyword
   .o     { font-weight: bold } // Operator
   .cm    { color: $grey; font-style: italic } // Comment.Multiline

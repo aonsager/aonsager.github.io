@@ -1,3 +1,4 @@
+@use 'minima/variables' as *;
 // Default to small display
 
 .full {
@@ -88,7 +89,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .contact-list,
@@ -97,21 +98,21 @@
   text-align: center;
   a {
     display: inline-block;
-    margin: 0 $spacing-unit / 2;
+    margin: 0 calc($spacing-unit / 2);
   }
 }
 
 .footer-col-wrapper {
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-  margin-left: -$spacing-unit / 2;
+  margin-left: calc($spacing-unit / -2);
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
+  padding-left: calc($spacing-unit / 2);
 }
 
 .footer-col-1 {
@@ -156,7 +157,7 @@
  * Page content
  */
 .page-content {
-  padding: ($spacing-unit * 2) 0;
+  padding: calc($spacing-unit * 2) 0;
 }
 
 .page-heading {
@@ -169,8 +170,8 @@
 
   > li .wrapper {
       border-bottom: 1px solid $grey-color-light;
-      padding-bottom: $spacing-unit * 2;
-        margin-bottom: $spacing-unit * 3;
+      padding-bottom: calc($spacing-unit * 2);
+      margin-bottom: calc($spacing-unit * 3);
   }
 }
 
@@ -180,7 +181,7 @@
   a {
     color: $grey-color;
     &:hover {
-      color: darken($grey-color, 25%);
+      color: $grey-color-dark;
     }
   }
   &.link {
@@ -214,7 +215,7 @@
 }
 
 .post-banner {
-  margin-top: $spacing-unit / -2;
+  margin-top: calc($spacing-unit / -2);
   margin-bottom: $spacing-unit;
   height: 3px;
   width: 100%;
@@ -244,7 +245,7 @@
   }
 
   .image-caption {
-    margin-top: $spacing-unit * -1 + 2;
+    margin-top: calc($spacing-unit * -1 + 2px);
     text-align: center;
     @include relative-font-size(0.8);
     font-style: italic;
@@ -267,19 +268,19 @@
 }
 
 .post-related {
-  margin-top: $spacing-unit * 2;
+  margin-top: calc($spacing-unit * 2);
 
   .wrapper {
-    padding-top: $spacing-unit * 2;
+    padding-top: calc($spacing-unit * 2);
     border-top: 1px solid $grey-color-light;
   }
 }
 
 .post-comments {
-  margin-top: $spacing-unit * 2;
+  margin-top: calc($spacing-unit * 2);
 
   .wrapper {
-    padding-top: $spacing-unit * 2;
+    padding-top: calc($spacing-unit * 2);
     border-top: 1px solid $grey-color-light;
   }
 }
@@ -312,9 +313,9 @@ table.archive-list {
 
 .date-text {
   display: inline-block;
-  min-width: $spacing-unit * 2;
+  min-width: calc($spacing-unit * 2);
   text-align: right;
-  margin-right: $spacing-unit / 2;
+  margin-right: calc($spacing-unit / 2);
   color: $grey-color;
 }
 
@@ -422,7 +423,7 @@ form {
   .post-comments { border-top: 1px solid $grey-color-dark }
 
   .post-list {
-    > li { border-bottom: 1px solid $grey-color-dark }
+    > li .wrapper { border-bottom: 1px solid $grey-color-dark }
   }
 
   p.archive-categories {
@@ -432,7 +433,7 @@ form {
 }
 
 .callout {
-  padding: $spacing-unit / 2;
+  padding: calc($spacing-unit / 2);
   border: 2px dashed $grey-color;
   margin-bottom: $spacing-unit;
 
