@@ -57,3 +57,11 @@ By specifying the python executable inside the virtualenv we created, we can be 
 ```bash
 ~/.virtualenvs/python3/bin/python /path/to/my/script.py "{query}"
 ```
+
+## Bonus
+
+Add an alias to my `~/.zshrc` so that can just type `vpython /path/to/my/script.py`
+
+```bash
+alias vpython='~/.virtualenvs/python3/bin/python'
+```
