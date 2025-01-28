@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:aonsager/jekyll-feed.git
-  revision: 4ecc5e1089b2de10e17623c4d1c84b8810bc569b
+  revision: edec4ce8f2665c452f58facf3cc60b1f7f7498f0
   specs:
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
