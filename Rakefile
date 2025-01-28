@@ -140,6 +140,7 @@ task :draft, :title do |t, args|
     'layout' => 'post',
     'title' => title,
     'slug' => transform_to_slug(title),
+    'date' => Time.now.getlocal("+09:00").strftime("%Y-%m-%d %H:%M:00 %z"),
     'link' => nil,
     'image' => nil,
     'colors' => nil,
@@ -177,6 +178,7 @@ task :publish, :filename do |t, args|
   # parse the YAML
   headers = YAML::load("---\n"+contents[1])
   headers['slug'] ||= transform_to_slug(headers['title'])
+  headers['date'] = Time.now.getlocal("+09:00").strftime("%Y-%m-%d %H:%M:00 %z")
   content = contents[2].strip
   # find colors using the title, and add them to the headers
   headers['colors'] = colors_from_title(headers['title'])
