@@ -122,6 +122,34 @@ def tags_from_content(input_string)
   end
 end
 
+# Create a toot file from params
+def create_toot(id, content, datetime, media_attachments)
+  if content.include?("invisibleparade.com")
+    puts "Skipping self-referencing toot #{id}, #{datetime}"
+    return
+  end
+
+  headers = {
+    'layout' => 'toot',
+    'slug' => datetime.strftime("%Y-%m-%d-") + id,
+    'date' => datetime.strftime("%Y-%m-%d %H:%M:00 %z"),
+    'toot_id' => id,
+    'archive' => 'toots',
+  }
+  media = ""
+  media_attachments.each do |attachment|
+    media += "<p><a href='#{attachment["url"]}'><img src='#{attachment["preview_url"]}' alt='#{attachment["description"]}'/></a></p>"
+  end
+  file = "#{__dir__}/_posts/toots/#{headers['slug']}.md"
+  File.open(file,'w+') do |file| 
+    file.puts YAML::dump(headers) + "---\n"
+    file.puts content
+    file.puts media
+  end
+
+  puts %Q{Created toot in #{file}}
+end
+
 
 # == Tasks =====================================================================
 
@@ -222,6 +250,45 @@ task :pinboard, :yyyymm do |t, args|
     puts "  <dd>#{node.attribute('extended')}</dd>"
   end
   puts "</dl>"
+end
+
+desc "Collect posts from Gotosocial"
+task :get_gts do
+  latest_post_id = File.open("tasks/latest_gts_post.txt", &:readline).strip
+
+  gts_host = "https://gts.invisibleparade.com"
+  api_path = "api/v1/accounts/01GH6B64M32N9Y4742YPSN8KAY/statuses"
+
+  params = {
+    "exclude_replies" => true,
+    "exclude_reblogs" => true,
+    "min_id" => latest_post_id,
+    "only_public" => true,
+    "limit" => 100,
+  }
+
+  url = "#{gts_host}/#{api_path}?#{URI.encode_www_form(params)}"
+  uri = URI.parse(url)
+
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true
+
+  request = Net::HTTP::Get.new(uri.request_uri)
+  request["Accept"] = "application/json"
+  request["Authorization"] = "Bearer #{CONFIG['gts_api_token']}"
+
+  response = http.request(request)
+
+  if response.code == "200"
+    json_response = JSON.parse(response.body)
+    json_response.reverse_each do |post|
+      post_date = DateTime.parse(post["created_at"]).new_offset("+09:00")
+      create_toot(post["id"], post["content"], post_date, post["media_attachments"])
+      File.open("tasks/latest_gts_post.txt", 'w') { |file| file.write(post["id"]) }
+    end
+  else
+    puts "Error: #{response.code}"
+  end
 end
 
 desc "Retroactively add colors to posts"

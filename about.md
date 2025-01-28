@@ -10,7 +10,7 @@ My name is Alex. I grew up near Boulder, CO and spent most of my childhood readi
 
 In college I studied programming and human-computer interaction. A team of classmates and I made [a few apps](http://www.sfgate.com/news/article/These-Stanford-Students-Made-Millions-Taking-A-2361888.php) on Facebook, which eventually turned into a startup. This was the first time I made something that was used by a large number of people. It became my introduction to making real products that have users and make money.
 
-Since my day-job doesn't currently involve much programming, I like to work on [fun projects](/workshop/) on the side that let me build things directly. 
+Since my day-job doesn't currently involve much programming, I like to work on [fun projects](/projects/) on the side that let me build things directly. 
 
 Part of the reason I maintain this blog is the hope that it will help me make more connections online. Please feel free to [get in touch](/contact)! It would make me very happy.
 
@@ -36,7 +36,7 @@ The site is hosted on a [Basic Digital Ocean droplet](https://www.digitalocean.c
 - [Pokemon Fusion](https://pokemon.alexonsager.net)
 - [Commento](https://www.commento.io) to power comments on this blog
 - [Umami](https://umami.is) for privacy-friendly analytics
-- [GoToSocial](https://gotosocial.org) instance ([↗](https://gts.invisibleparade.com/@alex)) for participating in the Fediverse
+- [GoToSocial](https://gotosocial.org) [instance](https://gts.invisibleparade.com/@alex) for participating in the Fediverse
 
 The font used in the logo is [Ostrich Sans Rounded](https://www.theleagueofmoveabletype.com/ostrich-sans?style=black), and the body is [Lato](https://fonts.google.com/specimen/Lato). 
 

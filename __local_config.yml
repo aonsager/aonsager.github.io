@@ -3,3 +3,5 @@
 google_api_key: "APIKEY"
 search_cx: "SEARCHCX"
 openai_api_key: "APIKEY"
+gts_account_id: "ACCOUNTID"
+gts_api_token: "APITOKEN"

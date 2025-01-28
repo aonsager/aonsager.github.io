@@ -171,9 +171,23 @@
   list-style: none;
 
   > li .wrapper {
-      border-bottom: 1px solid $grey-color-light;
-      padding-bottom: calc($spacing-unit * 2);
-      margin-bottom: calc($spacing-unit * 3);
+    border-bottom: 1px solid $grey-color-light;
+    padding-top: calc($spacing-unit * 2);
+    padding-bottom: calc($spacing-unit * 3);
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+  
+  > li .wrapper.toot {
+      padding-top: calc($spacing-unit * 0.5);
+      padding-bottom: $spacing-unit;
+      margin-top: calc($spacing-unit * 0.5);
+      margin-bottom: calc($spacing-unit * 0.5);
+
+    > .post-content p {
+      margin-left: $spacing-unit;
+      margin-right: $spacing-unit;
+    }
   }
 }
 
@@ -182,6 +196,7 @@
   color: $grey-color;
   a {
     color: $grey-color;
+    text-decoration: underline;
     &:hover {
       color: $grey-color-dark;
     }
@@ -204,6 +219,9 @@
   }
 }
 
+.comment-link {
+  float: right;
+}
 
 
 /**

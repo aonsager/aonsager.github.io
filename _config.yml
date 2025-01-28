@@ -17,14 +17,14 @@ title: Invisible Parade
 description: >- # this means to ignore newlines until "baseurl:"
   My personal webpage and blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.alexonsager.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://invisibleparade.com" # the base hostname & protocol for your site, e.g. http://example.com
 excerpt_separator: <!-- more -->
 header_pages:
   - 'about.md'
 github_username: aonsager
 linkedin_username: alexonsager
 personal_email: alex.onsager@gmail.com
-fedi_url: https://social.alexonsager.com/@alex
+fedi_url: https://gts.invisibleparade.com/@alex
 
 # Build settings
 markdown: kramdown

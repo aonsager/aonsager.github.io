@@ -13,10 +13,12 @@ permalink: /archive/coding/
     <a href="/archive/games/">Games</a>
     <a class="selected" href="/archive/coding/">Coding</a>
     <a href="/archive/me/">Me</a>
+    <a href="/archive/notes/">Notes</a>
   </p>
 
   <table>
-  {% for post in site.posts %}
+  {% assign filtered_posts = site.posts | where: "layout", "post" %}
+  {% for post in filtered_posts %}
     {% for tag in post.archive %}
       {% if tag == 'coding' %}
         {% assign currentDate = post.date | date: "%Y" %}

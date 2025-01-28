@@ -8,13 +8,18 @@ layout: default
 
   <ul class="post-list">
     {% for post in paginator.posts %}
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <li>
+        {% if post.layout == 'post' %}
         <div class="wrapper">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {% else %}
+        <div class="wrapper toot">
+        {% endif %}
+          {% if post.layout == 'post' %}
           <h1>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h1>
+          {% endif %}
           {% if post.link %}
             <p class="post-meta link">
               <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
@@ -26,7 +31,14 @@ layout: default
             {% if post.excerpt != post.content %}
               {% include continue_reading.html %}
             {% endif %}
-            <p><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></p>
+            
+            <div class="post-meta">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+              {% if post.layout == 'post' %}
+                <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div>
+              {% endif %}
+            </div>
+            
           </div>
         </div>
       </li>
