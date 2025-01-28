@@ -12,6 +12,9 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             {{ page.date | date: date_format }}
         </time>
+        <div class="comment-link">
+            <a href="{{ site.fedi_url }}/statuses/{{ page.toot_id }}">Federated</a>
+        </div>
     </div>
   </div>
 </article>
