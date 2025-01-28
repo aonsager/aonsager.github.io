@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:aonsager/jekyll-feed.git
+  revision: 4ecc5e1089b2de10e17623c4d1c84b8810bc569b
+  specs:
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,8 +51,6 @@ GEM
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
     jekyll-compose (0.12.0)
-      jekyll (>= 3.7, < 5.0)
-    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
@@ -106,7 +111,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 4.3.4)
   jekyll-compose
-  jekyll-feed (~> 0.6)
+  jekyll-feed!
   jekyll-paginate
   jekyll-redirect-from
   nokogiri (>= 1.13.6)
