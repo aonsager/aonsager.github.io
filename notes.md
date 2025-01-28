@@ -22,16 +22,11 @@ permalink: /archive/notes/
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <li>
         <div class="wrapper toot">
+          <div class="post-meta">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+          </div>
           <div class="post-content" itemprop="articleBody">
             {{ post.content }}
-            
-            <div class="post-meta">
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
-              {% if post.layout == 'post' %}
-                <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div>
-              {% endif %}
-            </div>
-            
           </div>
         </div>
       </li>

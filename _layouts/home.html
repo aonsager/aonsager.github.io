@@ -15,30 +15,31 @@ layout: default
         {% else %}
         <div class="wrapper toot">
         {% endif %}
+          <header class="post-header">
           {% if post.layout == 'post' %}
-          <h1>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h1>
-          {% endif %}
-          {% if post.link %}
-            <p class="post-meta link">
-              <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
-            </p>
-          {% endif %}
-          <div class="post-content" itemprop="articleBody">
+            <h1>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h1>
+            {% endif %}
+            
+            {% if post.link %}
+              <div class="post-meta link"> 
+                <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
+              </div>
+            {% endif %}
+            <div class="post-meta">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+              {% if post.layout == 'post' %}
+              <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div>
+              {% endif %}
+            </div>
             {% include post_banner.html %}
+          </header>
+          <div class="post-content" itemprop="articleBody">
             {{ post.excerpt }}
             {% if post.excerpt != post.content %}
               {% include continue_reading.html %}
             {% endif %}
-            
-            <div class="post-meta">
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
-              {% if post.layout == 'post' %}
-                <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div>
-              {% endif %}
-            </div>
-            
           </div>
         </div>
       </li>

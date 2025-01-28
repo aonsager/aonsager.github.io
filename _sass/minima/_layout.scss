@@ -166,34 +166,48 @@
   @include relative-font-size(1.5);
 }
 
+.wrapper.toot .post-meta {
+  margin-top: 0px;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
 
-  > li .wrapper {
-    border-bottom: 1px solid $grey-color-light;
-    padding-top: calc($spacing-unit * 2);
-    padding-bottom: calc($spacing-unit * 3);
-    margin-top: $spacing-unit;
-    margin-bottom: $spacing-unit;
-}
+  li {
+    .wrapper {
+      border-bottom: 1px solid $grey-color-light;
+      padding-top: calc($spacing-unit * 2);
+      padding-bottom: calc($spacing-unit * 2);
+      margin-top: $spacing-unit;
+      margin-bottom: $spacing-unit;
+    }
   
-  > li .wrapper.toot {
+    .wrapper.toot {
       padding-top: calc($spacing-unit * 0.5);
-      padding-bottom: $spacing-unit;
+      padding-bottom: calc($spacing-unit * 0.5);
       margin-top: calc($spacing-unit * 0.5);
       margin-bottom: calc($spacing-unit * 0.5);
+    }
 
-    > .post-content p {
-      margin-left: $spacing-unit;
-      margin-right: $spacing-unit;
+    &:first-of-type {
+      .wrapper {
+        padding-top: 0px;
+        margin-top: 0px;
+      }
     }
   }
+}
+
+.post-header {
+  h1 { margin-bottom: 0px;}
 }
 
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin-top: calc($spacing-unit / 2);
+  margin-bottom: calc($spacing-unit / 2);
   a {
     color: $grey-color;
     text-decoration: underline;
@@ -202,7 +216,8 @@
     }
   }
   &.link {
-    margin-top: $spacing-unit * -1;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -235,7 +250,7 @@
 }
 
 .post-banner {
-  margin-top: calc($spacing-unit / -2);
+  // margin-top: calc($spacing-unit / 2);
   margin-bottom: $spacing-unit;
   height: 3px;
   width: 100%;
@@ -243,6 +258,8 @@
 }
 
 .post-content {
+
+  a { word-wrap: break-word; }
 
   h2 {
     @include relative-font-size(1.5);
@@ -407,6 +424,19 @@ form {
 
   .header-banner {
     margin-top: -45px;
+  }
+
+  .post-list li .wrapper.toot { 
+    .post-meta {
+      width: 120px;
+      float: left;
+      margin: 0px;
+    }
+
+    .post-content {
+      width: calc(100% - 120px);
+      float: right;
+    }
   }
 }
 

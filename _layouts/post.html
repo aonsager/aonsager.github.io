@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="wrapper">
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        {{ page.title | escape }}
+      {% if page.layout == 'post' %}
+      <h1>
+        <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
       </h1>
-      {% if page.link %}
-        <p class="post-meta link">
-            <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
-        </p>
       {% endif %}
+    
+      {% if page.link %}
+      <div class="post-meta link">
+        <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
+      </div>
+      {% endif %}
+      <div class="post-meta">
+        {{ page.date | date: date_format }}
+      </div>
+      {% include post_banner.html %}
     </header>
 
     <div class="post-content" itemprop="articleBody">
-      {% include post_banner.html %}
       {{ content }}
-    </div>
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
     </div>
   </div>
 
