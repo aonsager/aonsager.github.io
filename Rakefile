@@ -122,6 +122,45 @@ def tags_from_content(input_string)
   end
 end
 
+# Get latest posts from GoToSocial
+def get_latest_gts_posts
+  latest_post_id = File.open("tasks/latest_gts_post.txt", &:readline).strip
+
+  gts_host = "https://gts.invisibleparade.com"
+  api_path = "api/v1/accounts/#{CONFIG['gts_account_id']}/statuses"
+
+  params = {
+    "exclude_replies" => true,
+    "exclude_reblogs" => true,
+    "min_id" => latest_post_id,
+    "only_public" => true,
+    "limit" => 100,
+  }
+
+  url = "#{gts_host}/#{api_path}?#{URI.encode_www_form(params)}"
+  uri = URI.parse(url)
+
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true
+
+  request = Net::HTTP::Get.new(uri.request_uri)
+  request["Accept"] = "application/json"
+  request["Authorization"] = "Bearer #{CONFIG['gts_api_token']}"
+
+  response = http.request(request)
+
+  if response.code == "200"
+    json_response = JSON.parse(response.body)
+    json_response.reverse_each do |post|
+      post_date = DateTime.parse(post["created_at"]).new_offset("+09:00")
+      create_toot(post["id"], post["content"], post_date, post["media_attachments"])
+      File.open("tasks/latest_gts_post.txt", 'w') { |file| file.write(post["id"]) }
+    end
+  else
+    puts "Error: #{response.code}"
+  end
+end
+
 # Create a toot file from params
 def create_toot(id, content, datetime, media_attachments)
   if content.include?("invisibleparade.com")
@@ -254,41 +293,7 @@ end
 
 desc "Collect posts from Gotosocial"
 task :get_gts do
-  latest_post_id = File.open("tasks/latest_gts_post.txt", &:readline).strip
-
-  gts_host = "https://gts.invisibleparade.com"
-  api_path = "api/v1/accounts/01GH6B64M32N9Y4742YPSN8KAY/statuses"
-
-  params = {
-    "exclude_replies" => true,
-    "exclude_reblogs" => true,
-    "min_id" => latest_post_id,
-    "only_public" => true,
-    "limit" => 100,
-  }
-
-  url = "#{gts_host}/#{api_path}?#{URI.encode_www_form(params)}"
-  uri = URI.parse(url)
-
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = true
-
-  request = Net::HTTP::Get.new(uri.request_uri)
-  request["Accept"] = "application/json"
-  request["Authorization"] = "Bearer #{CONFIG['gts_api_token']}"
-
-  response = http.request(request)
-
-  if response.code == "200"
-    json_response = JSON.parse(response.body)
-    json_response.reverse_each do |post|
-      post_date = DateTime.parse(post["created_at"]).new_offset("+09:00")
-      create_toot(post["id"], post["content"], post_date, post["media_attachments"])
-      File.open("tasks/latest_gts_post.txt", 'w') { |file| file.write(post["id"]) }
-    end
-  else
-    puts "Error: #{response.code}"
-  end
+  get_latest_gts_posts
 end
 
 desc "Retroactively add colors to posts"
@@ -397,6 +402,7 @@ desc "Build site, copy files, push to remote"
 task :build_push, :msg do |t, args|
   msg = args.msg || "update"
   system "git -C ../#{GH_PAGES_DIR}/ pull"
+  get_latest_gts_posts
   system "jekyll build"
   system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
   system "cp -r _site/* ../#{GH_PAGES_DIR}/"
