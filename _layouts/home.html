@@ -2,19 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home wrapper">
 
   {{ content }}
 
   <ul class="post-list">
     {% for post in paginator.posts %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {% if post.layout == 'post' %}
+      <li class="post">
+      {% elsif post.layout == 'toot' %}
+      <li class="toot">
+      {% else %}
       <li>
-        {% if post.layout == 'post' %}
-        <div class="wrapper">
-        {% else %}
-        <div class="wrapper toot">
-        {% endif %}
+      {% endif %}
           <header class="post-header">
           {% if post.layout == 'post' %}
             <h1>
@@ -41,8 +42,8 @@ layout: default
               {% include continue_reading.html %}
             {% endif %}
           </div>
-        </div>
       </li>
+      <hr />
     {% endfor %}
   </ul>
 
