@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-permalink: /archive/coding/
+permalink: /archive/games/
 ---
 
 <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
@@ -10,17 +10,17 @@ permalink: /archive/coding/
 
   <p class="archive-categories">
     <a href="/archive/">All</a>
-    <a href="/archive/games/">Games</a>
-    <a class="selected" href="/archive/coding/">Coding</a>
+    <a class="selected" href="/archive/games/">Games</a>
+    <a href="/archive/coding/">Coding</a>
     <a href="/archive/me/">Me</a>
-    <a href="/archive/notes/">Notes</a>
+    <a href="/archive/mumbles/">Mumbles</a>
   </p>
 
   <table>
   {% assign filtered_posts = site.posts | where: "layout", "post" %}
   {% for post in filtered_posts %}
     {% for tag in post.archive %}
-      {% if tag == 'coding' %}
+      {% if tag == 'game' %}
         {% assign currentDate = post.date | date: "%Y" %}
         {% if currentDate != myDate %}
           </table>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-permalink: /archive/notes/
+permalink: /archive/mumbles/
 ---
 
 <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
@@ -13,7 +13,7 @@ permalink: /archive/notes/
     <a href="/archive/games/">Games</a>
     <a href="/archive/coding/">Coding</a>
     <a href="/archive/me/">Me</a>
-    <a class="selected" href="/archive/notes/">Notes</a>
+    <a class="selected" href="/archive/mumbles/">Mumbles</a>
   </p>
 
   <ul class="post-list">
@@ -21,15 +21,14 @@ permalink: /archive/notes/
     {% for post in filtered_posts %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <li>
-        <div class="wrapper toot">
-          <div class="post-meta">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
-          </div>
-          <div class="post-content" itemprop="articleBody">
-            {{ post.content }}
-          </div>
+        <div class="post-content">
+          {{ post.content }}
+        </div>
+        <div class="post-meta">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
         </div>
       </li>
+      <hr />
     {% endfor %}
   </ul>
 

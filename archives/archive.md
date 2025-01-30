@@ -13,7 +13,7 @@ permalink: /archive/
     <a href="/archive/games/">Games</a>
     <a href="/archive/coding/">Coding</a>
     <a href="/archive/me/">Me</a>
-    <a href="/archive/notes/">Notes</a>
+    <a href="/archive/mumbles/">Mumbles</a>
   </p>
 
   {% assign filtered_posts = site.posts | where: "layout", "post" %}

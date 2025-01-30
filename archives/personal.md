@@ -13,7 +13,7 @@ permalink: /archive/me/
     <a href="/archive/games/">Games</a>
     <a href="/archive/coding/">Coding</a>
     <a class="selected" href="/archive/me/">Me</a>
-    <a href="/archive/notes/">Notes</a>
+    <a href="/archive/mumbles/">Mumbles</a>
   </p>
 
   <table>

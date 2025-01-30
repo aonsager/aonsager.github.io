@@ -28,18 +28,18 @@ layout: default
                 <span itemprop="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
               </div>
             {% endif %}
-            <div class="post-meta">
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
-              {% if post.layout == 'post' %}
-              <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div>
-              {% endif %}
-            </div>
             {% include post_banner.html %}
           </header>
           <div class="post-content" itemprop="articleBody">
             {{ post.excerpt }}
             {% if post.excerpt != post.content %}
               {% include continue_reading.html %}
+            {% endif %}
+          </div>
+          <div class="post-meta">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+            {% if post.layout == 'post' %}
+            <!-- <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div> -->
             {% endif %}
           </div>
       </li>

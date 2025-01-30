@@ -402,7 +402,7 @@ desc "Build site, copy files, push to remote"
 task :build_push, :msg do |t, args|
   msg = args.msg || "update"
   system "git -C ../#{GH_PAGES_DIR}/ pull"
-  # get_latest_gts_posts
+  get_latest_gts_posts
   system "jekyll build"
   system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
   system "cp -r _site/* ../#{GH_PAGES_DIR}/"
