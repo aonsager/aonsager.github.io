@@ -1,4 +1,6 @@
-<img src="{{ site.url }}/assets/images/{{ include.image }}" alt="{{ include.description }}" class="center-image" />
-{% if include.description %}
-  <p class="image-caption">{{ include.description }}</p>
-{% endif %}
+<figure>
+  <img src='{{ site.url }}/assets/images/{{ include.image }}' alt='{{{ include.description }}}' class="center-image"/>
+  {% if include.description %}
+    <figcaption>{{ include.description }}</figcaption>
+  {% endif %}
+</figure>

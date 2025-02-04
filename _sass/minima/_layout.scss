@@ -101,6 +101,11 @@
   margin-top: 0px;
 }
 
+.toot .post-content {
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+}
+
 hr {
   border: none;
   background-color: $grey-color-light;
@@ -191,10 +196,6 @@ hr {
 
 .post-content {
 
-  &.single {
-    padding-bottom: $spacing-unit;
-  }
-
   a { word-wrap: break-word; }
 
   h2 {
@@ -217,8 +218,7 @@ hr {
     max-width: 100%;
   }
 
-  .image-caption {
-    margin-top: calc($spacing-unit * -1 + 2px);
+  figcaption {
     text-align: center;
     @include relative-font-size(0.8);
     font-style: italic;

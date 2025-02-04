@@ -15,14 +15,15 @@ layout: default
         <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
       </div>
       {% endif %}
-      <div class="post-meta">
-        {{ page.date | date: date_format }}
-      </div>
       {% include post_banner.html %}
     </header>
 
     <div class="post-content single" itemprop="articleBody">
       {{ content }}
+    </div>
+
+    <div class="post-meta">
+      {{ page.date | date: date_format }}
     </div>
 
   {% for tag in page.tags %}
