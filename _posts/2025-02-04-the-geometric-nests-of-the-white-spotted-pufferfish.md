@@ -19,6 +19,7 @@ tags:
 - marine
 archive:
 slash:
+blurb: "Male white-spotted pufferfish spend roughly a week constructing an elaborate circular nest about 2 meters in diameter to attract females."
 ---
 
 The white-spotted pufferfish, or Amami hoshizora fugu, is a species of pufferfish newly discovered in 2014 near Japan's Amami-Oshima Island. The males spend roughly a week constructing an elaborate circular nest about 2 meters in diameter to attract females. 
