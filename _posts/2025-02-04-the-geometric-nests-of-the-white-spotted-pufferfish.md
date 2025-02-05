@@ -5,6 +5,7 @@ slug: the-geometric-nests-of-the-white-spotted-pufferfish
 date: '2025-02-04 14:25:00 +0900'
 link: https://amami-horizon.com/en/nature/ocean/amami-hoshizorafugu
 image: 2025/whitespottedpuffer_nest.jpg
+image_alt: 'The circular nest of the white-spotted pufferfish'
 colors:
 - "#ADADAD"
 - "#635F57"
