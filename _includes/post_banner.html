@@ -1,7 +1,6 @@
-{% if post.colors %}
+{% if post.colors -%}
 <div class="post-banner" style="background-image:linear-gradient(-45deg, {{ post.colors[0] }}, {{ post.colors[1] }}, {{ post.colors[2] }}, {{ post.colors[3] }}, {{ post.colors[4] }})"></div>
-{% endif %}
-
-{% if page.colors %}
+{% endif -%}
+{% if page.colors -%}
 <div class="post-banner" style="background-image:linear-gradient(-45deg, {{ page.colors[0] }}, {{ page.colors[1] }}, {{ page.colors[2] }}, {{ page.colors[3] }}, {{ page.colors[4] }})"></div>
-{% endif %}
+{% endif -%}

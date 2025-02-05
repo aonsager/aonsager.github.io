@@ -1,11 +1,11 @@
 <p>
   <a href="{{ site.baseurl }}{{ post.url }}">Continue reading &rarr;</a>
   <!-- <span class="post-meta">
-    {% assign words = post.content | number_of_words %}
-    {% if words < 360 %}
+    {% assign words = post.content | number_of_words -%}
+    {% if words < 360 -%}
       (1 min)
-    {% else %}
+    {% else -%}
       ({{ words | divided_by:180 }} mins) 
-    {% endif %}
+    {% endif -%}
   </span> -->
 </p>

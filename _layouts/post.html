@@ -1,44 +1,36 @@
 ---
 layout: default
 ---
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-<article class="post wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <article class="post wrapper" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
-      {% if page.layout == 'post' %}
+      {% if page.layout == 'post' -%}
       <h1>
         <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
       </h1>
-      {% endif %}
-    
-      {% if page.link %}
+      {% endif -%}
+      {% if page.link -%}
       <div class="post-meta link">
         <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
       </div>
-      {% endif %}
-      {% include post_banner.html %}
+      {% endif -%}
+      {% include post_banner.html -%}
     </header>
-
     <div class="post-content single" itemprop="articleBody">
       {{ content }}
     </div>
-
     <div class="post-meta">
       {{ page.date | date: date_format }}
     </div>
-
-  {% for tag in page.tags %}
-    <div class="post-tag">{{ tag }}</div>
-  {% endfor %}
-
-  <hr />
-
-  <div class="post-related">
-      {% include related_posts.html %}
-  </div>
-
-  <hr />
-
-  <div class="post-comments">
-      {% include comments.html %}
-  </div>
-</article>
+    {% for tag in page.tags -%}
+      <div class="post-tag">{{ tag }}</div>
+    {% endfor -%}
+    <hr />
+    <div class="post-related">
+        {% include related_posts.html -%}
+    </div>
+    <hr />
+    <div class="post-comments">
+        {% include comments.html -%}
+    </div>
+  </article>
