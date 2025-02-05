@@ -214,6 +214,7 @@ task :draft, :title do |t, args|
     'tags' => nil,
     'archive' => nil,
     'slash' => nil,
+    'blurb' => '',
   }
 
   # Write the file out to the _drafts directory
