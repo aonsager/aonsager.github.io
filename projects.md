@@ -8,29 +8,52 @@ permalink: /projects/
 
 Since my day-job doesn't currently involve much programming, I like to work on fun projects on the side that let me build things directly.
 
-## This Site
+<!-- This Site -->
 
-Starting from a basic Jekyll template, I've added a number of customizations that I'm pretty pleased with.  
-I should write a blog post going through them.
+{% capture links %}
+<p>I should write a blog post going through them.</p>
+{% endcapture %}
 
-## Pokemon Fusion
+{% include project.html name="This Site" image="invisibleparade.jpg" description="Starting from a basic Jekyll template, I've added a number of customizations that I'm pretty pleased with." links=links -%}
 
-A simple website that replaces heads and swaps colors in Pokemon sprites.
+<!-- Pokemon Fusion -->
 
-- [Website](http://pokemon.alexonsager.net)
-- Blog posts: [Behind the Scenes]({% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}) and [Missingno.]({% post_url octopress/2014-08-10-missingno-in-pokemon-fusion %})
+{% capture links %}
+<ul>
+    <li><a href="http://pokemon.alexonsager.net">Website</a></li>
+    <li>Blog posts: <a href="{% post_url octopress/2013-06-04-behind-the-scenes-pokemon-fusion %}">Behind the Scenes</a> and <a href="{% post_url octopress/2014-08-10-missingno-in-pokemon-fusion %}">Missingno.</a></li>
+</ul>
+{% endcapture %}
 
+{% include project.html name="Pokemon Fusion" image="pokemonfusion.png" description="A simple website that replaces heads and swaps colors in Pokemon sprites." links=links -%}
 
-## Check My Wow
+<!-- CrossPooter -->
 
-A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing. I've published the source code but haven't put any time into cleaning it up.
+{% capture links %}
+<ul>
+    <li><a href="https://github.com/aonsager/crosspooter">Source Code</a></li>
+</ul>
+{% endcapture %}
 
-- [Source code](https://github.com/aonsager/checkmywow)
+{% include project.html name="CrossPooter" image="crosspooter.jpeg" description="Poot your toots across different platforms. It reads an RSS feed and posts new entries to GoToSocial and Bluesky." links=links -%}
 
-## Squirrel 
+<!-- Squirrel -->
 
-A simple script that saves article text from a webpage into a local folder for archive and search.  
-The full text of the page is searchable, which makes it much easier to find pages I half-remember.
+{% capture links %}
+<ul>
+    <li><a href="/2025/01/09/squirrel-archive-webpages-so-i-can-find-them-again.html">Blog Post</a></li>
+    <li><a href="https://github.com/aonsager/squirrel-archiver">Source Code</a></li>
+</ul>
+{% endcapture %}
 
-- [Blog post](/2025/01/09/squirrel-archive-webpages-so-i-can-find-them-again.html)
-- [Source code](https://github.com/aonsager/squirrel-archiver)
+{% include project.html name="Squirrel" image="squirrel.png" description="A simple script that saves article text from a webpage into a local folder for archive and search." links=links -%}
+
+<!-- Check My Wow -->
+
+{% capture links %}
+<ul>
+    <li><a href="https://github.com/aonsager/checkmywow">Source Code</a></li>
+</ul>
+{% endcapture %}
+
+{% include project.html name="Check My Wow" image="checkmywow.png" description="A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing." links=links -%}
