@@ -20,6 +20,7 @@ tags:
 archive:
 - personal
 slash:
+blurb: We must allow ourselves to enjoy things, even in the face of our clear mediocrity. Is there anything I enjoy doing – and let myself enjoy – that I am not good at? Am I denying myself of any hobbies just because of a lack of skill?
 ---
 
 A distinguished actor appeared on TV and talked about their love for juggling. They had taken lessons at various times and always sets aside time to practice because they enjoy it so much. They then recounted how they recently met their juggling teacher of ~10 years past, displayed their current juggling skills, and was met with astonishment at how _they had not improved one bit in all that time!_
