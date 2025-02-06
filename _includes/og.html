@@ -9,8 +9,10 @@
 {% else -%}
   <meta content="website" property="og:type">
 {% endif -%}
-{% if page.excerpt -%}
-  <meta content="{{ page.blurb | page.excerpt | strip_html | normalize_whitespace | truncate: 200 }}" property="og:description">
+{% if page.blurb -%}
+  <meta content="{{ page.blurb | strip_html | normalize_whitespace | truncate: 200 }}" property="og:description">
+{% elsif page.excerpt -%}
+  <meta content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 200 }}" property="og:description">
 {% else -%}
   <meta content="{{ site.description }}" property="og:description">
 {% endif -%}
