@@ -210,11 +210,12 @@ task :draft, :title do |t, args|
     'date' => Time.now.getlocal("+09:00").strftime("%Y-%m-%d %H:%M:00 %z"),
     'link' => nil,
     'image' => nil,
+    'image_alt' => nil,
     'colors' => nil,
     'tags' => nil,
     'archive' => nil,
     'slash' => nil,
-    'blurb' => '',
+    'blurb' => nil,
   }
 
   # Write the file out to the _drafts directory
