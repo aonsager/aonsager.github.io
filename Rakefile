@@ -175,10 +175,11 @@ def create_toot(id, content, datetime, media_attachments)
     'toot_id' => id,
     'archive' => 'toots',
   }
-  media = ""
+  media = "<div class='gallery'>"
   media_attachments.each do |attachment|
-    media += "<p><a href='#{attachment["url"]}'><img src='#{attachment["preview_url"]}' alt='#{attachment["description"]}'/></a></p>"
+    media += "<div><a href='#{attachment["url"]}'><img src='#{attachment["preview_url"]}' title='#{attachment["description"]}'/></a></div>"
   end
+  media += "</div>"
   file = "#{__dir__}/_posts/toots/#{headers['slug']}.md"
   File.open(file,'w+') do |file| 
     file.puts YAML::dump(headers) + "---\n"

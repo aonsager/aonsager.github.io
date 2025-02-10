@@ -3,17 +3,12 @@ layout: default
 ---
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <article class="post wrapper toot" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      <div class="comment-link">
-        <a href="{{ site.fedi_url }}/statuses/{{ page.toot_id }}">Federated</a>
-      </div>
-    </div>
-  </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+  </div>
+  <div class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: date_format }}
+    </time>
   </div>
 </article>

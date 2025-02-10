@@ -106,6 +106,12 @@
   padding-right: $spacing-unit;
 }
 
+.toot .gallery {
+  display: flex; 
+  gap: calc($spacing-unit * 0.5);
+  margin-bottom: $spacing-unit;
+}
+
 hr {
   border: none;
   background-color: $grey-color-light;
