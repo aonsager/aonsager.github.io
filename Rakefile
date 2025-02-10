@@ -166,6 +166,14 @@ def create_toot(id, content, datetime, media_attachments)
   if content.include?("invisibleparade.com")
     puts "Skipping self-referencing toot #{id}, #{datetime}"
     return
+  elsif content.match(/#\w+/)
+    # hashtag
+    puts "Skipping toot with a hashtag #{id}, #{datetime}"
+    return
+  elsif content.match(/@\w+/)
+    # mention
+    puts "Skipping toot with a mention #{id}, #{datetime}"
+    return
   end
 
   headers = {
