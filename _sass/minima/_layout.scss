@@ -9,6 +9,10 @@
   display: block;
 }
 
+.right {
+  text-align: right;
+}
+
 /**
  * Site header
  */
@@ -279,6 +283,15 @@ table.archive-list {
 
   td {
     padding: 0px;
+  }
+}
+
+table.slashes {
+  td {
+    padding: calc($spacing-unit * 0.5)
+  }
+  h2, p {
+    margin-bottom: 0px;
   }
 }
 
