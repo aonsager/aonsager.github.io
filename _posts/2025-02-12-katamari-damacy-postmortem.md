@@ -19,7 +19,7 @@ tags:
 - katamari
 - anniversary
 archive:
-- game
+- games
 slash:
 blurb: Game Developer republished a postmortem from 2004 about Namco's Katamari Damacy, written by the game's director Keita Takahashi.
 ---

@@ -14,7 +14,7 @@ colors:
 - "#5E5D55"
 - "#F66E04"
 archive:
-- game
+- games
 ---
 
 ## Concept

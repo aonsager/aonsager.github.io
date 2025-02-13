@@ -20,7 +20,7 @@ permalink: /archive/games/
   {% assign filtered_posts = site.posts | where: "layout", "post" %}
   {% for post in filtered_posts %}
     {% for tag in post.archive %}
-      {% if tag == 'game' %}
+      {% if tag == 'games' %}
         {% assign currentDate = post.date | date: "%Y" %}
         {% if currentDate != myDate %}
           </table>

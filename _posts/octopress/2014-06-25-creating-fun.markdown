@@ -17,7 +17,7 @@ colors:
 - "#A2A2A2"
 - "#B64336"
 archive:
-- game
+- games
 ---
 
 My long-standing goal, in both work and personal life, is to create "fun". I currently make games for a living, so I'll be focusing on games for this post.

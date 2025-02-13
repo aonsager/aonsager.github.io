@@ -15,7 +15,7 @@ colors:
 - "#584933"
 - "#5F676C"
 archive:
-- game
+- games
 ---
 
 I grew up in the 90s, and back then video games were made for kids. Toys were for kids, and video games were just the newest, most exciting toys around.

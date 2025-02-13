@@ -20,7 +20,7 @@ permalink: /archive/mumbles/
     {% assign filtered_posts = site.posts | where: "layout", "toot" %}
     {% for post in filtered_posts %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <li>
+      <li class="toot">
         <div class="post-content">
           {{ post.content }}
         </div>

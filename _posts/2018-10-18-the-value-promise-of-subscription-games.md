@@ -14,7 +14,7 @@ colors:
 - "#B0B0B0"
 - "#B0AFB0"
 archive:
-- game
+- games
 ---
 
 I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.

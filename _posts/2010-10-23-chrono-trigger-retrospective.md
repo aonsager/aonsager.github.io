@@ -13,6 +13,8 @@ colors:
 - "#57230E"
 - "#645112"
 - "#56281E"
+archive:
+- games
 ---
 
 > Chrono Trigger basically began as a jam session — a couple of star designers and a manga artist getting together to brainstorm and seeing what they might produce. No pressure. No cynicism.

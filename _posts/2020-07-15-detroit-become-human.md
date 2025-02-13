@@ -17,7 +17,7 @@ tags:
 - robot
 - story
 archive:
-- game
+- games
 ---
 
 {% include image.html image="2020/detroit.jpg" %}
