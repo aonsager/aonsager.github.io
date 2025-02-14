@@ -69,20 +69,25 @@ The problem with this was that it ended up using _lots_ of CPU, and the archive 
 
 ### Other things that aren't needed but might be nice
 
-Some kind of tagging system (minimum friction of course) so that I can link related information and re-discover old items.
+1. Some kind of tagging system (minimum friction of course) so that I can link related information and re-discover old items.
 
-An accessible format to save the data. I prefer plain text to a database, because I can browse and open text files from Finder, or use them later for whatever I need.  
+2. An accessible format to save the data. I prefer plain text to a database, because I can browse and open text files from Finder, or use them later for whatever I need.  
 Would a database be more byte-efficient and make searching faster? Maybe. But since I'm not going to be saving millions of files, it probably will not make much of a difference.
 
-## Based on the Above, My Solution
+## Based on the above, my solution
 
-### 1. Put any webpage I want to save into a special bookmark folder
+### 1. Put any webpage I want to save into a text file
 
-There are easy keystrokes and workflows that exist for creating new bookmarks. Bookmarks are automatically synced across my iDevices. 
+<div class="callout">
+<div class="title">Update 2025/02/14</div>
+I wanted to use a folder in Safari bookmarks to save URLs since the OS already has handy hotkeys and utilities, but unfortunately editing the plist file by hand caused sync issues, so I gave up.
+</div>
 
-### 2. Run a script that periodically looks at the bookmark folder and processes new items
+I set up a Shortcut to grab Safari's URL and add it to a text file `urls.txt`, which lives on my iCloud drive.
 
-Setting a cron task to run this script once per day is fine. Bookmarks are saved as a plist file and can be parsed as normal XML. Items processed successfully are deleted from the folder. 
+### 2. Run a script that periodically looks at urls.txt and processes new items
+
+Setting a cron task to run this script once per day is fine. The text file is wiped after each run, and URLs that failed for some reason are saved to a separate file.
 
 ### 3. Access the URL to save the title and article text
 
