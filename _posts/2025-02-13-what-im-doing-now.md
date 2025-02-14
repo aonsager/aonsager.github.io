@@ -26,9 +26,7 @@ blurb:
 - Joining the fediverse, digging into writing and programming as a hobby, and learning to keep a physical journal.
 ---
 
-This is the year that Kid1 turns 5, and Kid2 turns 2. Kid1 is wrapping up his first year in preschool, and so far it has been going very well. Kid2 already has a huge personality, and we all love to see it.
-
-Life for the adults in our family is pretty stable by design, so not a lot has changed, which is good.
+Nothing much has changed for us in these past few years, and that is by design. Work is stable, life is stable, everybody is happy. I am very thankful for that.
 
 Last year I set up [GoToSocial](https://gotosocial.org) on my personal server to join the Fediverse, and that has been a lot of fun. It's nice to be social on the internet again. I think this has helped motivate me to update this site more, and I'm having a lot of fun making little updates to the site as well.
 
