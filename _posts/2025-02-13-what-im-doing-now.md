@@ -22,8 +22,7 @@ archive:
 - personal
 slash:
 - now
-blurb:
-- Joining the fediverse, digging into writing and programming as a hobby, and learning to keep a physical journal.
+blurb: Joining the fediverse, digging into writing and programming as a hobby, and learning to keep a physical journal.
 ---
 
 Nothing much has changed for us in these past few years, and that is by design. Work is stable, life is stable, everybody is happy. I am very thankful for that.
