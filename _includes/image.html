@@ -1,5 +1,5 @@
 <figure>
-  <img src='{{ site.url }}/assets/images/{{ include.image }}' alt='{{{ include.description }}}' class="center-image"/>
+  <img src='{{ site.url }}/assets/images/{{ include.image }}' alt='{{ include.description }}' class="center-image"/>
   {% if include.description -%}
     <figcaption>{{ include.description }}</figcaption>
   {% endif -%}
