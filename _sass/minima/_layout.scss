@@ -288,14 +288,18 @@ table.archive-list {
   td {
     padding: 0px;
   }
+
+  h3 {
+    margin: 0px;
+  }
 }
 
 table.slashes {
   td {
-    padding: calc($spacing-unit * 0.5)
+    padding-right: calc($spacing-unit * 0.5);
   }
-  h2, p {
-    margin-bottom: 0px;
+  h2, p{
+    margin-bottom: calc($spacing-unit * 0.5);
   }
 }
 
