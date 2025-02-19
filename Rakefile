@@ -163,14 +163,14 @@ end
 
 # Create a toot file from params
 def create_toot(id, content, datetime, media_attachments)
-  if content.include?("invisibleparade.com")
+  if content.include?("https://invisibleparade.com")
     puts "Skipping self-referencing toot #{id}, #{datetime}"
     return
-  elsif content.match(/#\w+/)
+  elsif content.include?("class=\"mention hashtag\"")
     # hashtag
-    puts "Skipping toot with a hashtag #{id}, #{datetime}"
+    puts "Skipping toot with a mention or hashtag #{id}, #{datetime}"
     return
-  elsif content.match(/@\w+/)
+  elsif content.match?(/@\w+/)
     # mention
     puts "Skipping toot with a mention #{id}, #{datetime}"
     return
