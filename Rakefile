@@ -415,7 +415,7 @@ task :build_push, :msg do |t, args|
   system "git -C ../#{GH_PAGES_DIR}/ pull"
   get_latest_gts_posts
   system "jekyll build"
-  system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
+  system "rm -r ../#{GH_PAGES_DIR}/*" # unless Dir['../#{GH_PAGES_DIR}/*'].empty?
   system "cp -r _site/* ../#{GH_PAGES_DIR}/"
   system "git -C ../#{GH_PAGES_DIR}/ add -A"
   system "git -C ../#{GH_PAGES_DIR}/ commit -m \"#{msg}\""

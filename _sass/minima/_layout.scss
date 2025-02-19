@@ -139,12 +139,10 @@ hr.large {
   list-style: none;
 
   li {
-    .post {
+    &.post {
       padding-top: $spacing-unit;
       padding-bottom: $spacing-unit;
     }
-
-    
 
     &:first-of-type {
       padding-top: 0px;
@@ -254,6 +252,10 @@ hr.large {
     @include relative-font-size(0.8);
     font-style: italic;
   }
+}
+
+p.short {
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .post-tag {
