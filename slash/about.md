@@ -35,10 +35,6 @@ Part of the reason I maintain this blog is the hope that it will help me make mo
     <td class="right"><h2><a href="/colophon">/colophon</a></h2></td>
     <td><p>How this site is made</p></td>
   </tr>
-  <tr>
-    <td class="right"><h2><a href="/archive">/archive</a></h2></td>
-    <td><p>All the things I have written</p></td>
-  </tr>
 </table>
 
 <div class="post-comments">
