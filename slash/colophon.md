@@ -29,7 +29,7 @@ Now I have a separate repository for the compiled site, with a [rake task](https
 
 ## Design decisions
 
-I like the home page to show my most recent posts, and for it to show the full post content as much as possible. Sometimes I'll have a very long post with many code snippets, and for those I will have a "read more" link to see the full text.
+I like the home page to show my most recent posts, and for it to show the full post content as much as possible. Sometimes I'll have a very long post with many code snippets though, and for those I will have a "read more" link to see the full text.
 
 ### The post header
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /
+permalink: /about
 ---
 
 <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
@@ -16,48 +16,29 @@ I have been working at a mobile game company in Japan since 2010. Because my day
 
 Part of the reason I maintain this blog is the hope that it will help me make more connections online. Please feel free to [get in touch](/contact)! It would make me very happy.
 
-## Recent posts
-<div>
-  {% assign filtered_posts = site.posts | where: "layout", "post" | slice: 0, 5 -%}
-  <table class="archive-list">
-    {% for post in filtered_posts -%}
-      <tr>
-        <td class="date-text">{{ post.date | date: "%b %-d" -}}</td>
-        <td>
-          <h3><a href="{{ post.url }}">{{ post.title -}}</a></h3>
-          <p>{{ post.blurb -}}</p>
-        </td>
-      </tr>
-    {% endfor -%}
-  </table>
-</div>
-
 ## Learn more
+
 <table class="slashes">
-<tr>
-  <td class="right"><h2><a href="/posts">/posts</a></h2></td>
-  <td><p>Things I wrote recently</p></td>
-</tr>
-<tr>
-  <td class="right"><h2><a href="/archive">/archive</a></h2></td>
-  <td><p>All the things I have written</p></td>
-</tr>
-<tr>
-  <td class="right"><h2><a href="/now">/now</a></h2></td>
-  <td><p>What I am doing now</p></td>
-</tr>
-<tr>
-  <td class="right"><h2><a href="/projects">/projects</a></h2></td>
-  <td><p>Fun things I have made</p></td>
-</tr>
-<tr>
-  <td class="right"><h2><a href="/contact">/contact</a></h2></td>
-  <td><p>How to contact me</p></td>
-</tr>
-<tr>
-  <td class="right"><h2><a href="/colophon">/colophon</a></h2></td>
-  <td><p>How this site is made</p></td>
-</tr>
+  <tr>
+    <td class="right"><h2><a href="/now">/now</a></h2></td>
+    <td><p>What I am doing now</p></td>
+  </tr>
+  <tr>
+    <td class="right"><h2><a href="/projects">/projects</a></h2></td>
+    <td><p>Fun things I have made</p></td>
+  </tr>
+  <tr>
+    <td class="right"><h2><a href="/contact">/contact</a></h2></td>
+    <td><p>How to contact me</p></td>
+  </tr>
+  <tr>
+    <td class="right"><h2><a href="/colophon">/colophon</a></h2></td>
+    <td><p>How this site is made</p></td>
+  </tr>
+  <tr>
+    <td class="right"><h2><a href="/archive">/archive</a></h2></td>
+    <td><p>All the things I have written</p></td>
+  </tr>
 </table>
 
 <div class="post-comments">

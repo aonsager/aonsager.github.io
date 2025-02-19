@@ -2,6 +2,12 @@
 layout: default
 title: Posts
 ---
+{% if paginator.page == 1 -%}
+  <div class="wrapper">
+    {% include home-top.html -%}
+  </div>
+  <hr class="large" />
+{% endif -%}
 <div class="home wrapper">
   {{ content }}
   <ul class="post-list">
