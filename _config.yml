@@ -29,7 +29,7 @@ fedi_url: https://gts.invisibleparade.com/@alex
 # Build settings
 markdown: kramdown
 paginate: 10
-paginate_path: '/page/:num/' # Pages are index.html inside this folder (default)
+paginate_path: '/posts/page/:num/' # Pages are index.html inside this folder (default)
 plugins:
   - jekyll-feed
   - jekyll-paginate

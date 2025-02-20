@@ -2,12 +2,6 @@
 layout: default
 title: Posts
 ---
-{% if paginator.page == 1 -%}
-  <div class="wrapper">
-    {% include home-top.html -%}
-  </div>
-  <hr class="large" />
-{% endif -%}
 <div class="home wrapper">
   {{ content }}
   <ul class="post-list">
@@ -52,18 +46,20 @@ title: Posts
   </ul>
   {% if paginator.total_pages > 1 -%}
   <div class="paginator">
-    <div class="wrapper">
-      {% if paginator.next_page -%}
-      <div class="next-link">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
-      </div>
-      {% endif -%}
-      {% if paginator.previous_page -%}
       <div class="prev-link">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
+        {% if paginator.previous_page -%}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
+        {% endif -%}
       </div>
-      {% endif -%}
-    </div>
+      <div class="archive-link">
+        <a href="/archive">Archive</a>
+      </div>
+      <div class="next-link">
+        {% if paginator.next_page -%}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
+        {% endif -%}
+      </div>
+      
   </div>
   {% endif  -%}
 </div>

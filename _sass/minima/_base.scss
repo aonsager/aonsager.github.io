@@ -30,7 +30,7 @@ body {
   padding: calc($spacing-unit / 2);
   margin-bottom: $spacing-unit;
   background-color: $grey-color-light;
-  color: $grey-color-dark;
+  color: $text-color;
   font-size: 0.9em;
   font-style: italic;
 }
@@ -193,7 +193,37 @@ pre {
   }
 }
 
+.wide-wrapper {
+  max-width: -webkit-calc(#{$wide-content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$wide-content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
 
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$wide-content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$wide-content-width} - (#{$spacing-unit}));
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
+  }
+}
+
+.responsive-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-unit;
+  flex-direction: row;
+
+  &>div {
+    flex-grow: 1;
+  }
+
+  @include media-query($on-laptop) {
+    flex-direction: column;
+  }
+}
 
 /**
  * Clearfix

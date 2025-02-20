@@ -175,20 +175,50 @@ hr.large {
 }
 
 .paginator {
-  float: left;
+  display: flex;
   width: 100%;
+  gap: $spacing-unit;
+  flex-direction: row;
+  margin-top: calc($spacing-unit * 2);
+
   .next-link {
-    float: right;
-    margin-right: $spacing-unit;
+    order: 3;
+    flex: 1 1 0px;
+    text-align: right;
   }
+
   .prev-link {
-    float: left;
-    margin-left: $spacing-unit;
+    order: 1;
+    flex: 1 1 0px;
+    text-align: left;
+  }
+
+  .archive-link {
+    order: 2;
+    flex: 1 1 0px;
+    text-align: center;
   }
 }
 
 .comment-link {
   float: right;
+}
+
+.post-list-wrapper {
+  display: inline-block;
+
+  a {
+    color: $text-color;
+  }
+}
+
+.post-list-child {
+  display: flex;
+
+  div, p {
+    flex-grow: 1;
+    width: 0;
+  }
 }
 
 /**
@@ -197,6 +227,7 @@ hr.large {
 
  h1.short, h2.short, h3.short {
   margin: 0px;
+
   a {
     color: $text-color;
   }
@@ -220,7 +251,7 @@ hr.large {
 
 .post-banner.short {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .post-content {

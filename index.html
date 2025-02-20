@@ -1,8 +1,119 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-pagination: 
-  enabled: true
+title: Hello!
 ---
+
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="page-content" aria-label="Content">
+      <article class="post">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title | escape }}</h1>
+          </header>
+          <div class="post-content">
+            <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+
+            <p><img src="/assets/images/myface.jpg" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="I'm sitting at an outdoor terrace smiling and trying to keep my eyes open in the bright sunlight." /></p>
+
+            <p>My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. I learned programming by making bad games for my TI-83 calculator. The first things I published online were bad flash websites.</p>
+
+            <p>In college I studied programming and human-computer interaction. A team of classmates and I made <a href="http://www.sfgate.com/news/article/These-Stanford-Students-Made-Millions-Taking-A-2361888.php">a few apps</a> on Facebook, which eventually turned into a startup. This was the first time I made something that was used by a large number of people. It became my introduction to making real products that have users and make money.</p>
+
+            <p>I have been working at a mobile game company in Japan since 2010. Because my day-job doesn't currently involve much programming, I like to work on (<a href="/projects/">fun projects</a> on the side that let me build things directly.</p>
+
+            <p>Part of the reason I maintain this blog is the hope that it will help me make more connections online. Please feel free to <a href="/contact/">get in touch</a>! It would make me very happy.</p>
+          </div>
+          <hr />
+        </div>
+        <div class="wrapper">
+          <div class="post-content">
+            <div class="responsive-flex-container">
+              <div>
+                <h2>Recent posts:</h2>
+                {% assign filtered_posts = site.posts | where: "layout", "post"-%}
+                {% for post in filtered_posts limit: 5 -%}
+                  {% assign currentDate = post.date | date: "%Y" -%}
+                  <div><div class="post-list-wrapper">
+                    <a href="{{post.url}}">{{post.title}}</a>
+                    <div class="post-list-child">
+                      <div class="post-banner short" style="background-image:linear-gradient(-45deg, {{ post.colors[0] }}, {{ post.colors[1] }}, {{ post.colors[2] }}, {{ post.colors[3] }}, {{ post.colors[4] }})"></div>
+                    </div>
+                  </div></div>
+                {% endfor -%}
+              </div>
+              <div>
+                <h2>Favorite posts:</h2>
+                <div><div class="post-list-wrapper">
+                  <a href="2013/06/04/behind-the-scenes-pokemon-fusion.html">Pokemon Fusion: Behind the Scenes</a>
+                    <div class="post-list-child">
+                      <div class="post-banner short" style="background-image:linear-gradient(-45deg, #5D5E60, #E74F62, #F39C10, #B45932, #56472E)"></div>
+                    </div>
+                </div></div>
+                <div><div class="post-list-wrapper">
+                  <a href="2019/03/20/adding-color-to-posts-automatically.html">Generating Colors from Post Titles</a>
+                  <div class="post-list-child">
+                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #A27D7A, #927D67, #EFAB4D, #24919A, #535E5E)"></div>
+                  </div>
+                </div></div>
+                <div><div class="post-list-wrapper">
+                  <a href="2016/06/13/lets-stop-the-hate.html">Let's stop the hate</a>
+                  <div class="post-list-child">
+                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #363636, #C4A85A, #9E1A19, #CCA83A, #6F6F71)"></div>
+                  </div>
+                </div></div>
+                <div><div class="post-list-wrapper">
+                  <a href="2025/01/20/becoming-a-parent-introduced-me-to-stress.html">Becoming a parent introduced me to stress</a>
+                  <div class="post-list-child">
+                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #011270, #776B76, #32C774, #A55367, #909090)"></div>
+                  </div>
+                </div></div>
+                <div><div class="post-list-wrapper">
+                  <a href="2021/12/16/beautiful-vs.-effective-prose.html">Beautiful vs. Effective Prose</a>
+                  <div class="post-list-child">
+                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #5B5C65, #619C5E, #4D2719, #B0B0B0, #B0B0B0)"></div>
+                  </div>
+                </div></div>
+              </div>
+            </div>
+            <hr />
+          </div>  
+        </div>
+        <div class="wrapper">
+          <div class="post-content">
+            <h2>Learn more</h2>
+
+            <table class="slashes">
+              <tr>
+                <td class="right"><h2><a href="/now">/now</a></h2></td>
+                <td><p>What I am doing now</p></td>
+              </tr>
+              <tr>
+                <td class="right"><h2><a href="/posts">/posts</a></h2></td>
+                <td><p>Things I wrote</p></td>
+              </tr>
+              <tr>
+                <td class="right"><h2><a href="/archive">/archive</a></h2></td>
+                <td><p>Everything I wrote</p></td>
+              </tr>
+              <tr>
+                <td class="right"><h2><a href="/projects">/projects</a></h2></td>
+                <td><p>Fun things I have made</p></td>
+              </tr>
+              <tr>
+                <td class="right"><h2><a href="/contact">/contact</a></h2></td>
+                <td><p>How to contact me</p></td>
+              </tr>
+              <tr>
+                <td class="right"><h2><a href="/colophon">/colophon</a></h2></td>
+                <td><p>How this site is made</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </article>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
