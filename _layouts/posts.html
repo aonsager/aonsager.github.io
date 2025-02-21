@@ -14,8 +14,8 @@ title: Posts
       {% else -%}
       <li>
       {% endif -%}
-          <header class="post-header">
-          {% if post.layout == 'post' -%}
+        {% if post.layout == 'post' -%}
+          <header class="post-header"></header>
             <h1>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h1>
@@ -38,8 +38,8 @@ title: Posts
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: date_format }}</a>
             {% if post.layout == 'post' -%}
             <!-- <div class="comment-link"><a href="{{ site.baseurl }}{{ post.url }}#commento"></a></div> -->
-            {% endif -%}
-          </div>
+            </div>
+          {% endif -%}
       </li>
       <hr />
     {% endfor -%}

@@ -110,8 +110,17 @@ pre {
 }
 
 .toot .post-content {
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
+  padding-left: calc($spacing-unit * 2);
+  position: relative;
+  
+    &::before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 24px;
+      height: 24px;
+      content: url('/assets/images/chat.png');
+    }
 }
 
 .toot .gallery {
@@ -405,6 +414,7 @@ form {
 .indent {
   border-left: 1px solid $grey-color-light;
   padding-left: $spacing-unit;
+  margin-top: calc($spacing-unit / 2);
   margin-bottom: $spacing-unit;
 }
 
@@ -472,6 +482,10 @@ form {
 
   p.archive-categories {
     a { color: $text-color-dark }
+  }
+
+  .post-list-wrapper a {
+    color: $text-color-dark;
   }
 
 }
