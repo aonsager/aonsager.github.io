@@ -23,7 +23,7 @@ slash:
 
 I have always been a calm and happy person. Aggressively optimistic, even. I made it through the first 1/3 of my life without feeling much stress, only getting angry on rare occasions. Anger management, emotional therapy, mindfulness exercises, these were all things that I had no need for.
 
-I thought that this was a personality trait, but now I realize that I was simply blessed with an easy life. I wasn't particularly good at dealing with stress, I just didn't have much stress coming my way.
+I thought that this was a personality trait, but now I realize that I was simply blessed with an easy life. It's not that I was particularly good at dealing with stress, I just didn't have much stress coming my way.
 
 Well, parenting is not easy. It is demanding. uncontrollable, scary, and stressful. I love my kids dearly and would not want them to change for the world, and that seems to make it even harder. I want so badly to be the parent they deserve, to guide them with a gentle hand and encourage their every exploration.
 
