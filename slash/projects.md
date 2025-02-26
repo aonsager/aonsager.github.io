@@ -11,7 +11,9 @@ Since my day-job doesn't currently involve much programming, I like to work on f
 <!-- This Site -->
 
 {% capture links %}
-<p>I should write a blog post going through them.</p>
+<ul>
+    <li>Read about how it works in <a href="/colophon">the colophon</a></li>
+</ul>
 {% endcapture %}
 
 {% include project.html name="This Site" image="invisibleparade.jpg" description="Starting from a basic Jekyll template, I've added a number of customizations that I'm pretty pleased with." links=links -%}
