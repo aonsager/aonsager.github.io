@@ -185,7 +185,7 @@ def create_toot(id, content, datetime, media_attachments)
   }
   media = "<div class='gallery'>"
   media_attachments.each do |attachment|
-    media += "<div><a href='#{attachment["url"]}'><img src='#{attachment["preview_url"]}' title='#{attachment["description"]}'/></a></div>"
+    media += "<div><a href='#{attachment["url"]}'><img src='#{attachment["preview_url"]}' alt='#{attachment["description"]}'/></a></div>"
   end
   media += "</div>"
   file = "#{__dir__}/_posts/toots/#{headers['slug']}.md"
