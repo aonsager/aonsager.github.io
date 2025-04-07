@@ -21,7 +21,7 @@ tags:
 archive:
 - coding
 slash:
-blurb: I initially chose Coolify as a self-hosted alternative to Heroku when it got too expensive. Now that I have learned a fair bit about server management, I’ve found that I may no longer need Coolify’s hand-holding.
+blurb: I initially chose Coolify as a self-hosted alternative to Heroku when it got too expensive. Now that I have learned a fair bit about server management, I've found that I may no longer need Coolify's hand-holding.
 ---
 
 I initially chose [Coolify](https://coolify.io/) as a self-hosted alternative to Heroku when it got too expensive. Coolify makes a lot of things very easy, but I ended up having to dig in to the details and learn a lot to fix things that didn't work. Now that I have learned a fair bit about server management, I've found that I may no longer need Coolify's hand-holding.
