@@ -1,41 +1,38 @@
 ---
 layout: default
 ---
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <div class="home wrapper">
-    <article style="background-image: linear-gradient(45deg, {{ page.colors[0] }}, {{ page.colors[1] }}, {{ page.colors[2] }}, {{ page.colors[3] }}, {{ page.colors[4] }});"class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="wrapper">
-        <header class="post-header">
-          {% if page.layout == 'post' -%}
-          <h1>
-            <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-          </h1>
-          {% endif -%}
-          {% if page.link -%}
-          <div class="post-meta link">
-            <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
-          </div>
-          {% endif -%}
-        </header>
-        <div class="post-content single" itemprop="articleBody">
-          {{ content }}
-        </div>
-        <div class="post-meta">
-          {{ page.date | date: date_format }}
-        </div>
-        {% for tag in page.tags -%}
-          <div class="post-tag">{{ tag }}</div>
-        {% endfor -%}
+{% assign date_format = "%b %-d, %Y" -%}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="side-flair" style="background-image: linear-gradient(0deg, {{ page.colors[0] }}, {{ page.colors[1] }}, {{ page.colors[2] }}, {{ page.colors[3] }}, {{ page.colors[4] }});"></div>
+  <div class="wrapper">
+    <header class="post-header">
+      {% if page.layout == 'post' -%}
+      <h1>
+        <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+      </h1>
+      {% endif -%}
+      {% if page.link -%}
+      <div class="post-meta link">
+        <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
       </div>
-    </article>
-    <div class="wrapper">
-      <hr />
-      <div class="post-related">
-          {% include related_posts.html -%}
-      </div>
-      <hr />
-      <div class="post-comments">
-          {% include comments.html -%}
-      </div>
+      {% endif -%}
+    </header>
+    <div class="post-content single" itemprop="articleBody">
+      {{ content }}
+    </div>
+    <div class="post-meta">
+      {{ page.date | date: date_format }}
     </div>
   </div>
+  <div class="wrapper">
+    <hr />
+    <div class="post-related">
+        {% include related_posts.html -%}
+    </div>
+    <hr />
+    <div class="post-comments">
+        {% include comments.html -%}
+    </div>
+  </div>
+</article>
+  

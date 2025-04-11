@@ -3,9 +3,12 @@
   {% include head.html %}
 <body>
   {% include header.html %}
-  <main class="page-content" aria-label="Content">
-    {{ content }}
-  </main>
+  <div class="container">
+    {% include nav.html %}
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+  </div>
   {% include footer.html %}
 </body>
 </html>

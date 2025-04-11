@@ -1,0 +1,44 @@
+<header class="site-header" role="banner">
+  <div class="wrapper" style="position:relative;">
+    {% assign default_paths = site.pages | map: "path" -%}
+    {% assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" href="{{ "/" | relative_url }}">
+      <div class="logo-container">
+        <div class="full" style="float:left;">
+          <svg id="header-logo-black" width="80" height="50" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="26" r="20" fill="#fdfdfd" stroke="black" stroke-width="2" stroke-dasharray="2, 2" />
+            <circle cx="40" cy="26" r="20" fill="black" />
+          </svg>
+          <svg id="header-logo-white" width="80" height="50" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="26" r="20" fill="#2d2d2d" stroke="#c8c4bc" stroke-width="2" stroke-dasharray="2, 2" />
+            <circle cx="40" cy="26" r="20" fill="#c8c4bc" />
+          </svg>
+        </div>
+        <div class="compact" style="float:left;">
+          <svg id="header-logo-black" width="55" height="50" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="24" r="12" fill="#fdfdfd" stroke="black" stroke-width="2" stroke-dasharray="2, 2" />
+            <circle cx="30" cy="24" r="12" fill="black" />
+          </svg>
+          <svg id="header-logo-white" width="55" height="50" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="24" r="12" fill="#2d2d2d" stroke="#c8c4bc" stroke-width="2" stroke-dasharray="2, 2" />
+            <circle cx="30" cy="24" r="12" fill="#c8c4bc" />
+          </svg>
+        </div>
+        <div style="float:left;">
+          {{ site.title | escape }}
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="header-banner"></div>
+  {% if page_paths -%}
+  <div class="wrapper">
+    <nav class="site-nav">
+      <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
+      <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
+      <a class="page-link" href="{{ "/posts/" | relative_url }}">Posts</a>
+      <a class="page-link" href="{{ "/feed.xml" | relative_url }}">RSS</a>
+    </nav>
+  </div>
+{% endif -%}
+</header>

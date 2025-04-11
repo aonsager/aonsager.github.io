@@ -1,0 +1,179 @@
+
+/* Variables */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'Ostrich Sans Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ostrich Sans Rounded'), url('https://invisibleparade.com/assets/images/OstrichSansRoundedMedium.woff') format('woff');
+}
+
+:root {
+    /* Typography */
+    --base-font-size: 16px;
+    --base-line-height: 1.6;
+    --base-font-family: 'Lato', sans-serif;
+    --base-font-weight: 400;
+
+    /* Layout */
+    --spacing-unit: 20px;
+    --sidebar-width: 280px;
+    --content-width: 800px;
+    --max-width: 1080px;
+
+    /* Colors */
+    --background-color: #fdfdfd;
+    --background-color-dark: #2d2d2d;
+    --text-color: #333;
+    --color-grey: #ccc;
+  }
+
+
+/* Boilerplate */
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+p {
+  margin: 0 0 var(--spacing-unit);
+}
+
+h1 {
+    margin: 0 0 var(--spacing-unit);
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+html {
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+    text-size-adjust: none; /* for other mobile browsers */
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    font-weight: var(--base-font-weight);
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+       -moz-font-feature-settings: "kern" 1;
+         -o-font-feature-settings: "kern" 1;
+            font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Layout */
+
+header {
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    margin-bottom: var(--spacing-unit);
+
+    h1 {
+        margin: 0;
+    }
+
+    a,
+    a:visited,
+    a:hover {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+}
+
+a.site-title {
+    font-family: 'Ostrich Sans Rounded', -apple-system,"Helvetica Neue",sans-serif;
+    font-size: 70px;
+    font-variant: small-caps;
+
+    &,
+    &:visited,
+    &:hover {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: var(--max-width);
+}
+
+nav {
+    border: 1px solid #ccc;
+    float: left;
+    width: var(--sidebar-width);
+    padding: var(--spacing-unit);
+    ul {
+        margin-top: var(--spacing-unit);
+    }
+    li {
+        a {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+main {
+    border: 1px solid #ccc;
+    float: left;
+    max-width: var(--content-width);
+    padding: 0;
+}
+
+article {
+    position: relative;
+    padding: 0 var(--spacing-unit) 0 calc(var(--spacing-unit) + 5px);
+
+    .side-flair {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 5px;
+        height: 100%;
+    }
+}
+
+hr {
+    margin: var(--spacing-unit) 0;
+    background-color: var(--color-grey);
+    border: none;
+    height: 1px;
+}
+
+footer {
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
