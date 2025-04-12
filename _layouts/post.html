@@ -19,12 +19,10 @@ layout: default
     </header>
     <div class="post-content single" itemprop="articleBody">
       {{ content }}
+      <div class="post-meta">
+        {{ page.date | date: date_format }}
+      </div>
     </div>
-    <div class="post-meta">
-      {{ page.date | date: date_format }}
-    </div>
-  </div>
-  <div class="wrapper">
     <hr />
     <div class="post-related">
         {% include related_posts.html -%}
