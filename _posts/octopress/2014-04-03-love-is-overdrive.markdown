@@ -5,6 +5,9 @@ description: オーバードライブしてたら愛は全開に変わった
 keywords: rock, yabaoka, love is overdrive
 date: 2014-04-03 22:17
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - life

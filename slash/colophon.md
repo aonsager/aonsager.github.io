@@ -1,7 +1,11 @@
 ---
 layout: page
 title: About this site
-permalink: /colophon/
+nav_category: about
+nav_category_color: green
+slug: colophon
+slug_color: green-light
+permalink: /about/colophon
 ---
 
 <div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>

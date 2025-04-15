@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: My AI manifesto
 slug: ai-manifesto
 date: '2025-03-28 16:55:00 +0900'

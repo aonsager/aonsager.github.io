@@ -1,18 +1,40 @@
+{% if page.nav_category == '' -%}
+  {% assign index_class = 'selected' -%}
+{% endif -%}
+{% if page.nav_category == 'about' -%}
+  {% if page.slug == 'now' -%}
+    {% assign now_class = 'selected' -%}
+  {% elsif page.slug == 'ai' -%}
+    {% assign ai_class = 'selected' -%}
+  {% elsif page.slug == 'colophon' -%}
+    {% assign colophon_class = 'selected' -%}
+  {% else -%}
+    {% assign about_class = 'selected' -%}
+  {% endif -%}
+{% endif -%}
+
+{% if page.nav_category == 'posts' -%}
+  {% assign posts_class = 'selected' -%}
+{% endif -%}
+{% if page.nav_category == 'archive' -%}
+  {% assign archive_class = 'selected' -%}
+{% endif -%}
+
 <nav class="mono">
   <ul class="nav-links">
-    <li class="red"><a href="/">/index</a></li>
-    <li class="green"><a href="/about">/about</a></li>
-      <li class="indent green-light"><a href="/about/now">/now</a></li>
-      <li class="indent green-light"><a href="/about/ai">/ai</a></li>
-      <li class="indent green-light"><a href="/about/colophon">/colophon</a></li>
-    <li class="blue selected"><a href="/posts/">/posts</a></li>
+    <li class="red {{ index_class }}"><a href="/">/index</a></li>
+    <li class="green {{ about_class }}"><a href="/about">/about</a></li>
+      <li class="indent green-light {{ now_class }}"><a href="/about/now">/now</a></li>
+      <li class="indent green-light {{ ai_class }}"><a href="/about/ai">/ai</a></li>
+      <li class="indent green-light {{ colophon_class }}"><a href="/about/colophon">/colophon</a></li>
+    <li class="blue {{ posts_class }}"><a href="/posts/">/posts</a></li>
       <li class="indent blue-light"><a href="/posts/archive/">/archive</a></li>
         <li class="double-indent blue-light"><a href="/posts/archive/me/">/me</a></li>
         <li class="double-indent blue-light"><a href="/posts/archive/games/">/games</a></li>
         <li class="double-indent blue-light"><a href="/posts/archive/coding/">/coding</a></li>
         <li class="double-indent blue-light"><a href="/posts/archive/mumbles/">/mumbles</a></li>
-    <li class="purple"><a href="/projects/">/projects</a></li>
-    <li class="orange"><a href="/contact/">/contact</a></li>
-    <li class="pink"><a href="/feed.xml">/feed</a></li>
+    <li class="purple {{ projects_class }}"><a href="/projects/">/projects</a></li>
+    <li class="orange {{ contact_class }}"><a href="/contact/">/contact</a></li>
+    <li class="pink {{ feed_class }}"><a href="/feed.xml">/feed</a></li>
   </ul>
 </nav>

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: An AI That Begins Novels
 slug: an-ai-that-begins-novels
 link: https://aiweirdness.com/post/189170306297/how-to-begin-a-novel

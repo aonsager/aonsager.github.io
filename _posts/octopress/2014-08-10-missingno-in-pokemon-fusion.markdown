@@ -5,6 +5,9 @@ description: Adding Missingno. as a hidden character to Pokemon Fusion
 keywords: missingno, pokemon fusion, pokemon, fusion, ruby, imagemagick, glitch
 date: 2014-08-10 18:49
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - ruby

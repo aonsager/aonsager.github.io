@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The First Image of a Black Hole
 slug: first-image-of-a-black-hole
 link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276

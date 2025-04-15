@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Box Line Text: A minimal whiteboard app'
 slug: box-line-text-a-minimal-whiteboard-app
 link: https://box-line-text.netlify.app/

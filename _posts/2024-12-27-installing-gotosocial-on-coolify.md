@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Installing GoToSocial on Coolify
 slug: installing-gotosocial-on-coolify
 link:

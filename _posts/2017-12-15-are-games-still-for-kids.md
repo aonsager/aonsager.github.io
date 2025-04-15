@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Are Video Games Still For Kids?
 date: 2017-12-15 17:47 +0900
 tags:

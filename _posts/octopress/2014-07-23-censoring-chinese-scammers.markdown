@@ -5,6 +5,9 @@ description: LINE users fight Chinese scammers in a hilarious way
 keywords: LINE, scam, Tiananmen, phishing, China, 天安門
 date: 2014-07-23 14:14
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - funny

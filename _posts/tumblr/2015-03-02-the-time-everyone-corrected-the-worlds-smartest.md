@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Time Everyone “Corrected” the World’s Smartest Woman
 date: '2015-03-02T15:40:30+09:00'
 tags:

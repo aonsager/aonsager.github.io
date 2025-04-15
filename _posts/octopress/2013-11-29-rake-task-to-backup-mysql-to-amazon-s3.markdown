@@ -6,6 +6,9 @@ description: A simple rake task to dump the contents of a MySQL database and sav
 keywords: ruby, rake, mysql, backup, s3, automation
 date: 2013-11-29 01:54
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - programming

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Original iChat UI
 date: '2008-03-19T03:00:50+09:00'
 tags:

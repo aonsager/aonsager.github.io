@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Hobbies that I am no good at
 slug: hobbies-that-i-am-no-good-at
 date: '2025-01-30 14:48:00 +0900'

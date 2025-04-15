@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Donkey Kong and Me
 date: '2008-03-12T03:22:41+09:00'
 tags:

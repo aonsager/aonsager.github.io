@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Becoming a parent introduced me to stress
 slug: becoming-a-parent-introduced-me-to-stress
 link:

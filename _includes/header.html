@@ -1,3 +1,11 @@
+{% assign nav_category = "/" | append: page.nav_category -%}
+{% assign nav_category_color = page.nav_category_color -%}
+{% assign page_slug = "/" | append: page.slug -%}
+{% assign page_slug_color = page.slug_color -%}
+{% if nav_category == "/posts" and paginator.page > 1 -%}
+  {% assign page_slug = "/page/" | append: paginator.page -%}
+  {% assign page_slug_color = "blue-light" -%}
+{% endif -%}
 <header class="site-header mono">
   <div class="container">
     <div class="site-title">
@@ -6,7 +14,7 @@
             <circle cx="25" cy="15" r="10" fill="#2d2d2d" stroke="#fdfdfd" stroke-width="1" />
       </svg>
       <div>
-        <span class="header-url">invisibleparade.com</span><span class="header-url blue">/posts</span><span class="blue-light">/{{ page.slug }}</span>
+        <span class="header-url">invisibleparade.com</span><span class="header-url {{ nav_category_color }}">{{ nav_category }}</span><span class="{{ page_slug_color }}">{{ page_slug }}</span>
       </div>
     </div>
   </div>

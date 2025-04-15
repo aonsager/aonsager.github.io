@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: AWS Lambda
 date: '2014-11-14T11:33:00+09:00'
 tags:

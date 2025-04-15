@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Leather Sneakers by Spingle
 slug: leather-sneakers-by-spingle
 link: https://www.spingle.jp/en/spingle_move/

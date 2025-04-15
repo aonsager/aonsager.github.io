@@ -3,6 +3,9 @@ layout: post
 title: Daft Punk Skrillex Remix - Conte
 date: 2013-04-10 18:13
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.youtube.com/watch?v=kXpn8thEGbE
 tags:
 - music

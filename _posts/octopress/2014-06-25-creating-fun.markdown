@@ -5,6 +5,9 @@ description: Thoughts as a creator on balancing originality and funness
 keywords: flappy bird, 2048, threes, game, originality, creativity, inspiration
 date: 2014-06-25 23:28
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - opinion

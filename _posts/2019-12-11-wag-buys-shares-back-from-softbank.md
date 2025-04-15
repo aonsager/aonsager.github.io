@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Wag Buys Shares Back from SoftBank
 slug: wag-buys-shares-back-from-softbank
 link: https://www.bloomberg.com/opinion/articles/2019-12-10/the-dogs-ate-softbank-s-money

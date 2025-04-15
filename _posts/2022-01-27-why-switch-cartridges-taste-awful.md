@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Why Switch Cartridges Taste Awful
 slug: why-switch-cartridges-taste-awful
 link: https://www.polygon.com/2017/3/1/14784140/nintendo-switch-cartridges-taste-awful-psa

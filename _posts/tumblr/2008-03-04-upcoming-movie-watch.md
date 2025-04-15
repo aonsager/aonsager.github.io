@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Upcoming Movie Watch
 date: '2008-03-04T04:49:00+09:00'
 tags:

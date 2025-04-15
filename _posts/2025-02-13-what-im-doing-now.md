@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: What I'm doing /now
 slug: what-im-doing-now
 date: '2025-02-13 14:34:00 +0900'

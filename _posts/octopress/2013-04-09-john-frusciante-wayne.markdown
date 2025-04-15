@@ -2,6 +2,9 @@
 layout: post
 title: John Frusciante - Wayne
 date: 2013-04-09 21:33
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 comments: true
 link: http://johnfrusciante.com/2013/04/07/wayne/
 tags:

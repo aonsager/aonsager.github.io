@@ -3,6 +3,9 @@ layout: post
 title: 'My Last Days: Meet Zach Sobiech'
 date: 2013-06-09 13:17
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.upworthy.com/this-kid-just-died-what-he-left-behind-is-wondtacular-rip
 tags:
 - video

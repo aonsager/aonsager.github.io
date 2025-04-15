@@ -3,6 +3,9 @@ layout: post
 title: Skycons - Free HTML5 weather icons
 date: 2013-04-09 21:39
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://darkskyapp.github.io/skycons/
 tags:
 - design

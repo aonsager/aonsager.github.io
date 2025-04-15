@@ -5,6 +5,9 @@ description: Reviewing the Chargekey, a key-sized USB to Lightning cable
 keywords: chargekey, product, review, mac, iphone, charge, cable, nomad, gadget
 date: 2014-03-20 20:28
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - tech

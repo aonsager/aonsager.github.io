@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Maker's Schedule - A Ten Year Retrospective
 link:
 colors:

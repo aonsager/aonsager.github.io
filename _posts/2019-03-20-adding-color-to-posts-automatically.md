@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Generating Colors from Post Titles
 slug: adding-color-to-posts-automatically
 link:

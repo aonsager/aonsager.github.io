@@ -1,7 +1,10 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+nav_category: about
+nav_category_color: green
+nav_page: ""
+permalink: /about
 ---
 
 <p><img src="/assets/images/myface.jpg" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace smiling and trying to keep my eyes open in the bright sunlight." /></p>

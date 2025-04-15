@@ -5,6 +5,9 @@ description: クリエイターとして、創造性と面白さの両立につ�
 keywords: flappy bird, 2048, threes, ゲーム, 面白さ, 発想, 物創り
 date: 2014-06-25 23:11
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - opinion

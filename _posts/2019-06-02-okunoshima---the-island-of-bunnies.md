@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Ōkunoshima - The Island of Bunnies
 slug: okunoshima---the-island-of-bunnies
 link:

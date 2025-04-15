@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Star Wars Oil Paintings
 slug: star-wars-oil-paintings
 link: https://www.nacicaba.com/star-wars-paintings/

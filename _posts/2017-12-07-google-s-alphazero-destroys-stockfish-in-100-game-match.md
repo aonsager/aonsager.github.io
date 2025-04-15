@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Google's AlphaZero Destroys Stockfish In 100-Game Match
 date: 2017-12-06 22:58 +0900
 link: https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match

@@ -3,6 +3,9 @@ layout: post
 title: Postach.io uses Evernote as a blogging platform
 date: 2013-04-09 21:36
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://postach.io
 tags:
 - tech

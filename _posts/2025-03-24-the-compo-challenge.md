@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Photo Composition Challenge
 slug: the-compo-challenge
 date: '2025-03-24 20:56:00 +0900'

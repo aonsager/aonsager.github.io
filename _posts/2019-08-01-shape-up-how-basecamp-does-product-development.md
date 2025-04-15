@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Shape Up - How Basecamp does Product Development
 slug: shape-up-how-basecamp-does-product-development
 link: https://basecamp.com/shapeup

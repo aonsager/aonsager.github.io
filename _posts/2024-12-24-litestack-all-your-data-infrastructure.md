@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Litestack: All your data infrastructure'
 slug: litestack-all-your-data-infrastructure
 link: https://github.com/oldmoe/litestack

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: One Cut of the Dead (カメラを止めるな！）
 tags:
 - zombie

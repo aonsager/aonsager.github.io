@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Value of Blockchain Platforms
 date: 2018-08-02 21:00 +0900
 tags:

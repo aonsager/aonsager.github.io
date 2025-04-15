@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Perils of Eroded Civic Knowledge Forewarned by Former Justice Souter
 date: '2016-10-24T18:43:32+09:00'
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Gravity Summit Stanford: Wrap-up'
 date: '2009-05-09T13:25:58+09:00'
 tags:

@@ -5,6 +5,9 @@ description: A cinemagraph of pouring water
 keywords: cinemagraph, photography, pouring water
 date: 2014-04-12 16:43
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - photo

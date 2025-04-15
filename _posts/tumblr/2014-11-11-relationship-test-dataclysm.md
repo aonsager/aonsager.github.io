@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Relationship Test - Dataclysm
 date: '2014-11-11T15:53:16+09:00'
 tags:

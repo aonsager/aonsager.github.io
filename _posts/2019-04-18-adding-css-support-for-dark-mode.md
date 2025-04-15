@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Adding CSS Support for Dark Mode
 slug: adding-css-support-for-dark-mode
 link:

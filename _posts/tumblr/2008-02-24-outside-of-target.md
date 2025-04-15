@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Outside of Target
 date: '2008-02-24T17:46:00+09:00'
 tags:

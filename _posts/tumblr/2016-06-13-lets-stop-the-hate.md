@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Let’s stop the hate
 date: '2016-06-13T18:44:38+09:00'
 tags:
