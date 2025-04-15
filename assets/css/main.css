@@ -2,12 +2,12 @@
 /* Variables */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: 'Ostrich Sans Rounded';
   font-style: normal;
   font-weight: 400;
   src: local('Ostrich Sans Rounded'), url('https://invisibleparade.com/assets/images/OstrichSansRoundedMedium.woff') format('woff');
-}
+} */
 
 :root {
     /* Typography */
@@ -59,6 +59,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,12 +79,13 @@ p {
 }
 
 h1 {
-    margin: 0 0 var(--spacing-unit);
+    /* margin: 0 0 var(--spacing-unit); */
     font-size: 2.5rem;
+    line-height: 2.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -104,7 +111,7 @@ html {
 }
 
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
 }
 
@@ -117,6 +124,7 @@ ul {
 a,
 a:visited,
 a:hover {
+    word-wrap: break-word;
     color: var(--accent-color);
     /* text-underline-offset: 2px; */
     text-underline-position: under;
@@ -130,6 +138,14 @@ a:hover {
 /* Utility */
 .flex {
     display: flex;
+}
+
+.spaced {
+    margin-bottom: var(--spacing-unit);
+}
+
+.indent {
+    padding-left: var(--spacing-unit);
 }
 
 .mono {
@@ -259,10 +275,14 @@ body {
 }
 
 header {
-    float: left;
-    width: 100%;
+    /* float: left;
+    width: 100%; */
 
     &.site-header {
+        position: sticky;
+        top: 0;
+        height: 50px;
+        z-index: 1000;
         background-color: var(--color-white);
         border-bottom: 1px solid var(--color-grey);
         padding: calc(var(--spacing-unit) * 0.5) 0;
@@ -276,7 +296,7 @@ header {
     }
 
     h1 {
-        margin: 0;
+        margin: 0 0 var(--spacing-unit);
     }
 
     a,
@@ -304,6 +324,10 @@ header {
     clear: both;
     margin: 0 auto;
     max-width: var(--max-width);
+
+    &.flex {
+        align-items: stretch;
+    }
 }
 
 nav {
@@ -320,6 +344,11 @@ nav {
     }
 
     ul {
+
+        &.nav-links {
+            position: sticky;
+            top: 50px;
+        }
         
         li {
             padding: 5px calc(var(--spacing-unit) * 1.5) 5px calc(var(--spacing-unit) * 1.5);
@@ -377,9 +406,16 @@ nav {
 }
 
 main {
+    width: 100%;
+    flex: 1;
+}
+
+.page-content {
+    width: 100%;
     max-width: var(--content-width);
     border-right: 1px solid var(--color-grey);
     background-color: var(--color-white);
+    flex: 1;
     /* padding: 0 var(--spacing-unit); */
 }
 
@@ -390,6 +426,24 @@ article {
 
     &.list-item {
         border-top: 1px solid var(--color-grey);
+    }
+
+    &.single {
+        height: 100%;
+    }
+
+    &.toot {
+        padding-left: calc(var(--spacing-unit) * 4);
+        position: relative;
+
+        &::before {
+            position: absolute;
+            top: calc(var(--spacing-unit) * 2);
+            left: calc(var(--spacing-unit) * 1.5);
+            width: 24px;
+            height: 24px;
+            content: url('/assets/images/chat.png');
+        }
     }
 
     .post-flair {
@@ -407,34 +461,65 @@ ul.post-list li:first-of-type {
     }
 }
 
-.post-header {
-    /* margin-bottom: var(--spacing-unit); */
+.post-list-wrapper {
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+
+    h3 {
+        padding-right: calc(var(--spacing-unit) * 0.5);
+    }
+
+    a {
+        color: var(--color-black);
+        text-decoration: none;
+    }
 }
 
-.post-content {
-    float: left;
-    width: 100%;
-    padding-bottom: var(--spacing-unit);
+.post-list-child {
+    display: flex;
+
+    div,
+    p {
+        flex-grow: 1;
+        width: 0;
+    }
 }
+
+.post-banner-short {
+    margin-top: -3px;
+    height: 3px;
+    width: 100%;
+}
+
+/* .post-content {
+    /* float: left;
+    width: 100%; */
+    /* padding-bottom: var(--spacing-unit); */
+/* } */
 
 .post-meta {
+    clear: both;
+    width: 100%;
     text-align: right;
     color: var(--color-grey-dark);
     font-size: 0.9rem;
 
     &.link {
         text-align: left;
-        margin-top: calc(var(--spacing-unit) * -0.5);
+        margin-top: calc(var(--spacing-unit) * -1);
         margin-bottom: var(--spacing-unit);
         line-height: 1.2rem;
-        
-        a {
-            color: var(--color-grey-dark);
-            text-decoration: underline;
-            
-            &:hover {
-                color: var(--color-grey-6);
-            }
+    }
+
+    a,
+    a:visited,
+    a:hover {
+        color: var(--color-grey-dark);
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--color-grey-6);
         }
     }
 }
@@ -445,7 +530,7 @@ ul.post-list li:first-of-type {
 
 hr {
     margin: var(--spacing-unit) 0;
-    background-color: var(--color-grey-light);
+    background-color: var(--color-grey);
     border: none;
     height: 1px;
 }
@@ -461,12 +546,59 @@ blockquote {
     }
 }
 
+.gallery {
+    display: flex;
+    gap: calc(var(--spacing-unit) * 0.5);
+    margin-bottom: var(--spacing-unit);
+}
+
+figure {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 0 var(--spacing-unit);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.paginator {
+    display: flex;
+    width: 100%;
+    gap: var(--spacing-unit);
+    flex-direction: row;
+    padding: var(--spacing-unit);
+    border-top: 1px solid var(--color-grey);
+    border-left: 1px solid var(--color-grey);
+
+    .next-link {
+        order: 3;
+        flex: 1 1 0px;
+        text-align: right;
+    }
+
+    .prev-link {
+        order: 1;
+        flex: 1 1 0px;
+        text-align: left;
+    }
+
+    .archive-link {
+        order: 2;
+        flex: 1 1 0px;
+        text-align: center;
+    }
+}
+
 footer {
     font-size: 0.9rem;
     border-top: 1px solid var(--color-grey);
     padding: var(--spacing-unit);
-    float: left;
-    width: 100%;
+    background-color: var(--color-white);
+    /* float: left;
+    width: 100%; */
     text-align: center;
 
     p {

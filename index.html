@@ -1,117 +1,67 @@
 ---
 title: Invisible Parade
+layout: page
 ---
 
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <main class="page-content" aria-label="Content">
-      <article class="post">
-        <div class="wrapper">
-          <p>
-            Hello, and welcome to my website. Web development is one of my favorite hobbies, and becoming a proficient writer is one of my greatest ambitions. This is a space for me to practice the two.
-          </p>
-          <hr />
-          <div class="post-content">
-            <div class="responsive-flex-container">
-              <div>
-                <h2>Recent posts:</h2>
-                {% assign filtered_posts = site.posts | where: "layout", "post"-%}
-                {% for post in filtered_posts limit: 5 -%}
-                  {% assign currentDate = post.date | date: "%Y" -%}
-                  <div><div class="post-list-wrapper">
-                    <a href="{{post.url}}">{{post.title}}</a>
-                    <div class="post-list-child">
-                      <div class="post-banner short" style="background-image:linear-gradient(-45deg, {{ post.colors[0] }}, {{ post.colors[1] }}, {{ post.colors[2] }}, {{ post.colors[3] }}, {{ post.colors[4] }})"></div>
-                    </div>
-                  </div></div>
-                {% endfor -%}
-              </div>
-              <div>
-                <h2>Favorite posts:</h2>
-                <div><div class="post-list-wrapper">
-                  <a href="2013/06/04/behind-the-scenes-pokemon-fusion.html">Pokemon Fusion: Behind the Scenes</a>
-                    <div class="post-list-child">
-                      <div class="post-banner short" style="background-image:linear-gradient(-45deg, #5D5E60, #E74F62, #F39C10, #B45932, #56472E)"></div>
-                    </div>
-                </div></div>
-                <div><div class="post-list-wrapper">
-                  <a href="2019/03/20/adding-color-to-posts-automatically.html">Generating Colors from Post Titles</a>
-                  <div class="post-list-child">
-                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #A27D7A, #927D67, #EFAB4D, #24919A, #535E5E)"></div>
-                  </div>
-                </div></div>
-                <div><div class="post-list-wrapper">
-                  <a href="2016/06/13/lets-stop-the-hate.html">Let's stop the hate</a>
-                  <div class="post-list-child">
-                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #363636, #C4A85A, #9E1A19, #CCA83A, #6F6F71)"></div>
-                  </div>
-                </div></div>
-                <div><div class="post-list-wrapper">
-                  <a href="2025/01/20/becoming-a-parent-introduced-me-to-stress.html">Becoming a parent introduced me to stress</a>
-                  <div class="post-list-child">
-                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #011270, #776B76, #32C774, #A55367, #909090)"></div>
-                  </div>
-                </div></div>
-                <div><div class="post-list-wrapper">
-                  <a href="2021/12/16/beautiful-vs.-effective-prose.html">Beautiful vs. Effective Prose</a>
-                  <div class="post-list-child">
-                    <div class="post-banner short" style="background-image:linear-gradient(-45deg, #5B5C65, #619C5E, #4D2719, #B0B0B0, #B0B0B0)"></div>
-                  </div>
-                </div></div>
-              </div>
-            </div>
-            <hr />
-          </div>  
-        </div>
-        <div class="wrapper">
-          <div class="post-content">
-            <h2>Learn more</h2>
+<p>
+  Hello, and welcome to my website. Web development is one of my favorite hobbies, and becoming a proficient writer is one of my greatest ambitions. This is a space for me to practice the two.
+</p>
+<hr />
+<div class="spaced">
+  <h2>Recent posts:</h2>
+  {% assign filtered_posts = site.posts | where: "layout", "post"-%}
+  {% for post in filtered_posts limit: 5 -%}
+    {% assign currentDate = post.date | date: "%Y" -%}
+    <div><div class="post-list-wrapper">
+      <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+      <div class="post-list-child">
+        <div class="post-banner-short" style="background-image:linear-gradient(-45deg, {{ post.colors[0] }}, {{ post.colors[1] }}, {{ post.colors[2] }}, {{ post.colors[3] }}, {{ post.colors[4] }})"></div>
+      </div>
+    </div></div>
+    <div class="spaced">{{ post.blurb | strip_html }}</div>
+  {% endfor -%}
+</div>
+<hr />
+<div class="spaced">
+  <h2>Favorite posts:</h2>
+  <div><div class="post-list-wrapper">
+    <h3><a href="2013/06/04/behind-the-scenes-pokemon-fusion.html">Pokemon Fusion: Behind the Scenes</a></h3>
+      <div class="post-list-child">
+        <div class="post-banner-short" style="background-image:linear-gradient(-45deg, #5D5E60, #E74F62, #F39C10, #B45932, #56472E)"></div>
+      </div>
+  </div></div>
+  <div class="spaced">How I generated sprites for Pokemon Fusion</div>
 
-            <table class="slashes">
-              <tr>
-                <td class="right">
-                  <h2><a href="/ai/">/ai</a></h2>
-                </td>
-                <td>
-                  <p>How I use and don't use AI</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/now/">/now</a></h2></td>
-                <td><p>What I am doing now</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/posts/">/posts</a></h2></td>
-                <td><p>Things I wrote</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/about/">/about</a></h2></td>
-                <td><p>Who I am</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/archive/">/archive</a></h2></td>
-                <td><p>Everything I wrote</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/contact/">/contact</a></h2></td>
-                <td><p>How to contact me</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/projects/">/projects</a></h2></td>
-                <td><p>Fun things I have made</p></td>
-              </tr>
-              <tr>
-                <td class="right"><h2><a href="/colophon/">/colophon</a></h2></td>
-                <td><p>How this site is made</p></td>
-              </tr>
-              
-            </table>
-          </div>
-        </div>
-      </article>
-    </main>
-    {% include footer.html %}
-  </body>
-</html>
+  <div><div class="post-list-wrapper">
+    <h3><a href="2019/03/20/adding-color-to-posts-automatically.html">Generating Colors from Post Titles</a></h3>
+    <div class="post-list-child">
+      <div class="post-banner-short" style="background-image:linear-gradient(-45deg, #A27D7A, #927D67, #EFAB4D, #24919A, #535E5E)"></div>
+    </div>
+  </div></div>
+  <div class="spaced">How I generated colors for each post based on their titles.</div>
+
+  <div><div class="post-list-wrapper">
+    <h3><a href="2016/06/13/lets-stop-the-hate.html">Let's stop the hate</a></h3>
+    <div class="post-list-child">
+      <div class="post-banner-short" style="background-image:linear-gradient(-45deg, #363636, #C4A85A, #9E1A19, #CCA83A, #6F6F71)"></div>
+    </div>
+  </div></div>
+  <div class="spaced">Reflections on hatred towards the LGBTQ community.</div>
+
+  <div><div class="post-list-wrapper">
+    <h3><a href="2025/01/20/becoming-a-parent-introduced-me-to-stress.html">Becoming a parent introduced me to stress</a></h3>
+    <div class="post-list-child">
+      <div class="post-banner-short" style="background-image:linear-gradient(-45deg, #011270, #776B76, #32C774, #A55367, #909090)"></div>
+    </div>
+  </div></div>
+  <div class="spaced">Reflections on the challenges and personal growth that comes with parenting.</div>
+
+  <div><div class="post-list-wrapper">
+    <h3><a href="2021/12/16/beautiful-vs.-effective-prose.html">Beautiful vs. Effective Prose</a></h3>
+    <div class="post-list-child">
+      <div class="post-banner-short" style="background-image:linear-gradient(-45deg, #5B5C65, #619C5E, #4D2719, #B0B0B0, #B0B0B0)"></div>
+    </div>
+  </div></div>
+  <div class="spaced">Thoughts on writing styles, and what I will aim for.</div>
+
+</div>

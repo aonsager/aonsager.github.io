@@ -5,12 +5,17 @@ title: Posts
 
 {% for post in paginator.posts -%}
   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <article class="post list-item" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if post.layout == 'toot' -%}
+    {% assign wrapper_class = 'toot' %}
+  {% else -%}
+    {% assign wrapper_class = 'post' %}
+  {% endif %}
+  <article class="{{ wrapper_class }} list-item" itemscope itemtype="http://schema.org/BlogPosting">
     {% if post.layout == 'post' -%}
       <div class="post-flair" style="background-image: linear-gradient(90deg, {{ post.colors[0] }}, {{ post.colors[1] }}, {{ post.colors[2] }}, {{ post.colors[3] }}, {{ post.colors[4] }});"></div>
       <header class="post-header">
         <h1>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h1>
       {% endif -%}
       {% if post.link -%}
@@ -49,5 +54,3 @@ title: Posts
       
   </div>
   {% endif  -%}
-
-<script src="https://commento.invisibleparade.com/js/count.js"></script>

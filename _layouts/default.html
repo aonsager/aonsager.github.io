@@ -3,12 +3,12 @@
   {% include head.html %}
 <body>
   {% include header.html %}
-  <div class="container flex">
+  <main class="container flex">
     {% include nav.html %}
-    <main class="page-content" aria-label="Content">
+    <div class="page-content" aria-label="Content">
       {{ content }}
-    </main>
-  </div>
+    </div>
+  </main>
   {% include footer.html %}
 </body>
 </html>

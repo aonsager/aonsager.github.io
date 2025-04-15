@@ -2,13 +2,11 @@
 layout: default
 ---
 {% assign date_format = "%b %-d, %Y" -%}
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post single" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-flair" style="background-image: linear-gradient(90deg, {{ page.colors[0] }}, {{ page.colors[1] }}, {{ page.colors[2] }}, {{ page.colors[3] }}, {{ page.colors[4] }});"></div>
   <header class="post-header">
     {% if page.layout == 'post' -%}
-    <h1>
-      <span class="post-link">{{ page.title | escape }}</span>
-    </h1>
+    <h1>{{ page.title | escape }}</h1>
     {% endif -%}
     {% if page.link -%}
     <div class="post-meta link">
@@ -16,10 +14,12 @@ layout: default
     </div>
     {% endif -%}
   </header>
-  <div class="post-content single" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
     <div class="post-meta">
-      {{ page.date | date: date_format }}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
     </div>
   </div>
   <hr />
