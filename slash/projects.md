@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+nav_category: projects
+nav_category_color: purple
+nav_page: ""
+permalink: /projects
 ---
-
-<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
 
 Since my day-job doesn't currently involve much programming, I like to work on fun projects on the side that let me build things directly.
 

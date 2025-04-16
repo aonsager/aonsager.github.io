@@ -1,21 +1,16 @@
 ---
 layout: page
-title: Archive
-permalink: /archive/games/
+title: Archive – Games
+nav_category: posts
+nav_category_color: blue
+slug: archive/games
+slug_color: blue-light
+permalink: /posts/archive/games
 ---
 
-<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+{% include flair_default.html %}
 
 <section class="archive-post-list">
-
-  <p class="archive-categories">
-    <a href="/archive/">All</a>
-    <a class="selected" href="/archive/games/">Games</a>
-    <a href="/archive/coding/">Coding</a>
-    <a href="/archive/me/">Me</a>
-    <a href="/archive/mumbles/">Mumbles</a>
-  </p>
-
   <table>
   {% assign filtered_posts = site.posts | where: "layout", "post" %}
   {% for post in filtered_posts %}
@@ -24,7 +19,7 @@ permalink: /archive/games/
         {% assign currentDate = post.date | date: "%Y" %}
         {% if currentDate != myDate %}
           </table>
-          <h1>{{ currentDate }}</h1>
+          <h2>{{ currentDate }}</h2>
           <table class="archive-list">
           {% assign myDate = currentDate %}
         {% endif %}

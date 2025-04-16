@@ -1,7 +1,9 @@
 {% assign nav_category = "/" | append: page.nav_category -%}
 {% assign nav_category_color = page.nav_category_color -%}
-{% assign page_slug = "/" | append: page.slug -%}
-{% assign page_slug_color = page.slug_color -%}
+{% if page.slug -%}
+  {% assign page_slug = "/" | append: page.slug -%}
+  {% assign page_slug_color = page.slug_color -%}
+{% endif -%}
 {% if nav_category == "/posts" and paginator.page > 1 -%}
   {% assign page_slug = "/page/" | append: paginator.page -%}
   {% assign page_slug_color = "blue-light" -%}
