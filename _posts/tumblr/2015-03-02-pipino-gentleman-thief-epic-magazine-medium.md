@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Pipino: Gentleman Thief — EPIC MAGAZINE — Medium'
 date: '2015-03-02T20:27:13+09:00'
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Meals as a Social Activity
 link:
 tags:
@@ -23,8 +26,6 @@ Today I ate dinner alone. I think there is nothing wrong with that, but you just
 **Everybody has to do it**. Three times a day, nearly everybody will eat food at roughly the same time. People share this activity, and so it makes sense for that time to be designated for social interaction. If everybody had tea at 3, or went to the gym at 4, then those would just as strongly be considered a social activity.
 
 **We are forced to sit down**. In our busy lives, we are either doing something or are on our way elsewhere to do something. We need to eat though, and eating takes a few minutes, so we take a break and sit down. Meals become social times because they are the only times when social interaction is reliably possible.
-
-<!-- more -->
 
 For some, the social aspect of meals is essential. I have friends who refuse to spend meals alone, going out of their way to seek a companion or else not eating at all. This may even be the norm. Again, you never see people eating alone at restaurants. Why is this? When did conversation turn from a pleasant circumstance into an essential feature? If hypothesis two is true, then it may be because we depend upon meals for interaction. That doesn’t explain not eating, though. If you are forced to eat dinner alone, the conclusion ought to be, “Oh well, I guess I’ll eat alone today,” and not, “My meal is ruined, so I’ll settle for a quick sandwich.” Conversation is so essential that in its absence we lose all motivation to put effort into a meal. Solitude is preventative of food consumption.
 

@@ -1,12 +1,16 @@
 ---
 layout: page
 title: About this site
-permalink: /colophon/
+nav_category: about
+nav_category_color: green
+slug: colophon
+slug_color: green-light
+permalink: /about/colophon
 ---
 
-<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+{% include flair_default.html %}
 
-# How the site is hosted
+## How the site is hosted
 
 The site is hosted on a [Basic Digital Ocean droplet](https://www.digitalocean.com/products/droplets) with 2 vCPUs and 2GB of memory. So far this is enough to host all of my little web projects, including:
 
@@ -33,7 +37,7 @@ I like the home page to show my most recent posts, and for it to show the full p
 
 ### The post header
 
-<div class="indent">
+<div class="indent-block">
 
 <div class="callout">
     {% include image.html image="colophon/post-header.png" -%}
@@ -47,7 +51,7 @@ I like the home page to show my most recent posts, and for it to show the full p
 
 ### Related posts
 
-<div class="indent">
+<div class="indent-block">
 
 <p>At the end of each post, there is a list of up to 5 related posts. These are determined by how many tags the posts have in common. I add tags to the each post but have decided not to display them anywhere. They are only used in the background the find related posts. I find that this adds a fun serendipity to the site, and sometimes I'm surprised to see what posts are brought up from the past.</p>
 
@@ -57,7 +61,7 @@ I like the home page to show my most recent posts, and for it to show the full p
 
 ### Social posts
 
-<div class="indent">
+<div class="indent-block">
 
 <p>Posts that I published to GoToSocial are reflected on this site as well. To visually deemphasize these compared to full-text posts, I indent the text slightly for social posts. This maybe too subtle of an effect, but adding more feels like it just draws more attention, so this is what I've landed on for now.</p>
 
@@ -67,7 +71,7 @@ I like the home page to show my most recent posts, and for it to show the full p
 
 ### Fonts
 
-<div class="indent">
+<div class="indent-block">
 
 <p>The font used in the logo is <a href="https://www.theleagueofmoveabletype.com/ostrich-sans?style=black">Ostrich Sans Rounded</a>, and the body is <a href="https://fonts.google.com/specimen/Lato">Lato</a>.</p>
 
@@ -80,7 +84,7 @@ I like the home page to show my most recent posts, and for it to show the full p
 
 ### 1. Create a draft
 
-<div class="indent">
+<div class="indent-block">
 
 <p><code>rake draft["The title of my post"]</code></p>
 
@@ -101,7 +105,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 ### 2. Promote the post out of "draft" status
 
-<div class="indent">
+<div class="indent-block">
 
 <p><code>rake publish</code></p>
 
@@ -109,7 +113,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 <h4>i. Generate a color gradient from the post title</h4>
 
-<div class="indent">
+<div class="indent-block">
 
 <p>I've written about how this is done <a href="/2019/03/20/adding-color-to-posts-automatically">here</a>. To summarize:</p>
 
@@ -126,7 +130,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 <h4 id="tags_from_content">ii. Generate tags from the post content</h4>
 
-<div class="indent">
+<div class="indent-block">
 
 <p>
     This function uses ChatGPT's API to automatically generate tags based on the post's content. Since the tags are not displayed directly, I can afford to be laissez-faire about these results.
@@ -139,7 +143,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 ### 3. Push the updated site live
 
-<div class="indent">
+<div class="indent-block">
 
 <p><code>rake build_push["commit message"]</code></p>
 
@@ -147,7 +151,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 <h4 id="get_latest_gts_posts">i. Pull latest posts from GoToSocial</h4> 
 
-<div class="indent">
+<div class="indent-block">
 <p>
     This function uses the GoToSocial API to pull the latest posts from my account and add them to the site. I chose to run this task at build time rather than with a cron task, because visually I like having a full text post at the top of the page.
     <br />
@@ -157,7 +161,7 @@ blurb:     A short blurb of the post, for OpenGraph metadata
 
 <h4>ii. Push the source and the compiled site to separate repositories</h4>
 
-<div class="indent">
+<div class="indent-block">
 <p>As mentioned above, building the site on my remote server for every update felt very wasteful, as well as requiring me to manage gem bundles there, too. Instead, I have a separate repository for the compiled site and have that one trigger deploys to my site. </p>
 
 <pre>

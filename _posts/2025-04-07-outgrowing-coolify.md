@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: I may have outgrown Coolify
 slug: outgrowing-coolify
 date: '2025-04-07 13:35:00 +0900'

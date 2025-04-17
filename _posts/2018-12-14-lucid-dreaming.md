@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Lucid Dreaming
 tags:
 - personal
@@ -20,8 +23,6 @@ archive:
 I was consistently able to have lucid dreams when I was in high school. Partway through a dream, I would realize that I was dreaming and could then control the rest of the dream to a small extent. As I've grown older though, this has become less and less common. Maybe age has changed something about my brain.
 
 Naturally, I've been interested in lucid dreaming and have read a lot about it. [Tim Ferriss has a fascinating beginner's guide on his blog](https://tim.blog/2009/09/21/how-to-lucid-dream/). Different people seem to have different approaches and theories, so I thought I would write about my own experiences.
-
-<!-- more -->
 
 ## Entering a lucid dream
 

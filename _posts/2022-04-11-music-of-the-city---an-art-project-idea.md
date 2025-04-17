@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Music of the City - an Art Project Idea
 slug: music-of-the-city---an-art-project-idea
 link: 

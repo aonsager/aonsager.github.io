@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: One Cut of the Dead (カメラを止めるな！）
 tags:
 - zombie
@@ -22,8 +25,6 @@ From [Wikipedia](https://en.wikipedia.org/wiki/One_Cut_of_the_Dead):
 > 
 > One Cut of the Dead opened in Japan in an 84-seat Tokyo art house theater with an initial theatrical run of six days.
 > It was showing at around 200 screens in Japan by March 2018 where it had officially grossed 800 million yen ($7.3 million)
-
-<!-- more -->
 
 It had been a while since its popularity blew up, but I knew only 3 things about the movie before I watched it:
 

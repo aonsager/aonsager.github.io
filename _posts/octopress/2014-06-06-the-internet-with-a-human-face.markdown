@@ -5,6 +5,9 @@ description: Maciej Cegłowski on the state of internet surveillance
 keywords: internet surveillance privacy
 date: 2014-06-06 14:27
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://idlewords.com/bt14.htm
 tags:
 - tech

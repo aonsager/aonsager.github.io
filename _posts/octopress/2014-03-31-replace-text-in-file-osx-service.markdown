@@ -6,6 +6,9 @@ description: A quick Mac OSX service that will search and replace all given stri
 keywords: mac, programming, applescript, service, sed, replace text
 date: 2014-03-31 20:23
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - mac

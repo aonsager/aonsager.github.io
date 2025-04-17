@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Shape Up - How Basecamp does Product Development
 slug: shape-up-how-basecamp-does-product-development
 link: https://basecamp.com/shapeup
@@ -19,8 +22,6 @@ tags:
 ---
 
 [Shape Up](https://basecamp.com/shapeup) is an amazing new web-book by Basecamp that details the process they use to define, build, and ship their products. It has great insights, but I especially appreciated how many of the ideas presented just make a lot of sense. I often nodded along in agreement and recognized concepts that we share in our team. The framework is battle-tested and realistic, and there's a good chance I'll be able to integrate some new ideas into our existing workflow without having to reorganize how we think about everything to fit a new metaphor.
-
-<!-- more -->
 
 What I found the most impressive was how clearly they have defined the key ideas and concepts behind their process. Even if your team can find a groove and settle into a good way to work effectively, it takes a lot more effort to recognize why these things work and how they can be reproduced in different situations. Reading this document helped to solidify a lot of ideas I had encountered before but not fully appreciated.
 

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Sociable Weaver
 slug: the-sociable-weaver
 link: https://en.wikipedia.org/wiki/Sociable_weaver

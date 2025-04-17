@@ -1,5 +1,8 @@
 ---
 layout: toot
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 slug: 2025-04-09-01JRBM7Y2VDRC4PB6XJK3Y5SJK
 date: '2025-04-09 06:17:00 +0900'
 toot_id: 01JRBM7Y2VDRC4PB6XJK3Y5SJK

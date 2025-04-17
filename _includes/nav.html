@@ -1,0 +1,86 @@
+{% if page.nav_category == '' -%}
+  {% assign index_class = 'selected' -%}
+{% endif -%}
+{% if page.nav_category == 'about' -%}
+  {% if page.slug == 'now' -%}
+    {% assign now_class = 'selected' -%}
+  {% elsif page.slug == 'ai' -%}
+    {% assign ai_class = 'selected' -%}
+  {% elsif page.slug == 'colophon' -%}
+    {% assign colophon_class = 'selected' -%}
+  {% else -%}
+    {% assign about_class = 'selected' -%}
+  {% endif -%}
+{% endif -%}
+{% if page.nav_category == 'posts' -%}
+  {% if page.slug == 'archive' -%}
+    {% assign archive_class = 'selected' -%}
+  {% elsif page.slug == 'archive/me' -%}
+    {% assign me_class = 'selected' -%}
+  {% elsif page.slug == 'archive/games' -%}
+    {% assign games_class = 'selected' -%}
+  {% elsif page.slug == 'archive/coding' -%}
+    {% assign coding_class = 'selected' -%}
+  {% elsif page.slug == 'archive/mumbles' -%}
+    {% assign mumbles_class = 'selected' -%}
+  {% else -%}
+    {% assign posts_class = 'selected' -%}
+  {% endif -%}
+{% endif -%}
+{% if page.nav_category == 'projects' -%}
+  {% assign projects_class = 'selected' -%}
+{% endif -%}
+{% if page.nav_category == 'contact' -%}
+  {% assign contact_class = 'selected' -%}
+{% endif -%}
+{% if page.nav_category == 'feeds' -%}
+  {% assign feeds_class = 'selected' -%}
+{% endif -%}
+
+<nav id="site-nav" class="mono">
+  <ul class="nav-links">
+    <li class="red {{ index_class }}">
+      ❯&nbsp;<a href="/">/index</a>
+    </li>
+    <li class="green {{ about_class }}">
+      ❯&nbsp;<a href="/about">/about</a>
+    </li>
+    <li class="green-light {{ now_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/now">/now</a>
+    </li>
+    <li class="green-light {{ ai_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/ai">/ai</a>
+    </li>
+    <li class="green-light {{ colophon_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/colophon">/colophon</a>
+    </li>
+    <li class="blue {{ posts_class }}">
+      ❯&nbsp;<a href="/posts">/posts</a>
+    </li>
+    <li class="blue-light {{ archive_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/posts/archive">/archive</a>
+    </li>
+    <li class="blue-light {{ me_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/me">/me</a>
+    </li>
+    <li class="blue-light {{ games_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/games">/games</a>
+    </li>
+    <li class="blue-light {{ coding_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/coding">/coding</span>
+      </a>
+    </li>
+    <li class="blue-light {{ mumbles_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/mumbles">/mumbles</a>
+    </li>
+    <li class="purple {{ projects_class }}">
+      ❯&nbsp;<a href="/projects">/projects</a>
+    </li>
+    <li class="orange {{ contact_class }}">
+      ❯&nbsp;<a href="/contact">/contact</a>
+    </li>
+    <li class="pink {{ feeds_class }}">
+      ❯&nbsp;<a href="/feeds">/feeds</a>
+    </li>
+  </ul>
+</nav>

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: I want to love Mastodon...
 slug: i-want-to-love-mastodon
 link:

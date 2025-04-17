@@ -5,6 +5,9 @@ description: Gary Kamiya's essay on San Francisco's growing pains
 keywords: san francisco, economy, techies, eviction, mission
 date: 2014-04-25 13:39
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.modernluxury.com/san-francisco/story/san-francisco-dead-long-live-san-francisco
 tags:
 - opinion

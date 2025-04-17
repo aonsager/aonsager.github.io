@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Five Steps to an Effective Tech Team
 link:
 tags:
@@ -24,8 +27,6 @@ I recently experienced two of the most informative and useful meetings of my lif
 
 First, I should set the stage by describing our new development process. Because Samasource is a tiny organization with no shortage of exciting new ventures to pursue, we adopted an agile development framework. This idea has gotten a lot of traction, and Eric lead us through the implementation. He actually wrote up a monster post about it [on his blog](http://mindtangle.net/2009/12/04/how-to-use-basecamp-for-agile-development/), but I’ll briefly summarize here.
 
-<!-- more -->
-
 We divide our attention into short **sprints**, each lasting one or two weeks. Sprints represent all of the tasks that we will be focusing on during that time, and allow us to keep our minds off of other distractions until it comes time to organize the next sprint.
 
 Each sprint is comprised of various **user stories**, which encapsulate a qualitative end-goal. For example, one user story from our first sprint was “Website Visitors Understand the Mission and Trust the Org”. What this does is it allows us to focus on the real impact that our work will be making. We will not be blindly executing tasks from stale to-do lists, and will make sure that each project has tangible impact.
@@ -33,6 +34,8 @@ Each sprint is comprised of various **user stories**, which encapsulate a qualit
 And each user story is made up of **tasks**, which are small, discrete items of work that take a short amount of time to complete. This allows us to quantify the work that will be done.
 
 This system of agile development allows us to be flexible from week to week with what we prioritize, ensures us that we are working towards a real goal with measurable impact, and breaks the work down into bite-size pieces. With this basic system in place, we can begin talking about business organization and the steps we can take to make the engineering team as effective as possible.
+
+<!-- more -->
 
 ### 1. Set Clear Priorities
 

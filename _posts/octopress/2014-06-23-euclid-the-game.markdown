@@ -5,6 +5,9 @@ description: A geometry-based puzzle game
 keywords: euclid geometry math puzzle game
 date: 2014-06-23 12:47
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://euclidthegame.org/
 tags:
 - game

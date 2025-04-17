@@ -5,6 +5,9 @@ description: Thoughts as a creator on balancing originality and funness
 keywords: flappy bird, 2048, threes, game, originality, creativity, inspiration
 date: 2014-06-25 23:28
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - opinion
@@ -25,8 +28,6 @@ My long-standing goal, in both work and personal life, is to create "fun". I cur
 ## What is Fun? ##
 
 Games like [Flappy Bird](http://en.wikipedia.org/wiki/Flappy_Bird) and [2048](http://gabrielecirulli.github.io/2048/) show that as long as you have one crucial element that provides fun, even the simplest of games can be a huge hit. And in fact, for games like these it is necessary that they be the simplest of games, with no other elements distracting from that core nugget of fun.
-
-<!-- more -->
 
 The makers of [Threes](http://asherv.com/threes/) went through a tremendous amount of creative iteration before publishing their game. They considered the game system that eventually would become 2048, but decided that it didn't fit their criteria for what makes a game "good". I would imagine that during the game design process they prioritized the game's strategic depth, such as the lack of a clear _correct_ way to play. They nixed 2048 because it's relatively easy to score high if you stick to one corner, and they felt that this detracted from the game's potential.
 

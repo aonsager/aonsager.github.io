@@ -1,36 +1,34 @@
 ---
 layout: default
 ---
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <article class="post wrapper" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-      {% if page.layout == 'post' -%}
-      <h1>
-        <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-      </h1>
-      {% endif -%}
-      {% if page.link -%}
-      <div class="post-meta link">
-        <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
-      </div>
-      {% endif -%}
-      {% include post_banner.html -%}
-    </header>
-    <div class="post-content single" itemprop="articleBody">
-      {{ content }}
+{% assign date_format = "%b %-d, %Y" -%}
+<article class="post single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-flair" style="background-image: linear-gradient(90deg, {{ page.colors[0] }}, {{ page.colors[1] }}, {{ page.colors[2] }}, {{ page.colors[3] }}, {{ page.colors[4] }});"></div>
+  <header class="post-header">
+    {% if page.layout == 'post' -%}
+    <h1>{{ page.title | escape }}</h1>
+    {% endif -%}
+    {% if page.link -%}
+    <div class="post-meta link">
+      <span itemprop="link"><a href="{{ page.link }}">{{ page.link }}</a></span>
     </div>
+    {% endif -%}
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
     <div class="post-meta">
-      {{ page.date | date: date_format }}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
     </div>
-    {% for tag in page.tags -%}
-      <div class="post-tag">{{ tag }}</div>
-    {% endfor -%}
-    <hr />
-    <div class="post-related">
-        {% include related_posts.html -%}
-    </div>
-    <hr />
-    <div class="post-comments">
-        {% include comments.html -%}
-    </div>
-  </article>
+  </div>
+  <hr />
+  <div class="post-related">
+      {% include related_posts.html -%}
+  </div>
+  <hr />
+  <div class="post-comments">
+      {% include comments.html -%}
+  </div>
+</article>
+  

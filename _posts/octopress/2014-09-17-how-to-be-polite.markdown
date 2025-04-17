@@ -6,6 +6,9 @@ description: An excellent piece by Paul Ford on the often underestimated value o
 keywords: politeness, life tips, kindness, social interactions
 date: 2014-09-17 19:57
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: https://medium.com/message/how-to-be-polite-9bf1e69e888c
 tags:
 - life

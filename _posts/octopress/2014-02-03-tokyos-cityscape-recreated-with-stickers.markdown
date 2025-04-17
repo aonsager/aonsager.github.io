@@ -5,6 +5,9 @@ description: Sticker artwork by Yukino Ohmura
 keywords: art, design, tokyo, cityscape, sticker
 date: 2014-02-03 23:36
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.theverge.com/2014/2/3/5363676/yukino-ohmura-tokyo-sticker-artwork
 tags:
 - design

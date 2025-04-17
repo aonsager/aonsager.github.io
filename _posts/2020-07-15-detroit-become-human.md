@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Detroit: Become Human'
 slug: detroit-become-human
 link:
@@ -29,8 +32,6 @@ archive:
 The story takes place in a future where androids are commonplace and indistinguishable from humans aside from a computer chip placed on their temple. Predictably, the androids are mistreated and repressed by humans, and you eventually find yourself in the middle of a robot uprising.
 
 You assume the role of three different characters with interweaving narratives, and the actions you take as each character determine the course of the story. The result is a giant web of branching storylines with many different possible outcomes.
-
-<!-- more -->
 
 ## Roleplay
 

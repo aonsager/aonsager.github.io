@@ -5,6 +5,9 @@ description:
 keywords: writing, punctuation, style
 date: 2014-06-09 12:49
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://stilldrinking.org/nobody-understands-punctuation
 tags:
 - writing

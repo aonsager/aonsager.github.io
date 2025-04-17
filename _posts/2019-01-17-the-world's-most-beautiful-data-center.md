@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The World's Most Beautiful Data Center
 link: https://motherboard.vice.com/en_us/article/xwjegq/the-worlds-most-beautiful-data-center-is-a-supercomputer-housed-in-a-19th-century-church
 image: torre-girona.jpg

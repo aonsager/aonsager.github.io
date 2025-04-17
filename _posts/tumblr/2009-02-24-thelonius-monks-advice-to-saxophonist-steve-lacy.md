@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Thelonius Monk’s advice to saxophonist Steve Lacy (1960)
 date: '2009-02-24T08:14:20+09:00'
 tags:

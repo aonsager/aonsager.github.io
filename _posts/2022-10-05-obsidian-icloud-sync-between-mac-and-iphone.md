@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Obsidian iCloud sync between Mac and iPhone
 slug: obsidian-icloud-sync-between-mac-and-iphone
 link: 
@@ -26,8 +29,6 @@ Because the entire Obsidian folder lives inside of iCloud, the `.obsidian` setti
 ## The solution
 
 The strategy is to force the desktop and mobile versions to use different config files. I can create a desktop-specific config folder and tell my two desktops to look at that one instead of the default.
-
-<!-- more -->
 
 In `Preferences > About` there is an option to "Override config folder" and specify a different folder location. It seems that this setting is set locally and isn't synced along with the rest of the data.
 

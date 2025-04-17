@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: How to Cook Popcorn in a Pan
 tags:
 - cooking
@@ -16,8 +19,6 @@ colors:
 ---
 
 The best way to cook popcorn in a pan. The secret is to heat up the kernels evenly in hot oil first, before heating them over a flame to pop them quickly all at once.
-
-<!-- more -->
 
 1. Coat the bottom of a pan with a small amount of oil and place over medium heat.
 2. Put three popcorn kernels in the pan and wait for all three to pop. 

@@ -3,6 +3,9 @@ layout: post
 title: Save to Pocket - OSX Service
 date: 2013-05-22 00:26
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - programming

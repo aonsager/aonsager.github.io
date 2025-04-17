@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Value of Blockchain Platforms
 date: 2018-08-02 21:00 +0900
 tags:
@@ -19,8 +22,6 @@ colors:
 I've been thinking a lot recently about what benefits there are to building a new product on a blockchain. Blockchains allow an app to be decentralized, and the biggest value they bring is a solid way to handle trust and consensus in an environment with no central authority. I was having a hard time thinking of products that would really benefit from being decentralized, but I came across an idea about decentralized platforms that makes a very strong case for using blockchains.
 
 The idea, introduced to me by [this post by Alex Tabarrok](https://marginalrevolution.com/marginalrevolution/2018/06/blockchains-opportunity-commons.html), is that a blockchain-based platform is uniquely able to align its needs with the needs of the users. If a traditional platform wants to create economic value for itself, it often needs to do things at the expense of its users. It can't maximize value for both the users and the platform at the same time. But a blockchain-based platform can, through its tokens, increase its value directly by increasing value for its users. 
-
-<!-- more -->
 
 Facebook creates value for its users by making it easy for them to communicate and keep in touch with their friends. But if Facebook and its stockholders want to create value (= money) for themselves, they need to start selling data and adding advertisements. This doesn't add any value to its users and actually creates negative value. There is a conflict of interest because the needs of the users and the needs of the platform are not aligned, and the company needs to find a balance so that everybody involved is just happy enough. 
 

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: A Boy Named Sue, and a Theory of Names
 date: '2008-03-12T05:08:49+09:00'
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Thoughts on "Sourcecode"
 link:
 tags:
@@ -19,12 +22,10 @@ I've finally come to terms with the movie *Sourcecode*. But at first, I hated it
 
 The premise is that scientists have built a machine that can:
 
-1) extract remnants of memory from a person's brain and
-2) allow a 2nd person's consciousness to then enter those memories and experience them firsthand.
+1. extract remnants of memory from a person's brain and
+2. allow a 2nd person's consciousness to then enter those memories and experience them firsthand.
 
 They then use this machine to have someone enter the memory of a person present at a train bombing, so that he can find the culprit and stop the next crime.
-
-<!-- more -->
 
 The ridiculous premise bothered me more than it probably should have, because it seemed like the movie had tried to come up with a reasonable scientific explanation but had failed miserably.
 

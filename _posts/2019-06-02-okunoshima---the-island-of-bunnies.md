@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Ōkunoshima - The Island of Bunnies
 slug: okunoshima---the-island-of-bunnies
 link:
@@ -24,7 +27,7 @@ Located east of Hiroshima in the Seto Inland Sea, Ōkunoshima (大久野島) is 
 
 <!-- more -->
 
-# A Dark History
+## A Dark History
 
 Ōkunoshima today is a paradise of cuteness, but its origins are sinister. Chosen for its remote location, it contained secret facilities used to develop and produce poison gas for chemical weapons. The island was erased from maps at the time to hide its existence. The ruins of these facilities still exist, covered by moss and providing a grim backdrop for those who choose to explore the island.
 
@@ -32,7 +35,7 @@ Located east of Hiroshima in the Seto Inland Sea, Ōkunoshima (大久野島) is 
 
 Most visitors are here for the bunnies, but it is important to not forget these parts of history. There is also a small museum showing the history of the island as a chemical weapons plant, decorated with messages promoting peace sent from students around the country.
 
-# Meeting the Bunnies
+## Meeting the Bunnies
 
 As soon as you get off the ferry, you will be greeted by adorable bunnies waiting for a snack. You are encouraged to bring food for the rabbits, as you will not be able to buy any on the island. You will find the rabbits relaxing in the shade, sitting in little holes they have dug, or foraging in the bushes. But once you approch and start to open your bag of pellets or vegetables, they will all come running and beg for a treat. If you come in the sping or autumn, you might see tiny baby bunnies come hopping with their mothers.
 

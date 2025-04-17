@@ -1,7 +1,7 @@
 <hr />
 <div style="display: flex">
     <div style="min-width: 100px; max-width: 100px;">
-    {% if include.image != nil -%}
+    {% if include.image -%}
     <img style="box-shadow: 0px 5px 5px rgb(232.75, 232.75, 232.75)" src="/assets/images/projects/{{ include.image }}" title="{{ include.name }} Logo" alt="" width="100"/>
     {% endif -%}
     </div>

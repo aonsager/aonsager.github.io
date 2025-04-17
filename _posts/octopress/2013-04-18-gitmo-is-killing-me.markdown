@@ -3,6 +3,9 @@ layout: post
 title: "'Gitmo is Killing Me'"
 date: 2013-04-18 13:14
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.nytimes.com/2013/04/15/opinion/hunger-striking-at-guantanamo-bay.html
 tags:
 - news

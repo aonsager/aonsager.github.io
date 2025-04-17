@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Relationship Test - Dataclysm
 date: '2014-11-11T15:53:16+09:00'
 tags:
@@ -22,8 +25,6 @@ colors:
 </blockquote>
 
 <p>Instead of looking at a metric like the number of friends you have in common, this algorithm takes it a step further. It looks at how well connected your mutual friends are with each other, and suggests that having more diverse mutual friends indicates a stronger, more important relationship.</p>
-
-<!-- more -->
 
 <p>If everyone at work is connected via Facebook, then you will have many friends in common with your coworkers, but this doesn’t mean that these are your most important relationships. Since all of your common friends are within the same social circle, you know that these relationships are limited in scope.</p>
 

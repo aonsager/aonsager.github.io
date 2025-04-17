@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Ricky Jay’s Magical Secrets
 date: '2015-03-04T16:16:21+09:00'
 tags:

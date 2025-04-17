@@ -1,27 +1,23 @@
 ---
 layout: page
 title: Archive
-permalink: /archive/
+nav_category: posts
+nav_category_color: blue
+slug: archive
+slug_color: blue-light
+permalink: /posts/archive
 ---
 
-<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+{% include flair_default.html %}
 
 <section class="archive-post-list">
-
-  <p class="archive-categories">
-    <a class="selected" href="/archive/">All</a>
-    <a href="/archive/games/">Games</a>
-    <a href="/archive/coding/">Coding</a>
-    <a href="/archive/me/">Me</a>
-    <a href="/archive/mumbles/">Mumbles</a>
-  </p>
-
+  <table>
   {% assign filtered_posts = site.posts | where: "layout", "post" %}
   {% for post in filtered_posts %}
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}
-      {% unless forloop.first %}</table>{% endunless %}
-      <h1>{{ currentDate }}</h1>
+      </table>
+      <h2>{{ currentDate }}</h2>
       <table class="archive-list">
       {% assign myDate = currentDate %}
     {% endif %}
@@ -29,6 +25,6 @@ permalink: /archive/
       <td class="date-text">{{ post.date | date: "%b %-d" }}</td>
       <td><a href="{{ post.url }}">{{ post.title }}</a></td>
     </tr>
-    {% if forloop.last %}</table>{% endif %}
   {% endfor %}
+  </table>
 </section>

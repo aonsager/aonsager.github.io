@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Dragonsweeper - A lovely minesweeper game
 slug: dragonsweeper---a-lovely-minesweeper-game
 link: https://danielben.itch.io/dragonsweeper

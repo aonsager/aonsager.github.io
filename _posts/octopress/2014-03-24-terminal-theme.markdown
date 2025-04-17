@@ -5,6 +5,9 @@ description: A color theme for Mac OSX Terminal
 keywords: mac, osx, terminal, customize, color theme, base16
 date: 2014-03-24 15:12
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - mac

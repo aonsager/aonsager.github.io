@@ -5,6 +5,9 @@ description: Adding Missingno. as a hidden character to Pokemon Fusion
 keywords: missingno, pokemon fusion, pokemon, fusion, ruby, imagemagick, glitch
 date: 2014-08-10 18:49
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - ruby
@@ -26,8 +29,6 @@ I've made a small update to the [Pokemon Fusion](http://pokemon.alexonsager.net)
 I was inspired by the incredible Mewtwo x Missingno. fusion artwork that was posted by StarvingStudents on his [deviantART page](http://starvingstudents.deviantart.com/art/Mewssingno-472862222)
 
 Missingno. appears whenever there is an invalid ID in the URL, so acts as a fun 404 page. You can try it out [here](http://pokemon.alexonsager.net/25/0)
-
-<!-- more -->
 
 ![Pikassingno.](/assets/images/pikassingno.png)
 

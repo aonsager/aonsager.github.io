@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Becoming a Better Writer
 date: '2009-03-25T15:39:05+09:00'
 tags:

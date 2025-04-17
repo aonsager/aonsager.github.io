@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: 'Programmers: Stop Whining, Be Productive'
 link:
 tags:
@@ -18,13 +21,17 @@ archive:
 - work
 ---
 
+<div class="callout">
+    <div class="title">Update 2019</div>
+    10 years later, I have posted a reflection on this piece <a href="{% post_url 2019-02-04-the-maker's-schedule-a-ten-year-retrospective %}">here</a>
+    
+</div>
+
 I was pointed to [Paul Graham’s post](http://paulgraham.com/makersschedule.html) about programmers running on a separate schedule than other people. Programmers run on the "maker’s schedule" and prefer to work in large chunks of time, with units of at least half a day. Others, particularly their bosses, operate on the "manager’s schedule" and have things defined into hour-long chunks. Interactions between the two typically cause friction:
 
 > I find one meeting can sometimes affect a whole day. A meeting commonly blows at least half a day, by breaking up a morning or afternoon. But in addition there’s sometimes a cascading effect. If I know the afternoon is going to be broken up, I’m slightly less likely to start something ambitious in the morning. I know this may sound oversensitive, but if you’re a maker, think of your own case. Don’t your spirits rise at the thought of having an entire day free to work, with no appointments at all? Well, that means your spirits are correspondingly depressed when you don’t. And ambitious projects are by definition close to the limits of your capacity. A small decrease in morale is enough to kill them off.
 
 This is bullshit.
-
-<!-- more -->
 
 I’m not attacking Graham; he is merely pointing out the problem and explaining how he responds: by placing managers on the maker’s schedule. But this mentality is held by too many programmers, each of whom strokes his or her ego by running on a special schedule and taking advantage of the night, while the inferior mortals sleep.
 

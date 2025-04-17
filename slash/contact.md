@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Contact me
-permalink: /contact/
+nav_category: contact
+nav_category_color: orange
+nav_page: ""
+permalink: /contact
 ---
 
-<div class="post-banner" style="background-image:linear-gradient(-45deg, #B85959, #B3CECB, #415974, #59586B, #B7C0C9)"></div>
+{% include flair_default.html %}
 
 Please feel free to get in touch! It would make me very happy.  
 I don't get a lot of views here, so I will probably respond very soon.

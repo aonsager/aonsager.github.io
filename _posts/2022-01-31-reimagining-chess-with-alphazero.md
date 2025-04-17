@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Reimagining Chess with AlphaZero
 slug: reimagining-chess-with-alphazero
 link: https://cacm.acm.org/magazines/2022/2/258230-reimagining-chess-with-alphazero/fulltext

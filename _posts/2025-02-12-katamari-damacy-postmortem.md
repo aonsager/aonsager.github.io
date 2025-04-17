@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Katamari Damacy postmortem
 slug: katamari-damacy-postmortem
 date: '2025-02-12 11:48:00 +0900'

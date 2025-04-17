@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: NAVA Ora Unica Wristwatch
 slug: nava-ora-unica-wristwatch
 link: https://www.navadesign.com/blog/ora-unica-design-watch/

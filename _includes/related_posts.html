@@ -1,7 +1,7 @@
 {% assign maxRelated = 5 -%}
 {% assign minCommonTags = 2 -%}
 {% assign maxRelatedCounter = 0 -%}
-<h4>Related Posts</h4>
+<h3>Related Posts</h3>
 <ul class="archive-list">
 {% for i in (1..3) -%}
   {% assign minCommonTags = 4 | minus: i -%}

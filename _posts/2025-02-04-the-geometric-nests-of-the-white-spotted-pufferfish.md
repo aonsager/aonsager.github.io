@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The geometric nests of the white-spotted pufferfish
 slug: the-geometric-nests-of-the-white-spotted-pufferfish
 date: '2025-02-04 14:25:00 +0900'

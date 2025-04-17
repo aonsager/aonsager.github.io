@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: CrossPooter - Poot your toots around the web
 slug: crosspooter
 date: '2025-02-07 16:57:00 +0900'

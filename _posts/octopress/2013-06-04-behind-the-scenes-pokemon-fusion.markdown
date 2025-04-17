@@ -3,6 +3,9 @@ layout: post
 title: 'Pokemon Fusion: Behind the Scenes'
 date: 2013-06-04 00:41
 nocomments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - tech

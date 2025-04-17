@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Photo Composition Challenge
 slug: the-compo-challenge
 date: '2025-03-24 20:56:00 +0900'
@@ -27,6 +30,8 @@ blurb: I had a great time participating taking photos as part of The Photo Compo
 I am a mediocre photographer at best, but of course I want to improve. When I saw that [@hiro](https://social.lol/@hiro) was putting together 5-week challenge to experiment with various compositional techniques and share our photos, I had to join.
 
 I don't have fancy gear, or a lot of time to go hunting for photos, so almost all of my shots were scenes from my daily life, taken with an iPhone. I realized pretty quickly though, that being deliberate about composition gave a new perspective on even familiar scenes, and I was surprised at compelling some of the photos turned out.
+
+<!-- more -->
 
 ## Week 1: The Rule of Thirds
 

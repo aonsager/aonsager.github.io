@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Adguard was preventing sites from loading in Safari sometimes
 slug: adguard-was-preventing-sites-from-loading-in-safari-sometimes
 link:

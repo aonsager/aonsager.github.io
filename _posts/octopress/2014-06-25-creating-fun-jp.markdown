@@ -5,6 +5,9 @@ description: クリエイターとして、創造性と面白さの両立につ�
 keywords: flappy bird, 2048, threes, ゲーム, 面白さ, 発想, 物創り
 date: 2014-06-25 23:11
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - opinion
@@ -28,8 +31,6 @@ archive:
 [Flappy Bird](http://en.wikipedia.org/wiki/Flappy_Bird)や[2048](http://gabrielecirulli.github.io/2048/)のようなゲームが見せてくれたように、
 根本的な面白い要素さえあれば、どんなシンプルなゲームでも大ヒットする可能性がある。
 むしろ、これらのゲームは最もシンプルであることが必須で、根本の面白さの邪魔をする要素がない、というのも成功の要因だと言える。
-
-<!-- more -->
 
 [Threes](http://asherv.com/threes/)の製作者は、凄まじい量のブレストと改善を行った上でゲームをリリースした。
 その途中で、いずれ2048としてリリースされるゲームシステムを検討したが、彼らの思う「良いゲーム」の定義に当てはまらなく、ボツにされた。

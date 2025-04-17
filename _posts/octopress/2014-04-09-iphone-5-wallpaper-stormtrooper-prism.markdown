@@ -5,6 +5,9 @@ description: iPhone 5 Wallpaper - Stormtrooper Prism
 keywords: iphone, wallpaper, stormtrooper, prism
 date: 2014-04-09 13:46
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - design

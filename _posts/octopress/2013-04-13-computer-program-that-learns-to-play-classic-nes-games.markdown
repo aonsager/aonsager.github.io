@@ -3,6 +3,9 @@ layout: post
 title: Computer program that learns to play classic NES games
 date: 2013-04-13 18:01
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link: http://www.youtube.com/watch?v=xOCurBYI_gY
 tags:
 - tech

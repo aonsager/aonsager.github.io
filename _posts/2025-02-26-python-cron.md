@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Python script failing via cron
 slug: python-cron
 date: '2025-02-26 15:11:00 +0900'

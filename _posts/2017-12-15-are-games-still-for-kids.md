@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Are Video Games Still For Kids?
 date: 2017-12-15 17:47 +0900
 tags:
@@ -21,8 +24,6 @@ archive:
 I grew up in the 90s, and back then video games were made for kids. Toys were for kids, and video games were just the newest, most exciting toys around.
 
 But as my generation grew up, we never really stopped playing games. As we became adults, the game companies kept making games for us, and games shifted to targeting an older audience. It makes sense that these would be successful since adults have more money to spend on games than kids do. Video games became a form of entertainment just like movies, and they started using serious storylines and graphic violence in the same ways.
-
-<!-- more -->
 
 While this is great for the adults, I can't help but feel that the kids are being left behind. The young adults making exciting new things are mostly making them for people like themselves, and very few companies are still focusing on entertainment for children. So now kids play Call of Duty, sign up for Facebook, watch YouTube, and are bombarded with content that really isn't appropriate for their age.
 

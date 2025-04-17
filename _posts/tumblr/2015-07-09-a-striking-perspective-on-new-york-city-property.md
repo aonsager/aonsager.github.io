@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: A Striking Perspective on New York City Property Values | Metrocosm
 date: '2015-07-09T14:17:56+09:00'
 tags:

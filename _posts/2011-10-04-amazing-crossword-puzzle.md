@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Amazing Crossword Puzzle
 link:
 tags:
@@ -17,8 +20,6 @@ colors:
 {% include image.html image="crossword.gif" width="500px" %}
 
 The New York Times crossword puzzle the day before the 1996 presidential election.
-
-<!-- more -->
 
 The relevant clues:
 

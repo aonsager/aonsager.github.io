@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Night My Girlfriend Dissociated and Forgot Who I Was
 date: '2015-03-05T20:59:26+09:00'
 tags:

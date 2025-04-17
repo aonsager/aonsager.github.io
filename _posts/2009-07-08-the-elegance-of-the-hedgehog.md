@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: The Elegance of the Hedgehog
 link:
 tags:
@@ -18,8 +21,6 @@ colors:
 **Profoundly moving**
 
 By Muriel Barbery, this novel is the story of two hyper-intelligent individuals living among Paris’ high society: Renée Michel, the concierge of the apartment building, and Paloma Josse, the shockingly perceptive 12-year-old. They seem to embody everything that the privileged elite should be but isn’t; the juxtaposition of their wisdom and class against the frivolous and shallow natures of those around them constantly lashes out at the empty finicking of the bourgeois lifestyles.
-
-<!-- more -->
 
 At the same time, this tiresome emptiness is contrasted with Japanese aesthetics, which often find beauty in simplicity. The line between nullness and emptiness is a thin but important distinction. Japanese art and culture are a constant source of peace for the two. Surely it is no coincidence that the arrival of the Japanese man is what brings new meaning into their lives.
 

@@ -5,6 +5,9 @@ description: Cate Blanchett accuses camera operator of sexism, highlights larger
 keywords: blanchett, feminism, sexism, red carpet
 date: 2014-04-03 21:58
 comments: true
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 link:
 tags:
 - opinion

@@ -1,5 +1,8 @@
 ---
 layout: post
+nav_category: posts
+nav_category_color: blue
+slug_color: blue-light
 title: Squirrel - Archive webpages so I can find them again
 slug: squirrel---archive-webpages-so-i-can-find-them-again
 link: https://github.com/aonsager/squirrel-archiver
