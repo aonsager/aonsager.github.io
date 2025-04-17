@@ -21,8 +21,6 @@ colors:
 
 The New York Times crossword puzzle the day before the 1996 presidential election.
 
-<!-- more -->
-
 The relevant clues:
 
 ### Across

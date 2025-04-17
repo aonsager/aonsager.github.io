@@ -25,8 +25,6 @@ tags:
 
 For the first time ever, scientists have captured an image of a black hole. The black hole chosen is a supermassive black hole at the center of the Messier 87 galaxy, 55 million light-years away from Earth. This is huge news, since before this we only had theoretical proofs of black holes with no direct evidence.
 
-<!-- more -->
-
 A black hole technically doesn't look like anything since it emits no light, so I understand this to be a capture of light that came very close to the black hole. It appears in a very distinct way that confirms the presence of a black hole.
 
 This is a photograph of a tiny amount of light that has spilled away from a black hole, 55 million light-years away. The fact that we have telescopes that can accurately capture that light is mind-boggling.

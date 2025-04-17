@@ -24,8 +24,6 @@ Google's AlphaZero program is a machine that plays chess, and it has managed to 
 
 As I understand it, the hardest part of creating an AI that solves problems like chess is finding some way to calculate if you're winning or not. If that were easy to do, the program could just look at all of its possible moves (which is not very many for a computer) and see which one would leave it winning by more. The trouble is that it's very hard to tell if you're winning. You might need to consider all possible outcomes many moves in advance, which quickly becomes too many to calculate. 
 
-<!-- more -->
-
 Successful chess AI programs, of which Stockfish is the most popular, have a giant list of common board situations and good moves to make. An [opening table](https://en.wikipedia.org/wiki/Chess_opening_theory_table) lists moves that can happen towards the beginning of a match, and an [endgame tablebase](https://en.wikipedia.org/wiki/Endgame_tablebase) shows possible situations at the end of a match. The middle of a match is much more complicated and has far many more possibilities, so it's difficult to create tables like this. The strength of a chess AI boils down to how big its tables are, and how quickly it can search them within the match's time limits. But:
 
 >[I]t took AlphaZero only four hours to "learn" chess. Sorry humans, you had a good run.

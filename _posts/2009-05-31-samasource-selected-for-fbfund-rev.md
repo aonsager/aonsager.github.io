@@ -25,8 +25,6 @@ Hooray! Along with 18 companies and one other non-profit, **Samasource was chose
 
 What this means is that we’ll have Palo Alto office space, lots of media attention, an official Facebook seal of approval, and possibly free lunches */crossfingers*. The catch?
 
-<!-- more -->
-
 > Due to the way fbFund is structured, the non-profit startups cannot receive funding ([Facebook dev blog](http://developers.facebook.com/news.php?blog=1&story=249)).
 
 Bummer...

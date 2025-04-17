@@ -26,8 +26,6 @@ This blog has an intentionally simple design, but lately I've been thinking that
 
 [Picular](https://picular.co) was a big inspiration. Generating colors from text by searching for images is a great idea, and I decided to automatically get a set of colors based on each post's title. Picular doesn't have an API that I could use, so I wrote a quick script that does something similar. Unless I've changed things since I published this post, there should now be a row of colors next to each post's title.
 
-<!-- more -->
-
 ## Getting colors from images
 
 I've included the script itself at the end of the post so you can the details of how it works, but the general process is as follows:
@@ -63,6 +61,8 @@ After playing around with it, I found that just looking at the most frequently u
 Even with these adjustments, this method tends to find a lot of colors that are either very dark or very bright. The colors often felt too strong compared to the rest of the site's design. I thought about doing some adjustments to the colors to tone them down, but realized that it's much easier to cheat by reducing the opacity of the colorful bars via CSS.
 
 I now also include this script in the rake task that generates my post files for Jekyll, so after I write a post it will automatically fetch colors before publishing. I might write another post about how that works, but for now you can see the file [here](https://github.com/aonsager/aonsager.github.io/blob/master/Rakefile) (sorry if I've changed things since I wrote this and it's no longer there).
+
+<!-- more -->
 
 ## Prerequisites
 

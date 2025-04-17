@@ -28,17 +28,14 @@ Following up to my [earlier post about the fediverse](/2024/12/02/i-want-to-love
 This would let me set up my own single-user server, which solves all of my misgivings about Mastodon.
 
 <div class="callout">
-<div class="title">Disclaimer</div>
-I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here.<br />
-Please take my experience with a grain of salt, and correct me if you can.
+<div class="title">Disclaimer:</div>
+I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here. Please take my experience with a grain of salt, and correct me if you can.
 </div>
 
 I have a VPS with [Coolify](https://coolify.io) to manage the multiple apps I have running, and all things considered it makes things very easy.  
 I used a docker-compose file to deploy GoToSocial, and their [example file](https://raw.githubusercontent.com/superseriousbusiness/gotosocial/main/example/docker-compose/docker-compose.yaml) was almost perfect as-is.
 
-<!-- more -->
-
-# Port settings
+## Port settings
 
 Coolify acts as a reverse proxy, so I used that part of the configuration:
 
@@ -56,11 +53,11 @@ services:
 
 8002 was just an open port that I chose, and Coolify is smart enough to use that port to route traffic from my GoToSocial domain.
 
-# File permissions
+## File permissions
 
 [Robb Knight's blog post](https://rknight.me/blog/installing-gotosocial-on-coolify/) showed me how to fix the sqlite database being unable to load because of a permissions issue. I had a similar issue with the Wazero compilation cache directory not being created, but I ended up just commenting that line out because it works without.
 
-# Shooting myself in the foot
+## Shooting myself in the foot
 
 I knew I had to mount a volume to make the database persist across redeploys and not be wiped fresh every time. [Coolify's documentation](https://coolify.io/docs/knowledge-base/persistent-storage) made it very clear,
 
@@ -88,7 +85,7 @@ I poked around in the terminal and saw that both `/app/storage` and `/gotosocial
 
 So, I don't quite understand what the Coolify docs were trying to tell me.
 
-# End
+## End
 
 Things seem to be working fine now, and I'm using mostly [Semaphore](http://semaphore.social) to interact with the instance.  
 You can follow me [here!](https://gts.invisibleparade.com/@alex)

@@ -33,8 +33,6 @@ The story takes place in a future where androids are commonplace and indistingui
 
 You assume the role of three different characters with interweaving narratives, and the actions you take as each character determine the course of the story. The result is a giant web of branching storylines with many different possible outcomes.
 
-<!-- more -->
-
 ## Roleplay
 
 The key to making this type of game engaging is how well you can sympathize with and roleplay as the protagonists. If you understand the characters and their motivations – and can see the world through their eyes – each of the actions you take over the course of the story becomes more meaningful.

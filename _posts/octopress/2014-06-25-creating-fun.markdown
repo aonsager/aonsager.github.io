@@ -29,8 +29,6 @@ My long-standing goal, in both work and personal life, is to create "fun". I cur
 
 Games like [Flappy Bird](http://en.wikipedia.org/wiki/Flappy_Bird) and [2048](http://gabrielecirulli.github.io/2048/) show that as long as you have one crucial element that provides fun, even the simplest of games can be a huge hit. And in fact, for games like these it is necessary that they be the simplest of games, with no other elements distracting from that core nugget of fun.
 
-<!-- more -->
-
 The makers of [Threes](http://asherv.com/threes/) went through a tremendous amount of creative iteration before publishing their game. They considered the game system that eventually would become 2048, but decided that it didn't fit their criteria for what makes a game "good". I would imagine that during the game design process they prioritized the game's strategic depth, such as the lack of a clear _correct_ way to play. They nixed 2048 because it's relatively easy to score high if you stick to one corner, and they felt that this detracted from the game's potential.
 
 As it turns out, those elements that they felt would make the game less _good_ in fact ended up making the game more _fun_, and led to the huge success of 2048, which implements the simpler version. I'm not arguing against the quality of Threes, which was widely acclaimed for good reason. My point is simply that more people found 2048 to be more fun.

@@ -29,8 +29,6 @@ LINE, the hugely popular Japanese messaging app, has been seeing a recent surge 
 
 But once it was determined that the majority of the scam artists were Chinese, the users began fighting back in a hilarious way.
 
-<!-- more -->
-
 The magic word is "Tiananmen Square Incident" (天安門事件). By sending this in the chat, the scam artists now risk having their network activity flagged by Chinese censors, and subsequently having their connections cut off. Most of the time, the scam artist will proactively delete their account to prevent this from happening.
 
 Creative ways of dealing with scammers are always fun to see, but this is a wonderfully elegant solution that gets immediate results.

@@ -24,8 +24,6 @@ I had been playing World of Warcraft on and off for about 10 years, but I decide
 
 A series of recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.
 
-<!-- more -->
-
 ## What makes a subscription-based game worth its price?
 
 All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously]({% post_url 2017-11-30-pay-to-win %}) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy.

@@ -23,8 +23,6 @@ When I started using Facebook in 2005, it was exclusive to college students and 
 
 All recent updates were shown as one long list, but Facebook eventually introduced the News Feed. This was an effort to filter everyone's updates to show just the most important ones. Facebook made educated guesses about whose updates were most important to you and hid the ones you wouldn't care about. I think they also kept an option to see all updates in chronological order if you didn't want to miss out on anything.
 
-<!-- more -->
-
 News Feed seemed fine at first, but unfortunately it's no longer useful as a way to keep in touch with people. Instead of showing you the updates that should be most important to you, Facebook now shows you the things that you are most likely to click on. Often, this means you only see pictures or videos on the home page.
 
 When people posted YouTube videos or links to articles, they got more clicks than regular status updates. Facebook liked that and started showing more and more videos and links in the News Feed, and this made them get even more clicks. At some point, people started noticing that posts about themselves got almost no attention, while links to content would get lots of reactions. People stopped posting about themselves and started posting links instead.

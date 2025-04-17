@@ -31,6 +31,8 @@ I am a mediocre photographer at best, but of course I want to improve. When I sa
 
 I don't have fancy gear, or a lot of time to go hunting for photos, so almost all of my shots were scenes from my daily life, taken with an iPhone. I realized pretty quickly though, that being deliberate about composition gave a new perspective on even familiar scenes, and I was surprised at compelling some of the photos turned out.
 
+<!-- more -->
+
 ## Week 1: The Rule of Thirds
 
 > The Rule of Thirds challenge is all about getting your subject out of the middle of the frame.

@@ -29,8 +29,6 @@ macOS Mojave added a system-wide Dark Mode, but it doesn't do much if all of the
 
 This new option [looks to be supported](https://caniuse.com/#feat=prefers-color-scheme) in Safari 12.1 and Firefox 67. As of this writing both of these have not been released officially, but you can try it out in the [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 
-<!-- more -->
-
 I've added Dark Mode support to this site, using code that looks something like this
 
 ```scss

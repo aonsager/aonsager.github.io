@@ -49,7 +49,7 @@
 }
 
 html {
-    color-scheme: /*light*/ dark;
+    color-scheme: light dark;
 }
 
 html, body {
@@ -285,6 +285,7 @@ header {
     &.site-header {
         position: sticky;
         top: 0;
+        /* max-width: var(--max-width); */
         height: 50px;
         line-height: 30px;
         z-index: 1000;
@@ -311,8 +312,15 @@ header {
                 cursor: pointer;
             }
 
+            #theme-toggle {
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+            }
+
             .site-url {
-                margin-left: 50px;
+                margin: 0 50px;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
@@ -394,7 +402,7 @@ main {
 }
 
 .page-content {
-    max-width: var(--content-width);
+    /* max-width: var(--content-width); */
     border-right: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
     background-color: light-dark(var(--color-white), var(--color-black));
     flex: 1;
@@ -493,11 +501,12 @@ article {
     }   
 
     a {
-        text-decoration: underline;
         color: var(--color-grey-dark);
+        text-decoration: underline;
 
         &:hover {
             color: var(--color-grey-6);
+            text-decoration: underline;
         }
     }   
 }
@@ -695,6 +704,10 @@ pre, code {
 
             #nav-logo {
                 display: block;
+
+                line {
+                    stroke: var(--color-grey);
+                }
             }
 
             .root-non-index{

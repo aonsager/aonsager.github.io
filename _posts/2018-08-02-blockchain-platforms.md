@@ -23,8 +23,6 @@ I've been thinking a lot recently about what benefits there are to building a ne
 
 The idea, introduced to me by [this post by Alex Tabarrok](https://marginalrevolution.com/marginalrevolution/2018/06/blockchains-opportunity-commons.html), is that a blockchain-based platform is uniquely able to align its needs with the needs of the users. If a traditional platform wants to create economic value for itself, it often needs to do things at the expense of its users. It can't maximize value for both the users and the platform at the same time. But a blockchain-based platform can, through its tokens, increase its value directly by increasing value for its users. 
 
-<!-- more -->
-
 Facebook creates value for its users by making it easy for them to communicate and keep in touch with their friends. But if Facebook and its stockholders want to create value (= money) for themselves, they need to start selling data and adding advertisements. This doesn't add any value to its users and actually creates negative value. There is a conflict of interest because the needs of the users and the needs of the platform are not aligned, and the company needs to find a balance so that everybody involved is just happy enough. 
 
 For a decentralized platform with tokens powering its blockchain, the value of the platform lives in the value of the token. Users of the platform give value to the token by using it and interacting with it, so a popular platform will have more valuable tokens. The best way to make a token more valuable is to increase the value that the platform provides to its users. There is no conflict of interest because there is no way to increase the value of the blockchain itself at the expense of the value it provides its users.

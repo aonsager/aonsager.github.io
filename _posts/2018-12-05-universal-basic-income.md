@@ -22,8 +22,6 @@ I wonder sometimes about what a better society than ours would be. What should o
 
 As our society improves and we get more efficient, I like to imagine a future where we don't have to work as much. That seems like a nice thing to aim for. Universal basic income (UBI) seems like one possible solution. If we could afford to give everybody a fixed minimal income, people could work less and still have a basic amount of wealth needed to survive. But I'm not yet convinced whether UBI is the correct answer to describe an ideal future. 
 
-<!-- more -->
-
 Robots and machines can do a lot of work for us. This is progress that could be applauded, but it's feared instead. The main reason why we're afraid of offloading work to machines is that we can't live without money, and we can't get money unless we are productive members of society. Capitalism is set up to make us want to stay busy. We seem to be stuck in a rut where we [never stop building more things](https://www.youtube.com/watch?v=A4-3TKy2A28) and [make up fake jobs to stay busy](https://strikemag.org/bullshit-jobs/).
 
 If we let robots and machines do a lot of work for us, the downside is that many people will lose their jobs. This is where UBI comes in. If robots and machines and other general improvements allow us to create value more efficiently, the government could then redistribute the extra value to everyone in the form of a basic income.  Unemployment will be feared less if you don't have to worry about how you'll feed your family. UBI in some form seems necessary if we want to make life easier for everyone while still using money to pay for things. But I'm not yet convinced whether it's the correct answer to describe an ideal future. 

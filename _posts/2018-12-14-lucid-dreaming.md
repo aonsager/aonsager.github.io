@@ -24,8 +24,6 @@ I was consistently able to have lucid dreams when I was in high school. Partway 
 
 Naturally, I've been interested in lucid dreaming and have read a lot about it. [Tim Ferriss has a fascinating beginner's guide on his blog](https://tim.blog/2009/09/21/how-to-lucid-dream/). Different people seem to have different approaches and theories, so I thought I would write about my own experiences.
 
-<!-- more -->
-
 ## Entering a lucid dream
 
 The breakthrough for me was trying to wake up from nightmares. I would pull my eyes open to try to force them to open in real life. Sometimes it worked, but other times the nightmare would already be over because I was focused so much on trying to open my eyes. At some point, I realized that if it's all in my head, there's no reason why I shouldn't be able to change it to be less scary.

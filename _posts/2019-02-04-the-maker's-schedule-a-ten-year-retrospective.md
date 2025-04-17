@@ -25,8 +25,6 @@ archive:
 
 As expected the post got a lot of negative feedback, but it was all very informative. Rather than just telling me to shut up, many people shared their own views and explained where my reasoning might be shortsighted. One person said they would be interested in seeing how I would react to my own post in about 10 years time, so here I am.
 
-<!-- more -->
-
 I wrote the post as a programmer and took advantage of that position to say some pretty harsh things about programmers in general. I was surprised to see that I wrote the post when I was only a few months out of college, so I definitely had far more ego than I deserved. While I can understand the points I was trying to make, if I were to try the same thing now I would be much more civil about it.
 
 I didn't disagree with PG's main point, namely that distractions are always bad for productivity but probably affect programmers more than other professionals. I felt though, that resigning to losing an afternoon because of a one-hour meeting was too defeatist. It is possible to minimize setbacks. There always will be some room for productivity in a short window of time. You won't be able to develop a large complex function, but there is probably something else you can do instead to spend the time productively.

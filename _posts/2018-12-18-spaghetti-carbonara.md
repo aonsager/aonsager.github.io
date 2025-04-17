@@ -23,8 +23,6 @@ For a long time I thought I didn't like carbonara because the few I tried were t
 
 {% include image.html image="carbonara.jpg" width="500px" %}
 
-<!-- more -->
-
 ## Ingredients
 
 - Spaghetti for 2

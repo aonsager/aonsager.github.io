@@ -24,8 +24,6 @@ archive:
 
 While a Stanford undergrad, I began my online career with gleeful audacity. The Monday after Facebook Platform launched, my friend and I released Facebook's original Graffiti application. We were unexperienced and had no viral component, so we soon lost the battle to Mark Kantor et al.'s version. But Graffiti gave us excitement and hunger. The following fall we enrolled in Stanford's course on Facebook applications, using the opportunity to develop Send Hotness. This time, we nailed the virality. A few advertising payouts later, we were the proud owners of two companies. Doped up on adrenaline, we loved every minute. I stepped down eventually once I remembered that I had schoolwork to do, but I felt sure that this was my path.
 
-<!-- more -->
-
 Fast forward to April 2009. Graduation is pending, and I have the thrilling chance to commit my waking hours to some product. As it turns out, I basically had one choice:
 
 > We're developing a real-time, web 2.0, social algorithm-based consumer-facing interface that will revolutionize what users do when they [blank]
