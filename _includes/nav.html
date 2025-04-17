@@ -33,8 +33,8 @@
 {% if page.nav_category == 'contact' -%}
   {% assign contact_class = 'selected' -%}
 {% endif -%}
-{% if page.nav_category == 'feed' -%}
-  {% assign feed_class = 'selected' -%}
+{% if page.nav_category == 'feeds' -%}
+  {% assign feeds_class = 'selected' -%}
 {% endif -%}
 
 <nav id="site-nav" class="mono">
@@ -79,8 +79,8 @@
     <li class="orange {{ contact_class }}">
       ❯&nbsp;<a href="/contact">/contact</a>
     </li>
-    <li class="pink {{ feed_class }}">
-      ❯&nbsp;<a href="/feed.xml">/feed</a>
+    <li class="pink {{ feeds_class }}">
+      ❯&nbsp;<a href="/feeds">/feeds</a>
     </li>
   </ul>
 </nav>

@@ -34,7 +34,7 @@ Nothing much has changed for our family these past few years, and that is by des
 
 ## Work
 
-Since 2022 I have been leading a department that is tasked with making the company better at creating new games. This involves encouraging all staff to submit game ideas at any time, working with people to strengthen game ideas and create attractive pitches, coaching teams through early development phases, maintaining a corporate strategy for the release of new games, and more. It allows me to work directly with a lot of people throughout the company, and has been tremendously fun.
+Since 2022 I have been leading a department that is tasked with making our studio better at creating new games. This involves encouraging all staff to submit game ideas at any time, working with people to strengthen game ideas and create attractive pitches, coaching teams through early development phases, maintaining a corporate strategy for the release of new games, and more. It allows me to work directly with a lot of people throughout the company, and has been tremendously fun.
 
 ## Hobbies
 

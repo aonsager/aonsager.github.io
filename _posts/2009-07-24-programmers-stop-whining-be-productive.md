@@ -22,8 +22,9 @@ archive:
 ---
 
 <div class="callout">
-    <div class="title">Update:</div>
-    I feel compelled to mention that I have since posted a reflection on this piece <a href="/2019/02/04/the-maker's-schedule-a-ten-year-retrospective.html">here</a>
+    <div class="title">Update 2019</div>
+    10 years later, I have posted a reflection on this piece <a href="{% post_url 2019-02-04-the-maker's-schedule-a-ten-year-retrospective %}">here</a>
+    
 </div>
 
 I was pointed to [Paul Graham’s post](http://paulgraham.com/makersschedule.html) about programmers running on a separate schedule than other people. Programmers run on the "maker’s schedule" and prefer to work in large chunks of time, with units of at least half a day. Others, particularly their bosses, operate on the "manager’s schedule" and have things defined into hour-long chunks. Interactions between the two typically cause friction:

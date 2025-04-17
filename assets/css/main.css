@@ -701,7 +701,7 @@ pre, code {
  
 
 /* Mobile */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     header.site-header  {
         height: 80px;
     

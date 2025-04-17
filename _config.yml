@@ -25,6 +25,7 @@ github_username: aonsager
 linkedin_username: alexonsager
 personal_email: alex.onsager@gmail.com
 fedi_url: https://gts.invisibleparade.com/@alex
+permalink: /posts/:title
 
 # Build settings
 markdown: kramdown
