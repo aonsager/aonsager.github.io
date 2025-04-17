@@ -37,26 +37,50 @@
   {% assign feed_class = 'selected' -%}
 {% endif -%}
 
-<nav class="mono">
+<nav id="site-nav" class="mono">
   <ul class="nav-links">
     <li class="red {{ index_class }}">
-      <span class="expand">&nbsp;&nbsp;</span><span>❯&nbsp;</span>
-      <a href="/">
-        <span>/i</span><span class="expand">ndex</span>
+      ❯&nbsp;<a href="/">/index</a>
+    </li>
+    <li class="green {{ about_class }}">
+      ❯&nbsp;<a href="/about">/about</a>
+    </li>
+    <li class="green-light {{ now_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/now">/now</a>
+    </li>
+    <li class="green-light {{ ai_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/ai">/ai</a>
+    </li>
+    <li class="green-light {{ colophon_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/about/colophon">/colophon</a>
+    </li>
+    <li class="blue {{ posts_class }}">
+      ❯&nbsp;<a href="/posts">/posts</a>
+    </li>
+    <li class="blue-light {{ archive_class }}">
+      &nbsp;&nbsp;❯&nbsp;<a href="/posts/archive">/archive</a>
+    </li>
+    <li class="blue-light {{ me_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/me">/me</a>
+    </li>
+    <li class="blue-light {{ games_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/games">/games</a>
+    </li>
+    <li class="blue-light {{ coding_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/coding">/coding</span>
       </a>
     </li>
-    <li class="green {{ about_class }}">❯&nbsp;<a href="/about">/about</a></li>
-      <li class="green-light {{ now_class }}">❯&nbsp;<a href="/about/now">/now</a></li>
-      <li class="green-light {{ ai_class }}">❯&nbsp;<a href="/about/ai">/ai</a></li>
-      <li class="green-light {{ colophon_class }}">❯&nbsp;<a href="/about/colophon">/colophon</a></li>
-    <li class="blue {{ posts_class }}">❯&nbsp;<a href="/posts/">/posts</a></li>
-      <li class="blue-light {{ archive_class }}">❯&nbsp;<a href="/posts/archive/">/archive</a></li>
-        <li class="blue-light {{ me_class }}">❯&nbsp;<a href="/posts/archive/me/">/me</a></li>
-        <li class="blue-light {{ games_class }}">❯&nbsp;<a href="/posts/archive/games/">/games</a></li>
-        <li class="blue-light {{ coding_class }}">❯&nbsp;<a href="/posts/archive/coding/">/coding</a></li>
-        <li class="blue-light {{ mumbles_class }}">❯&nbsp;<a href="/posts/archive/mumbles/">/mumbles</a></li>
-    <li class="purple {{ projects_class }}">❯&nbsp;<a href="/projects/">/projects</a></li>
-    <li class="orange {{ contact_class }}">❯&nbsp;<a href="/contact/">/contact</a></li>
-    <li class="pink {{ feed_class }}">❯&nbsp;<a href="/feed.xml">/feed</a></li>
+    <li class="blue-light {{ mumbles_class }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/mumbles">/mumbles</a>
+    </li>
+    <li class="purple {{ projects_class }}">
+      ❯&nbsp;<a href="/projects">/projects</a>
+    </li>
+    <li class="orange {{ contact_class }}">
+      ❯&nbsp;<a href="/contact">/contact</a>
+    </li>
+    <li class="pink {{ feed_class }}">
+      ❯&nbsp;<a href="/feed.xml">/feed</a>
+    </li>
   </ul>
 </nav>

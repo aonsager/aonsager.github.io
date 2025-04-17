@@ -1,3 +1,6 @@
+{% if page.nav_category != "" -%}
+  {% assign root_url_class = "root-non-index" -%}
+{% endif %}
 {% assign nav_category = "/" | append: page.nav_category -%}
 {% assign nav_category_color = page.nav_category_color -%}
 {% if page.slug -%}
@@ -11,13 +14,25 @@
 <header class="site-header mono">
   <div class="container">
     <div class="site-title">
-      <svg id="header-logo-black" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+      <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
         <circle cx="15" cy="15" r="10" fill="#fdfdfd" stroke="#2d2d2d" stroke-width="1" />
             <circle cx="25" cy="15" r="10" fill="#2d2d2d" stroke="#fdfdfd" stroke-width="1" />
       </svg>
-      <div>
-        <span class="header-url">invisibleparade.com</span><span class="header-url {{ nav_category_color }}">{{ nav_category }}</span><span class="{{ page_slug_color }}">{{ page_slug }}</span>
+      <svg id="nav-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg" onclick="toggle_nav();">
+        <line x1="5" y1="10" x2="35" y2="10" stroke="black" stroke-width="2" stroke-linecap="round" />
+        <line x1="5" y1="17" x2="35" y2="17" stroke="black" stroke-width="2" stroke-linecap="round" />
+        <line x1="5" y1="24" x2="35" y2="24" stroke="black" stroke-width="2" stroke-linecap="round" />
+      </svg>
+      <div class="site-url">
+        <span class="header-url">invisibleparade.com</span><span class="header-url {{ root_url_class }} {{ nav_category_color }}">{{ nav_category }}<span class="{{ page_slug_color }}">{{ page_slug }}</span></span>
       </div>
     </div>
   </div>
 </header>
+
+<script>
+  function toggle_nav() {
+    document.getElementById("nav-logo").classList.toggle('open');
+    document.getElementById("site-nav").classList.toggle('open');
+  }
+</script>
