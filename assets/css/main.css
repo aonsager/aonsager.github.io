@@ -310,6 +310,11 @@ header {
                 top: 30px;
                 left: 0;
                 cursor: pointer;
+                line {
+                    stroke: light-dark(var(--color-black), var(--color-white-dark));
+                    stroke-width: 2;
+                    stroke-linecap: round;
+                }
             }
 
             #theme-toggle {
@@ -704,10 +709,6 @@ pre, code {
 
             #nav-logo {
                 display: block;
-
-                line {
-                    stroke: var(--color-grey);
-                }
             }
 
             .root-non-index{

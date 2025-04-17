@@ -19,19 +19,13 @@
             <circle cx="25" cy="15" r="10" fill="#2d2d2d" stroke="#fdfdfd" stroke-width="1" />
       </svg>
       <svg id="nav-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg" onclick="toggle_nav();">
-        <line x1="5" y1="10" x2="35" y2="10" stroke="black" stroke-width="2" stroke-linecap="round" />
-        <line x1="5" y1="17" x2="35" y2="17" stroke="black" stroke-width="2" stroke-linecap="round" />
-        <line x1="5" y1="24" x2="35" y2="24" stroke="black" stroke-width="2" stroke-linecap="round" />
+        <line x1="5" y1="10" x2="35" y2="10" />
+        <line x1="5" y1="17" x2="35" y2="17" />
+        <line x1="5" y1="24" x2="35" y2="24" />
       </svg>
       <button id="theme-toggle" aria-label="Toggle theme" style="background: none; border: none; cursor: pointer;" onclick="toggle_theme();">
         <svg id="theme-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
       </button>
-      <!-- <svg id="theme-toggle" width="30" height="30" xmlns="http://www.w3.org/2000/svg" onclick="toggle_theme();">
-        <line x1="5" y1="5" x2="25" y2="5" stroke="black" stroke-width="2" stroke-linecap="round" />
-        <line x1="25" y1="5" x2="25" y2="25" stroke="black" stroke-width="2" stroke-linecap="round" />
-        <line x1="25" y1="25" x2="5" y2="25" stroke="black" stroke-width="2" stroke-linecap="round" />
-        <line x1="5" y1="25" x2="5" y2="5" stroke="black" stroke-width="2" stroke-linecap="round" />
-      </svg> -->
       <div class="site-url">
         <span class="header-url">invisibleparade.com</span><span class="header-url {{ root_url_class }} {{ nav_category_color }}">{{ nav_category }}<span class="{{ page_slug_color }}">{{ page_slug }}</span></span>
       </div>
