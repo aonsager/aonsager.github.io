@@ -21,7 +21,9 @@
     --accent-color-light: oklch(70.94% 0.136 258.06);
     --accent-color-dark: oklch(43.48% 0.17 260.2);
     --color-white: oklch(0.99 0 0);
+    --color-white-dark: oklch(91.87% 0.003 264.54);
     --color-black: oklch(25.11% 0.006 258.36);
+    --color-black-light: oklch(35.02% 0.005 236.66);
     --color-grey: oklch(84.68% 0.002 197.12);
     --color-grey-light: oklch(95.57% 0.003 286.35);
     --color-grey-dark: oklch(63.12% 0.004 219.55);
@@ -35,6 +37,7 @@
     --color-green: oklch(64.24% 0.175 144.92);
     --color-green-light: oklch(79.33% 0.179 145.62);
     --color-purple: oklch(49.39% 0.215 298.31);
+    --color-purple-light: oklch(68.5% 0.136 303.78);
     --color-orange: oklch(69.33% 0.157 52.18);
     --color-pink: oklch(70.23% 0.092 354.96);
 }
@@ -43,6 +46,10 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+html {
+    color-scheme: /*light*/ dark;
 }
 
 html, body {
@@ -85,8 +92,8 @@ html {
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
     font-weight: var(--base-font-weight);
-    color: var(--color-black);
-    background-color: var(--color-white);
+    color: light-dark(var(--color-black), var(--color-white-dark));
+    background-color: light-dark(var(--color-white), var(--color-black-light));
 }
 
 img {
@@ -96,13 +103,13 @@ img {
 
 a {
     word-wrap: break-word;
-    color: var(--accent-color);
+    color: light-dark(var(--accent-color), var(--accent-color-light));
     text-underline-position: under;
     text-decoration-thickness: 2px;
 }
 
 a:hover {
-    color: var(--accent-color-light);
+    color: light-dark(var(--accent-color-light), var(--accent-color));
 }
 
 pre, code {
@@ -138,7 +145,7 @@ pre {
 }
 
 .indent-block {
-    border-left: 1px solid var(--color-grey);
+    border-left: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
     padding-left: var(--spacing-unit);
     margin-top: calc(var(--spacing-unit) / 2);
     margin-bottom: var(--spacing-unit);
@@ -156,7 +163,7 @@ pre {
     color: var(--color-red);
 
     a:hover {
-        color: var(--color-red);
+        color: light-dark(var(--color-red), var(--color-red-light));
     }
 
     &.selected {
@@ -233,7 +240,7 @@ pre {
     color: var(--color-purple);
 
     a:hover {
-        color: var(--color-purple);
+        color: light-dark(var(--color-purple), var(--color-purple-light));
     }
 
     &.selected {
@@ -271,7 +278,7 @@ pre {
 /* Layout */
 
 body {
-    background-color: var(--color-grey-light);
+    background-color: light-dark(var(--color-grey-light), black);
 }
 
 header {
@@ -281,8 +288,8 @@ header {
         height: 50px;
         line-height: 30px;
         z-index: 1000;
-        background-color: var(--color-white);
-        border-bottom: 1px solid var(--color-grey);
+        background-color: light-dark(var(--color-white), var(--color-black));
+        border-bottom: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
         padding: calc(var(--spacing-unit) * 0.5) 0;
 
         .site-title {
@@ -324,7 +331,7 @@ header {
     }
 
     a, a:hover {
-        color: var(--color-black);
+        color: light-dark(var(--color-black), var(--color-white-dark));
         text-decoration: none;
     }
 }
@@ -340,11 +347,11 @@ header {
 
 nav {
     flex: 0 0;
-    border-left: 1px solid var(--color-grey);
-    background-color: var(--color-white);
+    border-left: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
+    background-color: light-dark(var(--color-white), var(--color-black));
 
     a {
-        color: var(--color-black);
+        color: light-dark(var(--color-black), var(--color-white-dark));
         text-decoration: none;
     }
 
@@ -361,7 +368,7 @@ nav {
         li {
             display: flex;
             padding: 5px var(--spacing-unit);
-            border-bottom: 1px solid var(--color-grey);
+            border-bottom: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
             margin-top: -1px;
 
             span {
@@ -374,7 +381,7 @@ nav {
                 font-weight: bold;
 
                 a, a:hover {
-                    color: var(--color-white);
+                    color:var(--color-white);
                 }
             }
         }
@@ -388,18 +395,18 @@ main {
 
 .page-content {
     max-width: var(--content-width);
-    border-right: 1px solid var(--color-grey);
-    background-color: var(--color-white);
+    border-right: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
+    background-color: light-dark(var(--color-white), var(--color-black));
     flex: 1;
 }
 
 article {
     position: relative;
     padding: calc(var(--spacing-unit) * 2);
-    border-left: 1px solid var(--color-grey);
+    border-left: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
 
     &.list-item {
-        border-top: 1px solid var(--color-grey);
+        border-top: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
 
         &:first-of-type {
             border-top: none;
@@ -430,6 +437,17 @@ article {
         left: 0px;
         width: 100%;
         height: 8px;
+
+        &.default {
+            background-image: linear-gradient(
+                90deg, 
+                light-dark(var(--color-white), var(--color-black)), 
+                light-dark(var(--color-grey), var(--color-black-light)), 
+                light-dark(var(--color-grey-dark), var(--color-grey)), 
+                light-dark(var(--color-grey), var(--color-black-light)), 
+                light-dark(var(--color-white), var(--color-black))
+            );
+        }
     }
 }
 
@@ -443,7 +461,7 @@ article {
     }
 
     a {
-        color: var(--color-black);
+        color: light-dark(var(--color-black), var(--color-white-dark));
         text-decoration: none;
     }
 }
@@ -490,14 +508,14 @@ article {
 
 hr {
     margin: var(--spacing-unit) 0;
-    background-color: var(--color-grey);
+    background-color: light-dark(var(--color-grey), var(--color-grey-dark));
     border: none;
     height: 1px;
 }
 
 blockquote {
-    background-color: var(--color-grey-light);
-    border: 1px solid var(--color-grey);
+    background-color: light-dark(var(--color-grey-light), var(--color-black-light));
+    border: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
     border-left: 5px solid var(--color-grey-dark);
     padding: calc(var(--spacing-unit) / 2) var(--spacing-unit);
 
@@ -526,7 +544,7 @@ figcaption {
 
 .callout {
     padding: calc(var(--spacing-unit) * 0.5);
-    border: 2px dashed var(--color-grey);
+    border: 2px dashed light-dark(var(--color-grey), var(--color-grey-dark));
     margin-bottom: var(--spacing-unit);
   
     .title {
@@ -541,7 +559,7 @@ table.archive-list {
     td.date-text {
         text-align: right;
         padding-right: calc(var(--spacing-unit) * 0.5);
-        color: var(--color-grey-dark);
+        color: light-dark(var(--color-grey-dark), var(--color-grey));
         min-width: 80px;
     }
 
@@ -556,8 +574,8 @@ table.archive-list {
     gap: var(--spacing-unit);
     flex-direction: row;
     padding: var(--spacing-unit);
-    border-top: 1px solid var(--color-grey);
-    border-left: 1px solid var(--color-grey);
+    border-top: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
+    border-left: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
 
     .next-link {
         order: 3;
@@ -580,9 +598,9 @@ table.archive-list {
 
 footer {
     font-size: 0.9rem;
-    border-top: 1px solid var(--color-grey);
+    border-top: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
     padding: var(--spacing-unit);
-    background-color: var(--color-white);
+    background-color: light-dark(var(--color-white), var(--color-black));
     text-align: center;
 
     p {
@@ -595,19 +613,19 @@ footer {
  */
 pre, code {
     font-size: 0.9rem;
-    border: 1px solid var(--color-grey-light);
-    background-color: var(--color-grey-light);
+    border: 1px solid light-dark(var(--color-white-dark), var(--color-grey-dark));
+    background-color: light-dark(var(--color-grey-light), var(--color-black-light));
 }
  
 .highlight {
-    background: var(--color-grey-light);
+    background: light-dark(var(--color-grey-light), var(--color-black-light));
 
     .highlighter-rouge & {
-        background: var(--color-grey-light);
+        background: light-dark(var(--color-grey-light), var(--color-black-light));
     }
 
     .c     { color: var(--color-grey-6); font-style: italic }
-    .err   { color: var(--color-red); background-color: var(--color-white) }
+    .err   { color: var(--color-red); background-color: light-dark(var(--color-white), var(--color-grey-dark)); }
     .k     { color: var(--color-pink) }
     .o     { font-weight: bold }
     .cm    { color: var(--color-grey-6); font-style: italic }
@@ -617,7 +635,7 @@ pre, code {
     .gd    { color: var(--color-black); background-color: #fdd }
     .gd .x { color: var(--color-black); background-color: #faa }
     .ge    { font-style: italic }
-    .gr    { color: var(--color-red) }
+    .gr    { color: light-dark(var(--color-red), var(--color-red-light)) }
     .gh    { color: var(--color-grey-6) }
     .gi    { color: var(--color-black); background-color: #dfd }
     .gi .x { color: var(--color-black); background-color: #afa }
@@ -625,46 +643,46 @@ pre, code {
     .gp    { color:  var(--color-grey-dark) }
     .gs    { font-weight: bold }
     .gu    { color: var(--color-grey-6) }
-    .gt    { color: var(--color-blue) }
+    .gt    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
     .kc    { color: var(--color-pink) }
     .kd    { color: var(--color-pink) }
     .kp    { color: var(--color-pink) }
     .kr    { color: var(--color-pink) }
-    .kt    { color: var(--color-red) }
+    .kt    { color: light-dark(var(--color-red), var(--color-red-light)) }
     .m     { color: var(--color-orange) }
-    .s     { color: var(--color-green) }
-    .na    { color: var(--color-red) }
-    .nb    { color: var(--color-red) }
-    .nc    { color: var(--color-red) }
-    .no    { color: var(--color-red) }
+    .s     { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .na    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .nb    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .nc    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .no    { color: light-dark(var(--color-red), var(--color-red-light)) }
     .ni    { color: var(--color-pink) }
-    .ne    { color: var(--color-blue) }
-    .nf    { color: var(--color-blue) }
+    .ne    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
+    .nf    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
     .nn    { color:  var(--color-grey-dark) }
     .nt    { font-weight: bold }
-    .nv    { color: var(--color-red) }
+    .nv    { color: light-dark(var(--color-red), var(--color-red-light)) }
     .ow    { font-weight: bold }
     .w     { color: var(--color-grey-6) }
     .mf    { color: var(--color-orange) }
     .mh    { color: var(--color-orange) }
     .mi    { color: var(--color-orange) }
     .mo    { color: var(--color-orange) }
-    .sb    { color: var(--color-green) }
-    .sc    { color: var(--color-green) }
-    .sd    { color: var(--color-green) }
-    .s2    { color: var(--color-green) }
-    .se    { color: var(--color-green) }
-    .sh    { color: var(--color-green) }
-    .si    { color: var(--color-green) }
-    .sx    { color: var(--color-green) }
-    .sr    { color: var(--color-green) }
-    .s1    { color: var(--color-green) }
+    .sb    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sc    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sd    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .s2    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .se    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sh    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .si    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sx    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sr    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .s1    { color: light-dark(var(--color-green), var(--color-green-light)) }
     .ss    { color: var(--color-pink) }
     .bp    { color: var(--color-grey-6) }
-    .vc    { color: var(--color-red) }
-    .vg    { color: var(--color-red) }
-    .vi    { color: var(--color-red) }
-    .il    { color: var(--color-red) }
+    .vc    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .vg    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .vi    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .il    { color: light-dark(var(--color-red), var(--color-red-light)) }
 }
  
 
