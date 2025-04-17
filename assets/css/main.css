@@ -81,10 +81,14 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
 }
 
 h3 {
     font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: calc(var(--spacing-unit) * 0.25);
 }
 
 html {
