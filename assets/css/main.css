@@ -162,7 +162,7 @@ pre {
 }
 
 .red {
-    color: light-dark(var(--color-red), var(--color-red-light));
+    color: var(--color-red);
 
     a:hover {
         color: light-dark(var(--color-red), var(--color-red-light));
