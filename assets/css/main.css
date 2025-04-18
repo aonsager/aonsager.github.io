@@ -408,7 +408,7 @@ main {
 }
 
 .page-content {
-    /* max-width: var(--content-width); */
+    width: 0;
     border-right: 1px solid light-dark(var(--color-grey), var(--color-grey-dark));
     background-color: light-dark(var(--color-white), var(--color-black));
     flex: 1;
@@ -721,10 +721,6 @@ pre, code {
                 margin-left: calc(var(--spacing-unit) * 0.5);
             }
         }
-    }
-
-    .page-content {
-        max-width: 100%;
     }
 
     nav {

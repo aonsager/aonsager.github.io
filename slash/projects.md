@@ -7,6 +7,8 @@ nav_page: ""
 permalink: /projects
 ---
 
+{% include flair_default.html %}
+
 Since my day-job doesn't currently involve much programming, I like to work on fun projects on the side that let me build things directly.
 
 <!-- This Site -->

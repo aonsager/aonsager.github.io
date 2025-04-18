@@ -7,6 +7,8 @@ nav_page: ""
 permalink: /feeds
 ---
 
+{% include flair_default.html %}
+
 If you want to get notified of new posts, this is for you.
 
 - [Atom feed](/feed.xml)
