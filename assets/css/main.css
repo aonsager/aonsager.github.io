@@ -16,10 +16,8 @@
     --screen-md: 720px;
 
     /* Colors */
-    --background-color-dark: oklch(0.3 0 0);
     --accent-color: oklch(54.87% 0.222 260.33);
     --accent-color-light: oklch(70.94% 0.136 258.06);
-    --accent-color-dark: oklch(43.48% 0.17 260.2);
     --color-white: oklch(0.99 0 0);
     --color-white-dark: oklch(91.87% 0.003 264.54);
     --color-black: oklch(25.11% 0.006 258.36);
@@ -289,7 +287,6 @@ header {
     &.site-header {
         position: sticky;
         top: 0;
-        /* max-width: var(--max-width); */
         height: 50px;
         line-height: 30px;
         z-index: 1000;
@@ -552,6 +549,10 @@ figure {
     max-width: 100%;
     text-align: center;
     margin: 0 0 var(--spacing-unit);
+
+    img {
+        border: 1px solid light-dark(var(--color-grey-light), var(--color-black-light));
+    }
 }
 
 figcaption {
