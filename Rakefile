@@ -215,9 +215,9 @@ task :draft, :title do |t, args|
   headers = {
     'layout' => 'post',
     'title' => title,
-    'nav_category': 'posts',
-    'nav_category_color': 'blue',
-    'slug_color': 'blue-light',
+    'nav_category' => 'posts',
+    'nav_category_color' => 'blue',
+    'slug_color' => 'blue-light',
     'slug' => transform_to_slug(title),
     'date' => Time.now.getlocal("+09:00").strftime("%Y-%m-%d %H:%M:00 %z"),
     'link' => nil,
