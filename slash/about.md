@@ -8,7 +8,7 @@ permalink: /about
 ---
 {% include flair_default.html %}
 
-<p><img src="/assets/images/myface.jpg" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace smiling and trying to keep my eyes open in the bright sunlight." /></p>
+<p><img src="/assets/images/myface.jpg" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight." /></p>
 
 <p>My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. I learned programming by making bad games for my TI-83 calculator. The first things I published online were bad flash websites.</p>
 
