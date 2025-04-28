@@ -415,16 +415,16 @@ GH_PAGES_DIR = "compiled_blog"
 desc "Build site, copy files, push to remote"
 task :build_push, :msg do |t, args|
   msg = args.msg || "update"
-  system "git -C ../#{GH_PAGES_DIR}/ pull"
+  # system "git -C ../#{GH_PAGES_DIR}/ pull"
   get_latest_gts_posts
   system "jekyll build"
-  system "rm -r ../#{GH_PAGES_DIR}/*" # unless Dir['../#{GH_PAGES_DIR}/*'].empty?
-  system "cp -r _site/* ../#{GH_PAGES_DIR}/"
-  system "git -C ../#{GH_PAGES_DIR}/ add -A"
-  system "git -C ../#{GH_PAGES_DIR}/ commit -m \"#{msg}\""
-  system "git -C ../#{GH_PAGES_DIR}/ push"
+  # system "rm -r ../#{GH_PAGES_DIR}/*" # unless Dir['../#{GH_PAGES_DIR}/*'].empty?
+  # system "cp -r _site/* ../#{GH_PAGES_DIR}/"
+  # system "git -C ../#{GH_PAGES_DIR}/ add -A"
+  # system "git -C ../#{GH_PAGES_DIR}/ commit -m \"#{msg}\""
+  # system "git -C ../#{GH_PAGES_DIR}/ push"
   system "git add -A"
   system "git commit -m \"#{msg}\""
   system "git push"
-  system "rsync -avzP --exclude='.git*' . alex@157.180.28.67:/srv/invisibleparade/"
+  system "rsync -avzP --exclude='.git*' _site/ #{CONFIG['remote_user']}@#{CONFIG['remote_server']}:#{CONFIG['remote_dir']}"
 end
