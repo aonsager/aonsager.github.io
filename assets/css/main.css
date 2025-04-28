@@ -579,11 +579,15 @@ figcaption {
 table.archive-list {
     margin-bottom: var(--spacing-unit);
 
-    td.date-text {
-        text-align: right;
-        padding-right: calc(var(--spacing-unit) * 0.5);
-        color: light-dark(var(--color-grey-dark), var(--color-grey));
-        min-width: 80px;
+    td {
+        vertical-align: top;
+
+        &.date-text {
+            text-align: right;
+            padding-right: calc(var(--spacing-unit) * 0.5);
+            color: light-dark(var(--color-grey-dark), var(--color-grey));
+            min-width: 80px;
+        }
     }
 
     a {
