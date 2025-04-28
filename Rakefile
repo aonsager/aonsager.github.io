@@ -426,5 +426,5 @@ task :build_push, :msg do |t, args|
   system "git add -A"
   system "git commit -m \"#{msg}\""
   system "git push"
-  system "rsync -avzP --exclude=".git*" . alex@157.180.28.67:/srv/invisibleparade/"
+  system "rsync -avzP --exclude='.git*' . alex@157.180.28.67:/srv/invisibleparade/"
 end
