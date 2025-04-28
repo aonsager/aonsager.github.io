@@ -17,8 +17,6 @@
     {% assign archive_class = 'selected' -%}
   {% elsif page.slug == 'archive/me' -%}
     {% assign me_class = 'selected' -%}
-  {% elsif page.slug == 'archive/games' -%}
-    {% assign games_class = 'selected' -%}
   {% elsif page.slug == 'archive/coding' -%}
     {% assign coding_class = 'selected' -%}
   {% elsif page.slug == 'archive/mumbles' -%}
@@ -62,9 +60,6 @@
     </li>
     <li class="blue-light {{ me_class }}">
       &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/me">/me</a>
-    </li>
-    <li class="blue-light {{ games_class }}">
-      &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/games">/games</a>
     </li>
     <li class="blue-light {{ coding_class }}">
       &nbsp;&nbsp;&nbsp;&nbsp;❯&nbsp;<a href="/posts/archive/coding">/coding</span>

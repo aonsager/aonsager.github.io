@@ -114,6 +114,10 @@ a:hover {
     color: light-dark(var(--accent-color-light), var(--accent-color));
 }
 
+strong, b {
+    font-weight: 800;
+}
+
 pre, code {
     border-radius: 3px;
 }
@@ -162,7 +166,7 @@ pre {
 }
 
 .red {
-    color: var(--color-red);
+    color: light-dark(var(--color-red), var(--color-red-light));
 
     a:hover {
         color: light-dark(var(--color-red), var(--color-red-light));
