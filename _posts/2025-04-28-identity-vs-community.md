@@ -65,9 +65,9 @@ Then, it turns out that one of the moderators of <span class="red">**&lt;tootsos
 
 ### Burn-out and shut-down
 
-Then, the owner of <span class="red">**&lt;tootsosaurus.rex&gt;**</span>, having been subjected to aggression and backlash from just about everyone about the service's many issues, declares that it is no longer worth the trouble and will shut down the service. After a brief grace period, my account will disappear. This is a huge bummer. 
+Then, the owner of <span class="red">**&lt;tootsosaurus.rex&gt;**</span>, facing wide criticism for their actions (and lack of), declares that it is no longer worth the trouble and that they will shut down the service. After a brief grace period, my account will disappear. This is a huge bummer. 
 
-I need to find a new service. The easy option is <span class="blue">**&lt;happyfun.house&gt;**</span>, but they have been seeing their fair share of drama too, and I'm afraid of the same thing happening again. I could go to <span class="green">**&lt;woordworking.club&gt;**</span>, but I'm definitely not enough of a woodworker to tie that label to my online identity. 
+I need to find a new service. The easy option is <span class="blue">**&lt;happyfun.house&gt;**</span>, but they have been growing very quickly too, and I'm afraid of a similar thing happening again. I could go to <span class="green">**&lt;woordworking.club&gt;**</span>, but I'm definitely not enough of a woodworker to tie that label to my online identity. 
 
 There seems to be no good choice.
 
