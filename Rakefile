@@ -426,5 +426,5 @@ task :build_push, :msg do |t, args|
   system "git add -A"
   system "git commit -m \"#{msg}\""
   system "git push"
-  system "rsync -avzP --exclude='.git*' _site/ #{CONFIG['remote_user']}@#{CONFIG['remote_server']}:#{CONFIG['remote_dir']}"
+  system "rsync -azP --exclude='.git*' _site/ #{CONFIG['remote_user']}@#{CONFIG['remote_server']}:#{CONFIG['remote_dir']}"
 end
