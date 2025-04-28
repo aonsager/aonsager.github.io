@@ -33,5 +33,6 @@ gem 'rake'
 gem 'ruby-openai', "~> 7.3.0"
 
 # Upgrade to patch security vulnerability
-gem "nokogiri", ">= 1.13.6"
+gem "nokogiri", ">= 1.18.8"
 gem "rubyzip", ">= 1.3.0"
+gem "uri", ">= 1.0.3"
