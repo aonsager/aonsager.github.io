@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
   # gem 'github-pages', "~> 232"
 end
 
