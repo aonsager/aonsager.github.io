@@ -24,7 +24,7 @@ tags:
 archive:
 slash:
 blurb: Internet-in-a-Box acts as a Wi-Fi hotspot for remote locations, with information
-  preloaded to serve the community. Wikipedia, eBooks, online courses, medical, the
+  preloaded to serve the community. Wikipedia, eBooks, online courses, medical reference material, the
   possibilities are endless.
 ---
 
