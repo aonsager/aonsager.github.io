@@ -1,0 +1,14 @@
+<div style="display:flex; align-items:flex-end;">
+	<figure style="flex:1">
+	  <img src='/assets/images/{{ include.image-one }}' alt='{{ include.description-one | strip_html | escape }}' class="center-image"/>
+	  {% if include.description-one -%}
+	    <figcaption>{{ include.description-one }}</figcaption>
+	  {% endif -%}
+	</figure>
+	<figure style="flex:1">
+	  <img src='/assets/images/{{ include.image-two }}' alt='{{ include.description-two | strip_html | escape }}' class="center-image"/>
+	  {% if include.description-two -%}
+	    <figcaption>{{ include.description-two }}</figcaption>
+	  {% endif -%}
+	</figure>
+</div>
