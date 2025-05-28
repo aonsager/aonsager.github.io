@@ -50,7 +50,7 @@ I suppose this is what leads many people to meditation, but I don't have the dis
 
 Riding a bicycle is one of the few physical activities that give me joy to perform. I feel extremely comfortable on a bike, and I've come to appreciate that more and more.
 
-*I shift my hips and counter-steer to ease into the turns.*
+*I shift my hips and counter-steer to ease into the turn.*
 
 It doesn't really feel like I'm *turning*, in the strictest sense of the word. I *push* down and lead the bike through careful twists while I stay centered on top. Gently weaving back and forth between the manholes is a game I play while looking for the smoothest path.
 
