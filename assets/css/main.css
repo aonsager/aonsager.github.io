@@ -4,7 +4,7 @@
 
 :root {
     /* Typography */
-    --base-font-size: 16px;
+    --base-font-size: 17px;
     --base-line-height: 1.6;
     --base-font-family: 'Lato', sans-serif;
     --base-font-weight: 400;
@@ -593,6 +593,13 @@ table.archive-list {
     a {
         text-decoration: none;
     }
+}
+
+.wing-glyph {
+	font-family: "wingdings";
+	color: light-dark(var(--color-grey-dark), var(--color-grey-dark));
+	text-align: center;
+	margin: calc(var(--spacing-unit) * 2) 0;
 }
 
 .paginator {
