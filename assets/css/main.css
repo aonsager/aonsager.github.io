@@ -600,6 +600,15 @@ table.archive-list {
 	color: light-dark(var(--color-grey-dark), var(--color-grey-dark));
 	text-align: center;
 	margin: calc(var(--spacing-unit) * 2) 0;
+
+	svg {
+		margin: 0 2px;
+	}
+
+	path {
+		fill: var(--color-grey-dark);
+		color: var(--color-grey-dark);
+	}
 }
 
 .paginator {
