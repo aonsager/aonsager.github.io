@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title -%}{{ page.title | escape }}{% else -%}{{ site.title | escape }}{% endif -%}</title>
   <meta name="description" content="{{ page.blurb | page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
-  {% assign cacheBust = '20250513' | date:'?v=%s' -%}
+  {% assign cacheBust = '20250529' | date:'?v=%s' -%}
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url | append: cacheBust }}">
   <link rel="stylesheet" href="{{ "/assets/css/lightbox.min.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
