@@ -22,6 +22,7 @@ tags:
 - friends
 - freedom
 archive:
+- me
 slash:
 blurb: My daily commute includes a 20-minute bike ride to the train station. I started this as a way to keep my body moving, but I've come to love it for the freedom it gives my mind. I can think about whatever I want to, but it's also all right to not think about anything.
 ---
