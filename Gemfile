@@ -32,6 +32,7 @@ end
 gem 'rmagick', "~> 5.3.0"
 gem 'rake'
 gem 'ruby-openai', "~> 7.3.0"
+gem 'openssl', "~> 3.3.1"
 
 # Upgrade to patch security vulnerability
 gem "nokogiri", ">= 1.18.8"
