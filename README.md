@@ -32,3 +32,8 @@ links
 # Other tips
 Use `<!-- more -->` tag to hide the rest until clickthrough.
 
+
+# Publishing online
+```
+rake build_push
+```

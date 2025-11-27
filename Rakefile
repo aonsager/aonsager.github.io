@@ -189,7 +189,7 @@ def create_toot(id, content, datetime, media_attachments)
   end
   media += "</div>"
   file = "#{__dir__}/_posts/toots/#{headers['slug']}.md"
-  File.open(file,'w+') do |file| 
+  File.open(file,'w+') do |file|
     file.puts YAML::dump(headers) + "---\n"
     file.puts content
     file.puts media
@@ -265,7 +265,7 @@ task :publish, :filename do |t, args|
   headers['colors'] = colors_from_title(headers['title'])
   # generate tags using the content, and att them to the headers
   headers['tags'] = tags_from_content(content)
-  
+
 
 
   # write out the modified YAML and post contents back to the original file
