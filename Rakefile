@@ -416,8 +416,8 @@ task :build_push, :msg do |t, args|
   msg = args.msg || "update"
   get_latest_gts_posts
   system "jekyll build"
-  # system "git add -A"
-  # system "git commit -m \"#{msg}\""
-  # system "git push"
+  system "git add -A"
+  system "git commit -m \"#{msg}\""
+  system "git push"
   system "rsync -azP --exclude='.git*' _site/ #{CONFIG['remote_user']}@#{CONFIG['remote_server']}:#{CONFIG['remote_dir']}"
 end
