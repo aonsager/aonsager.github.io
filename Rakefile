@@ -142,6 +142,9 @@ def get_latest_gts_posts
 
   http = Net::HTTP.new(uri.host, uri.port)
   http.use_ssl = true
+  
+  # Temp
+  http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
   request = Net::HTTP::Get.new(uri.request_uri)
   request["Accept"] = "application/json"
