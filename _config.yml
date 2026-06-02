@@ -37,6 +37,7 @@ plugins:
   - jekyll-compose
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-wikirefs
   # - github-pages
 
 # Plugin settings

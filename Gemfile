@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
+  gem 'jekyll-wikirefs' 
   # gem 'github-pages', "~> 232"
 end
 
